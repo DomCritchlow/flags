@@ -1,0 +1,1565 @@
+# ============================================================================
+# Unambiguous Country Terms Gazetteer — Tier 1
+# Congressional World View Project
+#
+# Maps terms that uniquely identify exactly one country with zero ambiguity
+# in the context of U.S. congressional text. Used for Aho-Corasick matching.
+#
+# EXCLUDED (ambiguous — see ambiguous_terms.yaml):
+#   Georgia, Jordan, Chad, Turkey, Niger, Colombia, Guinea, Guinea-Bissau,
+#   Equatorial Guinea, Papua New Guinea, Marshall Islands, Panama, Cuba,
+#   Israel, Mali, Dominica, Dominican Republic, Tonga, Samoa, Lebanon,
+#   Cyprus, Montenegro, Congo (DRC), Congo (Republic)
+#
+# EXCLUDED: United States (self-reference)
+#
+# Case-sensitive matching is assumed throughout.
+# ============================================================================
+
+# ============================================================================
+# TOP 50 COUNTRIES — richly curated
+# ============================================================================
+
+ukraine:
+  iso3: UKR
+  terms:
+    names: ["Ukraine"]
+    demonyms: ["Ukrainian", "Ukrainians"]
+    cities: ["Kyiv", "Kharkiv", "Odesa", "Odessa", "Lviv", "Dnipro", "Zaporizhzhia", "Mariupol", "Donetsk", "Luhansk", "Kherson", "Crimea"]
+    historical: []
+    acronyms: []
+
+china:
+  iso3: CHN
+  terms:
+    names: ["China"]
+    demonyms: ["Chinese"]
+    cities: ["Beijing", "Shanghai", "Shenzhen", "Guangzhou", "Chengdu", "Wuhan", "Tianjin", "Nanjing", "Xi'an", "Hangzhou", "Lhasa", "Ürümqi", "Urumqi"]
+    historical: []
+    acronyms: ["PRC"]
+
+russia:
+  iso3: RUS
+  terms:
+    names: ["Russia", "Russian Federation"]
+    demonyms: ["Russian", "Russians"]
+    cities: ["Kremlin", "Sankt-Peterburg", "Novosibirsk", "Yekaterinburg", "Vladivostok", "Kaliningrad", "Chechnya", "Grozny", "Sochi"]
+    historical: ["Soviet Union", "USSR"]
+    acronyms: []
+
+iran:
+  iso3: IRN
+  terms:
+    names: ["Iran"]
+    demonyms: ["Iranian", "Iranians"]
+    cities: ["Tehran", "Isfahan", "Shiraz", "Tabriz", "Mashhad", "Qom"]
+    historical: ["Persia", "Persian Empire"]
+    acronyms: ["IRGC"]
+
+north_korea:
+  iso3: PRK
+  terms:
+    names: ["North Korea"]
+    demonyms: ["North Korean", "North Koreans"]
+    cities: ["Pyongyang", "Kaesong"]
+    historical: []
+    acronyms: ["DPRK"]
+
+south_korea:
+  iso3: KOR
+  terms:
+    names: ["South Korea", "Republic of Korea"]
+    demonyms: ["South Korean", "South Koreans"]
+    cities: ["Seoul", "Busan", "Incheon", "Daegu"]
+    historical: []
+    acronyms: ["ROK"]
+
+iraq:
+  iso3: IRQ
+  terms:
+    names: ["Iraq"]
+    demonyms: ["Iraqi", "Iraqis"]
+    cities: ["Baghdad", "Basra", "Mosul", "Erbil", "Kirkuk", "Fallujah", "Tikrit", "Najaf", "Karbala", "Ramadi"]
+    historical: []
+    acronyms: []
+
+afghanistan:
+  iso3: AFG
+  terms:
+    names: ["Afghanistan"]
+    demonyms: ["Afghan", "Afghani", "Afghans"]
+    cities: ["Kabul", "Kandahar", "Herat", "Mazar-i-Sharif", "Jalalabad", "Bagram"]
+    historical: []
+    acronyms: []
+
+syria:
+  iso3: SYR
+  terms:
+    names: ["Syria"]
+    demonyms: ["Syrian", "Syrians"]
+    cities: ["Damascus", "Aleppo", "Homs", "Idlib", "Latakia", "Raqqa", "Deir ez-Zor"]
+    historical: []
+    acronyms: []
+
+saudi_arabia:
+  iso3: SAU
+  terms:
+    names: ["Saudi Arabia"]
+    demonyms: ["Saudi", "Saudis"]
+    cities: ["Riyadh", "Jeddah", "Mecca", "Medina", "Dhahran"]
+    historical: []
+    acronyms: ["KSA"]
+
+taiwan:
+  iso3: TWN
+  terms:
+    names: ["Taiwan"]
+    demonyms: ["Taiwanese"]
+    cities: ["Taipei", "Kaohsiung", "Taichung"]
+    historical: ["Formosa", "Republic of China"]
+    acronyms: ["ROC"]
+
+japan:
+  iso3: JPN
+  terms:
+    names: ["Japan"]
+    demonyms: ["Japanese"]
+    cities: ["Tokyo", "Osaka", "Yokohama", "Kyoto", "Hiroshima", "Nagasaki", "Okinawa", "Fukushima"]
+    historical: []
+    acronyms: []
+
+india:
+  iso3: IND
+  terms:
+    names: ["India"]
+    demonyms: ["Indian", "Indians"]
+    cities: ["New Delhi", "Mumbai", "Bangalore", "Bengaluru", "Kolkata", "Chennai", "Hyderabad", "Ahmedabad"]
+    historical: []
+    acronyms: []
+
+pakistan:
+  iso3: PAK
+  terms:
+    names: ["Pakistan"]
+    demonyms: ["Pakistani", "Pakistanis"]
+    cities: ["Islamabad", "Karachi", "Lahore", "Peshawar", "Rawalpindi", "Quetta", "Faisalabad"]
+    historical: []
+    acronyms: []
+
+mexico:
+  iso3: MEX
+  terms:
+    names: ["Mexico"]
+    demonyms: ["Mexican", "Mexicans"]
+    cities: ["Mexico City", "Guadalajara", "Monterrey", "Tijuana", "Ciudad Juárez", "Cancún", "Acapulco"]
+    historical: []
+    acronyms: []
+
+canada:
+  iso3: CAN
+  terms:
+    names: ["Canada"]
+    demonyms: ["Canadian", "Canadians"]
+    cities: ["Ottawa", "Toronto", "Montreal", "Vancouver", "Calgary", "Edmonton", "Winnipeg", "Quebec City"]
+    historical: []
+    acronyms: []
+
+united_kingdom:
+  iso3: GBR
+  terms:
+    names: ["United Kingdom", "Great Britain", "Britain"]
+    demonyms: ["British", "Briton", "Britons"]
+    cities: ["London", "Edinburgh", "Belfast", "Cardiff", "Manchester", "Birmingham", "Glasgow", "Liverpool", "Leeds"]
+    historical: []
+    acronyms: ["UK"]
+
+germany:
+  iso3: DEU
+  terms:
+    names: ["Germany"]
+    demonyms: ["German", "Germans"]
+    cities: ["Bonn", "Munich", "Hamburg", "Frankfurt", "Cologne", "Stuttgart", "Düsseldorf", "Nuremberg", "Dresden", "Leipzig"]
+    historical: ["West Germany", "East Germany"]
+    acronyms: ["FRG", "GDR"]
+
+france:
+  iso3: FRA
+  terms:
+    names: ["France"]
+    demonyms: ["French", "Frenchman", "Frenchmen", "Frenchwoman"]
+    cities: ["Marseille", "Lyon", "Toulouse", "Nice", "Strasbourg", "Bordeaux"]
+    historical: []
+    acronyms: []
+
+italy:
+  iso3: ITA
+  terms:
+    names: ["Italy"]
+    demonyms: ["Italian", "Italians"]
+    cities: ["Rome", "Milan", "Naples", "Turin", "Palermo", "Genoa", "Bologna", "Firenze"]
+    historical: []
+    acronyms: []
+
+egypt:
+  iso3: EGY
+  terms:
+    names: ["Egypt"]
+    demonyms: ["Egyptian", "Egyptians"]
+    cities: ["Cairo", "Alexandria", "Luxor", "Aswan", "Sharm el-Sheikh", "Sinai"]
+    historical: []
+    acronyms: []
+
+libya:
+  iso3: LBY
+  terms:
+    names: ["Libya"]
+    demonyms: ["Libyan", "Libyans"]
+    cities: ["Tripoli", "Benghazi", "Misrata"]
+    historical: []
+    acronyms: []
+
+somalia:
+  iso3: SOM
+  terms:
+    names: ["Somalia"]
+    demonyms: ["Somali", "Somalis"]
+    cities: ["Mogadishu"]
+    historical: []
+    acronyms: []
+
+yemen:
+  iso3: YEM
+  terms:
+    names: ["Yemen"]
+    demonyms: ["Yemeni", "Yemenis"]
+    cities: ["Sanaa", "Aden"]
+    historical: []
+    acronyms: []
+
+venezuela:
+  iso3: VEN
+  terms:
+    names: ["Venezuela"]
+    demonyms: ["Venezuelan", "Venezuelans"]
+    cities: ["Caracas", "Maracaibo", "Valencia"]
+    historical: []
+    acronyms: []
+
+brazil:
+  iso3: BRA
+  terms:
+    names: ["Brazil"]
+    demonyms: ["Brazilian", "Brazilians"]
+    cities: ["Brasília", "São Paulo", "Rio de Janeiro", "Salvador", "Manaus", "Recife", "Fortaleza"]
+    historical: []
+    acronyms: []
+
+south_africa:
+  iso3: ZAF
+  terms:
+    names: ["South Africa"]
+    demonyms: ["South African", "South Africans"]
+    cities: ["Pretoria", "Johannesburg", "Cape Town", "Durban", "Soweto"]
+    historical: []
+    acronyms: []
+
+nigeria:
+  iso3: NGA
+  terms:
+    names: ["Nigeria"]
+    demonyms: ["Nigerian", "Nigerians"]
+    cities: ["Abuja", "Lagos", "Kano"]
+    historical: []
+    acronyms: []
+
+kenya:
+  iso3: KEN
+  terms:
+    names: ["Kenya"]
+    demonyms: ["Kenyan", "Kenyans"]
+    cities: ["Nairobi", "Mombasa"]
+    historical: []
+    acronyms: []
+
+ethiopia:
+  iso3: ETH
+  terms:
+    names: ["Ethiopia"]
+    demonyms: ["Ethiopian", "Ethiopians"]
+    cities: ["Addis Ababa"]
+    historical: ["Abyssinia"]
+    acronyms: []
+
+myanmar:
+  iso3: MMR
+  terms:
+    names: ["Myanmar"]
+    demonyms: ["Burmese"]
+    cities: ["Naypyidaw", "Yangon", "Rangoon", "Mandalay"]
+    historical: ["Burma"]
+    acronyms: []
+
+vietnam:
+  iso3: VNM
+  terms:
+    names: ["Vietnam", "Viet Nam"]
+    demonyms: ["Vietnamese"]
+    cities: ["Hanoi", "Ho Chi Minh City", "Saigon", "Da Nang"]
+    historical: ["South Vietnam", "North Vietnam"]
+    acronyms: []
+
+philippines:
+  iso3: PHL
+  terms:
+    names: ["Philippines"]
+    demonyms: ["Filipino", "Filipinos", "Filipina", "Filipinas"]
+    cities: ["Manila", "Quezon City", "Davao", "Cebu"]
+    historical: []
+    acronyms: []
+
+thailand:
+  iso3: THA
+  terms:
+    names: ["Thailand"]
+    demonyms: ["Thai", "Thais"]
+    cities: ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"]
+    historical: ["Siam"]
+    acronyms: []
+
+indonesia:
+  iso3: IDN
+  terms:
+    names: ["Indonesia"]
+    demonyms: ["Indonesian", "Indonesians"]
+    cities: ["Jakarta", "Surabaya", "Bali"]
+    historical: []
+    acronyms: []
+
+australia:
+  iso3: AUS
+  terms:
+    names: ["Australia"]
+    demonyms: ["Australian", "Australians"]
+    cities: ["Canberra", "Sydney", "Melbourne", "Brisbane", "Adelaide"]
+    historical: []
+    acronyms: []
+
+new_zealand:
+  iso3: NZL
+  terms:
+    names: ["New Zealand"]
+    demonyms: ["New Zealander", "New Zealanders"]
+    cities: ["Wellington", "Auckland", "Christchurch"]
+    historical: []
+    acronyms: []
+
+poland:
+  iso3: POL
+  terms:
+    names: ["Poland"]
+    demonyms: ["Polish", "Pole", "Poles"]
+    cities: ["Warsaw", "Kraków", "Krakow", "Gdańsk", "Gdansk", "Wrocław", "Poznań"]
+    historical: []
+    acronyms: []
+
+hungary:
+  iso3: HUN
+  terms:
+    names: ["Hungary"]
+    demonyms: ["Hungarian", "Hungarians"]
+    cities: ["Budapest"]
+    historical: []
+    acronyms: []
+
+romania:
+  iso3: ROU
+  terms:
+    names: ["Romania"]
+    demonyms: ["Romanian", "Romanians"]
+    cities: ["Bucharest", "Cluj-Napoca"]
+    historical: []
+    acronyms: []
+
+greece:
+  iso3: GRC
+  terms:
+    names: ["Greece"]
+    demonyms: ["Greek", "Greeks"]
+    cities: ["Athens", "Thessaloniki"]
+    historical: []
+    acronyms: []
+
+spain:
+  iso3: ESP
+  terms:
+    names: ["Spain"]
+    demonyms: ["Spanish", "Spaniard", "Spaniards"]
+    cities: ["Madrid", "Barcelona", "Seville", "Bilbao", "Málaga"]
+    historical: []
+    acronyms: []
+
+portugal:
+  iso3: PRT
+  terms:
+    names: ["Portugal"]
+    demonyms: ["Portuguese"]
+    cities: ["Lisbon", "Porto"]
+    historical: []
+    acronyms: []
+
+sweden:
+  iso3: SWE
+  terms:
+    names: ["Sweden"]
+    demonyms: ["Swedish", "Swede", "Swedes"]
+    cities: ["Stockholm", "Gothenburg", "Malmö"]
+    historical: []
+    acronyms: []
+
+norway:
+  iso3: NOR
+  terms:
+    names: ["Norway"]
+    demonyms: ["Norwegian", "Norwegians"]
+    cities: ["Oslo", "Bergen", "Tromsø"]
+    historical: []
+    acronyms: []
+
+denmark:
+  iso3: DNK
+  terms:
+    names: ["Denmark"]
+    demonyms: ["Danish", "Dane", "Danes"]
+    cities: ["Copenhagen"]
+    historical: []
+    acronyms: []
+
+finland:
+  iso3: FIN
+  terms:
+    names: ["Finland"]
+    demonyms: ["Finnish", "Finn", "Finns"]
+    cities: ["Helsinki"]
+    historical: []
+    acronyms: []
+
+netherlands:
+  iso3: NLD
+  terms:
+    names: ["Netherlands", "The Netherlands"]
+    demonyms: ["Dutch"]
+    cities: ["Amsterdam", "Rotterdam", "The Hague"]
+    historical: ["Holland"]
+    acronyms: []
+
+belgium:
+  iso3: BEL
+  terms:
+    names: ["Belgium"]
+    demonyms: ["Belgian", "Belgians"]
+    cities: ["Brussels", "Antwerp", "Bruges"]
+    historical: []
+    acronyms: []
+
+# ============================================================================
+# REMAINING COUNTRIES — A through Z
+# Minimal but correct entries for the long tail
+# ============================================================================
+
+albania:
+  iso3: ALB
+  terms:
+    names: ["Albania"]
+    demonyms: ["Albanian", "Albanians"]
+    cities: ["Tirana"]
+    historical: []
+    acronyms: []
+
+algeria:
+  iso3: DZA
+  terms:
+    names: ["Algeria"]
+    demonyms: ["Algerian", "Algerians"]
+    cities: ["Algiers", "Oran"]
+    historical: []
+    acronyms: []
+
+andorra:
+  iso3: AND
+  terms:
+    names: ["Andorra"]
+    demonyms: ["Andorran", "Andorrans"]
+    cities: ["Andorra la Vella"]
+    historical: []
+    acronyms: []
+
+angola:
+  iso3: AGO
+  terms:
+    names: ["Angola"]
+    demonyms: ["Angolan", "Angolans"]
+    cities: ["Luanda"]
+    historical: []
+    acronyms: []
+
+antigua_and_barbuda:
+  iso3: ATG
+  terms:
+    names: ["Antigua and Barbuda"]
+    demonyms: ["Antiguan", "Antiguans", "Barbudan", "Barbudans"]
+    cities: ["St. John's"]
+    historical: []
+    acronyms: []
+
+argentina:
+  iso3: ARG
+  terms:
+    names: ["Argentina"]
+    demonyms: ["Argentine", "Argentines", "Argentinian", "Argentinians"]
+    cities: ["Buenos Aires", "Córdoba", "Rosario"]
+    historical: []
+    acronyms: []
+
+armenia:
+  iso3: ARM
+  terms:
+    names: ["Armenia"]
+    demonyms: ["Armenian", "Armenians"]
+    cities: ["Yerevan"]
+    historical: []
+    acronyms: []
+
+austria:
+  iso3: AUT
+  terms:
+    names: ["Austria"]
+    demonyms: ["Austrian", "Austrians"]
+    cities: ["Vienna", "Salzburg", "Innsbruck"]
+    historical: []
+    acronyms: []
+
+azerbaijan:
+  iso3: AZE
+  terms:
+    names: ["Azerbaijan"]
+    demonyms: ["Azerbaijani", "Azerbaijanis", "Azeri", "Azeris"]
+    cities: ["Baku"]
+    historical: []
+    acronyms: []
+
+bahamas:
+  iso3: BHS
+  terms:
+    names: ["Bahamas", "The Bahamas"]
+    demonyms: ["Bahamian", "Bahamians"]
+    cities: ["Nassau"]
+    historical: []
+    acronyms: []
+
+bahrain:
+  iso3: BHR
+  terms:
+    names: ["Bahrain"]
+    demonyms: ["Bahraini", "Bahrainis"]
+    cities: ["Manama"]
+    historical: []
+    acronyms: []
+
+bangladesh:
+  iso3: BGD
+  terms:
+    names: ["Bangladesh"]
+    demonyms: ["Bangladeshi", "Bangladeshis"]
+    cities: ["Dhaka", "Chittagong"]
+    historical: ["East Pakistan"]
+    acronyms: []
+
+barbados:
+  iso3: BRB
+  terms:
+    names: ["Barbados"]
+    demonyms: ["Barbadian", "Barbadians", "Bajan", "Bajans"]
+    cities: ["Bridgetown"]
+    historical: []
+    acronyms: []
+
+belarus:
+  iso3: BLR
+  terms:
+    names: ["Belarus"]
+    demonyms: ["Belarusian", "Belarusians"]
+    cities: ["Minsk"]
+    historical: ["Byelorussia"]
+    acronyms: []
+
+belize:
+  iso3: BLZ
+  terms:
+    names: ["Belize"]
+    demonyms: ["Belizean", "Belizeans"]
+    cities: ["Belmopan"]
+    historical: ["British Honduras"]
+    acronyms: []
+
+benin:
+  iso3: BEN
+  terms:
+    names: ["Benin"]
+    demonyms: ["Beninese"]
+    cities: ["Porto-Novo", "Cotonou"]
+    historical: ["Dahomey"]
+    acronyms: []
+
+bhutan:
+  iso3: BTN
+  terms:
+    names: ["Bhutan"]
+    demonyms: ["Bhutanese"]
+    cities: ["Thimphu"]
+    historical: []
+    acronyms: []
+
+bolivia:
+  iso3: BOL
+  terms:
+    names: ["Bolivia"]
+    demonyms: ["Bolivian", "Bolivians"]
+    cities: ["La Paz", "Sucre", "Santa Cruz"]
+    historical: []
+    acronyms: []
+
+bosnia_and_herzegovina:
+  iso3: BIH
+  terms:
+    names: ["Bosnia and Herzegovina", "Bosnia"]
+    demonyms: ["Bosnian", "Bosnians", "Herzegovinian", "Herzegovinians"]
+    cities: ["Sarajevo"]
+    historical: []
+    acronyms: []
+
+botswana:
+  iso3: BWA
+  terms:
+    names: ["Botswana"]
+    demonyms: ["Motswana", "Batswana"]
+    cities: ["Gaborone"]
+    historical: ["Bechuanaland"]
+    acronyms: []
+
+brunei:
+  iso3: BRN
+  terms:
+    names: ["Brunei"]
+    demonyms: ["Bruneian", "Bruneians"]
+    cities: ["Bandar Seri Begawan"]
+    historical: []
+    acronyms: []
+
+bulgaria:
+  iso3: BGR
+  terms:
+    names: ["Bulgaria"]
+    demonyms: ["Bulgarian", "Bulgarians"]
+    cities: ["Sofia"]
+    historical: []
+    acronyms: []
+
+burkina_faso:
+  iso3: BFA
+  terms:
+    names: ["Burkina Faso"]
+    demonyms: ["Burkinabé", "Burkinabe"]
+    cities: ["Ouagadougou"]
+    historical: ["Upper Volta"]
+    acronyms: []
+
+burundi:
+  iso3: BDI
+  terms:
+    names: ["Burundi"]
+    demonyms: ["Burundian", "Burundians"]
+    cities: ["Gitega", "Bujumbura"]
+    historical: []
+    acronyms: []
+
+cabo_verde:
+  iso3: CPV
+  terms:
+    names: ["Cabo Verde", "Cape Verde"]
+    demonyms: ["Cape Verdean", "Cape Verdeans"]
+    cities: ["Praia"]
+    historical: []
+    acronyms: []
+
+cambodia:
+  iso3: KHM
+  terms:
+    names: ["Cambodia"]
+    demonyms: ["Cambodian", "Cambodians", "Khmer"]
+    cities: ["Phnom Penh", "Siem Reap"]
+    historical: ["Kampuchea"]
+    acronyms: []
+
+cameroon:
+  iso3: CMR
+  terms:
+    names: ["Cameroon"]
+    demonyms: ["Cameroonian", "Cameroonians"]
+    cities: ["Yaoundé", "Douala"]
+    historical: []
+    acronyms: []
+
+central_african_republic:
+  iso3: CAF
+  terms:
+    names: ["Central African Republic"]
+    demonyms: ["Central African", "Central Africans"]
+    cities: ["Bangui"]
+    historical: []
+    acronyms: ["CAR"]
+
+chile:
+  iso3: CHL
+  terms:
+    names: ["Chile"]
+    demonyms: ["Chilean", "Chileans"]
+    cities: ["Santiago", "Valparaíso"]
+    historical: []
+    acronyms: []
+
+comoros:
+  iso3: COM
+  terms:
+    names: ["Comoros"]
+    demonyms: ["Comorian", "Comorians"]
+    cities: ["Moroni"]
+    historical: []
+    acronyms: []
+
+costa_rica:
+  iso3: CRI
+  terms:
+    names: ["Costa Rica"]
+    demonyms: ["Costa Rican", "Costa Ricans"]
+    cities: ["San José"]
+    historical: []
+    acronyms: []
+
+croatia:
+  iso3: HRV
+  terms:
+    names: ["Croatia"]
+    demonyms: ["Croatian", "Croatians", "Croat", "Croats"]
+    cities: ["Zagreb", "Dubrovnik", "Split"]
+    historical: []
+    acronyms: []
+
+czechia:
+  iso3: CZE
+  terms:
+    names: ["Czechia", "Czech Republic"]
+    demonyms: ["Czech", "Czechs"]
+    cities: ["Prague", "Brno"]
+    historical: ["Czechoslovakia"]
+    acronyms: []
+
+djibouti:
+  iso3: DJI
+  terms:
+    names: ["Djibouti"]
+    demonyms: ["Djiboutian", "Djiboutians"]
+    cities: []
+    historical: []
+    acronyms: []
+
+east_timor:
+  iso3: TLS
+  terms:
+    names: ["East Timor", "Timor-Leste"]
+    demonyms: ["Timorese", "East Timorese"]
+    cities: ["Dili"]
+    historical: []
+    acronyms: []
+
+ecuador:
+  iso3: ECU
+  terms:
+    names: ["Ecuador"]
+    demonyms: ["Ecuadorian", "Ecuadorians", "Ecuadoran", "Ecuadorans"]
+    cities: ["Quito", "Guayaquil"]
+    historical: []
+    acronyms: []
+
+el_salvador:
+  iso3: SLV
+  terms:
+    names: ["El Salvador"]
+    demonyms: ["Salvadoran", "Salvadorans", "Salvadoran", "Salvadorian", "Salvadorians"]
+    cities: ["San Salvador"]
+    historical: []
+    acronyms: []
+
+eritrea:
+  iso3: ERI
+  terms:
+    names: ["Eritrea"]
+    demonyms: ["Eritrean", "Eritreans"]
+    cities: ["Asmara"]
+    historical: []
+    acronyms: []
+
+eswatini:
+  iso3: SWZ
+  terms:
+    names: ["Eswatini"]
+    demonyms: ["Swazi", "Swazis"]
+    cities: ["Mbabane"]
+    historical: ["Swaziland"]
+    acronyms: []
+
+fiji:
+  iso3: FJI
+  terms:
+    names: ["Fiji"]
+    demonyms: ["Fijian", "Fijians"]
+    cities: ["Suva"]
+    historical: []
+    acronyms: []
+
+gabon:
+  iso3: GAB
+  terms:
+    names: ["Gabon"]
+    demonyms: ["Gabonese"]
+    cities: ["Libreville"]
+    historical: []
+    acronyms: []
+
+gambia:
+  iso3: GMB
+  terms:
+    names: ["Gambia", "The Gambia"]
+    demonyms: ["Gambian", "Gambians"]
+    cities: ["Banjul"]
+    historical: []
+    acronyms: []
+
+ghana:
+  iso3: GHA
+  terms:
+    names: ["Ghana"]
+    demonyms: ["Ghanaian", "Ghanaians"]
+    cities: ["Accra", "Kumasi"]
+    historical: ["Gold Coast"]
+    acronyms: []
+
+grenada:
+  iso3: GRD
+  terms:
+    names: ["Grenada"]
+    demonyms: ["Grenadian", "Grenadians"]
+    cities: ["St. George's"]
+    historical: []
+    acronyms: []
+
+guatemala:
+  iso3: GTM
+  terms:
+    names: ["Guatemala"]
+    demonyms: ["Guatemalan", "Guatemalans"]
+    cities: ["Guatemala City"]
+    historical: []
+    acronyms: []
+
+guyana:
+  iso3: GUY
+  terms:
+    names: ["Guyana"]
+    demonyms: ["Guyanese"]
+    cities: ["Georgetown"]
+    historical: ["British Guiana"]
+    acronyms: []
+
+haiti:
+  iso3: HTI
+  terms:
+    names: ["Haiti"]
+    demonyms: ["Haitian", "Haitians"]
+    cities: ["Port-au-Prince"]
+    historical: []
+    acronyms: []
+
+honduras:
+  iso3: HND
+  terms:
+    names: ["Honduras"]
+    demonyms: ["Honduran", "Hondurans"]
+    cities: ["Tegucigalpa"]
+    historical: []
+    acronyms: []
+
+iceland:
+  iso3: ISL
+  terms:
+    names: ["Iceland"]
+    demonyms: ["Icelandic", "Icelander", "Icelanders"]
+    cities: ["Reykjavik"]
+    historical: []
+    acronyms: []
+
+ireland:
+  iso3: IRL
+  terms:
+    names: ["Ireland"]
+    demonyms: ["Irish"]
+    cities: ["Dublin", "Cork", "Galway"]
+    historical: []
+    acronyms: []
+
+ivory_coast:
+  iso3: CIV
+  terms:
+    names: ["Ivory Coast", "Côte d'Ivoire", "Cote d'Ivoire"]
+    demonyms: ["Ivorian", "Ivorians"]
+    cities: ["Abidjan", "Yamoussoukro"]
+    historical: []
+    acronyms: []
+
+jamaica:
+  iso3: JAM
+  terms:
+    names: ["Jamaica"]
+    demonyms: ["Jamaican", "Jamaicans"]
+    cities: ["Kingston"]
+    historical: []
+    acronyms: []
+
+kazakhstan:
+  iso3: KAZ
+  terms:
+    names: ["Kazakhstan"]
+    demonyms: ["Kazakh", "Kazakhs", "Kazakhstani", "Kazakhstanis"]
+    cities: ["Astana", "Almaty"]
+    historical: []
+    acronyms: []
+
+kiribati:
+  iso3: KIR
+  terms:
+    names: ["Kiribati"]
+    demonyms: ["I-Kiribati"]
+    cities: ["Tarawa"]
+    historical: []
+    acronyms: []
+
+kosovo:
+  iso3: XKX
+  terms:
+    names: ["Kosovo"]
+    demonyms: ["Kosovar", "Kosovars"]
+    cities: ["Pristina"]
+    historical: []
+    acronyms: []
+
+kuwait:
+  iso3: KWT
+  terms:
+    names: ["Kuwait"]
+    demonyms: ["Kuwaiti", "Kuwaitis"]
+    cities: ["Kuwait City"]
+    historical: []
+    acronyms: []
+
+kyrgyzstan:
+  iso3: KGZ
+  terms:
+    names: ["Kyrgyzstan"]
+    demonyms: ["Kyrgyz", "Kyrgyzstani"]
+    cities: ["Bishkek"]
+    historical: []
+    acronyms: []
+
+laos:
+  iso3: LAO
+  terms:
+    names: ["Laos"]
+    demonyms: ["Laotian", "Laotians", "Lao"]
+    cities: ["Vientiane"]
+    historical: []
+    acronyms: []
+
+latvia:
+  iso3: LVA
+  terms:
+    names: ["Latvia"]
+    demonyms: ["Latvian", "Latvians"]
+    cities: ["Riga"]
+    historical: []
+    acronyms: []
+
+lesotho:
+  iso3: LSO
+  terms:
+    names: ["Lesotho"]
+    demonyms: ["Mosotho", "Basotho"]
+    cities: ["Maseru"]
+    historical: ["Basutoland"]
+    acronyms: []
+
+liberia:
+  iso3: LBR
+  terms:
+    names: ["Liberia"]
+    demonyms: ["Liberian", "Liberians"]
+    cities: ["Monrovia"]
+    historical: []
+    acronyms: []
+
+liechtenstein:
+  iso3: LIE
+  terms:
+    names: ["Liechtenstein"]
+    demonyms: ["Liechtensteiner", "Liechtensteiners"]
+    cities: ["Vaduz"]
+    historical: []
+    acronyms: []
+
+lithuania:
+  iso3: LTU
+  terms:
+    names: ["Lithuania"]
+    demonyms: ["Lithuanian", "Lithuanians"]
+    cities: ["Vilnius", "Kaunas"]
+    historical: []
+    acronyms: []
+
+luxembourg:
+  iso3: LUX
+  terms:
+    names: ["Luxembourg"]
+    demonyms: ["Luxembourger", "Luxembourgers", "Luxembourgish"]
+    cities: []
+    historical: []
+    acronyms: []
+
+madagascar:
+  iso3: MDG
+  terms:
+    names: ["Madagascar"]
+    demonyms: ["Malagasy"]
+    cities: ["Antananarivo"]
+    historical: []
+    acronyms: []
+
+malawi:
+  iso3: MWI
+  terms:
+    names: ["Malawi"]
+    demonyms: ["Malawian", "Malawians"]
+    cities: ["Lilongwe"]
+    historical: ["Nyasaland"]
+    acronyms: []
+
+malaysia:
+  iso3: MYS
+  terms:
+    names: ["Malaysia"]
+    demonyms: ["Malaysian", "Malaysians"]
+    cities: ["Kuala Lumpur"]
+    historical: ["Malaya"]
+    acronyms: []
+
+maldives:
+  iso3: MDV
+  terms:
+    names: ["Maldives"]
+    demonyms: ["Maldivian", "Maldivians"]
+    cities: ["Malé"]
+    historical: []
+    acronyms: []
+
+malta:
+  iso3: MLT
+  terms:
+    names: ["Malta"]
+    demonyms: ["Maltese"]
+    cities: ["Valletta"]
+    historical: []
+    acronyms: []
+
+mauritania:
+  iso3: MRT
+  terms:
+    names: ["Mauritania"]
+    demonyms: ["Mauritanian", "Mauritanians"]
+    cities: ["Nouakchott"]
+    historical: []
+    acronyms: []
+
+mauritius:
+  iso3: MUS
+  terms:
+    names: ["Mauritius"]
+    demonyms: ["Mauritian", "Mauritians"]
+    cities: ["Port Louis"]
+    historical: []
+    acronyms: []
+
+micronesia:
+  iso3: FSM
+  terms:
+    names: ["Micronesia", "Federated States of Micronesia"]
+    demonyms: ["Micronesian", "Micronesians"]
+    cities: ["Palikir"]
+    historical: []
+    acronyms: ["FSM"]
+
+moldova:
+  iso3: MDA
+  terms:
+    names: ["Moldova"]
+    demonyms: ["Moldovan", "Moldovans"]
+    cities: ["Chișinău", "Chisinau"]
+    historical: ["Moldavia"]
+    acronyms: []
+
+monaco:
+  iso3: MCO
+  terms:
+    names: ["Monaco"]
+    demonyms: ["Monégasque", "Monegasque"]
+    cities: []
+    historical: []
+    acronyms: []
+
+mongolia:
+  iso3: MNG
+  terms:
+    names: ["Mongolia"]
+    demonyms: ["Mongolian", "Mongolians"]
+    cities: ["Ulaanbaatar"]
+    historical: []
+    acronyms: []
+
+morocco:
+  iso3: MAR
+  terms:
+    names: ["Morocco"]
+    demonyms: ["Moroccan", "Moroccans"]
+    cities: ["Rabat", "Casablanca", "Marrakech", "Fez"]
+    historical: []
+    acronyms: []
+
+mozambique:
+  iso3: MOZ
+  terms:
+    names: ["Mozambique"]
+    demonyms: ["Mozambican", "Mozambicans"]
+    cities: ["Maputo"]
+    historical: []
+    acronyms: []
+
+namibia:
+  iso3: NAM
+  terms:
+    names: ["Namibia"]
+    demonyms: ["Namibian", "Namibians"]
+    cities: ["Windhoek"]
+    historical: ["South-West Africa", "South West Africa"]
+    acronyms: []
+
+nauru:
+  iso3: NRU
+  terms:
+    names: ["Nauru"]
+    demonyms: ["Nauruan", "Nauruans"]
+    cities: []
+    historical: []
+    acronyms: []
+
+nepal:
+  iso3: NPL
+  terms:
+    names: ["Nepal"]
+    demonyms: ["Nepali", "Nepalis", "Nepalese"]
+    cities: ["Kathmandu"]
+    historical: []
+    acronyms: []
+
+nicaragua:
+  iso3: NIC
+  terms:
+    names: ["Nicaragua"]
+    demonyms: ["Nicaraguan", "Nicaraguans"]
+    cities: ["Managua"]
+    historical: []
+    acronyms: []
+
+north_macedonia:
+  iso3: MKD
+  terms:
+    names: ["North Macedonia"]
+    demonyms: ["Macedonian", "Macedonians"]
+    cities: ["Skopje"]
+    historical: ["Macedonia", "FYROM"]
+    acronyms: []
+
+oman:
+  iso3: OMN
+  terms:
+    names: ["Oman"]
+    demonyms: ["Omani", "Omanis"]
+    cities: ["Muscat"]
+    historical: []
+    acronyms: []
+
+palau:
+  iso3: PLW
+  terms:
+    names: ["Palau"]
+    demonyms: ["Palauan", "Palauans"]
+    cities: ["Ngerulmud"]
+    historical: []
+    acronyms: []
+
+palestine:
+  iso3: PSE
+  terms:
+    names: ["Palestine", "Palestinian Territories", "Palestinian Authority"]
+    demonyms: ["Palestinian", "Palestinians"]
+    cities: ["Ramallah", "Gaza", "Bethlehem", "Nablus", "Hebron", "Jenin"]
+    historical: ["West Bank", "Gaza Strip"]
+    acronyms: ["PA"]
+
+paraguay:
+  iso3: PRY
+  terms:
+    names: ["Paraguay"]
+    demonyms: ["Paraguayan", "Paraguayans"]
+    cities: ["Asunción"]
+    historical: []
+    acronyms: []
+
+peru:
+  iso3: PER
+  terms:
+    names: ["Peru"]
+    demonyms: ["Peruvian", "Peruvians"]
+    cities: ["Lima", "Cusco", "Arequipa"]
+    historical: []
+    acronyms: []
+
+qatar:
+  iso3: QAT
+  terms:
+    names: ["Qatar"]
+    demonyms: ["Qatari", "Qataris"]
+    cities: ["Doha"]
+    historical: []
+    acronyms: []
+
+rwanda:
+  iso3: RWA
+  terms:
+    names: ["Rwanda"]
+    demonyms: ["Rwandan", "Rwandans"]
+    cities: ["Kigali"]
+    historical: []
+    acronyms: []
+
+saint_kitts_and_nevis:
+  iso3: KNA
+  terms:
+    names: ["Saint Kitts and Nevis", "St. Kitts and Nevis"]
+    demonyms: ["Kittitian", "Kittitians", "Nevisian", "Nevisians"]
+    cities: ["Basseterre"]
+    historical: []
+    acronyms: []
+
+saint_lucia:
+  iso3: LCA
+  terms:
+    names: ["Saint Lucia", "St. Lucia"]
+    demonyms: ["Saint Lucian", "Saint Lucians"]
+    cities: ["Castries"]
+    historical: []
+    acronyms: []
+
+saint_vincent_and_the_grenadines:
+  iso3: VCT
+  terms:
+    names: ["Saint Vincent and the Grenadines", "St. Vincent and the Grenadines"]
+    demonyms: ["Vincentian", "Vincentians"]
+    cities: ["Kingstown"]
+    historical: []
+    acronyms: []
+
+san_marino:
+  iso3: SMR
+  terms:
+    names: ["San Marino"]
+    demonyms: ["Sammarinese"]
+    cities: []
+    historical: []
+    acronyms: []
+
+sao_tome_and_principe:
+  iso3: STP
+  terms:
+    names: ["São Tomé and Príncipe", "Sao Tome and Principe"]
+    demonyms: ["São Toméan", "Sao Tomean"]
+    cities: []
+    historical: []
+    acronyms: []
+
+senegal:
+  iso3: SEN
+  terms:
+    names: ["Senegal"]
+    demonyms: ["Senegalese"]
+    cities: ["Dakar"]
+    historical: []
+    acronyms: []
+
+serbia:
+  iso3: SRB
+  terms:
+    names: ["Serbia"]
+    demonyms: ["Serbian", "Serbians", "Serb", "Serbs"]
+    cities: ["Belgrade", "Novi Sad"]
+    historical: []
+    acronyms: []
+
+seychelles:
+  iso3: SYC
+  terms:
+    names: ["Seychelles"]
+    demonyms: ["Seychellois"]
+    cities: ["Victoria"]
+    historical: []
+    acronyms: []
+
+sierra_leone:
+  iso3: SLE
+  terms:
+    names: ["Sierra Leone"]
+    demonyms: ["Sierra Leonean", "Sierra Leoneans"]
+    cities: ["Freetown"]
+    historical: []
+    acronyms: []
+
+singapore:
+  iso3: SGP
+  terms:
+    names: ["Singapore"]
+    demonyms: ["Singaporean", "Singaporeans"]
+    cities: []
+    historical: []
+    acronyms: []
+
+slovakia:
+  iso3: SVK
+  terms:
+    names: ["Slovakia"]
+    demonyms: ["Slovak", "Slovaks"]
+    cities: ["Bratislava"]
+    historical: []
+    acronyms: []
+
+slovenia:
+  iso3: SVN
+  terms:
+    names: ["Slovenia"]
+    demonyms: ["Slovenian", "Slovenians", "Slovene", "Slovenes"]
+    cities: ["Ljubljana"]
+    historical: []
+    acronyms: []
+
+solomon_islands:
+  iso3: SLB
+  terms:
+    names: ["Solomon Islands"]
+    demonyms: ["Solomon Islander", "Solomon Islanders"]
+    cities: ["Honiara"]
+    historical: []
+    acronyms: []
+
+south_sudan:
+  iso3: SSD
+  terms:
+    names: ["South Sudan"]
+    demonyms: ["South Sudanese"]
+    cities: ["Juba"]
+    historical: []
+    acronyms: []
+
+sri_lanka:
+  iso3: LKA
+  terms:
+    names: ["Sri Lanka"]
+    demonyms: ["Sri Lankan", "Sri Lankans"]
+    cities: ["Colombo", "Sri Jayawardenepura Kotte"]
+    historical: ["Ceylon"]
+    acronyms: []
+
+sudan:
+  iso3: SDN
+  terms:
+    names: ["Sudan"]
+    demonyms: ["Sudanese"]
+    cities: ["Khartoum"]
+    historical: []
+    acronyms: []
+
+suriname:
+  iso3: SUR
+  terms:
+    names: ["Suriname"]
+    demonyms: ["Surinamese"]
+    cities: ["Paramaribo"]
+    historical: ["Surinam", "Dutch Guiana"]
+    acronyms: []
+
+switzerland:
+  iso3: CHE
+  terms:
+    names: ["Switzerland"]
+    demonyms: ["Swiss"]
+    cities: ["Bern", "Zurich", "Geneva", "Basel"]
+    historical: []
+    acronyms: []
+
+tajikistan:
+  iso3: TJK
+  terms:
+    names: ["Tajikistan"]
+    demonyms: ["Tajik", "Tajiks", "Tajikistani"]
+    cities: ["Dushanbe"]
+    historical: []
+    acronyms: []
+
+tanzania:
+  iso3: TZA
+  terms:
+    names: ["Tanzania"]
+    demonyms: ["Tanzanian", "Tanzanians"]
+    cities: ["Dodoma", "Dar es Salaam"]
+    historical: ["Tanganyika"]
+    acronyms: []
+
+togo:
+  iso3: TGO
+  terms:
+    names: ["Togo"]
+    demonyms: ["Togolese"]
+    cities: ["Lomé"]
+    historical: []
+    acronyms: []
+
+trinidad_and_tobago:
+  iso3: TTO
+  terms:
+    names: ["Trinidad and Tobago"]
+    demonyms: ["Trinidadian", "Trinidadians", "Tobagonian", "Tobagonians"]
+    cities: ["Port of Spain"]
+    historical: []
+    acronyms: []
+
+tunisia:
+  iso3: TUN
+  terms:
+    names: ["Tunisia"]
+    demonyms: ["Tunisian", "Tunisians"]
+    cities: ["Tunis"]
+    historical: []
+    acronyms: []
+
+turkmenistan:
+  iso3: TKM
+  terms:
+    names: ["Turkmenistan"]
+    demonyms: ["Turkmen", "Turkmens"]
+    cities: ["Ashgabat"]
+    historical: []
+    acronyms: []
+
+tuvalu:
+  iso3: TUV
+  terms:
+    names: ["Tuvalu"]
+    demonyms: ["Tuvaluan", "Tuvaluans"]
+    cities: ["Funafuti"]
+    historical: []
+    acronyms: []
+
+uganda:
+  iso3: UGA
+  terms:
+    names: ["Uganda"]
+    demonyms: ["Ugandan", "Ugandans"]
+    cities: ["Kampala"]
+    historical: []
+    acronyms: []
+
+united_arab_emirates:
+  iso3: ARE
+  terms:
+    names: ["United Arab Emirates"]
+    demonyms: ["Emirati", "Emiratis"]
+    cities: ["Abu Dhabi", "Dubai", "Sharjah"]
+    historical: []
+    acronyms: ["UAE"]
+
+uruguay:
+  iso3: URY
+  terms:
+    names: ["Uruguay"]
+    demonyms: ["Uruguayan", "Uruguayans"]
+    cities: ["Montevideo"]
+    historical: []
+    acronyms: []
+
+uzbekistan:
+  iso3: UZB
+  terms:
+    names: ["Uzbekistan"]
+    demonyms: ["Uzbek", "Uzbeks", "Uzbekistani"]
+    cities: ["Tashkent", "Samarkand", "Bukhara"]
+    historical: []
+    acronyms: []
+
+vanuatu:
+  iso3: VUT
+  terms:
+    names: ["Vanuatu"]
+    demonyms: ["Ni-Vanuatu"]
+    cities: ["Port Vila"]
+    historical: ["New Hebrides"]
+    acronyms: []
+
+vatican:
+  iso3: VAT
+  terms:
+    names: ["Vatican", "Vatican City", "Holy See"]
+    demonyms: []
+    cities: []
+    historical: []
+    acronyms: []
+
+zambia:
+  iso3: ZMB
+  terms:
+    names: ["Zambia"]
+    demonyms: ["Zambian", "Zambians"]
+    cities: ["Lusaka"]
+    historical: ["Northern Rhodesia"]
+    acronyms: []
+
+zimbabwe:
+  iso3: ZWE
+  terms:
+    names: ["Zimbabwe"]
+    demonyms: ["Zimbabwean", "Zimbabweans"]
+    cities: ["Harare", "Bulawayo"]
+    historical: ["Rhodesia", "Southern Rhodesia"]
+    acronyms: []

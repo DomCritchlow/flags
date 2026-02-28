@@ -1,0 +1,14 @@
+# Disambiguation scoring configuration
+# Used by pipeline/disambiguator.py
+
+scoring:
+  strong_weight: 10
+  moderate_weight: 3
+  country_threshold: 5       # score > this → COUNTRY
+  not_country_threshold: -5  # score < this → NOT_COUNTRY
+
+context_window:
+  words: 50  # ±50 words around the match
+
+# When score is inconclusive (between thresholds), use the term's
+# configured default. If default is SKIP, escalate to Tier 3 LLM.

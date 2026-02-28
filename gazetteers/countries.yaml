@@ -1,0 +1,992 @@
+# Congressional World View — Master Country Registry
+# All UN member states (minus USA) plus Taiwan, Kosovo, Palestine, Hong Kong
+# Sorted alphabetically by common English name
+# Region categories: North America, Central America, Caribbean, South America,
+#   Western Europe, Eastern Europe, Northern Europe, Southern Europe,
+#   Central Asia, South Asia, Southeast Asia, East Asia, Middle East,
+#   North Africa, West Africa, East Africa, Central Africa, Southern Africa, Oceania
+
+- iso3: AFG
+  name: Afghanistan
+  iso2: af
+  region: South Asia
+
+- iso3: ALB
+  name: Albania
+  iso2: al
+  region: Southern Europe
+
+- iso3: DZA
+  name: Algeria
+  iso2: dz
+  region: North Africa
+
+- iso3: AND
+  name: Andorra
+  iso2: ad
+  region: Southern Europe
+
+- iso3: AGO
+  name: Angola
+  iso2: ao
+  region: Central Africa
+
+- iso3: ATG
+  name: Antigua and Barbuda
+  iso2: ag
+  region: Caribbean
+
+- iso3: ARG
+  name: Argentina
+  iso2: ar
+  region: South America
+
+- iso3: ARM
+  name: Armenia
+  iso2: am
+  region: Eastern Europe
+
+- iso3: AUS
+  name: Australia
+  iso2: au
+  region: Oceania
+
+- iso3: AUT
+  name: Austria
+  iso2: at
+  region: Western Europe
+
+- iso3: AZE
+  name: Azerbaijan
+  iso2: az
+  region: Eastern Europe
+
+- iso3: BHS
+  name: Bahamas
+  iso2: bs
+  region: Caribbean
+
+- iso3: BHR
+  name: Bahrain
+  iso2: bh
+  region: Middle East
+
+- iso3: BGD
+  name: Bangladesh
+  iso2: bd
+  region: South Asia
+
+- iso3: BRB
+  name: Barbados
+  iso2: bb
+  region: Caribbean
+
+- iso3: BLR
+  name: Belarus
+  iso2: by
+  region: Eastern Europe
+
+- iso3: BEL
+  name: Belgium
+  iso2: be
+  region: Western Europe
+
+- iso3: BLZ
+  name: Belize
+  iso2: bz
+  region: Central America
+
+- iso3: BEN
+  name: Benin
+  iso2: bj
+  region: West Africa
+
+- iso3: BTN
+  name: Bhutan
+  iso2: bt
+  region: South Asia
+
+- iso3: BOL
+  name: Bolivia
+  iso2: bo
+  region: South America
+
+- iso3: BIH
+  name: Bosnia and Herzegovina
+  iso2: ba
+  region: Southern Europe
+
+- iso3: BWA
+  name: Botswana
+  iso2: bw
+  region: Southern Africa
+
+- iso3: BRA
+  name: Brazil
+  iso2: br
+  region: South America
+
+- iso3: BRN
+  name: Brunei
+  iso2: bn
+  region: Southeast Asia
+
+- iso3: BGR
+  name: Bulgaria
+  iso2: bg
+  region: Eastern Europe
+
+- iso3: BFA
+  name: Burkina Faso
+  iso2: bf
+  region: West Africa
+
+- iso3: BDI
+  name: Burundi
+  iso2: bi
+  region: East Africa
+
+- iso3: CPV
+  name: Cabo Verde
+  iso2: cv
+  region: West Africa
+
+- iso3: KHM
+  name: Cambodia
+  iso2: kh
+  region: Southeast Asia
+
+- iso3: CMR
+  name: Cameroon
+  iso2: cm
+  region: Central Africa
+
+- iso3: CAN
+  name: Canada
+  iso2: ca
+  region: North America
+
+- iso3: CAF
+  name: Central African Republic
+  iso2: cf
+  region: Central Africa
+
+- iso3: TCD
+  name: Chad
+  iso2: td
+  region: Central Africa
+
+- iso3: CHL
+  name: Chile
+  iso2: cl
+  region: South America
+
+- iso3: CHN
+  name: China
+  iso2: cn
+  region: East Asia
+
+- iso3: COL
+  name: Colombia
+  iso2: co
+  region: South America
+
+- iso3: COM
+  name: Comoros
+  iso2: km
+  region: East Africa
+
+- iso3: COG
+  name: Congo
+  iso2: cg
+  region: Central Africa
+
+- iso3: CRI
+  name: Costa Rica
+  iso2: cr
+  region: Central America
+
+- iso3: CIV
+  name: Cote d'Ivoire
+  iso2: ci
+  region: West Africa
+
+- iso3: HRV
+  name: Croatia
+  iso2: hr
+  region: Southern Europe
+
+- iso3: CUB
+  name: Cuba
+  iso2: cu
+  region: Caribbean
+
+- iso3: CYP
+  name: Cyprus
+  iso2: cy
+  region: Southern Europe
+
+- iso3: CZE
+  name: Czechia
+  iso2: cz
+  region: Eastern Europe
+
+- iso3: COD
+  name: Democratic Republic of the Congo
+  iso2: cd
+  region: Central Africa
+
+- iso3: DNK
+  name: Denmark
+  iso2: dk
+  region: Northern Europe
+
+- iso3: DJI
+  name: Djibouti
+  iso2: dj
+  region: East Africa
+
+- iso3: DMA
+  name: Dominica
+  iso2: dm
+  region: Caribbean
+
+- iso3: DOM
+  name: Dominican Republic
+  iso2: do
+  region: Caribbean
+
+- iso3: ECU
+  name: Ecuador
+  iso2: ec
+  region: South America
+
+- iso3: EGY
+  name: Egypt
+  iso2: eg
+  region: North Africa
+
+- iso3: SLV
+  name: El Salvador
+  iso2: sv
+  region: Central America
+
+- iso3: GNQ
+  name: Equatorial Guinea
+  iso2: gq
+  region: Central Africa
+
+- iso3: ERI
+  name: Eritrea
+  iso2: er
+  region: East Africa
+
+- iso3: EST
+  name: Estonia
+  iso2: ee
+  region: Northern Europe
+
+- iso3: SWZ
+  name: Eswatini
+  iso2: sz
+  region: Southern Africa
+
+- iso3: ETH
+  name: Ethiopia
+  iso2: et
+  region: East Africa
+
+- iso3: FJI
+  name: Fiji
+  iso2: fj
+  region: Oceania
+
+- iso3: FIN
+  name: Finland
+  iso2: fi
+  region: Northern Europe
+
+- iso3: FRA
+  name: France
+  iso2: fr
+  region: Western Europe
+
+- iso3: GAB
+  name: Gabon
+  iso2: ga
+  region: Central Africa
+
+- iso3: GMB
+  name: Gambia
+  iso2: gm
+  region: West Africa
+
+- iso3: GEO
+  name: Georgia
+  iso2: ge
+  region: Eastern Europe
+
+- iso3: DEU
+  name: Germany
+  iso2: de
+  region: Western Europe
+
+- iso3: GHA
+  name: Ghana
+  iso2: gh
+  region: West Africa
+
+- iso3: GRC
+  name: Greece
+  iso2: gr
+  region: Southern Europe
+
+- iso3: GRD
+  name: Grenada
+  iso2: gd
+  region: Caribbean
+
+- iso3: GTM
+  name: Guatemala
+  iso2: gt
+  region: Central America
+
+- iso3: GIN
+  name: Guinea
+  iso2: gn
+  region: West Africa
+
+- iso3: GNB
+  name: Guinea-Bissau
+  iso2: gw
+  region: West Africa
+
+- iso3: GUY
+  name: Guyana
+  iso2: gy
+  region: South America
+
+- iso3: HTI
+  name: Haiti
+  iso2: ht
+  region: Caribbean
+
+- iso3: HND
+  name: Honduras
+  iso2: hn
+  region: Central America
+
+- iso3: HKG
+  name: Hong Kong
+  iso2: hk
+  region: East Asia
+
+- iso3: HUN
+  name: Hungary
+  iso2: hu
+  region: Eastern Europe
+
+- iso3: ISL
+  name: Iceland
+  iso2: is
+  region: Northern Europe
+
+- iso3: IND
+  name: India
+  iso2: in
+  region: South Asia
+
+- iso3: IDN
+  name: Indonesia
+  iso2: id
+  region: Southeast Asia
+
+- iso3: IRN
+  name: Iran
+  iso2: ir
+  region: Middle East
+
+- iso3: IRQ
+  name: Iraq
+  iso2: iq
+  region: Middle East
+
+- iso3: IRL
+  name: Ireland
+  iso2: ie
+  region: Northern Europe
+
+- iso3: ISR
+  name: Israel
+  iso2: il
+  region: Middle East
+
+- iso3: ITA
+  name: Italy
+  iso2: it
+  region: Southern Europe
+
+- iso3: JAM
+  name: Jamaica
+  iso2: jm
+  region: Caribbean
+
+- iso3: JPN
+  name: Japan
+  iso2: jp
+  region: East Asia
+
+- iso3: JOR
+  name: Jordan
+  iso2: jo
+  region: Middle East
+
+- iso3: KAZ
+  name: Kazakhstan
+  iso2: kz
+  region: Central Asia
+
+- iso3: KEN
+  name: Kenya
+  iso2: ke
+  region: East Africa
+
+- iso3: KIR
+  name: Kiribati
+  iso2: ki
+  region: Oceania
+
+- iso3: XKX
+  name: Kosovo
+  iso2: xk
+  region: Southern Europe
+
+- iso3: KWT
+  name: Kuwait
+  iso2: kw
+  region: Middle East
+
+- iso3: KGZ
+  name: Kyrgyzstan
+  iso2: kg
+  region: Central Asia
+
+- iso3: LAO
+  name: Laos
+  iso2: la
+  region: Southeast Asia
+
+- iso3: LVA
+  name: Latvia
+  iso2: lv
+  region: Northern Europe
+
+- iso3: LBN
+  name: Lebanon
+  iso2: lb
+  region: Middle East
+
+- iso3: LSO
+  name: Lesotho
+  iso2: ls
+  region: Southern Africa
+
+- iso3: LBR
+  name: Liberia
+  iso2: lr
+  region: West Africa
+
+- iso3: LBY
+  name: Libya
+  iso2: ly
+  region: North Africa
+
+- iso3: LIE
+  name: Liechtenstein
+  iso2: li
+  region: Western Europe
+
+- iso3: LTU
+  name: Lithuania
+  iso2: lt
+  region: Northern Europe
+
+- iso3: LUX
+  name: Luxembourg
+  iso2: lu
+  region: Western Europe
+
+- iso3: MDG
+  name: Madagascar
+  iso2: mg
+  region: East Africa
+
+- iso3: MWI
+  name: Malawi
+  iso2: mw
+  region: East Africa
+
+- iso3: MYS
+  name: Malaysia
+  iso2: my
+  region: Southeast Asia
+
+- iso3: MDV
+  name: Maldives
+  iso2: mv
+  region: South Asia
+
+- iso3: MLI
+  name: Mali
+  iso2: ml
+  region: West Africa
+
+- iso3: MLT
+  name: Malta
+  iso2: mt
+  region: Southern Europe
+
+- iso3: MHL
+  name: Marshall Islands
+  iso2: mh
+  region: Oceania
+
+- iso3: MRT
+  name: Mauritania
+  iso2: mr
+  region: West Africa
+
+- iso3: MUS
+  name: Mauritius
+  iso2: mu
+  region: East Africa
+
+- iso3: MEX
+  name: Mexico
+  iso2: mx
+  region: North America
+
+- iso3: FSM
+  name: Micronesia
+  iso2: fm
+  region: Oceania
+
+- iso3: MDA
+  name: Moldova
+  iso2: md
+  region: Eastern Europe
+
+- iso3: MCO
+  name: Monaco
+  iso2: mc
+  region: Western Europe
+
+- iso3: MNG
+  name: Mongolia
+  iso2: mn
+  region: East Asia
+
+- iso3: MNE
+  name: Montenegro
+  iso2: me
+  region: Southern Europe
+
+- iso3: MAR
+  name: Morocco
+  iso2: ma
+  region: North Africa
+
+- iso3: MOZ
+  name: Mozambique
+  iso2: mz
+  region: East Africa
+
+- iso3: MMR
+  name: Myanmar
+  iso2: mm
+  region: Southeast Asia
+
+- iso3: NAM
+  name: Namibia
+  iso2: na
+  region: Southern Africa
+
+- iso3: NRU
+  name: Nauru
+  iso2: nr
+  region: Oceania
+
+- iso3: NPL
+  name: Nepal
+  iso2: np
+  region: South Asia
+
+- iso3: NLD
+  name: Netherlands
+  iso2: nl
+  region: Western Europe
+
+- iso3: NZL
+  name: New Zealand
+  iso2: nz
+  region: Oceania
+
+- iso3: NIC
+  name: Nicaragua
+  iso2: ni
+  region: Central America
+
+- iso3: NER
+  name: Niger
+  iso2: ne
+  region: West Africa
+
+- iso3: NGA
+  name: Nigeria
+  iso2: ng
+  region: West Africa
+
+- iso3: PRK
+  name: North Korea
+  iso2: kp
+  region: East Asia
+
+- iso3: MKD
+  name: North Macedonia
+  iso2: mk
+  region: Southern Europe
+
+- iso3: NOR
+  name: Norway
+  iso2: "no"
+  region: Northern Europe
+
+- iso3: OMN
+  name: Oman
+  iso2: om
+  region: Middle East
+
+- iso3: PAK
+  name: Pakistan
+  iso2: pk
+  region: South Asia
+
+- iso3: PLW
+  name: Palau
+  iso2: pw
+  region: Oceania
+
+- iso3: PSE
+  name: Palestine
+  iso2: ps
+  region: Middle East
+
+- iso3: PAN
+  name: Panama
+  iso2: pa
+  region: Central America
+
+- iso3: PNG
+  name: Papua New Guinea
+  iso2: pg
+  region: Oceania
+
+- iso3: PRY
+  name: Paraguay
+  iso2: py
+  region: South America
+
+- iso3: PER
+  name: Peru
+  iso2: pe
+  region: South America
+
+- iso3: PHL
+  name: Philippines
+  iso2: ph
+  region: Southeast Asia
+
+- iso3: POL
+  name: Poland
+  iso2: pl
+  region: Eastern Europe
+
+- iso3: PRT
+  name: Portugal
+  iso2: pt
+  region: Southern Europe
+
+- iso3: QAT
+  name: Qatar
+  iso2: qa
+  region: Middle East
+
+- iso3: ROU
+  name: Romania
+  iso2: ro
+  region: Eastern Europe
+
+- iso3: RUS
+  name: Russia
+  iso2: ru
+  region: Eastern Europe
+
+- iso3: RWA
+  name: Rwanda
+  iso2: rw
+  region: East Africa
+
+- iso3: KNA
+  name: Saint Kitts and Nevis
+  iso2: kn
+  region: Caribbean
+
+- iso3: LCA
+  name: Saint Lucia
+  iso2: lc
+  region: Caribbean
+
+- iso3: VCT
+  name: Saint Vincent and the Grenadines
+  iso2: vc
+  region: Caribbean
+
+- iso3: WSM
+  name: Samoa
+  iso2: ws
+  region: Oceania
+
+- iso3: SMR
+  name: San Marino
+  iso2: sm
+  region: Southern Europe
+
+- iso3: STP
+  name: Sao Tome and Principe
+  iso2: st
+  region: Central Africa
+
+- iso3: SAU
+  name: Saudi Arabia
+  iso2: sa
+  region: Middle East
+
+- iso3: SEN
+  name: Senegal
+  iso2: sn
+  region: West Africa
+
+- iso3: SRB
+  name: Serbia
+  iso2: rs
+  region: Southern Europe
+
+- iso3: SYC
+  name: Seychelles
+  iso2: sc
+  region: East Africa
+
+- iso3: SLE
+  name: Sierra Leone
+  iso2: sl
+  region: West Africa
+
+- iso3: SGP
+  name: Singapore
+  iso2: sg
+  region: Southeast Asia
+
+- iso3: SVK
+  name: Slovakia
+  iso2: sk
+  region: Eastern Europe
+
+- iso3: SVN
+  name: Slovenia
+  iso2: si
+  region: Southern Europe
+
+- iso3: SLB
+  name: Solomon Islands
+  iso2: sb
+  region: Oceania
+
+- iso3: SOM
+  name: Somalia
+  iso2: so
+  region: East Africa
+
+- iso3: ZAF
+  name: South Africa
+  iso2: za
+  region: Southern Africa
+
+- iso3: KOR
+  name: South Korea
+  iso2: kr
+  region: East Asia
+
+- iso3: SSD
+  name: South Sudan
+  iso2: ss
+  region: East Africa
+
+- iso3: ESP
+  name: Spain
+  iso2: es
+  region: Southern Europe
+
+- iso3: LKA
+  name: Sri Lanka
+  iso2: lk
+  region: South Asia
+
+- iso3: SDN
+  name: Sudan
+  iso2: sd
+  region: East Africa
+
+- iso3: SUR
+  name: Suriname
+  iso2: sr
+  region: South America
+
+- iso3: SWE
+  name: Sweden
+  iso2: se
+  region: Northern Europe
+
+- iso3: CHE
+  name: Switzerland
+  iso2: ch
+  region: Western Europe
+
+- iso3: SYR
+  name: Syria
+  iso2: sy
+  region: Middle East
+
+- iso3: TWN
+  name: Taiwan
+  iso2: tw
+  region: East Asia
+
+- iso3: TJK
+  name: Tajikistan
+  iso2: tj
+  region: Central Asia
+
+- iso3: TZA
+  name: Tanzania
+  iso2: tz
+  region: East Africa
+
+- iso3: THA
+  name: Thailand
+  iso2: th
+  region: Southeast Asia
+
+- iso3: TLS
+  name: Timor-Leste
+  iso2: tl
+  region: Southeast Asia
+
+- iso3: TGO
+  name: Togo
+  iso2: tg
+  region: West Africa
+
+- iso3: TON
+  name: Tonga
+  iso2: to
+  region: Oceania
+
+- iso3: TTO
+  name: Trinidad and Tobago
+  iso2: tt
+  region: Caribbean
+
+- iso3: TUN
+  name: Tunisia
+  iso2: tn
+  region: North Africa
+
+- iso3: TUR
+  name: Turkey
+  iso2: tr
+  region: Middle East
+
+- iso3: TKM
+  name: Turkmenistan
+  iso2: tm
+  region: Central Asia
+
+- iso3: TUV
+  name: Tuvalu
+  iso2: tv
+  region: Oceania
+
+- iso3: UGA
+  name: Uganda
+  iso2: ug
+  region: East Africa
+
+- iso3: UKR
+  name: Ukraine
+  iso2: ua
+  region: Eastern Europe
+
+- iso3: ARE
+  name: United Arab Emirates
+  iso2: ae
+  region: Middle East
+
+- iso3: GBR
+  name: United Kingdom
+  iso2: gb
+  region: Northern Europe
+
+- iso3: URY
+  name: Uruguay
+  iso2: uy
+  region: South America
+
+- iso3: UZB
+  name: Uzbekistan
+  iso2: uz
+  region: Central Asia
+
+- iso3: VUT
+  name: Vanuatu
+  iso2: vu
+  region: Oceania
+
+- iso3: VAT
+  name: Vatican City
+  iso2: va
+  region: Southern Europe
+
+- iso3: VEN
+  name: Venezuela
+  iso2: ve
+  region: South America
+
+- iso3: VNM
+  name: Vietnam
+  iso2: vn
+  region: Southeast Asia
+
+- iso3: YEM
+  name: Yemen
+  iso2: ye
+  region: Middle East
+
+- iso3: ZMB
+  name: Zambia
+  iso2: zm
+  region: Southern Africa
+
+- iso3: ZWE
+  name: Zimbabwe
+  iso2: zw
+  region: East Africa

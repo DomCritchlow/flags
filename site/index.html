@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congressional World View</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/story.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-rule"></div>
+    <h1 class="masthead-title">Congressional World View</h1>
+    <p class="masthead-edition"></p>
+    <div class="masthead-rule"></div>
+  </header>
+
+  <main class="story">
+
+    <section class="lede">
+      <p class="lede-text">
+        Every month, the U.S. Congress names countries in bills, hearings,
+        and floor speeches. The flags below show which nation led the count
+        each month &mdash; a proxy for where American foreign-policy attention lands.
+      </p>
+    </section>
+
+    <section class="grid-section">
+      <div class="source-toggle" id="source-toggle">
+        <button class="toggle-btn active" data-source="all">All</button>
+        <button class="toggle-btn" data-source="bill">Bills</button>
+        <button class="toggle-btn" data-source="nomination">Nominations</button>
+        <button class="toggle-btn" data-source="amendment">Amendments</button>
+      </div>
+      <div class="grid-wrapper">
+        <div class="grid-header" id="grid-header"></div>
+        <div class="grid-body" id="grid-body"></div>
+      </div>
+      <p class="grid-caption">
+        Each flag represents the most-mentioned country in congressional
+        records that month. Tap a cell for details.
+      </p>
+    </section>
+
+    <section class="detail-section hidden" id="cell-detail">
+      <div class="detail-card">
+        <button class="detail-close" aria-label="Close">&times;</button>
+        <div class="detail-top">
+          <img class="detail-flag" id="detail-flag" src="" alt="">
+          <div>
+            <h3 class="detail-country" id="detail-country"></h3>
+            <p class="detail-month" id="detail-month"></p>
+          </div>
+        </div>
+        <div class="detail-stats">
+          <div class="stat">
+            <span class="stat-number" id="detail-count"></span>
+            <span class="stat-label">mentions</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" id="detail-total"></span>
+            <span class="stat-label">records scanned</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" id="detail-runner-up"></span>
+            <span class="stat-label">runner-up</span>
+          </div>
+        </div>
+        <div class="detail-legislation">
+          <h4>Sample legislation</h4>
+          <ul id="detail-titles"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="insights" id="insights"></section>
+
+    <section class="explore">
+      <h2>Explore the full rankings</h2>
+      <p>See how countries rise and fall over time in the interactive bump chart.</p>
+      <a href="bump/" class="explore-link">View bump chart &rarr;</a>
+    </section>
+
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-rule"></div>
+    <p class="colophon-method">
+      Data sourced from the <a href="https://api.congress.gov" target="_blank" rel="noopener">Congress.gov API</a>.
+      Country mentions detected via a three-tier engine: dictionary lookup,
+      contextual disambiguation, and LLM fallback.
+    </p>
+    <p class="colophon-update" id="last-update"></p>
+  </footer>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/flag-grid.js"></script>
+  <script src="js/story-insights.js"></script>
+  <script src="js/story-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+name: Tests
+
+on:
+  push:
+    paths:
+      - 'pipeline/**'
+      - 'gazetteers/**'
+      - 'tests/**'
+      - 'requirements*.txt'
+  pull_request:
+    paths:
+      - 'pipeline/**'
+      - 'gazetteers/**'
+      - 'tests/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: PYTHONPATH=. python -m pytest tests/ -v --tb=short
+
+      - name: Validate gazetteers
+        run: PYTHONPATH=. python scripts/validate_gazetteers.py

@@ -1,0 +1,460 @@
+# =============================================================================
+# congressional_blocklist.yaml
+# Congressional World View — Pre-filter Blocklist
+#
+# Phrases to mask BEFORE country-name detection runs. These are strings that
+# contain a country name (or partial match) but are NOT country references.
+# The pipeline replaces each phrase with a placeholder token so downstream
+# matchers never see the false-positive trigger.
+#
+# Categories:
+#   blocklist_phrases    — exact phrases to mask (case-insensitive)
+#   procedural_strips    — congressional procedural templates ({STATE} expands
+#                          to all 50 U.S. states + territories)
+#   regex_blocklist      — patterns requiring regex matching
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Blocklist phrases: exact strings that contain country names but are NOT
+# references to those countries. Grouped by the country name they protect.
+# ---------------------------------------------------------------------------
+blocklist_phrases:
+
+  # --- U.S. states and territories containing country names ---
+  - "New Jersey"             # contains "Jersey" (Bailiwick of Jersey)
+  - "New Mexico"             # contains "Mexico"
+  - "New York"               # contains "York" (not a country, but pattern)
+  - "West Virginia"          # prevent "Virginia" partial matches
+  - "South Carolina"         # prevent "Carolina" issues
+  - "North Carolina"         # prevent "Carolina" issues
+  - "South Dakota"           # prevent partial matches
+  - "North Dakota"           # prevent partial matches
+  - "Rhode Island"           # prevent "Island" interference
+  - "Long Island"            # prevent "Island" interference
+  - "American Samoa"         # territory, not independent Samoa
+  - "U.S. Virgin Islands"    # not British Virgin Islands
+  - "Northern Mariana Islands" # U.S. territory
+
+  # --- U.S. cities and places containing country names ---
+  - "Panama City, Florida"
+  - "Panama City Beach"
+  - "Panama City, FL"
+  - "Lebanon, Pennsylvania"
+  - "Lebanon, PA"
+  - "Lebanon, Tennessee"
+  - "Lebanon, TN"
+  - "Lebanon, Ohio"
+  - "Lebanon, OH"
+  - "Lebanon, Oregon"
+  - "Lebanon, OR"
+  - "Lebanon, Indiana"
+  - "Lebanon, IN"
+  - "Lebanon, New Hampshire"
+  - "Lebanon, NH"
+  - "Lebanon County"
+  - "Lebanon Township"
+  - "Cuba, Missouri"
+  - "Cuba, New York"
+  - "Cuba, NY"
+  - "Cuba, New Mexico"
+  - "Cuba, NM"
+  - "Cuba City"
+  - "Jordan, Minnesota"
+  - "Jordan, MN"
+  - "Jordan, Utah"
+  - "Jordan, UT"
+  - "West Jordan"
+  - "South Jordan"
+  - "Peru, Illinois"
+  - "Peru, IL"
+  - "Peru, Indiana"
+  - "Peru, IN"
+  - "Peru, Nebraska"
+  - "Peru, NE"
+  - "Brazil, Indiana"
+  - "Brazil, IN"
+  - "China, Maine"
+  - "China, TX"
+  - "China, Texas"
+  - "China Lake"
+  - "China Grove"
+  - "China Spring"
+  - "Chinatown"
+  - "Mexico, Missouri"
+  - "Mexico, MO"
+  - "Mexico, New York"
+  - "Mexico, Maine"
+  - "Mexico Beach"
+  - "Gulf of Mexico"
+  - "New Mexico"
+  - "Cypress, Texas"
+  - "Cypress, TX"
+  - "Cypress, California"
+  - "Cypress, CA"
+  - "Cypress Creek"
+  - "Cypress Hills"
+  - "Holland, Michigan"
+  - "Holland, MI"
+  - "Holland, Ohio"
+  - "Holland Tunnel"
+  - "Angola, Indiana"
+  - "Angola, IN"
+  - "Angola, New York"
+  - "Angola, NY"
+  - "Georgia Avenue"
+  - "Georgia Street"
+  - "Georgia Tech"
+  - "Georgia State University"
+  - "University of Georgia"
+  - "Georgia Bulldogs"
+  - "Iran, Texas"
+  - "Turkey Creek"
+  - "Turkey Point"
+  - "Turkey Run"
+  - "Turkey Hill"
+  - "Tobago Township"
+  - "Trinidad, Colorado"
+  - "Trinidad, CO"
+  - "Malta, Montana"
+  - "Malta, MT"
+  - "Malta, New York"
+  - "Malta, NY"
+  - "Palestine, Texas"
+  - "Palestine, TX"
+  - "Norway, Maine"
+  - "Norway, ME"
+  - "Sweden, Maine"
+  - "Denmark, South Carolina"
+  - "Denmark, SC"
+  - "Poland, Ohio"
+  - "Poland, Maine"
+  - "Belize, Mississippi"
+  - "Athens, Georgia"
+  - "Athens, Ohio"
+  - "Athens, Texas"
+  - "Dublin, Ohio"
+  - "Dublin, California"
+  - "Dublin, Georgia"
+  - "Paris, Texas"
+  - "Paris, Tennessee"
+  - "Paris, Kentucky"
+  - "Berlin, New Hampshire"
+  - "Berlin, NH"
+  - "Berlin, Maryland"
+  - "Berlin, Connecticut"
+  - "Moscow, Idaho"
+  - "Moscow, ID"
+  - "Versailles, Kentucky"
+  - "Versailles, KY"
+  - "Odessa, Texas"
+  - "Odessa, TX"
+  - "Warsaw, Indiana"
+  - "Warsaw, IN"
+  - "Tripoli, Iowa"
+  - "Tripoli, IA"
+  - "Cairo, Illinois"
+  - "Cairo, IL"
+  - "Baghdad, Kentucky"
+  - "Havana, Florida"
+  - "Havana, FL"
+  - "Lima, Ohio"
+  - "Lima, OH"
+  - "Santiago, California"
+  - "Manila, Arkansas"
+  - "Tonga Room"
+
+  # --- "Columbia" (not "Colombia") ---
+  - "District of Columbia"
+  - "Columbia University"
+  - "Columbia River"
+  - "British Columbia"
+  - "Columbia, South Carolina"
+  - "Columbia, SC"
+  - "Columbia, Missouri"
+  - "Columbia, MO"
+  - "Columbia, Maryland"
+  - "Columbia, MD"
+  - "Columbia Pictures"
+  - "Columbia Records"
+  - "Columbia Broadcasting"
+  - "CBS Columbia"
+  - "Columbia Gas"
+  - "Columbia Heights"
+  - "pre-Columbian"
+  - "Columbian Exchange"
+  - "Christopher Columbus"
+
+  # --- Marshall (not Marshall Islands) ---
+  - "Marshall Plan"
+  - "George Marshall"
+  - "George C. Marshall"
+  - "Thurgood Marshall"
+  - "John Marshall"
+  - "Marshall Space Flight Center"
+  - "Fort Marshall"
+  - "Marshall University"
+  - "Marshall County"
+  - "Marshall Field"
+  - "fire marshal"
+  - "U.S. Marshal"
+  - "U.S. Marshals"
+  - "U.S. Marshals Service"
+  - "Deputy Marshal"
+  - "Roger Marshall"
+
+  # --- Jordan (not the country) ---
+  - "Jim Jordan"
+  - "Barbara Jordan"
+  - "Vernon Jordan"
+  - "Michael Jordan"
+  - "Jordan Amendment"
+
+  # --- Chad (not the country) ---
+  - "hanging chad"
+  - "pregnant chad"
+  - "dimpled chad"
+  - "ballot chad"
+  - "Chad Wolf"
+  - "Chad Pergram"
+
+  # --- Niger (not the country — protect against false positives) ---
+  - "Niger Delta"
+  - "Niger State"
+
+  # --- Turkey (not the country) ---
+  - "turkey dinner"
+  - "turkey hunting"
+  - "turkey season"
+  - "wild turkey"
+  - "Wild Turkey"
+  - "turkey vulture"
+  - "turkey shoot"
+  - "Thanksgiving turkey"
+  - "turkey population"
+  - "talk turkey"
+  - "cold turkey"
+
+  # --- Guinea (not the country) ---
+  - "guinea pig"
+  - "guinea pigs"
+  - "guinea fowl"
+  - "guinea hen"
+
+  # --- Cuba Gooding Jr. ---
+  - "Cuba Gooding"
+
+  # --- Israel (as first name in known figures) ---
+  - "Steve Israel"
+
+  # --- Other country-name collisions in common phrases ---
+  - "Ivory Coast"          # sometimes confused with "Coast" context
+  - "bone china"
+  - "china cabinet"
+  - "fine china"
+  - "china shop"
+  - "bull in a china shop"
+  - "china pattern"
+  - "china set"
+  - "china doll"
+  - "made in China"         # Note: this IS about the country — include only
+                             # if your pipeline treats product-origin as non-geo
+  - "Greek yogurt"          # "Greece" adjacency, not a country ref
+  - "irish setter"
+  - "Irish coffee"
+  - "Irish whiskey"         # debatable — these may be cultural refs
+  - "French door"
+  - "French doors"
+  - "French fries"
+  - "French toast"
+  - "French press"
+  - "French drain"
+  - "French braid"
+  - "French kiss"
+  - "French dressing"
+  - "Swiss cheese"
+  - "Swiss Army"
+  - "Swiss bank"            # debatable — may actually reference Switzerland
+  - "Swiss Miss"
+  - "Dutch courage"
+  - "Dutch oven"
+  - "going Dutch"
+  - "double Dutch"
+  - "Dutch uncle"
+  - "Turkish bath"
+  - "Turkish towel"
+  - "Turkish delight"
+  - "Russian roulette"
+  - "Russian dressing"
+  - "Russian twist"
+  - "Russian thistle"
+  - "India ink"
+  - "India pale ale"
+  - "India rubber"
+  - "Indian summer"         # Note: may refer to country or Native American
+  - "Bermuda shorts"
+  - "Bermuda grass"
+  - "Bermuda Triangle"
+  - "Panama hat"
+  - "Brazil nut"
+  - "Brazil nuts"
+  - "Brazilian blowout"
+  - "Chile pepper"
+  - "chile pepper"
+  - "Chile con carne"
+  - "chile con carne"
+  - "Chile relleno"
+  - "chile relleno"
+  - "Scotch tape"
+  - "Scotch whisky"
+  - "Scotch broth"
+
+  # --- Congressional / legislative proper nouns ---
+  - "Iran-Contra"           # historical event name, keep as-is
+  - "Camp David"
+  - "the Jordan rule"       # basketball reference (rare in Congress)
+
+# ---------------------------------------------------------------------------
+# Procedural strips: templates for congressional floor language.
+# {STATE} expands to every U.S. state name and territory name.
+# {TITLE} expands to: Mr., Mrs., Ms., Miss, Dr.
+# {PARTY} expands to: Republican, Democrat, Democratic, Independent
+# ---------------------------------------------------------------------------
+procedural_strips:
+  - "the gentleman from {STATE}"
+  - "the gentlewoman from {STATE}"
+  - "the gentlelady from {STATE}"
+  - "the Senator from {STATE}"
+  - "the senior Senator from {STATE}"
+  - "the junior Senator from {STATE}"
+  - "my colleague from {STATE}"
+  - "my friend from {STATE}"
+  - "my distinguished colleague from {STATE}"
+  - "the distinguished gentleman from {STATE}"
+  - "the distinguished gentlewoman from {STATE}"
+  - "the distinguished Senator from {STATE}"
+  - "the Honorable gentleman from {STATE}"
+  - "the Honorable gentlewoman from {STATE}"
+  - "the delegate from {STATE}"
+  - "the Resident Commissioner from {STATE}"
+  - "the Representative from {STATE}"
+  - "Representative from {STATE}"
+  - "{STATE}'s [0-9]+th district"
+  - "{STATE}'s [0-9]+st district"
+  - "{STATE}'s [0-9]+nd district"
+  - "{STATE}'s [0-9]+rd district"
+  - "{STATE}'s [0-9]+ district"
+  - "the [0-9]+th district of {STATE}"
+  - "the [0-9]+st district of {STATE}"
+  - "the [0-9]+nd district of {STATE}"
+  - "the [0-9]+rd district of {STATE}"
+  - "the State of {STATE}"
+  - "the great State of {STATE}"
+  - "the great state of {STATE}"
+  - "the Commonwealth of {STATE}"
+  - "Governor of {STATE}"
+  - "state of {STATE}"
+
+# ---------------------------------------------------------------------------
+# U.S. state and territory names (for {STATE} expansion)
+# ---------------------------------------------------------------------------
+state_list:
+  - Alabama
+  - Alaska
+  - Arizona
+  - Arkansas
+  - California
+  - Colorado
+  - Connecticut
+  - Delaware
+  - Florida
+  - Georgia
+  - Hawaii
+  - Idaho
+  - Illinois
+  - Indiana
+  - Iowa
+  - Kansas
+  - Kentucky
+  - Louisiana
+  - Maine
+  - Maryland
+  - Massachusetts
+  - Michigan
+  - Minnesota
+  - Mississippi
+  - Missouri
+  - Montana
+  - Nebraska
+  - Nevada
+  - New Hampshire
+  - New Jersey
+  - New Mexico
+  - New York
+  - North Carolina
+  - North Dakota
+  - Ohio
+  - Oklahoma
+  - Oregon
+  - Pennsylvania
+  - Rhode Island
+  - South Carolina
+  - South Dakota
+  - Tennessee
+  - Texas
+  - Utah
+  - Vermont
+  - Virginia
+  - Washington
+  - West Virginia
+  - Wisconsin
+  - Wyoming
+  # Territories
+  - American Samoa
+  - Guam
+  - Northern Mariana Islands
+  - Puerto Rico
+  - U.S. Virgin Islands
+  - District of Columbia
+
+# ---------------------------------------------------------------------------
+# Regex blocklist: patterns that need regex matching rather than exact string.
+# These are applied after procedural_strips but before country detection.
+# ---------------------------------------------------------------------------
+regex_blocklist:
+  # Congressional member references with country-like names
+  - "(?:Mr|Mrs|Ms|Miss|Dr)\\.\\s+(?:Georgia|Jordan|Chad|Israel|Marshall|Cuba|Mali|Montenegro)\\b"
+  - "(?:Representative|Senator|Congressman|Congresswoman|Chairman|Chairwoman|Ranking Member)\\s+(?:Georgia|Jordan|Chad|Israel|Marshall|Cuba|Mali|Montenegro)\\b"
+
+  # State possessives with district numbers (catches "Georgia's 5th")
+  - "Georgia's\\s+\\d+"
+  - "Jordan's\\s+(?:amendment|motion|objection|point|resolution|bill)"
+
+  # "from STATE" patterns that might not be caught by procedural_strips
+  - "(?:elected|appointed|hailing)\\s+from\\s+Georgia"
+
+  # Common false-positive patterns for Turkey
+  - "(?:roast|fried|smoked|wild|stuffed|frozen|organic|free-range)\\s+turkey"
+  - "turkey\\s+(?:dinner|lunch|sandwich|burger|breast|leg|wing|meat|bacon|sausage)"
+
+  # Lowercase "chad" in ballot/election context
+  - "(?:punch|paper|ballot|vote|voting)\\s+chad"
+
+  # Guinea pig / guinea fowl in any form
+  - "guinea\\s+(?:pig|pigs|fowl|hens?|worm)"
+
+  # Cypress tree references
+  - "cypress\\s+(?:tree|trees|wood|swamp|grove|forest|knee|knees|bark)"
+
+  # Columbia variations (not Colombia)
+  - "Columbi(?:a|an)\\s+(?:University|River|Heights|Gas|Pictures|Records|Broadcasting|County|Basin)"
+  - "(?:District|City|Province)\\s+of\\s+Columbia"
+  - "(?:British|South)\\s+Columbia"
+
+  # Niger substring protection — block "Nigeria" from matching "Niger"
+  - "Nigeria[n]?"
+
+  # People named with country names + common surname patterns
+  - "(?:Chad|Israel|Jordan|Marshall|Mali|Cuba)\\s+[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)?"
+
+  # "made in COUNTRY" for product/manufacturing context (optional — may want to keep)
+  # - "made\\s+in\\s+(?:China|India|Turkey|Japan|Korea)"

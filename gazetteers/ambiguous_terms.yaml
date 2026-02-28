@@ -1,0 +1,967 @@
+# =============================================================================
+# ambiguous_terms.yaml
+# Congressional World View — Gazetteer: Ambiguous Term Disambiguation
+#
+# Terms that could refer to a country OR something else in U.S. congressional
+# text. Each entry provides disambiguation rules with signal lists scored as
+# "strong" (high confidence) or "moderate" (contributes to scoring).
+#
+# default: what the system assumes when no signals fire
+#   STATE    — treat as U.S. state reference
+#   PERSON   — treat as person name
+#   COUNTRY  — treat as country reference
+#   SKIP     — drop the match entirely (too ambiguous without context)
+#
+# Special flags:
+#   require_full_name   — only match the full canonical name(s)
+#   exact_spelling      — case-sensitive / spelling-sensitive match
+#   word_boundary_strict — require \b on both sides; extra caution
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# 1. Georgia — U.S. state vs. Republic of Georgia (ISO 3166: GEO)
+# ---------------------------------------------------------------------------
+georgia:
+  country_iso3: GEO
+  conflict_type: us_state
+  default: STATE
+  country_signals:
+    strong:
+      - "Republic of Georgia"
+      - "Tbilisi"
+      - "Caucasus"
+      - "Abkhazia"
+      - "South Ossetia"
+      - "Saakashvili"
+      - "Ivanishvili"
+      - "Georgian Dream"
+      - "Georgian government"
+      - "Georgian parliament"
+      - "Black Sea"
+      - "Kutaisi"
+      - "Batumi"
+      - "Rose Revolution"
+      - "Georgia-Russia"
+      - "Russo-Georgian"
+    moderate:
+      - "NATO"
+      - "NATO enlargement"
+      - "Russia"
+      - "Russian"
+      - "Soviet"
+      - "annexation"
+      - "territorial integrity"
+      - "European Union"
+      - "EU accession"
+      - "Eastern Partnership"
+      - "OSCE"
+      - "frozen conflict"
+      - "occupied territories"
+  non_country_signals:
+    strong:
+      - "Atlanta"
+      - "Savannah"
+      - "Augusta"
+      - "Macon"
+      - "Athens, Georgia"
+      - "from Georgia"
+      - "of Georgia"
+      - "gentleman from Georgia"
+      - "gentlewoman from Georgia"
+      - "Georgia's [0-9]"
+      - "State of Georgia"
+      - "Georgia delegation"
+      - "Georgia state legislature"
+    moderate:
+      - "Representative"
+      - "Senator"
+      - "Governor"
+      - "peach"
+      - "Peach State"
+      - "district"
+      - "constituents"
+      - "my home state"
+
+# ---------------------------------------------------------------------------
+# 2. Jordan — Jim Jordan / other members vs. Hashemite Kingdom of Jordan (JOR)
+# ---------------------------------------------------------------------------
+jordan:
+  country_iso3: JOR
+  conflict_type: person_name
+  default: PERSON
+  country_signals:
+    strong:
+      - "Hashemite"
+      - "Kingdom of Jordan"
+      - "Amman"
+      - "Jordanian"
+      - "King Abdullah"
+      - "Queen Rania"
+      - "Jordan River"
+      - "Jordan Valley"
+      - "Aqaba"
+      - "Petra"
+      - "Dead Sea"
+      - "Jordan-Israel"
+      - "Jordanian government"
+    moderate:
+      - "Middle East"
+      - "West Bank"
+      - "Palestinian"
+      - "refugee camp"
+      - "two-state"
+      - "peace process"
+      - "Zarqa"
+      - "Arab"
+      - "bilateral"
+      - "USAID"
+      - "foreign aid"
+  non_country_signals:
+    strong:
+      - "Mr. Jordan"
+      - "Mrs. Jordan"
+      - "Representative Jordan"
+      - "Chairman Jordan"
+      - "Jim Jordan"
+      - "Ranking Member Jordan"
+      - "the gentleman from Ohio"
+      - "Jordan from Ohio"
+      - "Congressman Jordan"
+      - "Barbara Jordan"
+    moderate:
+      - "yield"
+      - "recognize"
+      - "my colleague"
+      - "the chair recognizes"
+
+# ---------------------------------------------------------------------------
+# 3. Chad — first name vs. Republic of Chad (TCD)
+# ---------------------------------------------------------------------------
+chad:
+  country_iso3: TCD
+  conflict_type: first_name
+  default: SKIP
+  country_signals:
+    strong:
+      - "Republic of Chad"
+      - "N'Djamena"
+      - "Chadian"
+      - "Lake Chad"
+      - "Chad Basin"
+      - "Déby"
+      - "Idriss Déby"
+      - "Boko Haram"
+      - "Sahel"
+      - "Chadian military"
+      - "Chadian government"
+      - "Chadian forces"
+    moderate:
+      - "Africa"
+      - "African"
+      - "G5 Sahel"
+      - "Saharan"
+      - "peacekeeping"
+      - "French military"
+      - "counterterrorism"
+      - "Central Africa"
+      - "MINUSMA"
+  non_country_signals:
+    strong:
+      - "Chad [A-Z][a-z]+"
+      - "Mr. Chad"
+      - "Representative Chad"
+      - "Senator Chad"
+      - "hanging chad"
+      - "pregnant chad"
+      - "ballot chad"
+      - "dimpled chad"
+    moderate:
+      - "first name"
+      - "colleague"
+      - "friend"
+
+# ---------------------------------------------------------------------------
+# 4. Turkey / Türkiye — common noun (the bird) vs. Republic of Türkiye (TUR)
+# ---------------------------------------------------------------------------
+turkey:
+  country_iso3: TUR
+  conflict_type: common_noun
+  default: COUNTRY
+  alternate_forms:
+    - "Türkiye"
+    - "Turkiye"
+  country_signals:
+    strong:
+      - "Ankara"
+      - "Istanbul"
+      - "Turkish"
+      - "Erdogan"
+      - "Erdoğan"
+      - "Türkiye"
+      - "Republic of Turkey"
+      - "NATO ally"
+      - "Turkish government"
+      - "Turkish military"
+      - "Bosphorus"
+      - "Ottoman"
+      - "Ataturk"
+      - "Atatürk"
+      - "Kurds"
+      - "Kurdish"
+      - "PKK"
+      - "Incirlik"
+      - "S-400"
+      - "CAATSA"
+      - "F-35"
+      - "Turkish lira"
+      - "Hagia Sophia"
+    moderate:
+      - "NATO"
+      - "Middle East"
+      - "Syria"
+      - "Iraq"
+      - "European Union"
+      - "EU"
+      - "Aegean"
+      - "Mediterranean"
+      - "Cyprus"
+      - "Armenia"
+      - "sanctions"
+      - "human rights"
+      - "press freedom"
+  non_country_signals:
+    strong:
+      - "turkey dinner"
+      - "turkey hunting"
+      - "wild turkey"
+      - "turkey season"
+      - "Thanksgiving turkey"
+      - "turkey population"
+      - "turkey vulture"
+      - "turkey shoot"
+    moderate:
+      - "Thanksgiving"
+      - "hunting"
+      - "wildlife"
+      - "poultry"
+      - "farm"
+
+# ---------------------------------------------------------------------------
+# 5. Niger — substring sensitivity, proximity to racial slur (NER)
+#    NOTE: Must enforce strict word-boundary matching (\bNiger\b).
+#    Also easily confused with Nigeria (NGA). "Nigerian" != "Nigerien".
+# ---------------------------------------------------------------------------
+niger:
+  country_iso3: NER
+  conflict_type: substring_sensitivity
+  default: COUNTRY
+  word_boundary_strict: true
+  notes: >
+    This term requires strict word-boundary matching to avoid substring
+    collision with the racial slur and with "Nigeria" / "Nigerian".
+    The demonym for Niger is "Nigerien" (not "Nigerian").
+  country_signals:
+    strong:
+      - "Republic of Niger"
+      - "Niamey"
+      - "Nigerien"
+      - "Niger Republic"
+      - "Niger River"
+      - "Sahel"
+      - "G5 Sahel"
+      - "Agadez"
+      - "Bazoum"
+      - "Mohamed Bazoum"
+      - "Niger coup"
+      - "ECOWAS"
+      - "Nigerien military"
+      - "Nigerien government"
+      - "Air Base 201"
+    moderate:
+      - "Africa"
+      - "African"
+      - "Saharan"
+      - "Boko Haram"
+      - "counterterrorism"
+      - "French forces"
+      - "uranium"
+      - "migration"
+      - "drought"
+      - "AFRICOM"
+  non_country_signals:
+    strong:
+      - "Nigeria"
+      - "Nigerian"
+      - "Niger Delta"
+      - "Niger State"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 6. Colombia — spelling collision with "Columbia" (COL)
+#    Columbia = District of Columbia, Columbia University, Columbia River, etc.
+# ---------------------------------------------------------------------------
+colombia:
+  country_iso3: COL
+  conflict_type: spelling_collision
+  default: COUNTRY
+  exact_spelling: true
+  notes: >
+    "Colombia" (with an 'o') is the country. "Columbia" (with a 'u') is NOT
+    the country. The matcher must be case-insensitive but spelling-sensitive.
+    Common false positives: District of Columbia, Columbia University,
+    Columbia River, British Columbia, Columbia SC, Columbia MO.
+  country_signals:
+    strong:
+      - "Bogotá"
+      - "Bogota"
+      - "Colombian"
+      - "Republic of Colombia"
+      - "Medellín"
+      - "Medellin"
+      - "FARC"
+      - "ELN"
+      - "Petro"
+      - "Gustavo Petro"
+      - "Duque"
+      - "Santos"
+      - "Plan Colombia"
+      - "Colombian government"
+      - "Colombian military"
+      - "Cali"
+      - "Cartagena"
+      - "coca"
+      - "cocaine"
+    moderate:
+      - "Latin America"
+      - "Andean"
+      - "South America"
+      - "narcotics"
+      - "trafficking"
+      - "peace process"
+      - "extradition"
+      - "paramilitaries"
+      - "Venezuela"
+  non_country_signals:
+    strong:
+      - "Columbia"
+      - "District of Columbia"
+      - "Columbia University"
+      - "Columbia River"
+      - "British Columbia"
+      - "Columbia, South Carolina"
+      - "Columbia, Missouri"
+      - "Columbia Pictures"
+      - "Columbia Records"
+      - "pre-Columbian"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 7. Guinea — multi-country ambiguity (GIN, GNQ, GNB, PNG)
+#    Guinea, Equatorial Guinea, Guinea-Bissau, Papua New Guinea
+# ---------------------------------------------------------------------------
+guinea:
+  country_iso3: GIN
+  conflict_type: multi_country
+  default: SKIP
+  require_full_name: true
+  related_countries:
+    - iso3: GIN
+      names: ["Guinea", "Republic of Guinea"]
+    - iso3: GNQ
+      names: ["Equatorial Guinea"]
+    - iso3: GNB
+      names: ["Guinea-Bissau", "Guinea Bissau"]
+    - iso3: PNG
+      names: ["Papua New Guinea"]
+  notes: >
+    Bare "Guinea" is too ambiguous — could be any of four countries or the
+    guinea pig, guinea fowl, guinea coin, or a racial slur. Always require
+    the full country name or a capital-city signal.
+  country_signals:
+    strong:
+      - "Republic of Guinea"
+      - "Conakry"
+      - "Guinean"
+      - "Equatorial Guinea"
+      - "Malabo"
+      - "Guinea-Bissau"
+      - "Bissau"
+      - "Papua New Guinea"
+      - "Port Moresby"
+      - "Condé"
+      - "Alpha Condé"
+      - "Obiang"
+      - "Teodoro Obiang"
+    moderate:
+      - "West Africa"
+      - "West African"
+      - "ECOWAS"
+      - "Pacific Islands"
+      - "Melanesia"
+      - "bauxite"
+  non_country_signals:
+    strong:
+      - "guinea pig"
+      - "guinea fowl"
+      - "guinea hen"
+      - "New Guinea"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 8. Marshall — Marshall Islands vs. person name / Marshall Plan (MHL)
+# ---------------------------------------------------------------------------
+marshall:
+  country_iso3: MHL
+  conflict_type: person_name
+  default: SKIP
+  require_full_name: true
+  required_forms:
+    - "Marshall Islands"
+    - "Republic of the Marshall Islands"
+  country_signals:
+    strong:
+      - "Marshall Islands"
+      - "Republic of the Marshall Islands"
+      - "Majuro"
+      - "Kwajalein"
+      - "Marshallese"
+      - "Compact of Free Association"
+      - "COFA"
+      - "Bikini Atoll"
+      - "Enewetak"
+      - "nuclear testing"
+      - "Pacific Proving Grounds"
+      - "RMI"
+    moderate:
+      - "Pacific Islands"
+      - "Pacific island nations"
+      - "Freely Associated States"
+      - "sea level rise"
+      - "climate change"
+      - "atoll"
+  non_country_signals:
+    strong:
+      - "Marshall Plan"
+      - "George Marshall"
+      - "Thurgood Marshall"
+      - "John Marshall"
+      - "Marshall Space Flight"
+      - "Mr. Marshall"
+      - "Mrs. Marshall"
+      - "Representative Marshall"
+      - "Senator Marshall"
+      - "Roger Marshall"
+      - "Marshall University"
+      - "Marshall County"
+      - "Marshall law"
+      - "fire marshal"
+      - "U.S. Marshal"
+      - "U.S. Marshals"
+    moderate:
+      - "colleague"
+      - "gentleman"
+      - "gentlewoman"
+      - "from Kansas"
+
+# ---------------------------------------------------------------------------
+# 9. Panama — Panama City FL vs. Republic of Panama (PAN)
+# ---------------------------------------------------------------------------
+panama:
+  country_iso3: PAN
+  conflict_type: us_place
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "Panama Canal"
+      - "Republic of Panama"
+      - "Panamanian"
+      - "Panama City, Panama"
+      - "Noriega"
+      - "Colón"
+      - "Darien Gap"
+      - "Darién"
+      - "Torrijos"
+      - "Panama Papers"
+      - "Panamanian government"
+      - "Canal Zone"
+    moderate:
+      - "Latin America"
+      - "Central America"
+      - "trade"
+      - "shipping"
+      - "maritime"
+      - "migration"
+      - "Darién Gap"
+  non_country_signals:
+    strong:
+      - "Panama City, Florida"
+      - "Panama City Beach"
+      - "Panama City, FL"
+      - "Bay County"
+      - "Tyndall Air Force Base"
+      - "Tyndall AFB"
+    moderate:
+      - "Florida"
+      - "Gulf Coast"
+      - "hurricane"
+      - "Panhandle"
+
+# ---------------------------------------------------------------------------
+# 10. Cuba — rare surname vs. Republic of Cuba (CUB)
+# ---------------------------------------------------------------------------
+cuba:
+  country_iso3: CUB
+  conflict_type: rare_surname
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "Havana"
+      - "Cuban"
+      - "Castro"
+      - "Fidel"
+      - "Raúl"
+      - "Díaz-Canel"
+      - "Republic of Cuba"
+      - "Cuban government"
+      - "Cuban people"
+      - "Guantánamo"
+      - "Guantanamo"
+      - "embargo"
+      - "Helms-Burton"
+      - "Havana Syndrome"
+      - "Cuban missile"
+      - "Bay of Pigs"
+      - "Mariel"
+      - "Cuban Adjustment Act"
+      - "wet foot dry foot"
+    moderate:
+      - "Caribbean"
+      - "Latin America"
+      - "sanctions"
+      - "communist"
+      - "regime"
+      - "human rights"
+      - "political prisoners"
+      - "dissident"
+      - "remittances"
+  non_country_signals:
+    strong:
+      - "Mr. Cuba"
+      - "Mrs. Cuba"
+      - "Cuba Gooding"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 11. Israel — first name (rare) vs. State of Israel (ISR)
+# ---------------------------------------------------------------------------
+israel:
+  country_iso3: ISR
+  conflict_type: first_name
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "State of Israel"
+      - "Israeli"
+      - "Tel Aviv"
+      - "Jerusalem"
+      - "Netanyahu"
+      - "Knesset"
+      - "IDF"
+      - "West Bank"
+      - "Gaza"
+      - "Iron Dome"
+      - "two-state"
+      - "Israeli government"
+      - "Israeli-Palestinian"
+      - "Israeli Defense Forces"
+      - "Zionist"
+      - "Hezbollah"
+      - "Hamas"
+      - "Abraham Accords"
+    moderate:
+      - "Middle East"
+      - "Palestinian"
+      - "peace process"
+      - "settlements"
+      - "occupation"
+      - "security assistance"
+      - "qualitative military edge"
+      - "BDS"
+      - "anti-Semitism"
+  non_country_signals:
+    strong:
+      - "Israel [A-Z][a-z]+"
+      - "Mr. Israel"
+      - "Steve Israel"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 12. Mali — name/adjective vs. Republic of Mali (MLI)
+# ---------------------------------------------------------------------------
+mali:
+  country_iso3: MLI
+  conflict_type: name_adjective
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "Republic of Mali"
+      - "Bamako"
+      - "Malian"
+      - "Timbuktu"
+      - "MINUSMA"
+      - "Malian government"
+      - "Malian military"
+      - "Wagner Group"
+      - "Sahel"
+      - "G5 Sahel"
+      - "Tuareg"
+      - "Azawad"
+      - "Goïta"
+      - "Malian coup"
+    moderate:
+      - "Africa"
+      - "African"
+      - "West Africa"
+      - "counterterrorism"
+      - "AFRICOM"
+      - "peacekeeping"
+      - "French forces"
+      - "jihadist"
+      - "al-Qaeda"
+      - "AQIM"
+      - "JNIM"
+  non_country_signals:
+    strong:
+      - "Mali [A-Z][a-z]+"
+    moderate:
+      - "name"
+      - "Ms."
+      - "Mrs."
+
+# ---------------------------------------------------------------------------
+# 13. Dominica — Dominican Republic confusion (DMA vs DOM)
+# ---------------------------------------------------------------------------
+dominica:
+  country_iso3: DMA
+  conflict_type: multi_country
+  default: SKIP
+  require_full_name: true
+  related_countries:
+    - iso3: DMA
+      names: ["Dominica", "Commonwealth of Dominica"]
+    - iso3: DOM
+      names: ["Dominican Republic"]
+  notes: >
+    "Dominica" alone is ambiguous — it could be the Commonwealth of Dominica
+    (small Caribbean island, ISO DMA) or a truncation of "Dominican Republic"
+    (ISO DOM). Always require the full name or a disambiguating signal.
+  country_signals:
+    strong:
+      - "Commonwealth of Dominica"
+      - "Roseau"
+      - "Dominican Republic"
+      - "Santo Domingo"
+      - "DR"
+      - "Dominica, not the Dominican Republic"
+      - "island of Dominica"
+    moderate:
+      - "Caribbean"
+      - "CARICOM"
+      - "OECS"
+      - "Windward Islands"
+  non_country_signals:
+    strong:
+      - "Dominican order"
+      - "Dominican friars"
+      - "Dominican University"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 14. Tonga — rare name vs. Kingdom of Tonga (TON)
+# ---------------------------------------------------------------------------
+tonga:
+  country_iso3: TON
+  conflict_type: rare_name
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "Kingdom of Tonga"
+      - "Tongan"
+      - "Nuku'alofa"
+      - "Nukualofa"
+      - "Tongan government"
+      - "Hunga Tonga"
+      - "Tonga volcano"
+    moderate:
+      - "Pacific Islands"
+      - "Pacific island nations"
+      - "Polynesia"
+      - "South Pacific"
+      - "climate change"
+      - "sea level"
+      - "tsunami"
+  non_country_signals:
+    strong:
+      - "Tonga [A-Z][a-z]+"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 15. Samoa — American Samoa vs. independent Samoa (WSM / ASM)
+# ---------------------------------------------------------------------------
+samoa:
+  country_iso3: WSM
+  conflict_type: us_territory
+  default: SKIP
+  notes: >
+    "Samoa" alone is ambiguous — it can mean the independent State of Samoa
+    (formerly Western Samoa, ISO WSM) or American Samoa (U.S. territory,
+    ISO ASM). Congressional text very frequently references American Samoa
+    (delegate Aumua Amata, territorial issues). Require full name for either.
+  require_full_name: true
+  related_entities:
+    - iso3: WSM
+      names: ["Samoa", "State of Samoa", "Western Samoa", "Independent State of Samoa"]
+    - code: ASM
+      names: ["American Samoa"]
+      type: us_territory
+  country_signals:
+    strong:
+      - "Independent State of Samoa"
+      - "Western Samoa"
+      - "State of Samoa"
+      - "Apia"
+      - "Samoan government"
+      - "Samoan parliament"
+    moderate:
+      - "Pacific Islands"
+      - "Polynesia"
+      - "South Pacific"
+  non_country_signals:
+    strong:
+      - "American Samoa"
+      - "Pago Pago"
+      - "Aumua Amata"
+      - "Amata Radewagen"
+      - "delegate from American Samoa"
+      - "territorial"
+      - "U.S. territory"
+    moderate:
+      - "delegate"
+      - "insular"
+      - "territorial delegate"
+      - "Girl Scout Samoa"
+      - "Samoa cookies"
+      - "Thin Mints"
+
+# ---------------------------------------------------------------------------
+# 16. Lebanon — Lebanon PA/TN/etc. vs. Lebanese Republic (LBN)
+# ---------------------------------------------------------------------------
+lebanon:
+  country_iso3: LBN
+  conflict_type: us_place
+  default: COUNTRY
+  country_signals:
+    strong:
+      - "Lebanese"
+      - "Beirut"
+      - "Hezbollah"
+      - "Lebanese Republic"
+      - "Lebanese government"
+      - "Lebanese Armed Forces"
+      - "Lebanese army"
+      - "Cedar Revolution"
+      - "Hariri"
+      - "Nasrallah"
+      - "Sidon"
+      - "Tripoli, Lebanon"
+      - "Bekaa Valley"
+      - "Beqaa"
+      - "UNIFIL"
+      - "Taif Agreement"
+    moderate:
+      - "Middle East"
+      - "Syria"
+      - "Israel"
+      - "Iran"
+      - "sectarian"
+      - "Maronite"
+      - "Druze"
+      - "Sunni"
+      - "Shia"
+      - "refugee"
+      - "humanitarian"
+  non_country_signals:
+    strong:
+      - "Lebanon, Pennsylvania"
+      - "Lebanon, PA"
+      - "Lebanon, Tennessee"
+      - "Lebanon, TN"
+      - "Lebanon, Ohio"
+      - "Lebanon, OH"
+      - "Lebanon, Oregon"
+      - "Lebanon, Indiana"
+      - "Lebanon, New Hampshire"
+      - "Lebanon, NH"
+      - "Lebanon County"
+      - "Lebanon Township"
+    moderate:
+      - "my district"
+      - "my constituents"
+      - "local"
+
+# ---------------------------------------------------------------------------
+# 17. Cyprus — botanical (cypress) / rare other uses vs. Republic of Cyprus (CYP)
+# ---------------------------------------------------------------------------
+cyprus:
+  country_iso3: CYP
+  conflict_type: botanical_homophone
+  default: COUNTRY
+  notes: >
+    "Cyprus" (the country) vs. "cypress" (the tree). Spelling differs but
+    speech-to-text or OCR errors can conflate them. Low ambiguity in
+    well-transcribed congressional text.
+  country_signals:
+    strong:
+      - "Republic of Cyprus"
+      - "Nicosia"
+      - "Cypriot"
+      - "Turkish Cyprus"
+      - "Northern Cyprus"
+      - "Green Line"
+      - "Cypriot government"
+      - "UNFICYP"
+      - "Limassol"
+      - "Famagusta"
+      - "Anastasiades"
+      - "Christodoulides"
+    moderate:
+      - "Mediterranean"
+      - "European Union"
+      - "Greece"
+      - "Turkey"
+      - "Turkish"
+      - "partition"
+      - "reunification"
+      - "Eastern Mediterranean"
+      - "natural gas"
+  non_country_signals:
+    strong:
+      - "cypress tree"
+      - "cypress wood"
+      - "bald cypress"
+      - "Monterey cypress"
+      - "cypress swamp"
+      - "Cypress, Texas"
+      - "Cypress, California"
+      - "Cypress Creek"
+      - "Cypress Hills"
+    moderate:
+      - "tree"
+      - "wood"
+      - "timber"
+      - "wetland"
+
+# ---------------------------------------------------------------------------
+# 18. Montenegro — low ambiguity (MNE)
+# ---------------------------------------------------------------------------
+montenegro:
+  country_iso3: MNE
+  conflict_type: low_ambiguity
+  default: COUNTRY
+  notes: >
+    Very low ambiguity in congressional text. Included for completeness.
+    Occasionally appears as a surname.
+  country_signals:
+    strong:
+      - "Republic of Montenegro"
+      - "Podgorica"
+      - "Montenegrin"
+      - "Montenegrin government"
+      - "Djukanovic"
+      - "Đukanović"
+      - "NATO accession"
+      - "Adriatic"
+      - "Western Balkans"
+    moderate:
+      - "Balkans"
+      - "Serbia"
+      - "Kosovo"
+      - "European Union"
+      - "NATO"
+      - "accession"
+      - "enlargement"
+      - "former Yugoslavia"
+  non_country_signals:
+    strong:
+      - "Mr. Montenegro"
+      - "Mrs. Montenegro"
+      - "Montenegro [A-Z][a-z]+ [A-Z]"
+    moderate: []
+
+# ---------------------------------------------------------------------------
+# 19. Congo — DRC vs. Republic of Congo; bare "Congo" is ambiguous (COD/COG)
+# ---------------------------------------------------------------------------
+congo:
+  country_iso3: COD
+  conflict_type: multi_country
+  default: SKIP
+  require_full_name: true
+  related_countries:
+    - iso3: COD
+      names:
+        - "Democratic Republic of the Congo"
+        - "Democratic Republic of Congo"
+        - "DRC"
+        - "DR Congo"
+        - "Congo-Kinshasa"
+    - iso3: COG
+      names:
+        - "Republic of the Congo"
+        - "Republic of Congo"
+        - "Congo-Brazzaville"
+  notes: >
+    Bare "Congo" is ambiguous between the Democratic Republic of the Congo
+    (COD, capital Kinshasa) and the Republic of the Congo (COG, capital
+    Brazzaville). Require full name or capital city to disambiguate.
+  country_signals:
+    strong:
+      - "Democratic Republic of the Congo"
+      - "Democratic Republic of Congo"
+      - "Republic of the Congo"
+      - "Republic of Congo"
+      - "DRC"
+      - "DR Congo"
+      - "Congo-Kinshasa"
+      - "Congo-Brazzaville"
+      - "Kinshasa"
+      - "Brazzaville"
+      - "Congolese"
+      - "Congolese government"
+      - "Tshisekedi"
+      - "Kabila"
+      - "Sassou Nguesso"
+      - "MONUSCO"
+      - "M23"
+      - "Kivu"
+      - "Goma"
+      - "Lubumbashi"
+      - "eastern Congo"
+      - "conflict minerals"
+      - "coltan"
+      - "cobalt"
+    moderate:
+      - "Africa"
+      - "Central Africa"
+      - "Great Lakes region"
+      - "peacekeeping"
+      - "humanitarian"
+      - "minerals"
+      - "mining"
+      - "AFRICOM"
+      - "Rwanda"
+      - "Uganda"
+  non_country_signals:
+    strong:
+      - "Congo line"
+      - "Congo Square"
+    moderate: []

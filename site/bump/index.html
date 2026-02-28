@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congressional World View — Bump Chart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Congressional World View</h1>
+    <p class="subtitle">Which countries dominate U.S. congressional language?</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p>Every month, Congress debates bills, holds hearings, and delivers floor speeches that reference countries around the world. This chart tracks which nations rise and fall in congressional attention.</p>
+    </section>
+
+    <section id="chart-section">
+      <div id="chart-controls">
+        <label for="top-n-select">Show top</label>
+        <select id="top-n-select">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+        </select>
+        <span>countries</span>
+      </div>
+      <div id="chart-container"></div>
+      <div id="scroll-hint">Scroll to explore &rarr;</div>
+    </section>
+
+    <section id="detail-panel">
+      <div id="detail-empty">Hover over the chart to explore</div>
+      <div id="detail-content" class="hidden">
+        <div id="detail-header">
+          <img id="detail-flag" src="" alt="" />
+          <div id="detail-meta">
+            <h3 id="detail-country"></h3>
+            <p id="detail-info"></p>
+          </div>
+        </div>
+        <div id="detail-rankings">
+          <h4>This month</h4>
+          <ol id="detail-list"></ol>
+        </div>
+        <div id="detail-samples">
+          <h4>Sample legislation</h4>
+          <ul id="detail-titles"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data from <a href="https://api.congress.gov" target="_blank">Congress.gov API</a>. Country detection via 3-tier engine (dictionary + disambiguation + LLM fallback).</p>
+    <p id="last-update"></p>
+    <p><a href="../">&larr; Back to main view</a></p>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="../js/data-loader.js"></script>
+  <script src="js/data-transform.js"></script>
+  <script src="js/bump-chart.js"></script>
+  <script src="js/detail-panel.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
