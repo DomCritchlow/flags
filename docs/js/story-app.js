@@ -165,11 +165,14 @@
         const ledeExecutiveEl = document.getElementById('lede-executive');
         const captionEl = document.getElementById('grid-caption');
 
+        const titleEl = document.querySelector('.masthead-title');
+
         if (branch === 'executive') {
           document.body.classList.add('executive');
           if (toggleContainer) toggleContainer.style.display = 'none';
           if (ledeCongressEl) ledeCongressEl.style.display = 'none';
           if (ledeExecutiveEl) ledeExecutiveEl.style.display = '';
+          if (titleEl) titleEl.textContent = 'U.S. Executive Orders World View';
           if (captionEl) captionEl.textContent =
             'Each flag represents the most-mentioned country in presidential executive orders that month. Tap a cell for details.';
 
@@ -202,6 +205,7 @@
           const conInsights = StoryInsights.generate(filtered);
           StoryInsights.render(conInsights);
 
+          if (titleEl) titleEl.textContent = 'U.S. Congressional World View';
           if (editionEl) editionEl.textContent = congressEditionText;
         }
       });
