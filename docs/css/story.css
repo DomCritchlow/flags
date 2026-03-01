@@ -18,6 +18,19 @@
   --max-width: 960px;
 }
 
+/* === Executive Branch Theme === */
+body.executive {
+  --bg-page: #f0f3f8;
+  --bg-card: #ffffff;
+  --text-headline: #0d2149;
+  --rule-color: #0d2149;
+  --rule-light: #b8c4d8;
+  --accent: #1a4480;
+  --grid-border: #cdd5e0;
+  --grid-hover: #e8edf5;
+  --grid-selected: #dde4f0;
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
@@ -27,6 +40,7 @@ body {
   line-height: 1.65;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease;
 }
 
 /* === Masthead === */
@@ -94,6 +108,46 @@ body {
 }
 
 /* === Source Toggle === */
+
+/* === Branch Toggle (Congress / Executive) === */
+
+.branch-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 0.85rem;
+}
+
+.branch-btn {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1.4rem;
+  border: 1.5px solid var(--rule-color);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.branch-btn:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.branch-btn:last-child {
+  border-radius: 0 3px 3px 0;
+  border-left: none;
+}
+
+.branch-btn.active {
+  background: var(--text-headline);
+  color: var(--bg-page);
+  border-color: var(--text-headline);
+}
+
+/* === Source Toggle (Bills / Nominations / etc.) === */
 
 .source-toggle {
   display: flex;

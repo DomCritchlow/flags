@@ -108,6 +108,11 @@
 
     // -- Initialize grid with "all" data --
     let activeSource = 'all';
+    let activeBranch = 'congress';
+    let executiveData = null;
+
+    // Store the congressional edition text for restoring on branch switch
+    const congressEditionText = editionEl ? editionEl.textContent : '';
 
     FlagGrid.init(monthlyTop, { onCellClick: showDetail });
 
@@ -138,6 +143,55 @@
         // Re-render insights
         const insights = StoryInsights.generate(filtered);
         StoryInsights.render(insights);
+      });
+    }
+
+    // -- Branch toggle (Congress / Executive) --
+    const branchContainer = document.getElementById('branch-toggle');
+    if (branchContainer) {
+      branchContainer.addEventListener('click', async (e) => {
+        const btn = e.target.closest('.branch-btn');
+        if (!btn) return;
+
+        const branch = btn.dataset.branch;
+        if (branch === activeBranch) return;
+
+        activeBranch = branch;
+        branchContainer.querySelector('.active').classList.remove('active');
+        btn.classList.add('active');
+        closeInlineDetail();
+
+        if (branch === 'executive') {
+          document.body.classList.add('executive');
+          if (toggleContainer) toggleContainer.style.display = 'none';
+
+          // Lazy-load executive data on first switch
+          if (!executiveData) {
+            executiveData = await DataLoader.loadExecutive();
+          }
+
+          FlagGrid.update(executiveData.monthlyTop);
+          const exInsights = StoryInsights.generate(executiveData.monthlyTop);
+          StoryInsights.render(exInsights);
+
+          if (editionEl) {
+            const exFirst = executiveData.monthlyTop[0]?.month;
+            const exLast = executiveData.monthlyTop[executiveData.monthlyTop.length - 1]?.month;
+            editionEl.textContent = exFirst && exLast
+              ? `Executive Orders \u2014 ${DataLoader.formatMonthLong(exFirst)} \u2013 ${DataLoader.formatMonthLong(exLast)}`
+              : 'Executive Orders';
+          }
+        } else {
+          document.body.classList.remove('executive');
+          if (toggleContainer) toggleContainer.style.display = '';
+
+          const filtered = activeSource === 'all' ? monthlyTop : buildSourceTop(activeSource);
+          FlagGrid.update(filtered);
+          const conInsights = StoryInsights.generate(filtered);
+          StoryInsights.render(conInsights);
+
+          if (editionEl) editionEl.textContent = congressEditionText;
+        }
       });
     }
 

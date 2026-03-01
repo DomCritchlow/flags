@@ -1,0 +1,1932 @@
+[
+  {
+    "month": "1994-05",
+    "country_iso3": "HTI",
+    "country_iso2": "ht",
+    "country_name": "Haiti",
+    "mention_count": 2,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "RWA",
+    "runner_up_iso2": "rw",
+    "runner_up_name": "Rwanda",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to Haiti"
+    ]
+  },
+  {
+    "month": "1994-06",
+    "country_iso3": "HTI",
+    "country_iso2": "ht",
+    "country_name": "Haiti",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to Haiti",
+      "Blocking Property of Certain Haitian Nationals"
+    ]
+  },
+  {
+    "month": "1994-10",
+    "country_iso3": "HTI",
+    "country_iso2": "ht",
+    "country_name": "Haiti",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "BIH",
+    "runner_up_iso2": "ba",
+    "runner_up_name": "Bosnia and Herzegovina",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Termination of Emergency With Respect to Haiti"
+    ]
+  },
+  {
+    "month": "1995-03",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to the Development of Iranian Petroleum Resources"
+    ]
+  },
+  {
+    "month": "1995-05",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to Iran"
+    ]
+  },
+  {
+    "month": "1996-05",
+    "country_iso3": "VNM",
+    "country_iso2": "vn",
+    "country_name": "Vietnam",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Combat Zone Designation in Vietnam and Waters Adjacent Thereto"
+    ]
+  },
+  {
+    "month": "1996-08",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Maintaining Unofficial Relations With the People on Taiwan"
+    ]
+  },
+  {
+    "month": "1997-05",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting New Investment in Burma"
+    ]
+  },
+  {
+    "month": "1997-08",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to Iran"
+    ]
+  },
+  {
+    "month": "1997-11",
+    "country_iso3": "SDN",
+    "country_iso2": "sd",
+    "country_name": "Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Sudanese Government Property and Prohibiting Transactions With Sudan"
+    ]
+  },
+  {
+    "month": "1998-04",
+    "country_iso3": "VNM",
+    "country_iso2": "vn",
+    "country_name": "Vietnam",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Waiver Under The Trade Act Of 1974 With Respect to Vietnam"
+    ]
+  },
+  {
+    "month": "1998-05",
+    "country_iso3": "MEX",
+    "country_iso2": "mx",
+    "country_name": "Mexico",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Joint Mexican-United States Defense Commission"
+    ]
+  },
+  {
+    "month": "1998-06",
+    "country_iso3": "SRB",
+    "country_iso2": "rs",
+    "country_name": "Serbia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "MNE",
+    "runner_up_iso2": "me",
+    "runner_up_name": "Montenegro",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of the Governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro, and Prohibiting New Investment in the Republic of Serbia in Response to the Situation in Kosovo"
+    ]
+  },
+  {
+    "month": "1999-04",
+    "country_iso3": "SRB",
+    "country_iso2": "rs",
+    "country_name": "Serbia",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "MNE",
+    "runner_up_iso2": "me",
+    "runner_up_name": "Montenegro",
+    "runner_up_count": 2,
+    "sample_titles": [
+      "Designation of Federal Republic of Yugoslavia (Serbia/Montenegro), Albania, the Airspace Above, and Adjacent Waters as a Combat Zone",
+      "Blocking Property of the Governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro, and Prohibiting Trade Transactions Involving the Federal Republic of Yugoslavia (Serbia and Montenegro) in Response to the Situation in Kosovo"
+    ]
+  },
+  {
+    "month": "2000-05",
+    "country_iso3": "XKX",
+    "country_iso2": "xk",
+    "country_name": "Kosovo",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Establishing the Kosovo Campaign Medal"
+    ]
+  },
+  {
+    "month": "2000-06",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons"
+    ]
+  },
+  {
+    "month": "2001-01",
+    "country_iso3": "SRB",
+    "country_iso2": "rs",
+    "country_name": "Serbia",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "MNE",
+    "runner_up_iso2": "me",
+    "runner_up_name": "Montenegro",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Lifting and Modifying Measures With Respect to the Federal Republic of Yugoslavia (Serbia and Montenegro)"
+    ]
+  },
+  {
+    "month": "2001-05",
+    "country_iso3": "SLE",
+    "country_iso2": "sl",
+    "country_name": "Sierra Leone",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Additional Measures With Respect To Prohibiting the Importation of Rough Diamonds From Sierra Leone"
+    ]
+  },
+  {
+    "month": "2001-07",
+    "country_iso3": "BLR",
+    "country_iso2": "by",
+    "country_name": "Belarus",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Waiver Under the Trade Act of 1974 With Respect to the Republic of Belarus"
+    ]
+  },
+  {
+    "month": "2001-12",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Designation of Afghanistan and the Airspace Above as a Combat Zone"
+    ]
+  },
+  {
+    "month": "2003-03",
+    "country_iso3": "ZWE",
+    "country_iso2": "zw",
+    "country_name": "Zimbabwe",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "IRQ",
+    "runner_up_iso2": "iq",
+    "runner_up_name": "Iraq",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Persons Undermining Democratic Processes or Institutions in Zimbabwe"
+    ]
+  },
+  {
+    "month": "2003-05",
+    "country_iso3": "IRQ",
+    "country_iso2": "iq",
+    "country_name": "Iraq",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Protecting the Development Fund for Iraq and Certain Other Property in Which Iraq Has an Interest"
+    ]
+  },
+  {
+    "month": "2003-07",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of Burma and Prohibiting Certain Transactions"
+    ]
+  },
+  {
+    "month": "2003-08",
+    "country_iso3": "TKM",
+    "country_iso2": "tm",
+    "country_name": "Turkmenistan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "IRQ",
+    "runner_up_iso2": "iq",
+    "runner_up_name": "Iraq",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Waiver Under the Trade Act of 1974 With Respect to Turkmenistan"
+    ]
+  },
+  {
+    "month": "2004-01",
+    "country_iso3": "SLE",
+    "country_iso2": "sl",
+    "country_name": "Sierra Leone",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "LBR",
+    "runner_up_iso2": "lr",
+    "runner_up_name": "Liberia",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Termination of Emergency With Respect to Sierra Leone and Liberia"
+    ]
+  },
+  {
+    "month": "2004-05",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons and Prohibiting the Export of Certain Goods to Syria"
+    ]
+  },
+  {
+    "month": "2004-07",
+    "country_iso3": "LBR",
+    "country_iso2": "lr",
+    "country_name": "Liberia",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "IRQ",
+    "runner_up_iso2": "iq",
+    "runner_up_name": "Iraq",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Certain Persons and Prohibiting the Importation of Certain Goods from Liberia"
+    ]
+  },
+  {
+    "month": "2004-11",
+    "country_iso3": "IRQ",
+    "country_iso2": "iq",
+    "country_name": "Iraq",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "AFG",
+    "runner_up_iso2": "af",
+    "runner_up_name": "Afghanistan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Establishing the Afghanistan and Iraq Campaign Medals",
+      "Modifying the Protection Granted to the Development Fund for Iraq and Certain Property in Which Iraq Has an Interest and Protecting the Central Bank of Iraq"
+    ]
+  },
+  {
+    "month": "2004-12",
+    "country_iso3": "MEX",
+    "country_iso2": "mx",
+    "country_name": "Mexico",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "United States-Mexico Border Health Commission"
+    ]
+  },
+  {
+    "month": "2005-11",
+    "country_iso3": "ZWE",
+    "country_iso2": "zw",
+    "country_name": "Zimbabwe",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Additional Persons Undermining Democratic Processes or Institutions in Zimbabwe"
+    ]
+  },
+  {
+    "month": "2006-02",
+    "country_iso3": "CIV",
+    "country_iso2": "ci",
+    "country_name": "Cote d'Ivoire",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Contributing to the Conflict in Côte d'Ivoire"
+    ]
+  },
+  {
+    "month": "2006-04",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "SDN",
+    "runner_up_iso2": "sd",
+    "runner_up_name": "Sudan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Additional Persons in Connection With the National Emergency With Respect to Syria"
+    ]
+  },
+  {
+    "month": "2006-06",
+    "country_iso3": "BLR",
+    "country_iso2": "by",
+    "country_name": "Belarus",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Undermining Democratic Processes or Institutions in Belarus"
+    ]
+  },
+  {
+    "month": "2006-10",
+    "country_iso3": "SDN",
+    "country_iso2": "sd",
+    "country_name": "Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "COD",
+    "runner_up_iso2": "cd",
+    "runner_up_name": "Democratic Republic of the Congo",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of and Prohibiting Transactions With the Government of Sudan"
+    ]
+  },
+  {
+    "month": "2007-03",
+    "country_iso3": "VAT",
+    "country_iso2": "va",
+    "country_name": "Vatican City",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Extending Privileges and Immunities to the Permanent Observer Mission of the Holy See to the United Nations"
+    ]
+  },
+  {
+    "month": "2007-05",
+    "country_iso3": "IRQ",
+    "country_iso2": "iq",
+    "country_name": "Iraq",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Establishment of Temporary Organization To Facilitate United States Government Assistance for Transition in Iraq"
+    ]
+  },
+  {
+    "month": "2007-06",
+    "country_iso3": "TKM",
+    "country_iso2": "tm",
+    "country_name": "Turkmenistan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Waiver Under the Trade Act of 1974 With Respect to Turkmenistan"
+    ]
+  },
+  {
+    "month": "2007-07",
+    "country_iso3": "IRQ",
+    "country_iso2": "iq",
+    "country_name": "Iraq",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "CHE",
+    "runner_up_iso2": "ch",
+    "runner_up_name": "Switzerland",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Who Threaten Stabilization Efforts in Iraq"
+    ]
+  },
+  {
+    "month": "2007-08",
+    "country_iso3": "LBN",
+    "country_iso2": "lb",
+    "country_name": "Lebanon",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Persons Undermining the Sovereignty of Lebanon or Its Democratic Processes and Institutions"
+    ]
+  },
+  {
+    "month": "2007-10",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Prohibiting Certain Transactions Related to Burma"
+    ]
+  },
+  {
+    "month": "2008-02",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Additional Persons in Connection With the National Emergency With Respect to Syria"
+    ]
+  },
+  {
+    "month": "2008-04",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Prohibiting Certain Transactions Related to Burma"
+    ]
+  },
+  {
+    "month": "2008-06",
+    "country_iso3": "PRK",
+    "country_iso2": "kp",
+    "country_name": "North Korea",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Continuing Certain Restrictions With Respect to North Korea and North Korean Nationals"
+    ]
+  },
+  {
+    "month": "2008-07",
+    "country_iso3": "ZWE",
+    "country_iso2": "zw",
+    "country_name": "Zimbabwe",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Additional Persons Undermining Democratic Processes or Institutions in Zimbabwe"
+    ]
+  },
+  {
+    "month": "2008-10",
+    "country_iso3": "LBY",
+    "country_iso2": "ly",
+    "country_name": "Libya",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Settlement of Claims Against Libya"
+    ]
+  },
+  {
+    "month": "2009-01",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Establishment of a Temporary Organization To Facilitate United States Government Support for Afghanistan"
+    ]
+  },
+  {
+    "month": "2009-07",
+    "country_iso3": "BLR",
+    "country_iso2": "by",
+    "country_name": "Belarus",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Waiver Under the Trade Act of 1974 With Respect to the Republic of Belarus"
+    ]
+  },
+  {
+    "month": "2010-04",
+    "country_iso3": "SOM",
+    "country_iso2": "so",
+    "country_name": "Somalia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Contributing to the Conflict in Somalia"
+    ]
+  },
+  {
+    "month": "2010-05",
+    "country_iso3": "IRQ",
+    "country_iso2": "iq",
+    "country_name": "Iraq",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Temporary Organization To Facilitate a Strategic Partnership With the Republic of Iraq"
+    ]
+  },
+  {
+    "month": "2010-08",
+    "country_iso3": "PAK",
+    "country_iso2": "pk",
+    "country_name": "Pakistan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "AFG",
+    "runner_up_iso2": "af",
+    "runner_up_name": "Afghanistan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Establishment of Pakistan and Afghanistan Support Office"
+    ]
+  },
+  {
+    "month": "2010-09",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons With Respect to Serious Human Rights Abuses by the Government of Iran and Taking Certain Other Actions"
+    ]
+  },
+  {
+    "month": "2011-02",
+    "country_iso3": "LBY",
+    "country_iso2": "ly",
+    "country_name": "Libya",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Prohibiting Certain Transactions Related to Libya"
+    ]
+  },
+  {
+    "month": "2011-03",
+    "country_iso3": "BIH",
+    "country_iso2": "ba",
+    "country_name": "Bosnia and Herzegovina",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "XKX",
+    "runner_up_iso2": "xk",
+    "runner_up_name": "Kosovo",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Extending Provisions of the International Organizations Immunities Act to the Office of the High Representative in Bosnia and Herzegovina and the International Civilian Office in Kosovo"
+    ]
+  },
+  {
+    "month": "2011-04",
+    "country_iso3": "PRK",
+    "country_iso2": "kp",
+    "country_name": "North Korea",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "SYR",
+    "runner_up_iso2": "sy",
+    "runner_up_name": "Syria",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With Respect to North Korea"
+    ]
+  },
+  {
+    "month": "2011-05",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "IRN",
+    "runner_up_iso2": "ir",
+    "runner_up_name": "Iran",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Senior Officials of the Government of Syria"
+    ]
+  },
+  {
+    "month": "2011-08",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of Syria and Prohibiting Certain Transactions With Respect to Syria"
+    ]
+  },
+  {
+    "month": "2011-11",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Authorizing the Imposition of Certain Sanctions With Respect to the Provision of Goods, Services, Technology, or Support for Iran's Energy and Petrochemical Sectors"
+    ]
+  },
+  {
+    "month": "2012-02",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of Iran and Iranian Financial Institutions"
+    ]
+  },
+  {
+    "month": "2012-04",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "SYR",
+    "runner_up_iso2": "sy",
+    "runner_up_name": "Syria",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking the Property and Suspending Entry Into the United States of Certain Persons With Respect to Grave Human Rights Abuses by the Governments of Iran and Syria via Information Technology"
+    ]
+  },
+  {
+    "month": "2012-05",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "SYR",
+    "runner_up_iso2": "sy",
+    "runner_up_name": "Syria",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Prohibiting Certain Transactions With and Suspending Entry Into the United States of Foreign Sanctions Evaders With Respect to Iran and Syria"
+    ]
+  },
+  {
+    "month": "2012-06",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons"
+    ]
+  },
+  {
+    "month": "2012-07",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "SOM",
+    "runner_up_iso2": "so",
+    "runner_up_name": "Somalia",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Persons Threatening the Peace, Security, or Stability of Burma"
+    ]
+  },
+  {
+    "month": "2012-10",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "SYR",
+    "runner_up_iso2": "sy",
+    "runner_up_name": "Syria",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Authorizing the Implementation of Certain Sanctions Set Forth in the Iran Threat Reduction and Syria Human Rights Act of 2012 and Additional Sanctions With Respect to Iran"
+    ]
+  },
+  {
+    "month": "2013-06",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Authorizing the Implementation of Certain Sanctions Set Forth in the Iran Freedom and Counter- Proliferation Act of 2012 and Additional Sanctions With Respect To Iran"
+    ]
+  },
+  {
+    "month": "2013-08",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Imports of Burmese Jadeite and Rubies"
+    ]
+  },
+  {
+    "month": "2014-01",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "PAK",
+    "runner_up_iso2": "pk",
+    "runner_up_name": "Pakistan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Establishment of Afghanistan and Pakistan Strategic Partnership Office and Amendment to Executive Order 12163"
+    ]
+  },
+  {
+    "month": "2014-03",
+    "country_iso3": "UKR",
+    "country_iso2": "ua",
+    "country_name": "Ukraine",
+    "mention_count": 3,
+    "total_records_scanned": 3,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Contributing to the Situation in Ukraine",
+      "Blocking Property of Additional Persons Contributing to the Situation in Ukraine"
+    ]
+  },
+  {
+    "month": "2014-04",
+    "country_iso3": "SSD",
+    "country_iso2": "ss",
+    "country_name": "South Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons With Respect to South Sudan"
+    ]
+  },
+  {
+    "month": "2014-05",
+    "country_iso3": "CAF",
+    "country_iso2": "cf",
+    "country_name": "Central African Republic",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "IRQ",
+    "runner_up_iso2": "iq",
+    "runner_up_name": "Iraq",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Certain Persons Contributing to the Conflict in the Central African Republic"
+    ]
+  },
+  {
+    "month": "2014-07",
+    "country_iso3": "COD",
+    "country_iso2": "cd",
+    "country_name": "Democratic Republic of the Congo",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps to Address the National Emergency With Respect to the Conflict in the Democratic Republic of the Congo"
+    ]
+  },
+  {
+    "month": "2014-12",
+    "country_iso3": "UKR",
+    "country_iso2": "ua",
+    "country_name": "Ukraine",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons and Prohibiting Certain Transactions With Respect to the Crimea Region of Ukraine"
+    ]
+  },
+  {
+    "month": "2015-01",
+    "country_iso3": "PRK",
+    "country_iso2": "kp",
+    "country_name": "North Korea",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Additional Sanctions With Respect To North Korea"
+    ]
+  },
+  {
+    "month": "2015-03",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Venezuela"
+    ]
+  },
+  {
+    "month": "2015-05",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Risk of Nuclear Proliferation Created by the Accumulation of a Large Volume of Weapons-Usable Fissile Material in the Territory of the Russian Federation"
+    ]
+  },
+  {
+    "month": "2015-11",
+    "country_iso3": "LBR",
+    "country_iso2": "lr",
+    "country_name": "Liberia",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "BDI",
+    "runner_up_iso2": "bi",
+    "runner_up_name": "Burundi",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Actions and Policies of Former Liberian President Charles Taylor"
+    ]
+  },
+  {
+    "month": "2016-01",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Revocation of Executive Orders 13574, 13590, 13622, and 13645 With Respect to Iran, Amendment of Executive Order 13628 With Respect to Iran, and Provision of Implementation Authorities for Aspects of Certain Statutory Sanctions Outside the Scope of U.S. Commitments Under the Joint Comprehensive Plan of Action of July 14, 2015"
+    ]
+  },
+  {
+    "month": "2016-03",
+    "country_iso3": "PRK",
+    "country_iso2": "kp",
+    "country_name": "North Korea",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of North Korea and the Workers' Party of Korea, and Prohibiting Certain Transactions With Respect to North Korea"
+    ]
+  },
+  {
+    "month": "2016-04",
+    "country_iso3": "LBY",
+    "country_iso2": "ly",
+    "country_name": "Libya",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Suspending Entry Into the United States of Persons Contributing to the Situation in Libya"
+    ]
+  },
+  {
+    "month": "2016-09",
+    "country_iso3": "CIV",
+    "country_iso2": "ci",
+    "country_name": "Cote d'Ivoire",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Situation in or in Relation to Côte d'Ivoire"
+    ]
+  },
+  {
+    "month": "2016-10",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Actions and Policies of the Government of Burma"
+    ]
+  },
+  {
+    "month": "2017-01",
+    "country_iso3": "SDN",
+    "country_iso2": "sd",
+    "country_name": "Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Recognizing Positive Actions by the Government of Sudan and Providing for the Revocation of Certain Sudan-Related Sanctions"
+    ]
+  },
+  {
+    "month": "2017-07",
+    "country_iso3": "SDN",
+    "country_iso2": "sd",
+    "country_name": "Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Allowing Additional Time for Recognizing Positive Actions by the Government of Sudan and Amending Executive Order 13761"
+    ]
+  },
+  {
+    "month": "2017-08",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Additional Sanctions With Respect to the Situation in Venezuela"
+    ]
+  },
+  {
+    "month": "2017-09",
+    "country_iso3": "PRK",
+    "country_iso2": "kp",
+    "country_name": "North Korea",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Additional Sanctions With Respect to North Korea"
+    ]
+  },
+  {
+    "month": "2018-03",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps to Address the Situation in Venezuela"
+    ]
+  },
+  {
+    "month": "2018-05",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting Certain Additional Transactions With Respect to Venezuela"
+    ]
+  },
+  {
+    "month": "2018-08",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Reimposing Certain Sanctions With Respect to Iran"
+    ]
+  },
+  {
+    "month": "2018-11",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "NIC",
+    "runner_up_iso2": "ni",
+    "runner_up_name": "Nicaragua",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Additional Persons Contributing to the Situation in Venezuela"
+    ]
+  },
+  {
+    "month": "2019-01",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps To Address the National Emergency With Respect to Venezuela"
+    ]
+  },
+  {
+    "month": "2019-05",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions With Respect to the Iron, Steel, Aluminum, and Copper Sectors of Iran"
+    ]
+  },
+  {
+    "month": "2019-06",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions With Respect to Iran"
+    ]
+  },
+  {
+    "month": "2019-07",
+    "country_iso3": "MLI",
+    "country_iso2": "ml",
+    "country_name": "Mali",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Mali"
+    ]
+  },
+  {
+    "month": "2019-08",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of the Government of Venezuela"
+    ]
+  },
+  {
+    "month": "2019-10",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Syria"
+    ]
+  },
+  {
+    "month": "2020-01",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions With Respect to Additional Sectors of Iran"
+    ]
+  },
+  {
+    "month": "2020-02",
+    "country_iso3": "MEX",
+    "country_iso2": "mx",
+    "country_name": "Mexico",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "CAN",
+    "runner_up_iso2": "ca",
+    "runner_up_name": "Canada",
+    "runner_up_count": 2,
+    "sample_titles": [
+      "Establishment of the Interagency Environment Committee for Monitoring and Enforcement Under Section 811 of the United States-Mexico-Canada Agreement Implementation Act",
+      "Establishment of the Interagency Committee on Trade in Automotive Goods Under Section 202A of the United States Mexico Canada Agreement Implementation Act"
+    ]
+  },
+  {
+    "month": "2020-04",
+    "country_iso3": "MEX",
+    "country_iso2": "mx",
+    "country_name": "Mexico",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "CAN",
+    "runner_up_iso2": "ca",
+    "runner_up_name": "Canada",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Establishment of the Interagency Labor Committee for Monitoring and Enforcement Under Section 711 of the United States-Mexico-Canada Agreement Implementation Act"
+    ]
+  },
+  {
+    "month": "2020-05",
+    "country_iso3": "MEX",
+    "country_iso2": "mx",
+    "country_name": "Mexico",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "CAN",
+    "runner_up_iso2": "ca",
+    "runner_up_name": "Canada",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Establishment of the Forced Labor Enforcement Task Force Under Section 741 of the United States- Mexico-Canada Agreement Implementation Act"
+    ]
+  },
+  {
+    "month": "2020-09",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property of Certain Persons With Respect to the Conventional Arms Activities of Iran"
+    ]
+  },
+  {
+    "month": "2020-11",
+    "country_iso3": "CHN",
+    "country_iso2": "cn",
+    "country_name": "China",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Addressing the Threat From Securities Investments That Finance Communist Chinese Military Companies"
+    ]
+  },
+  {
+    "month": "2021-01",
+    "country_iso3": "CHN",
+    "country_iso2": "cn",
+    "country_name": "China",
+    "mention_count": 2,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "UZB",
+    "runner_up_iso2": "uz",
+    "runner_up_name": "Uzbekistan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Addressing the Threat Posed by Applications and Other Software Developed or Controlled by Chinese Companies",
+      "Amending Executive Order 13959Addressing the Threat From Securities Investments That Finance Communist Chinese Military Companies"
+    ]
+  },
+  {
+    "month": "2021-02",
+    "country_iso3": "MMR",
+    "country_iso2": "mm",
+    "country_name": "Myanmar",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property With Respect to the Situation in Burma"
+    ]
+  },
+  {
+    "month": "2021-04",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Blocking Property With Respect To Specified Harmful Foreign Activities of the Government of the Russian Federation"
+    ]
+  },
+  {
+    "month": "2021-06",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Addressing the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2021-08",
+    "country_iso3": "BLR",
+    "country_iso2": "by",
+    "country_name": "Belarus",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Blocking Property of Additional Persons Contributing to the Situation in Belarus"
+    ]
+  },
+  {
+    "month": "2021-09",
+    "country_iso3": "ETH",
+    "country_iso2": "et",
+    "country_name": "Ethiopia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions on Certain Persons With Respect to the Humanitarian and Human Rights Crisis in Ethiopia"
+    ]
+  },
+  {
+    "month": "2021-11",
+    "country_iso3": "BDI",
+    "country_iso2": "bi",
+    "country_name": "Burundi",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Situation in Burundi"
+    ]
+  },
+  {
+    "month": "2022-02",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Protecting Certain Property of Da Afghanistan Bank for the Benefit of the People of Afghanistan"
+    ]
+  },
+  {
+    "month": "2022-03",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "UKR",
+    "runner_up_iso2": "ua",
+    "runner_up_name": "Ukraine",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Prohibiting Certain Imports and New Investments With Respect to Continued Russian Federation Efforts To Undermine the Sovereignty and Territorial Integrity of Ukraine",
+      "Prohibiting Certain Imports, Exports, and New Investment With Respect to Continued Russian Federation Aggression"
+    ]
+  },
+  {
+    "month": "2022-04",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Prohibiting New Investment in and Certain Services to the Russian Federation in Response to Continued Russian Federation Aggression"
+    ]
+  },
+  {
+    "month": "2022-10",
+    "country_iso3": "NIC",
+    "country_iso2": "ni",
+    "country_name": "Nicaragua",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps To Address the National Emergency With Respect to the Situation in Nicaragua"
+    ]
+  },
+  {
+    "month": "2023-05",
+    "country_iso3": "SDN",
+    "country_iso2": "sd",
+    "country_name": "Sudan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions on Certain Persons Destabilizing Sudan and Undermining the Goal of a Democratic Transition"
+    ]
+  },
+  {
+    "month": "2023-09",
+    "country_iso3": "PSE",
+    "country_iso2": "ps",
+    "country_name": "Palestine",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Ensuring the People of East Palestine Are Protected Now and in the Future"
+    ]
+  },
+  {
+    "month": "2023-12",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps With Respect to the Russian Federation's Harmful Activities"
+    ]
+  },
+  {
+    "month": "2024-02",
+    "country_iso3": "PSE",
+    "country_iso2": "ps",
+    "country_name": "Palestine",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Certain Sanctions on Persons Undermining Peace, Security, and Stability in the West Bank"
+    ]
+  },
+  {
+    "month": "2024-03",
+    "country_iso3": "ZWE",
+    "country_iso2": "zw",
+    "country_name": "Zimbabwe",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Termination of Emergency With Respect to the Situation in Zimbabwe"
+    ]
+  },
+  {
+    "month": "2025-01",
+    "country_iso3": "SYR",
+    "country_iso2": "sy",
+    "country_name": "Syria",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Taking Additional Steps With Respect to the Situation in Syria"
+    ]
+  },
+  {
+    "month": "2025-02",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 2,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "ZAF",
+    "runner_up_iso2": "za",
+    "runner_up_name": "South Africa",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Imposing Duties To Address the Synthetic Opioid Supply Chain in the People's Republic of China",
+      "Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2025-03",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "VEN",
+    "runner_up_iso2": "ve",
+    "runner_up_name": "Venezuela",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Further Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2025-04",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 2,
+    "total_records_scanned": 2,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Further Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China as Applied to Low-Value Imports",
+      "Amendment to Reciprocal Tariffs and Updated Duties as Applied to Low-Value Imports From the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2025-05",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Modifying Reciprocal Tariff Rates To Reflect Discussions With the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2025-06",
+    "country_iso3": "GBR",
+    "country_iso2": "gb",
+    "country_name": "United Kingdom",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "SYR",
+    "runner_up_iso2": "sy",
+    "runner_up_name": "Syria",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Implementing the General Terms of the United States of America-United Kingdom Economic Prosperity Deal"
+    ]
+  },
+  {
+    "month": "2025-07",
+    "country_iso3": "BRA",
+    "country_iso2": "br",
+    "country_name": "Brazil",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Addressing Threats to the United States by the Government of Brazil"
+    ]
+  },
+  {
+    "month": "2025-08",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "TWN",
+    "runner_up_iso2": "tw",
+    "runner_up_name": "Taiwan",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Addressing Threats to the United States by the Government of the Russian Federation"
+    ]
+  },
+  {
+    "month": "2025-09",
+    "country_iso3": "JPN",
+    "country_iso2": "jp",
+    "country_name": "Japan",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "QAT",
+    "runner_up_iso2": "qa",
+    "runner_up_name": "Qatar",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Implementing the United States-Japan Agreement"
+    ]
+  },
+  {
+    "month": "2025-11",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 2,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "BRA",
+    "runner_up_iso2": "br",
+    "runner_up_name": "Brazil",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+      "Modifying Reciprocal Tariff Rates Consistent With the Economic and Trade Arrangement Between the United States and the People's Republic of China"
+    ]
+  },
+  {
+    "month": "2026-01",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "CUB",
+    "runner_up_iso2": "cu",
+    "runner_up_name": "Cuba",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Safeguarding Venezuelan Oil Revenue for the Good of the American and Venezuelan People"
+    ]
+  },
+  {
+    "month": "2026-02",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 1,
+    "total_records_scanned": 2,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Addressing Threats to the United States by the Government of Iran"
+    ]
+  }
+]

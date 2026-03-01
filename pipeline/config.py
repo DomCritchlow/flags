@@ -27,6 +27,11 @@ AUDIT_LOG_PATH = DATA_DIR / "audit_log.jsonl"
 MENTIONS_PATH = PROCESSED_DIR / "mentions.jsonl"
 LLM_CACHE_PATH = DATA_DIR / "llm_cache.json"
 
+# Executive Orders paths
+EXECUTIVE_RAW_PATH = RAW_DIR / "executive_orders" / "eos.jsonl"
+EXECUTIVE_MENTIONS_PATH = PROCESSED_DIR / "executive_mentions.jsonl"
+FEDERAL_REGISTER_API_BASE = "https://www.federalregister.gov/api/v1"
+
 # API credentials (from environment)
 CONGRESS_API_KEY = os.environ.get("CONGRESS_API_KEY", "")
 CONGRESS_API_BASE = "https://api.congress.gov/v3"

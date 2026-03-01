@@ -20,6 +20,20 @@ const DataLoader = {
     }
   },
 
+  async loadExecutive() {
+    try {
+      const [monthlyTop, monthlyAll, metadata] = await Promise.all([
+        this.fetchJSON('executive_monthly_top.json'),
+        this.fetchJSON('executive_monthly_all.json'),
+        this.fetchJSON('executive_metadata.json'),
+      ]);
+      return { monthlyTop, monthlyAll, metadata };
+    } catch (err) {
+      console.error('Failed to load executive data:', err);
+      throw err;
+    }
+  },
+
   async fetchJSON(filename) {
     const response = await fetch(this.basePath + filename);
     if (!response.ok) {
