@@ -12,7 +12,7 @@ Inspired by [The Pudding's NYT country analysis](https://pudding.cool/2018/12/co
 
 The main page shows a calendar grid: 12 month columns, one row per year, each cell displaying the flag of whichever country led congressional mentions that month. Filter by source type (bills, nominations, amendments) using the toggle bar. Tap any cell for details.
 
-The [bump chart](/bump/) tracks how the top countries rise and fall in the rankings over time.
+The [Data Story](/bump/) digs deeper: all-time rankings, session-by-session era cards, crisis moment timeline, and a full country-by-month heat map.
 
 ## How It Works
 
@@ -35,9 +35,9 @@ Congress.gov API → Ingest → Detect → Aggregate → Export → GitHub Pages
 
 ## Data Coverage
 
-- **Date range**: January 2013 – present (93rd–119th Congress)
-- **Records processed**: ~98,000
-- **Country mentions detected**: ~5,900
+- **Date range**: January 1973 – present (93rd–119th Congress, fully backfilled)
+- **Records processed**: ~340,000
+- **Country mentions detected**: ~20,700
 - **Source types**: Bills, nominations, amendments, congressional records
 - **Update frequency**: Weekly (Mondays) + monthly (3rd of each month)
 
@@ -69,20 +69,17 @@ cd docs && python -m http.server 8000
 
 ```bash
 # Full pipeline (what GitHub Actions runs)
-python -m pipeline.run --month 2024-02 --buffer-days 5
+PYTHONPATH=. python -m pipeline.run --month 2024-02 --buffer-days 5
 
 # Individual stages
-python -m pipeline.ingest --month 2024-02 --buffer-days 5 [--dry-run]
-python -m pipeline.detector --incremental [--reprocess]
-python -m pipeline.aggregator --touched-months [--month 2024-02] [--all]
-python -m pipeline.export [--month 2024-02] [--all]
-
-# Backfill historical data (run locally, ~3-6 hours)
-python -m scripts.backfill [--congress-start 93] [--congress-end 118] [--dry-run]
+PYTHONPATH=. python -m pipeline.ingest --month 2024-02 --buffer-days 5 [--dry-run]
+PYTHONPATH=. python -m pipeline.detector --incremental [--reprocess]
+PYTHONPATH=. python -m pipeline.aggregator --touched-months [--month 2024-02] [--all]
+PYTHONPATH=. python -m pipeline.export [--month 2024-02] [--all]
 
 # Validation
-python -m scripts.validate_gazetteers
-python -m scripts.audit_ambiguous --month 2024-02
+PYTHONPATH=. python -m scripts.validate_gazetteers
+PYTHONPATH=. python -m scripts.audit_ambiguous --month 2024-02
 ```
 
 ## Project Structure
@@ -120,7 +117,6 @@ flags/
 |----------|----------|--------------|
 | `weekly-ingest.yml` | Mondays 06:00 UTC | Ingests current month's data, commits updates |
 | `monthly-ingest.yml` | 3rd of month 06:00 UTC | Full previous-month ingestion with ±5 day buffer |
-| *(removed)* | — | Branch deploy — docs/ committed directly on each ingest |
 | `tests.yml` | On push to pipeline/tests | Runs 128 tests + gazetteer validation |
 
 ## License

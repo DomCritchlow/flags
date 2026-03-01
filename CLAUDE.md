@@ -15,27 +15,16 @@ pytest tests/ -v   # 128 tests
 
 ## Current Data State
 
-- **Coverage**: Jan 2013 – Jan 2025 (Congresses 113–119)
-- **Records**: ~98,000 deduplicated across bills, nominations, amendments, congressional records
-- **Mentions**: ~5,900 country mentions detected
-- **Gap**: Congresses 93–112 (1973–2012) not yet backfilled
+- **Coverage**: Jan 1973 – present (Congresses 93–119, fully backfilled)
+- **Records**: ~340,000 deduplicated across bills, nominations, amendments, congressional records
+- **Mentions**: ~20,700 country mentions detected
+- **Gap**: None — full historical range complete
 
-### Catching Up / Extending Data
+### Catching Up to Current Month
 
 ```bash
-# Backfill older congresses (run locally, ~3 hrs per 10 congresses)
-# Congresses 93-112 cover 1973-2012 — the unfilled historical range
-source .venv/bin/activate
-PYTHONPATH=. python -m scripts.backfill --congress-start 93 --congress-end 112
-
-# Backfill is restartable — dedup via seen_ids.json means re-running
-# picks up where it left off. Safe to ctrl-C and resume later.
-
-# After backfill, re-export and copy to site:
-PYTHONPATH=. python -m pipeline.export
-cp data/aggregated/*.json docs/data/
-
 # Catch up to current month (pipeline also runs weekly via Actions)
+source .venv/bin/activate
 PYTHONPATH=. python -m pipeline.run --month current --buffer-days 3
 ```
 
@@ -98,7 +87,7 @@ See `architecture.md` for the full specification.
 - `data/aggregated/monthly_top_by_source.json` — #1 country per month per source type
 - `data/aggregated/monthly_all.json` — Full country breakdown per month
 - `data/aggregated/metadata.json` — Pipeline health stats
-- `data/seen_ids.json` — Dedup index (~98K IDs)
+- `data/seen_ids.json` — Dedup index (~340K IDs)
 
 ### Frontend
 

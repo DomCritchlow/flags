@@ -29,7 +29,7 @@
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   border: 1px solid var(--rule-light);
   background: var(--rule-light);
@@ -250,6 +250,46 @@
   font-style: italic;
 }
 
+/* === Patterns === */
+
+#patterns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--rule-light);
+  border: 1px solid var(--rule-light);
+}
+
+.pattern-card {
+  background: var(--bg-card);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pattern-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.pattern-stat {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-headline);
+  line-height: 1.1;
+}
+
+.pattern-body {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
 /* === Crisis Timeline === */
 
 #crisis-timeline {
@@ -357,14 +397,38 @@
 
 #heat-matrix-container {
   position: relative;
+}
+
+.hm-charts {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hm-labels {
+  flex-shrink: 0;
+}
+
+.hm-scroll {
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  flex: 1;
+  min-width: 0;
 }
 
-#heat-matrix-container::-webkit-scrollbar { height: 5px; }
-#heat-matrix-container::-webkit-scrollbar-track { background: var(--bg-page); }
-#heat-matrix-container::-webkit-scrollbar-thumb { background: var(--rule-light); border-radius: 3px; }
+.hm-scroll::-webkit-scrollbar { height: 5px; }
+.hm-scroll::-webkit-scrollbar-track { background: var(--bg-page); }
+.hm-scroll::-webkit-scrollbar-thumb { background: var(--rule-light); border-radius: 3px; }
+
+.hm-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 9px;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
 
 #heat-matrix svg { display: block; }
 
@@ -482,12 +546,14 @@
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   #era-grid { grid-template-columns: repeat(4, 1fr); }
   #crisis-timeline { grid-template-columns: repeat(2, 1fr); }
+  #patterns { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px) {
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   #era-grid { grid-template-columns: repeat(2, 1fr); }
   #crisis-timeline { grid-template-columns: 1fr; }
+  #patterns { grid-template-columns: 1fr; }
   .bar-row { grid-template-columns: 28px 100px 1fr 40px; }
   .section-headline { font-size: 1.4rem; }
 }

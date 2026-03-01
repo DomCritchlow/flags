@@ -169,10 +169,11 @@ async function init() {
       : `Data Story · ${firstYear} to ${lastYear}`;
   }
 
-  renderStatCards(metadata, months, totals, countryMeta);
+  renderStatCards(metadata, months, totals, countryMeta, monthlyTop);
   renderBarChart(totals, countryMeta);
   renderEraGrid(monthlyAll, countryMeta, months);
   renderCrisisTimeline(monthlyAll, countryMeta);
+  renderPatterns(monthlyTop, totals, countryMeta, metadata);
   renderHeatMatrix(monthlyAll, totals, countryMeta, months);
 
   const updated = metadata.last_run ? metadata.last_run.slice(0, 10) : '';
@@ -207,7 +208,7 @@ function flagSrc(iso2) {
 
 // ── Stat Cards ────────────────────────────────────────────────────────────────
 
-function renderStatCards(metadata, months, totals, countryMeta) {
+function renderStatCards(metadata, months, totals, countryMeta, monthlyTop) {
   document.getElementById('stat-months').textContent = months.length;
   document.getElementById('stat-mentions').textContent =
     (metadata.total_mentions_detected || 0).toLocaleString();
@@ -219,6 +220,31 @@ function renderStatCards(metadata, months, totals, countryMeta) {
     const name = countryMeta[top[0]]?.name || top[0];
     document.getElementById('stat-leader').textContent = name;
   }
+
+  const { country: streakCountry, months: streakMonths } = computeStreak(monthlyTop);
+  document.getElementById('stat-streak').textContent = streakMonths;
+
+  const uniqueLeaders = new Set(monthlyTop.map(d => d.country_name)).size;
+  document.getElementById('stat-unique-leaders').textContent = uniqueLeaders;
+}
+
+function computeStreak(monthlyTop) {
+  const sorted = [...monthlyTop].sort((a, b) => a.month.localeCompare(b.month));
+  let maxStreak = 0, maxCountry = '';
+  let curStreak = 0, curName = '';
+  for (const d of sorted) {
+    if (d.country_name === curName) {
+      curStreak++;
+    } else {
+      curName = d.country_name;
+      curStreak = 1;
+    }
+    if (curStreak > maxStreak) {
+      maxStreak = curStreak;
+      maxCountry = curName;
+    }
+  }
+  return { country: maxCountry, months: maxStreak };
 }
 
 // ── Bar Chart ─────────────────────────────────────────────────────────────────
@@ -336,6 +362,68 @@ function renderCrisisTimeline(allData, countryMeta) {
         <span class="crisis-stat">${rankLabel}</span>
       </div>
       ${titles.length > 0 ? `<hr class="crisis-divider" /><ul class="crisis-samples">${titlesHtml}</ul>` : ''}
+    `;
+    container.appendChild(card);
+  }
+}
+
+// ── Patterns ──────────────────────────────────────────────────────────────────
+
+function renderPatterns(monthlyTop, totals, countryMeta, metadata) {
+  const container = document.getElementById('patterns');
+  const sorted = [...monthlyTop].sort((a, b) => a.month.localeCompare(b.month));
+
+  // Pattern 1: Which country has been #1 the most months
+  const monthsAtTop = {};
+  for (const d of sorted) {
+    monthsAtTop[d.country_name] = (monthsAtTop[d.country_name] || 0) + 1;
+  }
+  const topLeader = Object.entries(monthsAtTop).sort((a, b) => b[1] - a[1])[0];
+
+  // Pattern 2: Decade leaders from monthlyTop
+  const decadeLeaders = ['1970', '1980', '1990', '2000', '2010', '2020'].map(prefix => {
+    const label = prefix + 's';
+    const dec = sorted.filter(d => d.month.startsWith(prefix));
+    if (dec.length === 0) return null;
+    const counts = {};
+    for (const d of dec) counts[d.country_name] = (counts[d.country_name] || 0) + 1;
+    const leader = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+    return { label, country: leader[0] };
+  }).filter(Boolean);
+
+  // Pattern 3: Top 5 countries share of total mentions
+  const total = metadata.total_mentions_detected || 1;
+  const top5Sum = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 5)
+    .reduce((s, [, v]) => s + v, 0);
+  const top5Pct = Math.round(top5Sum / total * 100);
+  const top5Names = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 5)
+    .map(([iso3]) => countryMeta[iso3]?.name || iso3).join(', ');
+
+  const patterns = [
+    {
+      label: 'Recurring Dominance',
+      stat: `${topLeader[1]} months`,
+      body: `${topLeader[0]} has held the #1 spot for ${topLeader[1]} of ${sorted.length} months in the full record — more than any other country.`,
+    },
+    {
+      label: 'Era by Era',
+      stat: decadeLeaders.length + ' decades',
+      body: decadeLeaders.map(d => `<strong>${d.label}:</strong> ${d.country}`).join(' &nbsp;·&nbsp; '),
+    },
+    {
+      label: 'Concentrated Attention',
+      stat: `${top5Pct}%`,
+      body: `Five countries — ${top5Names} — account for ${top5Pct}% of all ${total.toLocaleString()} mentions detected. The rest of the world splits the remaining ${100 - top5Pct}%.`,
+    },
+  ];
+
+  for (const p of patterns) {
+    const card = document.createElement('div');
+    card.className = 'pattern-card';
+    card.innerHTML = `
+      <div class="pattern-label">${p.label}</div>
+      <div class="pattern-stat">${p.stat}</div>
+      <div class="pattern-body">${p.body}</div>
     `;
     container.appendChild(card);
   }
