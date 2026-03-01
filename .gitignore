@@ -19,3 +19,7 @@ htmlcov/
 # Do NOT ignore gazetteers/ — version-controlled lookup data
 
 # Do NOT ignore docs/data/ — committed directly, served via branch deploy
+
+# Log files (may contain secrets)
+*.log
+nohup.out
