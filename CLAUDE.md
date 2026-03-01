@@ -33,7 +33,7 @@ PYTHONPATH=. python -m scripts.backfill --congress-start 93 --congress-end 112
 
 # After backfill, re-export and copy to site:
 PYTHONPATH=. python -m pipeline.export
-cp data/aggregated/*.json site/data/
+cp data/aggregated/*.json docs/data/
 
 # Catch up to current month (pipeline also runs weekly via Actions)
 PYTHONPATH=. python -m pipeline.run --month current --buffer-days 3
@@ -102,14 +102,14 @@ See `architecture.md` for the full specification.
 
 ### Frontend
 
-- `site/index.html` — Flag grid data story (newspaper theme)
-- `site/css/story.css` — Playfair Display + IBM Plex Sans, warm newsprint palette
-- `site/js/flag-grid.js` — Calendar grid renderer with source-type filtering
-- `site/js/story-insights.js` — Auto-generated narrative blocks (pure string templates, no LLM)
-- `site/js/story-app.js` — Main page orchestrator, wires toggle + grid + detail panel
-- `site/js/data-loader.js` — Shared data fetcher (used by both main site and bump chart)
-- `site/bump/` — Bump chart subsite (D3-based interactive ranking visualization)
-- `site/flags/` — SVG flag images by ISO2 code
+- `docs/index.html` — Flag grid data story (newspaper theme)
+- `docs/css/story.css` — Playfair Display + IBM Plex Sans, warm newsprint palette
+- `docs/js/flag-grid.js` — Calendar grid renderer with source-type filtering
+- `docs/js/story-insights.js` — Auto-generated narrative blocks (pure string templates, no LLM)
+- `docs/js/story-app.js` — Main page orchestrator, wires toggle + grid + detail panel
+- `docs/js/data-loader.js` — Shared data fetcher (used by both main site and bump chart)
+- `docs/bump/` — Bump chart subsite (D3-based interactive ranking visualization)
+- `docs/flags/` — SVG flag images by ISO2 code
 
 ### Automation
 
@@ -117,10 +117,10 @@ See `architecture.md` for the full specification.
 |----------|----------|---------|
 | `weekly-ingest.yml` | Mondays 06:00 UTC | Current month ingestion (±3 day buffer) |
 | `monthly-ingest.yml` | 3rd of month 06:00 UTC | Previous month ingestion (±5 day buffer) |
-| `deploy-pages.yml` | On data/site push | Deploys `site/` to GitHub Pages |
+| *(removed)* | *(removed)* | Branch deploy — ingest workflows copy data to `docs/data/` and commit |
 | `tests.yml` | On pipeline/test push | 128 tests + gazetteer validation |
 
-GitHub Pages source must be set to **GitHub Actions** (not "Deploy from a branch").
+GitHub Pages source must be set to **Deploy from branch** → `main` → `/docs`.
 
 ## Testing
 
@@ -135,7 +135,7 @@ pytest tests/ -v --cov=pipeline           # With coverage
 
 - Never commit `.env` or API keys
 - `data/` is committed (pipeline outputs feed the frontend)
-- `site/data/` is gitignored — the deploy workflow copies from `data/aggregated/` at build time
+- `docs/data/` is committed — ingest workflows copy from `data/aggregated/` and commit directly
 - All pipeline modules must be idempotent (safe to re-run)
 - Detection changes must add regression tests to `test_known_false_positives.py`
 - Backfill is restartable — dedup prevents reprocessing seen records

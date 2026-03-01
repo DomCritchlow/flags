@@ -18,6 +18,4 @@ htmlcov/
 # Do NOT ignore data/ — pipeline outputs are committed
 # Do NOT ignore gazetteers/ — version-controlled lookup data
 
-# site/data/ is a dev-only copy of data/aggregated/
-# The deploy workflow copies it at build time
-site/data/
+# Do NOT ignore docs/data/ — committed directly, served via branch deploy

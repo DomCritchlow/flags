@@ -31,7 +31,7 @@ Congress.gov API → Ingest → Detect → Aggregate → Export → GitHub Pages
 
 4. **Export** — Produces static JSON files consumed by the frontend.
 
-5. **Deploy** — GitHub Actions pushes the `site/` directory to GitHub Pages on every data update.
+5. **Deploy** — Committed `docs/` directory is served via GitHub Pages branch deploy on every push.
 
 ## Data Coverage
 
@@ -45,7 +45,7 @@ Congress.gov API → Ingest → Detect → Aggregate → Export → GitHub Pages
 
 ```bash
 # Clone and install
-git clone https://github.com/dominicseton/flags.git
+git clone https://github.com/DomCritchlow/flags.git
 cd flags
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
@@ -62,7 +62,7 @@ pytest tests/ -v
 PYTHONPATH=. python -m pipeline.run --month 2024-12 --buffer-days 5
 
 # Preview the site
-cd site && python -m http.server 8000
+cd docs && python -m http.server 8000
 ```
 
 ## CLI Reference
@@ -102,11 +102,12 @@ flags/
 │   ├── raw/            # JSONL records by congress
 │   ├── processed/      # mentions.jsonl
 │   └── aggregated/     # Frontend JSON files
-├── site/               # Static frontend (GitHub Pages)
+├── docs/               # Static frontend (GitHub Pages — branch deploy)
 │   ├── index.html      # Flag grid data story
 │   ├── css/story.css   # Newspaper theme
 │   ├── js/             # Grid renderer, insights, data loader
 │   ├── bump/           # Bump chart subsite
+│   ├── data/           # Aggregated JSON files (copied from data/aggregated/)
 │   └── flags/          # SVG flag images
 ├── scripts/            # Backfill, validation, auditing
 ├── tests/              # 128 tests
@@ -119,7 +120,7 @@ flags/
 |----------|----------|--------------|
 | `weekly-ingest.yml` | Mondays 06:00 UTC | Ingests current month's data, commits updates |
 | `monthly-ingest.yml` | 3rd of month 06:00 UTC | Full previous-month ingestion with ±5 day buffer |
-| `deploy-pages.yml` | On data/site changes | Deploys `site/` to GitHub Pages |
+| *(removed)* | — | Branch deploy — docs/ committed directly on each ingest |
 | `tests.yml` | On push to pipeline/tests | Runs 128 tests + gazetteer validation |
 
 ## License
