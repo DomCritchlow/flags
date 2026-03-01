@@ -3,70 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Congressional World View — Bump Chart</title>
+  <title>Congressional World View — Data Story</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/story.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Congressional World View</h1>
-    <p class="subtitle">Which countries dominate U.S. congressional language?</p>
+
+  <header class="masthead">
+    <div class="masthead-rule"></div>
+    <h1 class="masthead-title">Congressional World View</h1>
+    <p class="masthead-edition">Data Story &mdash; 2013 to Present</p>
+    <div class="masthead-rule"></div>
   </header>
 
-  <main>
-    <section id="intro">
-      <p>Every month, Congress debates bills, holds hearings, and delivers floor speeches that reference countries around the world. This chart tracks which nations rise and fall in congressional attention.</p>
-    </section>
+  <nav class="story-nav">
+    <a href="../" class="nav-back">&larr; Flag Grid</a>
+  </nav>
 
-    <section id="chart-section">
-      <div id="chart-controls">
-        <label for="top-n-select">Show top</label>
-        <select id="top-n-select">
-          <option value="5">5</option>
-          <option value="10" selected>10</option>
-          <option value="15">15</option>
-        </select>
-        <span>countries</span>
-      </div>
-      <div id="chart-container"></div>
-      <div id="scroll-hint">Scroll to explore &rarr;</div>
-    </section>
+  <section class="lede">
+    <p class="lede-text">From the Iran nuclear deal to Russia&rsquo;s invasion of Ukraine, congressional language is a window into American foreign policy attention. Here is what twelve years of data reveals.</p>
+  </section>
 
-    <section id="detail-panel">
-      <div id="detail-empty">Hover over the chart to explore</div>
-      <div id="detail-content" class="hidden">
-        <div id="detail-header">
-          <img id="detail-flag" src="" alt="" />
-          <div id="detail-meta">
-            <h3 id="detail-country"></h3>
-            <p id="detail-info"></p>
-          </div>
-        </div>
-        <div id="detail-rankings">
-          <h4>This month</h4>
-          <ol id="detail-list"></ol>
-        </div>
-        <div id="detail-samples">
-          <h4>Sample legislation</h4>
-          <ul id="detail-titles"></ul>
-        </div>
-      </div>
-    </section>
-  </main>
+  <!-- Stat Cards -->
+  <section class="stats-section">
+    <div class="stats-grid" id="stat-cards">
+      <div class="stat-card"><span class="stat-num" id="stat-months">—</span><span class="stat-label">months tracked</span></div>
+      <div class="stat-card"><span class="stat-num" id="stat-mentions">—</span><span class="stat-label">country mentions</span></div>
+      <div class="stat-card"><span class="stat-num" id="stat-countries">—</span><span class="stat-label">countries in the record</span></div>
+      <div class="stat-card"><span class="stat-num" id="stat-leader">—</span><span class="stat-label">most cited country</span></div>
+    </div>
+  </section>
 
-  <footer>
-    <p>Data from <a href="https://api.congress.gov" target="_blank">Congress.gov API</a>. Country detection via 3-tier engine (dictionary + disambiguation + LLM fallback).</p>
-    <p id="last-update"></p>
-    <p><a href="../">&larr; Back to main view</a></p>
+  <div class="section-rule"><span>The Rankings</span></div>
+
+  <!-- All-time leaders -->
+  <section class="article-section">
+    <div class="section-header">
+      <p class="section-label">All-Time</p>
+      <h2 class="section-headline">Who Dominated Congressional Language</h2>
+      <p class="section-dek">Total country mentions across all bills, nominations, amendments, and congressional records, 2013&ndash;2026. One mention = one record that named the country.</p>
+    </div>
+    <div id="bar-chart"></div>
+  </section>
+
+  <div class="section-rule"><span>By Congress</span></div>
+
+  <!-- Era breakdown -->
+  <section class="article-section">
+    <div class="section-header">
+      <p class="section-label">Congressional Eras</p>
+      <h2 class="section-headline">How Priorities Shifted Session by Session</h2>
+      <p class="section-dek">Each two-year Congress has its own foreign policy fingerprint &mdash; shaped by crises, elections, and shifting alliances.</p>
+    </div>
+    <div id="era-grid"></div>
+  </section>
+
+  <div class="section-rule"><span>Crisis Moments</span></div>
+
+  <!-- Crisis timeline -->
+  <section class="article-section">
+    <div class="section-header">
+      <p class="section-label">Sudden Surges</p>
+      <h2 class="section-headline">When the World Broke Through</h2>
+      <p class="section-dek">Global events announce themselves as spikes in congressional attention. These are the months where a country&rsquo;s presence surged most dramatically &mdash; told in their own legislative language.</p>
+    </div>
+    <div id="crisis-timeline"></div>
+  </section>
+
+  <div class="section-rule"><span>Full Picture</span></div>
+
+  <!-- Heat matrix -->
+  <section class="article-section">
+    <div class="section-header">
+      <p class="section-label">Heat Map</p>
+      <h2 class="section-headline">Every Country, Every Month</h2>
+      <p class="section-dek">The top 25 countries by total mentions, plotted across all months of coverage. Darker cells mean more mentions that month. Hover any cell to explore.</p>
+    </div>
+    <div id="heat-matrix-container">
+      <div id="heat-tooltip" class="heat-tooltip hidden"></div>
+      <div id="heat-matrix"></div>
+    </div>
+  </section>
+
+  <footer class="story-footer">
+    <div class="footer-inner">
+      <p>Data from <a href="https://api.congress.gov" target="_blank">Congress.gov API</a>. Detection via 3-tier engine: dictionary matching, contextual disambiguation, LLM fallback.</p>
+      <p id="last-update"></p>
+      <p><a href="../">&larr; Back to flag grid</a></p>
+    </div>
   </footer>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="../js/data-loader.js"></script>
   <script src="js/data-transform.js"></script>
-  <script src="js/bump-chart.js"></script>
-  <script src="js/detail-panel.js"></script>
+  <script src="js/heat-matrix.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
