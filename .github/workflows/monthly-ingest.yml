@@ -40,6 +40,12 @@ jobs:
           echo "Target month: $TARGET"
           PYTHONPATH=. python -m pipeline.run --month "$TARGET" --buffer-days 5
 
+      - name: Update Executive Orders
+        run: |
+          PYTHONPATH=. python -m scripts.ingest_executive_orders
+          PYTHONPATH=. python -m scripts.reprocess_executive
+          PYTHONPATH=. python -m pipeline.export_executive
+
       - name: Commit data updates
         run: |
           cp data/aggregated/*.json docs/data/
