@@ -13,7 +13,7 @@ const StoryInsights = {
       insights.push({
         kicker: 'Early days',
         headline: 'The archive is growing',
-        body: `Only ${monthlyTop.length} month${monthlyTop.length !== 1 ? 's' : ''} of data collected so far. As the pipeline backfills to 2013, patterns in congressional attention will emerge here.`,
+        body: `Only ${monthlyTop.length} month${monthlyTop.length !== 1 ? 's' : ''} of data collected so far. As the archive grows, patterns in congressional attention will emerge here.`,
       });
       return insights;
     }

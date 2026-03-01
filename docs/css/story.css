@@ -143,7 +143,7 @@ body {
 .grid-header,
 .grid-row {
   display: grid;
-  grid-template-columns: 48px repeat(12, 1fr);
+  grid-template-columns: 62px repeat(12, 1fr);
   gap: 3px;
 }
 
@@ -174,8 +174,54 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 5px;
   padding-right: 0.4rem;
   font-variant-numeric: tabular-nums;
+  cursor: default;
+}
+
+.year-dots {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.year-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+
+/* Congress session dividers */
+.congress-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2px 0;
+  padding-right: 0.4rem;
+  min-height: 10px;
+}
+
+.congress-divider::after {
+  content: '';
+  flex: 1;
+  border-top: 1px dashed var(--rule-light);
+}
+
+.congress-divider-label {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  width: 62px;
+  text-align: right;
+  padding-right: 0.4rem;
 }
 
 .grid-cell {
@@ -557,10 +603,11 @@ body {
 
   .grid-header,
   .grid-row {
-    grid-template-columns: 40px repeat(12, 1fr);
+    grid-template-columns: 52px repeat(12, 1fr);
     gap: 2px;
   }
 
+  .congress-divider-label { width: 52px; }
   .year-label { font-size: 0.65rem; padding-right: 0.25rem; }
   .month-label { font-size: 0.6rem; }
   .grid-cell img { width: 80%; }
@@ -578,10 +625,12 @@ body {
 
   .grid-header,
   .grid-row {
-    grid-template-columns: 28px repeat(12, 1fr);
+    grid-template-columns: 40px repeat(12, 1fr);
     gap: 2px;
   }
 
+  .congress-divider-label { width: 40px; }
+  .year-dots { display: none; }
   .year-label { font-size: 0.58rem; padding-right: 0.15rem; }
   .month-label { font-size: 0.5rem; letter-spacing: 0; }
   .grid-cell img { width: 85%; }

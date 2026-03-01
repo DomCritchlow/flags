@@ -1,6 +1,6 @@
 /**
  * Flag Grid — calendar grid showing the #1 country per month.
- * Columns = months (Jan–Dec), rows = years (oldest at top).
+ * Columns = months (Jan–Dec), rows = years (newest at top).
  * Supports filtering by source type via update().
  */
 
@@ -8,6 +8,38 @@ const FlagGrid = {
 
   MONTHS: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+
+  // Political control by Congress number: prez / senate / house + president name for tooltip
+  // R = Republican, D = Democrat, S = Split/tied
+  POLITICAL: {
+    93:  { prez: 'R', senate: 'D', house: 'D', name: 'Nixon / Ford' },
+    94:  { prez: 'R', senate: 'D', house: 'D', name: 'Ford' },
+    95:  { prez: 'D', senate: 'D', house: 'D', name: 'Carter' },
+    96:  { prez: 'D', senate: 'D', house: 'D', name: 'Carter' },
+    97:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+    98:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+    99:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+    100: { prez: 'R', senate: 'D', house: 'D', name: 'Reagan' },
+    101: { prez: 'R', senate: 'D', house: 'D', name: 'Bush' },
+    102: { prez: 'R', senate: 'D', house: 'D', name: 'Bush' },
+    103: { prez: 'D', senate: 'D', house: 'D', name: 'Clinton' },
+    104: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+    105: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+    106: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+    107: { prez: 'R', senate: 'S', house: 'R', name: 'G.W. Bush' },
+    108: { prez: 'R', senate: 'R', house: 'R', name: 'G.W. Bush' },
+    109: { prez: 'R', senate: 'R', house: 'R', name: 'G.W. Bush' },
+    110: { prez: 'R', senate: 'D', house: 'D', name: 'G.W. Bush' },
+    111: { prez: 'D', senate: 'D', house: 'D', name: 'Obama' },
+    112: { prez: 'D', senate: 'D', house: 'R', name: 'Obama' },
+    113: { prez: 'D', senate: 'D', house: 'R', name: 'Obama' },
+    114: { prez: 'D', senate: 'R', house: 'R', name: 'Obama' },
+    115: { prez: 'R', senate: 'R', house: 'R', name: 'Trump' },
+    116: { prez: 'R', senate: 'R', house: 'D', name: 'Trump' },
+    117: { prez: 'D', senate: 'D', house: 'D', name: 'Biden' },
+    118: { prez: 'D', senate: 'D', house: 'R', name: 'Biden' },
+    119: { prez: 'R', senate: 'R', house: 'R', name: 'Trump' },
+  },
 
   dataIndex: null,
   selectedCell: null,
@@ -32,10 +64,6 @@ const FlagGrid = {
     this._renderBody();
   },
 
-  /**
-   * Re-render the grid with new data (e.g. filtered by source).
-   * Keeps the same year range so the grid doesn't jump around.
-   */
   update(monthlyTop) {
     this.selectedCell = null;
     this.dataIndex = {};
@@ -56,6 +84,29 @@ const FlagGrid = {
     return years;
   },
 
+  // Congress number for a given year (e.g. 2025 → 119)
+  _congressNum(year) {
+    return Math.floor((year - 1789) / 2) + 1;
+  },
+
+  _congressOrdinal(n) {
+    if (n % 100 >= 11 && n % 100 <= 13) return n + 'th';
+    switch (n % 10) {
+      case 1: return n + 'st';
+      case 2: return n + 'nd';
+      case 3: return n + 'rd';
+      default: return n + 'th';
+    }
+  },
+
+  _partyColor(p) {
+    return p === 'R' ? '#c95c5c' : p === 'D' ? '#4e7cc9' : '#a0a0a0';
+  },
+
+  _partyLabel(p) {
+    return p === 'R' ? 'R' : p === 'D' ? 'D' : 'Split';
+  },
+
   _renderHeader() {
     const header = document.getElementById('grid-header');
     header.innerHTML = '<div class="corner-cell"></div>';
@@ -71,13 +122,56 @@ const FlagGrid = {
     const body = document.getElementById('grid-body');
     body.innerHTML = '';
 
+    let prevCongress = null;
+
     for (const year of this.yearRange) {
+      const yearNum = parseInt(year);
+      const congress = this._congressNum(yearNum);
+      const politics = this.POLITICAL[congress];
+
+      // Insert Congress session divider when the session changes
+      if (prevCongress !== null && congress !== prevCongress) {
+        const divider = document.createElement('div');
+        divider.className = 'congress-divider';
+        const lbl = document.createElement('span');
+        lbl.className = 'congress-divider-label';
+        lbl.textContent = this._congressOrdinal(congress) + ' Congress';
+        divider.appendChild(lbl);
+        body.appendChild(divider);
+      }
+      prevCongress = congress;
+
       const row = document.createElement('div');
       row.className = 'grid-row';
 
+      // Year label with political dots
       const yearLabel = document.createElement('div');
       yearLabel.className = 'year-label';
-      yearLabel.textContent = year;
+
+      if (politics) {
+        const dots = document.createElement('span');
+        dots.className = 'year-dots';
+
+        for (const [roleLabel, key] of [['Pres', 'prez'], ['Sen', 'senate'], ['House', 'house']]) {
+          const dot = document.createElement('span');
+          dot.className = 'year-dot';
+          dot.style.background = this._partyColor(politics[key]);
+          dots.appendChild(dot);
+        }
+        yearLabel.appendChild(dots);
+
+        yearLabel.title = [
+          this._congressOrdinal(congress) + ' Congress',
+          'Pres: ' + politics.name + ' (' + politics.prez + ')',
+          'Senate: ' + this._partyLabel(politics.senate),
+          'House: ' + this._partyLabel(politics.house),
+        ].join(' · ');
+      }
+
+      const yearText = document.createElement('span');
+      yearText.textContent = year;
+      yearLabel.appendChild(yearText);
+
       row.appendChild(yearLabel);
 
       for (let m = 1; m <= 12; m++) {

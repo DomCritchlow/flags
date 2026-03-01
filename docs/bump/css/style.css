@@ -204,17 +204,23 @@
   line-height: 1;
 }
 
-.era-ordinal {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-}
-
 .era-years {
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+.era-political {
+  display: flex;
+  gap: 3px;
+  margin-top: 4px;
+  cursor: default;
+}
+
+.era-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .era-flags {

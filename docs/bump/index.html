@@ -4,6 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Congressional World View — Data Story</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+
+  <!-- SEO -->
+  <meta name="description" content="Which countries dominate U.S. congressional language? Which crises break through? The full legislative record, mapped and updated weekly.">
+
+  <!-- Open Graph (iMessage, WhatsApp, Slack, LinkedIn, Facebook) -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://critchlow.us/flags/bump/">
+  <meta property="og:title" content="Congressional World View — Data Story">
+  <meta property="og:description" content="Which countries dominate U.S. congressional language? Which crises break through? The full legislative record, mapped and updated weekly.">
+  <meta property="og:image" content="https://critchlow.us/flags/og-image.jpg">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Congressional World View — Data Story">
+  <meta name="twitter:description" content="Which countries dominate U.S. congressional language? Which crises break through? The full legislative record, mapped and updated weekly.">
+  <meta name="twitter:image" content="https://critchlow.us/flags/og-image.jpg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +33,7 @@
   <header class="masthead">
     <div class="masthead-rule"></div>
     <h1 class="masthead-title">Congressional World View</h1>
-    <p class="masthead-edition">Data Story &mdash; 2013 to Present</p>
+    <p class="masthead-edition" id="bump-edition">Data Story</p>
     <div class="masthead-rule"></div>
   </header>
 
@@ -24,7 +42,7 @@
   </nav>
 
   <section class="lede">
-    <p class="lede-text">From the Iran nuclear deal to Russia&rsquo;s invasion of Ukraine, congressional language is a window into American foreign policy attention. Here is what twelve years of data reveals.</p>
+    <p class="lede-text">Congressional language is a window into American foreign policy attention. When crises erupt, countries surge to the top of the legislative agenda. Here is what the full record reveals.</p>
   </section>
 
   <!-- Stat Cards -->
@@ -44,7 +62,7 @@
     <div class="section-header">
       <p class="section-label">All-Time</p>
       <h2 class="section-headline">Who Dominated Congressional Language</h2>
-      <p class="section-dek">Total country mentions across all bills, nominations, amendments, and congressional records, 2013&ndash;2026. One mention = one record that named the country.</p>
+      <p class="section-dek">Total country mentions across all bills, nominations, amendments, and congressional records. One mention = one record that named the country.</p>
     </div>
     <div id="bar-chart"></div>
   </section>
@@ -56,7 +74,7 @@
     <div class="section-header">
       <p class="section-label">Congressional Eras</p>
       <h2 class="section-headline">How Priorities Shifted Session by Session</h2>
-      <p class="section-dek">Each two-year Congress has its own foreign policy fingerprint &mdash; shaped by crises, elections, and shifting alliances.</p>
+      <p class="section-dek">Each two-year Congress has its own foreign policy fingerprint, shaped by crises, elections, and shifting alliances.</p>
     </div>
     <div id="era-grid"></div>
   </section>
@@ -68,7 +86,7 @@
     <div class="section-header">
       <p class="section-label">Sudden Surges</p>
       <h2 class="section-headline">When the World Broke Through</h2>
-      <p class="section-dek">Global events announce themselves as spikes in congressional attention. These are the months where a country&rsquo;s presence surged most dramatically &mdash; told in their own legislative language.</p>
+      <p class="section-dek">Global events announce themselves as spikes in congressional attention. These are the months where a country surged most dramatically, told in the legislative language of that moment.</p>
     </div>
     <div id="crisis-timeline"></div>
   </section>

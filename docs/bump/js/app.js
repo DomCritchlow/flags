@@ -7,6 +7,36 @@ DataLoader.basePath = '../data/';
 
 const CRISIS_EVENTS = [
   {
+    month: '1979-11',
+    iso3: 'IRN',
+    headline: 'The Iran Hostage Crisis',
+    context: 'When Iranian students storm the U.S. Embassy and take 52 Americans hostage, Iran becomes the dominant subject of the congressional record overnight. The crisis stretched 444 days, reshaping American foreign policy and dominating the late Carter and early Reagan years.',
+  },
+  {
+    month: '1990-08',
+    iso3: 'IRQ',
+    headline: 'Iraq Invades Kuwait',
+    context: 'Saddam Hussein\'s seizure of Kuwait forces a massive congressional reckoning. In the months leading to Operation Desert Storm, Congress holds the most consequential war debate since Vietnam, with Iraq and Kuwait both surging simultaneously in the legislative record.',
+  },
+  {
+    month: '1999-03',
+    iso3: 'SRB',
+    headline: 'NATO Bombs Yugoslavia',
+    context: 'The first time NATO attacked a sovereign European nation without U.N. authorization. Congress debates the legality of the air campaign over Kosovo, with sharp divisions over whether the President needs congressional approval to wage war.',
+  },
+  {
+    month: '2001-09',
+    iso3: 'AFG',
+    headline: 'September 11 and the Afghanistan War',
+    context: 'The most consequential single month in the modern congressional record. Within weeks of the attacks, Congress authorizes the use of military force, producing an instant surge in Afghanistan mentions that reshapes the legislative agenda for the next decade.',
+  },
+  {
+    month: '2003-03',
+    iso3: 'IRQ',
+    headline: 'The Iraq War Begins',
+    context: 'After months of debate over weapons of mass destruction and U.N. inspections, Congress and the country are consumed by the invasion. Iraq dominates the congressional record throughout the 108th Congress, from the shock of the initial assault through the emergence of the insurgency.',
+  },
+  {
     month: '2013-09',
     iso3: 'SYR',
     headline: 'Syria\'s Chemical Weapons Crisis',
@@ -16,43 +46,111 @@ const CRISIS_EVENTS = [
     month: '2015-07',
     iso3: 'IRN',
     headline: 'The Iran Nuclear Deal',
-    context: 'The Joint Comprehensive Plan of Action (JCPOA) dominates congressional debate across the entire 114th Congress. Iran holds the #1 spot for more months in this era than any other country in the dataset.',
+    context: 'The Joint Comprehensive Plan of Action (JCPOA) dominates congressional debate across the entire 114th Congress. Iran holds the #1 spot for more months in this era than any other country on record.',
   },
   {
     month: '2021-08',
     iso3: 'AFG',
     headline: 'The Fall of Kabul',
-    context: 'The U.S. withdrawal and the Taliban\'s rapid seizure of Kabul drives the highest single-month Afghanistan mention count in the dataset — a twenty-year war closing in a matter of days.',
+    context: 'The U.S. withdrawal and the Taliban\'s rapid seizure of Kabul drives the highest single-month Afghanistan mention count on record, a twenty-year war closing in a matter of days.',
   },
   {
     month: '2022-02',
     iso3: 'UKR',
     headline: 'Russia Invades Ukraine',
-    context: 'The most dramatic surge in the dataset. Ukraine goes from absent to #1 in a single month as Congress responds to the full-scale invasion with sanctions, aid packages, and resolutions.',
+    context: 'One of the most dramatic surges on record. Ukraine goes from absent to #1 in a single month as Congress responds to the full-scale invasion with sanctions, aid packages, and resolutions.',
   },
   {
     month: '2023-10',
     iso3: 'ISR',
     headline: 'Hamas Attacks Israel',
-    context: 'The October 7 attacks and the ensuing Gaza war send both Israel and Palestine to the top of the congressional agenda simultaneously — an unusual co-surge of two entangled countries.',
+    context: 'The October 7 attacks and the ensuing Gaza war send both Israel and Palestine to the top of the congressional agenda simultaneously, an unusual co-surge of two entangled countries.',
   },
   {
     month: '2024-08',
     iso3: 'VEN',
     headline: 'Venezuela\'s Stolen Election',
-    context: 'Nicolás Maduro\'s disputed reelection and the regime\'s violent crackdown on protesters push Venezuela into the spotlight, producing one of the sharpest out-of-nowhere surges in the record.',
+    context: 'Maduro\'s disputed reelection and the regime\'s violent crackdown on protesters push Venezuela into the spotlight, producing one of the sharpest out-of-nowhere surges on record.',
   },
 ];
 
+const POLITICAL = {
+  93:  { prez: 'R', senate: 'D', house: 'D', name: 'Nixon / Ford' },
+  94:  { prez: 'R', senate: 'D', house: 'D', name: 'Ford' },
+  95:  { prez: 'D', senate: 'D', house: 'D', name: 'Carter' },
+  96:  { prez: 'D', senate: 'D', house: 'D', name: 'Carter' },
+  97:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+  98:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+  99:  { prez: 'R', senate: 'R', house: 'D', name: 'Reagan' },
+  100: { prez: 'R', senate: 'D', house: 'D', name: 'Reagan' },
+  101: { prez: 'R', senate: 'D', house: 'D', name: 'Bush' },
+  102: { prez: 'R', senate: 'D', house: 'D', name: 'Bush' },
+  103: { prez: 'D', senate: 'D', house: 'D', name: 'Clinton' },
+  104: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+  105: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+  106: { prez: 'D', senate: 'R', house: 'R', name: 'Clinton' },
+  107: { prez: 'R', senate: 'S', house: 'R', name: 'G.W. Bush' },
+  108: { prez: 'R', senate: 'R', house: 'R', name: 'G.W. Bush' },
+  109: { prez: 'R', senate: 'R', house: 'R', name: 'G.W. Bush' },
+  110: { prez: 'R', senate: 'D', house: 'D', name: 'G.W. Bush' },
+  111: { prez: 'D', senate: 'D', house: 'D', name: 'Obama' },
+  112: { prez: 'D', senate: 'D', house: 'R', name: 'Obama' },
+  113: { prez: 'D', senate: 'D', house: 'R', name: 'Obama' },
+  114: { prez: 'D', senate: 'R', house: 'R', name: 'Obama' },
+  115: { prez: 'R', senate: 'R', house: 'R', name: 'Trump' },
+  116: { prez: 'R', senate: 'R', house: 'D', name: 'Trump' },
+  117: { prez: 'D', senate: 'D', house: 'D', name: 'Biden' },
+  118: { prez: 'D', senate: 'D', house: 'R', name: 'Biden' },
+  119: { prez: 'R', senate: 'R', house: 'R', name: 'Trump' },
+};
+
+function partyColor(p) {
+  return p === 'R' ? '#c95c5c' : p === 'D' ? '#4e7cc9' : '#a0a0a0';
+}
+
+function partyLabel(p) {
+  return p === 'R' ? 'R' : p === 'D' ? 'D' : 'Split';
+}
+
 const ERA_EVENTS = {
+  93:  'Yom Kippur War, Vietnam ceasefire',
+  94:  'Fall of Saigon, Mayaguez incident',
+  95:  'Camp David Accords, Panama Canal treaties',
+  96:  'Iran hostage crisis, Soviet invasion of Afghanistan',
+  97:  'Cold War escalation, martial law in Poland',
+  98:  'Lebanon intervention, Grenada invasion',
+  99:  'Iran-Contra affair, Libya bombing',
+  100: 'Iran-Contra hearings, INF Treaty signed',
+  101: 'Fall of Berlin Wall, Panama invasion',
+  102: 'Gulf War, Soviet Union dissolves',
+  103: 'Somalia, Bosnia, NAFTA',
+  104: 'Dayton Accords, Bosnia peacekeeping',
+  105: 'Kosovo crisis, Asian financial contagion',
+  106: 'Kosovo War, China trade normalization',
+  107: 'September 11, Afghanistan War begins',
+  108: 'Iraq War, Abu Ghraib',
+  109: 'Iraq insurgency, Iran nuclear standoff',
+  110: 'Iraq surge, Afghanistan escalation',
+  111: 'Iraq drawdown, Afghanistan surge',
+  112: 'Arab Spring, Libya intervention',
   113: 'Syria chemical weapons, Russia annexes Crimea',
   114: 'Iran nuclear deal, Cuba trade normalization',
-  115: 'Russia-Trump sanctions, U.S.–China trade war begins',
+  115: 'Russia-Trump sanctions, U.S.-China trade war begins',
   116: 'COVID-19 emerges, China competition intensifies',
   117: 'Afghanistan withdrawal, Russia invades Ukraine',
   118: 'Israel-Hamas war, China competition bill',
   119: 'China tariffs, Ukraine aid debate',
 };
+
+function congressOrdinal(n) {
+  if (n % 100 >= 11 && n % 100 <= 13) return n + 'th';
+  switch (n % 10) {
+    case 1: return n + 'st';
+    case 2: return n + 'nd';
+    case 3: return n + 'rd';
+    default: return n + 'th';
+  }
+}
 
 async function init() {
   const { monthlyTop, monthlyAll, metadata } = await DataLoader.loadAll();
@@ -60,6 +158,16 @@ async function init() {
   const months = Object.keys(monthlyAll).sort();
   const countryMeta = buildCountryMeta(monthlyAll);
   const totals = computeTotals(monthlyAll);
+
+  // Set masthead edition dynamically from actual data range
+  const editionEl = document.getElementById('bump-edition');
+  if (editionEl && months.length > 0) {
+    const firstYear = months[0].slice(0, 4);
+    const lastYear = months[months.length - 1].slice(0, 4);
+    editionEl.textContent = firstYear === lastYear
+      ? `Data Story · ${firstYear}`
+      : `Data Story · ${firstYear} to ${lastYear}`;
+  }
 
   renderStatCards(metadata, months, totals, countryMeta);
   renderBarChart(totals, countryMeta);
@@ -142,20 +250,10 @@ function renderBarChart(totals, countryMeta) {
 // ── Era Grid ──────────────────────────────────────────────────────────────────
 
 function renderEraGrid(allData, countryMeta, months) {
-  const ERAS = [
-    { congress: 113, start: '2013-01', end: '2015-01' },
-    { congress: 114, start: '2015-01', end: '2017-01' },
-    { congress: 115, start: '2017-01', end: '2019-01' },
-    { congress: 116, start: '2019-01', end: '2021-01' },
-    { congress: 117, start: '2021-01', end: '2023-01' },
-    { congress: 118, start: '2023-01', end: '2025-01' },
-    { congress: 119, start: '2025-01', end: '2027-01' },
-  ];
-
   const grid = document.getElementById('era-grid');
 
-  for (const era of ERAS) {
-    const eraMonths = months.filter(m => m >= era.start && m < era.end);
+  for (const session of DataTransform.CONGRESS_SESSIONS) {
+    const eraMonths = months.filter(m => m >= session.startMonth && m < session.endMonth);
     if (eraMonths.length === 0) continue;
 
     const eraTotals = {};
@@ -168,8 +266,8 @@ function renderEraGrid(allData, countryMeta, months) {
       .sort((a, b) => b[1] - a[1])
       .slice(0, 3);
 
-    const startYear = era.start.slice(0, 4);
-    const endYear = String(parseInt(era.end.slice(0, 4)) - 1);
+    const startYear = session.startMonth.slice(0, 4);
+    const endYear = String(parseInt(session.endMonth.slice(0, 4)) - 1);
 
     const flagsHtml = topThree.map(([iso3]) => {
       const meta = countryMeta[iso3] || {};
@@ -177,18 +275,26 @@ function renderEraGrid(allData, countryMeta, months) {
     }).join('');
 
     const leaderMeta = countryMeta[topThree[0]?.[0]] || {};
-    const ordinals = { 113:'113th', 114:'114th', 115:'115th', 116:'116th', 117:'117th', 118:'118th', 119:'119th' };
+
+    const politics = POLITICAL[session.number];
+    const dotsHtml = politics ? `
+      <div class="era-political" title="Pres: ${politics.name} (${politics.prez}) · Senate: ${partyLabel(politics.senate)} · House: ${partyLabel(politics.house)}">
+        <span class="era-dot" style="background:${partyColor(politics.prez)}"></span>
+        <span class="era-dot" style="background:${partyColor(politics.senate)}"></span>
+        <span class="era-dot" style="background:${partyColor(politics.house)}"></span>
+      </div>` : '';
 
     const card = document.createElement('div');
     card.className = 'era-card';
     card.innerHTML = `
       <div>
-        <div class="era-congress">${ordinals[era.congress]}</div>
+        <div class="era-congress">${congressOrdinal(session.number)}</div>
         <div class="era-years">${startYear}&ndash;${endYear}</div>
+        ${dotsHtml}
       </div>
       <div class="era-flags">${flagsHtml}</div>
-      <div class="era-leader">${leaderMeta.name || ''} led</div>
-      <div class="era-event">${ERA_EVENTS[era.congress] || ''}</div>
+      ${leaderMeta.name ? `<div class="era-leader">${leaderMeta.name} led</div>` : ''}
+      <div class="era-event">${ERA_EVENTS[session.number] || ''}</div>
     `;
     grid.appendChild(card);
   }
