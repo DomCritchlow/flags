@@ -39,12 +39,19 @@
   <main class="story">
 
     <section class="lede">
-      <p class="lede-text">
+      <p class="lede-text" id="lede-congress">
         Every month, the U.S. Congress names countries in bills, hearings,
         and floor speeches. The flags below show which nation led the count
         each month, a proxy for where American foreign-policy attention lands.
         Inspired by <a class="lede-link" href="https://pudding.cool/2018/12/countries" target="_blank" rel="noopener">The Pudding&rsquo;s landmark analysis of the&nbsp;New York&nbsp;Times</a>,
         this project applies the same lens to the legislative record.
+      </p>
+      <p class="lede-text" id="lede-executive" style="display:none">
+        Since 1993, U.S. presidents have signed more than 1,500 executive orders
+        naming foreign nations&mdash;sanctions, trade actions, national emergencies,
+        and peace agreements. The flags below show which country appeared most
+        in presidential orders each month, a direct read of White House foreign-policy
+        priorities unmediated by the legislative process.
       </p>
     </section>
 
@@ -64,7 +71,7 @@
         <div class="grid-header" id="grid-header"></div>
         <div class="grid-body" id="grid-body"></div>
       </div>
-      <p class="grid-caption">
+      <p class="grid-caption" id="grid-caption">
         Each flag represents the most-mentioned country in congressional
         records that month. Tap a cell for details.
       </p>

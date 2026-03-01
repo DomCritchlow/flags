@@ -161,9 +161,17 @@
         btn.classList.add('active');
         closeInlineDetail();
 
+        const ledeCongressEl = document.getElementById('lede-congress');
+        const ledeExecutiveEl = document.getElementById('lede-executive');
+        const captionEl = document.getElementById('grid-caption');
+
         if (branch === 'executive') {
           document.body.classList.add('executive');
           if (toggleContainer) toggleContainer.style.display = 'none';
+          if (ledeCongressEl) ledeCongressEl.style.display = 'none';
+          if (ledeExecutiveEl) ledeExecutiveEl.style.display = '';
+          if (captionEl) captionEl.textContent =
+            'Each flag represents the most-mentioned country in presidential executive orders that month. Tap a cell for details.';
 
           // Lazy-load executive data on first switch
           if (!executiveData) {
@@ -184,6 +192,10 @@
         } else {
           document.body.classList.remove('executive');
           if (toggleContainer) toggleContainer.style.display = '';
+          if (ledeCongressEl) ledeCongressEl.style.display = '';
+          if (ledeExecutiveEl) ledeExecutiveEl.style.display = 'none';
+          if (captionEl) captionEl.textContent =
+            'Each flag represents the most-mentioned country in congressional records that month. Tap a cell for details.';
 
           const filtered = activeSource === 'all' ? monthlyTop : buildSourceTop(activeSource);
           FlagGrid.update(filtered);

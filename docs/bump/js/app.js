@@ -153,7 +153,10 @@ function congressOrdinal(n) {
 }
 
 async function init() {
-  const { monthlyTop, monthlyAll, metadata } = await DataLoader.loadAll();
+  const [{ monthlyTop, monthlyAll, metadata }, exData] = await Promise.all([
+    DataLoader.loadAll(),
+    DataLoader.loadExecutive().catch(() => null),
+  ]);
 
   const months = Object.keys(monthlyAll).sort();
   const countryMeta = buildCountryMeta(monthlyAll);
@@ -173,7 +176,16 @@ async function init() {
   renderBarChart(totals, countryMeta);
   renderEraGrid(monthlyAll, countryMeta, months);
   renderCrisisTimeline(monthlyAll, countryMeta);
-  renderPatterns(monthlyTop, totals, countryMeta, metadata);
+
+  if (exData) {
+    const exCountryMeta = buildCountryMeta(exData.monthlyAll);
+    const exTotals = computeTotals(exData.monthlyAll);
+    renderBranchComparison(monthlyTop, exData.monthlyTop, totals, exTotals, countryMeta, exCountryMeta);
+    renderPatterns(monthlyTop, totals, countryMeta, metadata, exData.monthlyTop);
+  } else {
+    renderPatterns(monthlyTop, totals, countryMeta, metadata, null);
+  }
+
   renderHeatMatrix(monthlyAll, totals, countryMeta, months);
 
   const updated = metadata.last_run ? metadata.last_run.slice(0, 10) : '';
@@ -367,9 +379,76 @@ function renderCrisisTimeline(allData, countryMeta) {
   }
 }
 
+// ── Branch Comparison ─────────────────────────────────────────────────────────
+
+function renderBranchComparison(monthlyTop, exMonthlyTop, congTotals, exTotals, countryMeta, exCountryMeta) {
+  const container = document.getElementById('branch-comparison');
+  if (!container) return;
+
+  const allMeta = { ...countryMeta, ...exCountryMeta };
+  const congTop10 = Object.entries(congTotals).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const exTop10   = Object.entries(exTotals).sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+  // Divergence: months where congress #1 ≠ executive #1
+  const congByMonth = {};
+  for (const d of monthlyTop) congByMonth[d.month] = d.country_iso3;
+  const exByMonth = {};
+  for (const d of exMonthlyTop) exByMonth[d.month] = d.country_iso3;
+  const shared = Object.keys(congByMonth).filter(m => exByMonth[m]);
+  let agreements = 0;
+  for (const m of shared) {
+    if (congByMonth[m] === exByMonth[m]) agreements++;
+  }
+  const divergePct = shared.length ? Math.round((shared.length - agreements) / shared.length * 100) : 0;
+
+  // Countries only in executive top 10
+  const congTop10Set = new Set(congTop10.map(([iso3]) => iso3));
+  const exOnly = exTop10.filter(([iso3]) => !congTop10Set.has(iso3))
+    .map(([iso3]) => allMeta[iso3]?.name || iso3);
+
+  const congMax = congTop10[0]?.[1] || 1;
+  const exMax   = exTop10[0]?.[1] || 1;
+
+  function buildRows(top10, maxCount, fillClass) {
+    return top10.map(([iso3, count]) => {
+      const meta = allMeta[iso3] || {};
+      const pct = (count / maxCount * 100).toFixed(1);
+      return `<div class="compare-row">
+        <img class="compare-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || iso3}" />
+        <span class="compare-name">${meta.name || iso3}</span>
+        <div class="compare-track"><div class="compare-fill ${fillClass}" style="width:${pct}%"></div></div>
+        <span class="compare-count">${count}</span>
+      </div>`;
+    }).join('');
+  }
+
+  container.innerHTML = `
+    <div class="branch-compare-grid">
+      <div class="branch-col">
+        <div class="branch-col-header">
+          <span class="branch-col-label">Congress</span>
+          <span class="branch-col-sub">bills, nominations, amendments — all years</span>
+        </div>
+        ${buildRows(congTop10, congMax, 'compare-fill--congress')}
+      </div>
+      <div class="branch-col">
+        <div class="branch-col-header">
+          <span class="branch-col-label">Executive Orders</span>
+          <span class="branch-col-sub">presidential orders — 1993 to present</span>
+        </div>
+        ${buildRows(exTop10, exMax, 'compare-fill--executive')}
+      </div>
+    </div>
+    <p class="branch-compare-note">Each column is normalized to its own maximum. Congressional totals run into the thousands; executive totals into the dozens. Bars show relative rank within each branch, not absolute scale.</p>
+    <div class="branch-diverge-stat">
+      <strong>${divergePct}%</strong> of months where both datasets overlap, Congress and the White House focused on <em>different</em> countries at #1.${exOnly.length > 0 ? ` Countries that appear in the Executive top&nbsp;10 but not the Congressional top&nbsp;10: <strong>${exOnly.join(', ')}</strong>.` : ''}
+    </div>
+  `;
+}
+
 // ── Patterns ──────────────────────────────────────────────────────────────────
 
-function renderPatterns(monthlyTop, totals, countryMeta, metadata) {
+function renderPatterns(monthlyTop, totals, countryMeta, metadata, exMonthlyTop) {
   const container = document.getElementById('patterns');
   const sorted = [...monthlyTop].sort((a, b) => a.month.localeCompare(b.month));
 
@@ -399,6 +478,26 @@ function renderPatterns(monthlyTop, totals, countryMeta, metadata) {
   const top5Names = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 5)
     .map(([iso3]) => countryMeta[iso3]?.name || iso3).join(', ');
 
+  // Pattern 4: Branch Divergence (if executive data available)
+  let divergeCard = null;
+  if (exMonthlyTop && exMonthlyTop.length > 0) {
+    const congByMonth = {};
+    for (const d of sorted) congByMonth[d.month] = d.country_iso3;
+    const exByMonth = {};
+    for (const d of exMonthlyTop) exByMonth[d.month] = d.country_iso3;
+    const shared = Object.keys(congByMonth).filter(m => exByMonth[m]);
+    let agreements = 0;
+    for (const m of shared) {
+      if (congByMonth[m] === exByMonth[m]) agreements++;
+    }
+    const divergePct = shared.length ? Math.round((shared.length - agreements) / shared.length * 100) : 0;
+    divergeCard = {
+      label: 'Branch Divergence',
+      stat: `${divergePct}% diverge`,
+      body: `Across ${shared.length} months where both datasets overlap, Congress and the White House named the same country #1 in only ${agreements} of them. The two branches choose different top priorities ${divergePct}% of the time.`,
+    };
+  }
+
   const patterns = [
     {
       label: 'Recurring Dominance',
@@ -415,6 +514,7 @@ function renderPatterns(monthlyTop, totals, countryMeta, metadata) {
       stat: `${top5Pct}%`,
       body: `Five countries — ${top5Names} — account for ${top5Pct}% of all ${total.toLocaleString()} mentions detected. The rest of the world splits the remaining ${100 - top5Pct}%.`,
     },
+    ...(divergeCard ? [divergeCard] : []),
   ];
 
   for (const p of patterns) {
