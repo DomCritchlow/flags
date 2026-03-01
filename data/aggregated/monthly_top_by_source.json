@@ -2168,12 +2168,13 @@
   },
   "2025-01": {
     "bill": {
-      "iso3": "VNM",
-      "iso2": "vn",
-      "name": "Vietnam",
-      "count": 1,
+      "iso3": "POL",
+      "iso2": "pl",
+      "name": "Poland",
+      "count": 2,
       "sample_titles": [
-        "To designate the facility of the United States Postal Service located at 9317 Bolsa Avenue in Westminster, California, as the \"Little Saigon Vietnam War Veterans Memorial Post Office\"."
+        "A resolution commemorating the 80th anniversary of the liberation of the Auschwitz extermination camp in Nazi-occupied Poland and International Holocaust Remembrance Day.",
+        "Commemorating the 80th anniversary of the liberation of the Auschwitz extermination camp in Nazi-occupied Poland and International Holocaust Remembrance Day."
       ]
     },
     "nomination": {
@@ -2183,6 +2184,277 @@
       "count": 1,
       "sample_titles": [
         "Calvin Smyre, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Commonwealth of The Bahamas."
+      ]
+    }
+  },
+  "2025-02": {
+    "amendment": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 1,
+      "sample_titles": [
+        "To ensure continued United States support for the Government of Ukraine to stand firm against aggression by the Government of Russia in Europe."
+      ]
+    },
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 18,
+      "sample_titles": [
+        "Chinese Currency Accountability Act of 2025",
+        "China Exchange Rate Transparency Act of 2025",
+        "Providing amounts for the expenses of the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party in the One Hundred Nineteenth Congress."
+      ]
+    }
+  },
+  "2025-03": {
+    "amendment": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 1,
+      "sample_titles": [
+        "An amendment numbered 2 printed in House Report 119-38 to amend the definition of 'foreign entity of concern' to include Chinese military companies identified on the list required by section 1260H of the FY 2021 NDAA (colloquially referred to as the \"Section 1260H list\")."
+      ]
+    },
+    "bill": {
+      "iso3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "count": 12,
+      "sample_titles": [
+        "Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+        "Providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services.",
+        "A joint resolution providing for congressional disapproval of the report of enhancement or upgrade of sensitive foreign military related to a sale to the Government of Israel of certain defense articles and services."
+      ]
+    }
+  },
+  "2025-04": {
+    "amendment": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 1,
+      "sample_titles": [
+        "To prevent any disruption in security assistance to Ukraine."
+      ]
+    },
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 4,
+      "sample_titles": [
+        "To provide for the rescission of certain waivers and licenses relating to Iran, and for other purposes.",
+        "Iranian Terror Prevention Act",
+        "No Iranian Energy Act"
+      ]
+    },
+    "nomination": {
+      "iso3": "NZL",
+      "iso2": "nz",
+      "name": "New Zealand",
+      "count": 1,
+      "sample_titles": [
+        "Gregory Autrey, of Florida, to be Chief Financial Officer, National Aeronautics and Space Administration, vice Margaret Vo Schaus, resigned."
+      ]
+    }
+  },
+  "2025-05": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 6,
+      "sample_titles": [
+        "Taiwan Representative Office Act",
+        "Taiwan Relations Reinforcement Act of 2025",
+        "Taiwan International Solidarity Act"
+      ]
+    }
+  },
+  "2025-06": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 10,
+      "sample_titles": [
+        "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+        "Food Distribution Program on Indian Reservations (FDPIR) Act of 2025",
+        "To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to authorize the President to provide certain fire management assistance to Indian Tribal Governments, and for other purposes."
+      ]
+    },
+    "nomination": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 1,
+      "sample_titles": [
+        "John Simermeyer, of North Carolina, to be Chairman of the National Indian Gaming Commission for the term of three years, vice E. Sequoyah Simermeyer, term expired."
+      ]
+    }
+  },
+  "2025-07": {
+    "amendment": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 2,
+      "sample_titles": [
+        "An amendment numbered 293 printed in Part A of House Report 119-199 to prohibit the expenditure of funds to create, procure, or display any map that depicts Taiwan as part of the territory of the People's Republic of China.",
+        "Amendment sought to strike funding for the Taiwan Security Cooperation Initiative."
+      ]
+    },
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 8,
+      "sample_titles": [
+        "China Financial Threat Mitigation Act of 2025",
+        "Protecting Our Farms and Homes from China Act",
+        "STOP China Act"
+      ]
+    }
+  },
+  "2025-08": {
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 3,
+      "sample_titles": [
+        "Fulfilling Promises to Afghan Allies Act",
+        "Afghan Adjustment Act",
+        "Honoring the members of the Armed Forces who served in the war in Afghanistan."
+      ]
+    }
+  },
+  "2025-09": {
+    "amendment": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 1,
+      "sample_titles": [
+        "An amendment numbered 22 printed in Part A of House Report 119-255 to prohibit assistance to Ukraine."
+      ]
+    },
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 8,
+      "sample_titles": [
+        "Stop Chinese Fentanyl Act of 2025",
+        "Expressing the sense of the House of Representatives that China should no longer be labeled as a \"Developing Nation\" by the United Nations.",
+        "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific."
+      ]
+    }
+  },
+  "2025-10": {
+    "amendment": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 2,
+      "sample_titles": [
+        "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States.",
+        "To protect the national security of the United States by imposing sanctions with respect to certain persons of the People's Republic of China and prohibiting and requiring notifications with respect to certain investments by United States persons in the People's Republic of China."
+      ]
+    },
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 7,
+      "sample_titles": [
+        "A resolution condemning the Government of the People's Republic of China for engaging in transnational repression.",
+        "Taiwan International Solidarity Act",
+        "United States - Taiwan Partnership in the Americas Act"
+      ]
+    },
+    "nomination": {
+      "iso3": "VNM",
+      "iso2": "vn",
+      "name": "Vietnam",
+      "count": 1,
+      "sample_titles": [
+        "Jennifer Wicks McNamara, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam."
+      ]
+    }
+  },
+  "2025-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "To amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes.",
+        "Indian Trust Asset Reform Amendment Act",
+        "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes."
+      ]
+    }
+  },
+  "2025-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 12,
+      "sample_titles": [
+        "A bill to provide for the equitable settlement of certain Indian land disputes regarding land in Illinois, and for other purposes.",
+        "A bill to accept the request to revoke the charter of incorporation of the Lower Sioux Indian Community in the State of Minnesota at the request of that Community, and for other purposes.",
+        "A bill to amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes."
+      ]
+    }
+  },
+  "2026-01": {
+    "bill": {
+      "iso3": "VEN",
+      "iso2": "ve",
+      "name": "Venezuela",
+      "count": 7,
+      "sample_titles": [
+        "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+        "To direct the removal of United States Armed Forces from Venezuela that have not been authorized by Congress.",
+        "No War with Venezuela Act of 2026"
+      ]
+    },
+    "nomination": {
+      "iso3": "NZL",
+      "iso2": "nz",
+      "name": "New Zealand",
+      "count": 2,
+      "sample_titles": [
+        "Jared Novelly, of Missouri, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to New Zealand, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Independent State of Samoa, the Cook Islands, and Niue.",
+        "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+      ]
+    }
+  },
+  "2026-02": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 12,
+      "sample_titles": [
+        "Indian Health Service Emergency Claims Parity Act",
+        "Truth and Healing Commission on Indian Boarding School Policies Act of 2026",
+        "Stronger Engagement for Indian Health Needs Act of 2026"
+      ]
+    },
+    "nomination": {
+      "iso3": "SVN",
+      "iso2": "si",
+      "name": "Slovenia",
+      "count": 1,
+      "sample_titles": [
+        "Andrew Woodson, of Virginia, to be a Member of the Federal Election Commission for a term expiring April 30, 2031, vice Allen Dickerson, term expired."
       ]
     }
   }

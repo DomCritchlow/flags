@@ -5908,3 +5908,747 @@
 {"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "amdt-118-hamdt1223", "source_type": "amendment", "tier": 1, "score": null, "month": "2024-09"}
 {"iso3": "BRA", "country_name": "Brazil", "term": "Salvador", "record_id": "nom-118-1573", "source_type": "nomination", "tier": 1, "score": null, "month": "2024-11"}
 {"iso3": "FRA", "country_name": "France", "term": "French", "record_id": "nom-118-1253", "source_type": "nomination", "tier": 1, "score": null, "month": "2024-11"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "amdt-119-samdt299", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "amdt-119-samdt299", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "amdt-119-hamdt11", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "amdt-119-samdt1646", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "amdt-119-samdt2856", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "amdt-119-hamdt57", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "amdt-119-hamdt62", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "amdt-119-hamdt53", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "amdt-119-hamdt93", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "amdt-119-hamdt95", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "LVA", "country_name": "Latvia", "term": "Latvia", "record_id": "amdt-119-hamdt92", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "LTU", "country_name": "Lithuania", "term": "Lithuania", "record_id": "amdt-119-hamdt92", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "amdt-119-hamdt92", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "amdt-119-samdt2979", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "FSM", "country_name": "Micronesia", "term": "Federated States of Micronesia", "record_id": "amdt-119-samdt3015", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "PLW", "country_name": "Palau", "term": "Palau", "record_id": "amdt-119-samdt3015", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "IRQ", "country_name": "Iraq", "term": "Iraq", "record_id": "amdt-119-samdt3337", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "amdt-119-samdt3376", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "amdt-119-samdt3728", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "amdt-119-samdt3728", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "amdt-119-samdt3728", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "KOR", "country_name": "South Korea", "term": "Republic of Korea", "record_id": "amdt-119-samdt3728", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "amdt-119-samdt3818", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "amdt-119-samdt3818", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "amdt-119-samdt3899", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "amdt-119-samdt3926", "source_type": "amendment", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr386", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr412", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr692", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "POL", "country_name": "Poland", "term": "Poland", "record_id": "bill-119-sres40", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-s261", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr805", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hres71", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "BLR", "country_name": "Belarus", "term": "Belarusian", "record_id": "bill-119-hres73", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr741", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "MNG", "country_name": "Mongolia", "term": "Mongolian", "record_id": "bill-119-s288", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s321", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres43", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghanistan", "record_id": "bill-119-s344", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "POL", "country_name": "Poland", "term": "Poland", "record_id": "bill-119-hres87", "source_type": "bill", "tier": 1, "score": null, "month": "2025-01"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres104", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hres100", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres100", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "MMR", "country_name": "Myanmar", "term": "Burma", "record_id": "bill-119-hres106", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres105", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr934", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr947", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-hr947", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PAN", "country_name": "Panama", "term": "Panama", "record_id": "bill-119-sres54", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-02"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japanese", "record_id": "bill-119-sres53", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres110", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "KAZ", "country_name": "Kazakhstan", "term": "Kazakhstan", "record_id": "bill-119-hr1024", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "AZE", "country_name": "Azerbaijan", "term": "Azerbaijan", "record_id": "bill-119-hres120", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-hr1102", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1081", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "bill-119-hr1053", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hconres8", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CZE", "country_name": "Czechia", "term": "Czech Republic", "record_id": "bill-119-hr1056", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CZE", "country_name": "Czechia", "term": "Czechia", "record_id": "bill-119-s482", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "bill-119-s461", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-sres61", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-sres61", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-sres60", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s418", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza", "record_id": "bill-119-hr1136", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-hr1126", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr1114", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1122", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1167", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza", "record_id": "bill-119-sres68", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-s556", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuelan", "record_id": "bill-119-hr1348", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CRI", "country_name": "Costa Rica", "term": "San Jos\u00e9", "record_id": "bill-119-hr1322", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRL", "country_name": "Ireland", "term": "Ireland", "record_id": "bill-119-hr1337", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres130", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CRI", "country_name": "Costa Rica", "term": "San Jos\u00e9", "record_id": "bill-119-hr1324", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "United Kingdom", "record_id": "bill-119-sres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "FRA", "country_name": "France", "term": "France", "record_id": "bill-119-sres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "DEU", "country_name": "Germany", "term": "Germany", "record_id": "bill-119-sres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CRI", "country_name": "Costa Rica", "term": "San Jos\u00e9", "record_id": "bill-119-s565", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s564", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CRI", "country_name": "Costa Rica", "term": "San Jos\u00e9", "record_id": "bill-119-s562", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "United Kingdom", "record_id": "bill-119-hres139", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "FRA", "country_name": "France", "term": "France", "record_id": "bill-119-hres139", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "DEU", "country_name": "Germany", "term": "Germany", "record_id": "bill-119-hres139", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres139", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japanese", "record_id": "bill-119-hres142", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr1444", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-s641", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-s682", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s680", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-s671", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres20", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres21", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres22", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres23", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hres148", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRQ", "country_name": "Iraq", "term": "Iraq", "record_id": "bill-119-hr1488", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hr1489", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1504", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres154", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hres154", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres155", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-hres155", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hres152", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres158", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-hres158", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Philippines", "record_id": "bill-119-hres156", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-s696", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-sres91", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres91", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1575", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres27", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s733", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres25", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s715", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hres166", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr1625", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "FIN", "country_name": "Finland", "term": "Finn", "record_id": "bill-119-hr1620", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1615", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s753", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "FIN", "country_name": "Finland", "term": "Finn", "record_id": "bill-119-s755", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-s742", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hres168", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr1689", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr1677", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "PA", "record_id": "bill-119-hr1710", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-s808", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres103", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-sres103", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-s785", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres101", "source_type": "bill", "tier": 1, "score": null, "month": "2025-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres71", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres68", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres69", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres70", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "TUR", "country_name": "Turkey", "term": "Turkey", "record_id": "bill-119-hr1890", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-sres114", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres114", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres112", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-sres111", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres111", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-sres110", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-sres110", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-sres109", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres109", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza Strip", "record_id": "bill-119-sres72", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres26", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-04"}
+{"iso3": "SDN", "country_name": "Sudan", "term": "Sudanese", "record_id": "bill-119-hr1939", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr2012", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres35", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres33", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-04"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres32", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hres220", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-hr2059", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr2025", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "TUR", "country_name": "Turkey", "term": "Turkey", "record_id": "bill-119-hres215", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-sjres37", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s953", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-s935", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "SDN", "country_name": "Sudan", "term": "Sudan", "record_id": "bill-119-sres126", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s974", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s1053", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr2127", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr2118", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr2113", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr2114", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IRL", "country_name": "Ireland", "term": "Irish", "record_id": "bill-119-hr2121", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "KEN", "country_name": "Kenya", "term": "Kenya", "record_id": "bill-119-hr2157", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "MLI", "country_name": "Mali", "term": "Mali", "record_id": "bill-119-hr2157", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "BFA", "country_name": "Burkina Faso", "term": "Burkina Faso", "record_id": "bill-119-hr2157", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr2115", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hjres77", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "PAN", "country_name": "Panama", "term": "Panama", "record_id": "bill-119-hres232", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-03"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres232", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres232", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr2246", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hjres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hres243", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "PAK", "country_name": "Pakistan", "term": "Pakistan", "record_id": "bill-119-hr2311", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "TUR", "country_name": "Turkey", "term": "Turkey", "record_id": "bill-119-sres134", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "GRC", "country_name": "Greece", "term": "Greek", "record_id": "bill-119-hres249", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UZB", "country_name": "Uzbekistan", "term": "Uzbekistan", "record_id": "bill-119-hr2329", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "MAR", "country_name": "Morocco", "term": "Morocco", "record_id": "bill-119-hres251", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s1113", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr2370", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "YEM", "country_name": "Yemen", "term": "Yemen", "record_id": "bill-119-hres255", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-sres142", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "GRC", "country_name": "Greece", "term": "Greece", "record_id": "bill-119-sres141", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hres262", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres42", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres40", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-sres145", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ALB", "country_name": "Albania", "term": "Albania", "record_id": "bill-119-sres145", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres83", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "BGR", "country_name": "Bulgaria", "term": "Bulgarian", "record_id": "bill-119-hres281", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hres273", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres85", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres84", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hres279", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres272", "source_type": "bill", "tier": 1, "score": null, "month": "2025-03"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hjres86", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-03"}
+{"iso3": "CAF", "country_name": "Central African Republic", "term": "CAR", "record_id": "bill-119-s1219", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-hr2548", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hconres25", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hconres25", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "ARM", "country_name": "Armenia", "term": "Armenian", "record_id": "bill-119-hr2585", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr2575", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hr2581", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr2559", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hr2574", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-s1241", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "RWA", "country_name": "Rwanda", "term": "Rwanda", "record_id": "bill-119-sres151", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "BGR", "country_name": "Bulgaria", "term": "Bulgarian", "record_id": "bill-119-hres291", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRQ", "country_name": "Iraq", "term": "Iraq", "record_id": "bill-119-hr2658", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr2658", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-hr2622", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "PRK", "country_name": "North Korea", "term": "North Korea", "record_id": "bill-119-hr2622", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-sres156", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr586", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-sres86", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CHN", "country_name": "China", "term": "Beijing", "record_id": "bill-119-sres98", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s821", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr2806", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "NLD", "country_name": "Netherlands", "term": "Dutch", "record_id": "bill-119-hr2903", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "SRB", "country_name": "Serbia", "term": "Serbian", "record_id": "bill-119-hconres26", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "XKX", "country_name": "Kosovo", "term": "Kosovo", "record_id": "bill-119-hconres26", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr2913", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "KHM", "country_name": "Cambodia", "term": "Cambodian", "record_id": "bill-119-hres338", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr2929", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CAF", "country_name": "Central African Republic", "term": "CAR", "record_id": "bill-119-hr2981", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hres343", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hr3050", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-04"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "West Bank", "record_id": "bill-119-hr3045", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canadian", "record_id": "bill-119-hr3070", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japanese", "record_id": "bill-119-hres358", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "PRK", "country_name": "North Korea", "term": "North Korea", "record_id": "bill-119-hres358", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "bill-119-hres357", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s1514", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-hr3104", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Saigon", "record_id": "bill-119-hres366", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr3122", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japanese", "record_id": "bill-119-sres190", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "PRK", "country_name": "North Korea", "term": "North Korea", "record_id": "bill-119-sres190", "source_type": "bill", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "bill-119-hres368", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr3175", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ROU", "country_name": "Romania", "term": "Romania", "record_id": "bill-119-sres199", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "MDA", "country_name": "Moldova", "term": "Moldova", "record_id": "bill-119-sres199", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-sres199", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr3180", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr3197", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "KOR", "country_name": "South Korea", "term": "Republic of Korea", "record_id": "bill-119-hr3193", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "BLR", "country_name": "Belarus", "term": "Belarus", "record_id": "bill-119-hr3201", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CMR", "country_name": "Cameroon", "term": "Cameroonian", "record_id": "bill-119-hres378", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s1588", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr881", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr1800", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr2416", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "bill-119-sres195", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-hr3208", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-s1612", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Ottawa", "record_id": "bill-119-hr3255", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr3255", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "BLR", "country_name": "Belarus", "term": "Belarus", "record_id": "bill-119-hr3225", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAF", "country_name": "Central African Republic", "term": "CAR", "record_id": "bill-119-s1653", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hr3310", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres398", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hr3303", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-05"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s1694", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres212", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s1711", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hr3363", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hr3363", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza", "record_id": "bill-119-sres224", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-hres409", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "QAT", "country_name": "Qatar", "term": "Qatar", "record_id": "bill-119-hres410", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hres413", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-05"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hres411", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-05"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-s1750", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-s1749", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Crimea", "record_id": "bill-119-s1749", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr3452", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-hjres97", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-hjres96", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-sjres52", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s1778", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-sjres51", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-sres236", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "LTU", "country_name": "Lithuania", "term": "Lithuania", "record_id": "bill-119-sres237", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s1824", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "QAT", "country_name": "Qatar", "term": "Qatar", "record_id": "bill-119-sres244", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-sres239", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAF", "country_name": "Central African Republic", "term": "CAR", "record_id": "bill-119-hr3570", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-hres438", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres438", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hr3565", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr3563", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "AUS", "country_name": "Australia", "term": "Australia", "record_id": "bill-119-s1896", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "United Kingdom", "record_id": "bill-119-s1896", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-s1896", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-s1889", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hres454", "source_type": "bill", "tier": 1, "score": null, "month": "2025-05"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres470", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres470", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza", "record_id": "bill-119-hres473", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "SDN", "country_name": "Sudan", "term": "Sudan", "record_id": "bill-119-hres479", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-sres265", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres265", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr411", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr910", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "GHA", "country_name": "Ghana", "term": "Ghana", "record_id": "bill-119-hr1737", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hr1737", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sres227", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-06"}
+{"iso3": "QAT", "country_name": "Qatar", "term": "Qatar", "record_id": "bill-119-sjres53", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-s1780", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-sjres54", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s1900", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canadian", "record_id": "bill-119-hr3830", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "British", "record_id": "bill-119-hr3830", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Philippines", "record_id": "bill-119-hres505", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr3956", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-hr3941", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr3961", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr3973", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr3957", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "bill-119-s2058", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2046", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "bill-119-s2048", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sjres59", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hres521", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres521", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hconres38", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "ZAF", "country_name": "South Africa", "term": "South Africa", "record_id": "bill-119-hr4051", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr4045", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-s2087", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-s2119", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-s2133", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "NLD", "country_name": "Netherlands", "term": "Netherlands", "record_id": "bill-119-sres291", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hconres40", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4085", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s2140", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr4147", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Ottawa", "record_id": "bill-119-s2160", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-s2160", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "India", "record_id": "bill-119-hres548", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "PAK", "country_name": "Pakistan", "term": "Pakistan", "record_id": "bill-119-hres548", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "HND", "country_name": "Honduras", "term": "Honduran", "record_id": "bill-119-hr4202", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "TUN", "country_name": "Tunisia", "term": "Tunisia", "record_id": "bill-119-sres310", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres307", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hres561", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres554", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hres554", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-06"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-hr4241", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4258", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hr4254", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-hres564", "source_type": "bill", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr4286", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr1549", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s761", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr1716", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres34", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-07"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres41", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-07"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hr2505", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ZAF", "country_name": "South Africa", "term": "South Africa", "record_id": "bill-119-hr2633", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-hr3429", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "KOR", "country_name": "South Korea", "term": "ROK", "record_id": "bill-119-hr3429", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "DNK", "country_name": "Denmark", "term": "Denmark", "record_id": "bill-119-sres267", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres518", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hres528", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "MMR", "country_name": "Myanmar", "term": "Burma", "record_id": "bill-119-hr4140", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4345", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "GRC", "country_name": "Greece", "term": "Greece", "record_id": "bill-119-hr4343", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "SRB", "country_name": "Serbia", "term": "Serbia", "record_id": "bill-119-hconres41", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CUB", "country_name": "Cuba", "term": "Cuba", "record_id": "bill-119-sres317", "source_type": "bill", "tier": 2, "score": 13.0, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2258", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr4361", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "GUY", "country_name": "Guyana", "term": "Guyana", "record_id": "bill-119-s2271", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CYP", "country_name": "Cyprus", "term": "Cyprus", "record_id": "bill-119-hr4413", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-07"}
+{"iso3": "MNE", "country_name": "Montenegro", "term": "Montenegro", "record_id": "bill-119-hres584", "source_type": "bill", "tier": 2, "score": 6.0, "month": "2025-07"}
+{"iso3": "PRY", "country_name": "Paraguay", "term": "Asunci\u00f3n", "record_id": "bill-119-s2298", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-hr4427", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "PRY", "country_name": "Paraguay", "term": "Asunci\u00f3n", "record_id": "bill-119-hr4443", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "RWA", "country_name": "Rwanda", "term": "Rwanda", "record_id": "bill-119-hres586", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sres326", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-07"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Argentine", "record_id": "bill-119-sres326", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Argentine", "record_id": "bill-119-hres597", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghanistan", "record_id": "bill-119-hres595", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr4522", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "LAO", "country_name": "Laos", "term": "Laos", "record_id": "bill-119-hr4580", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr4580", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2362", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-s2370", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr4622", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4598", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4750", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hr4655", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr4736", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4722", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr4706", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canadian", "record_id": "bill-119-s2406", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sjres70", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-07"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuelan", "record_id": "bill-119-sres339", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "BLR", "country_name": "Belarus", "term": "Belarus", "record_id": "bill-119-hr4804", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "bill-119-s2552", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "BRA", "country_name": "Brazil", "term": "Brazilian", "record_id": "bill-119-s2578", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "RWA", "country_name": "Rwanda", "term": "Rwanda", "record_id": "bill-119-sres355", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CRI", "country_name": "Costa Rica", "term": "Costa Rica", "record_id": "bill-119-sres353", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "SWZ", "country_name": "Eswatini", "term": "Eswatini", "record_id": "bill-119-sres351", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "SSD", "country_name": "South Sudan", "term": "South Sudan", "record_id": "bill-119-sres352", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-sres356", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "ERI", "country_name": "Eritrea", "term": "Eritrea", "record_id": "bill-119-sres350", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "PAN", "country_name": "Panama", "term": "Panama", "record_id": "bill-119-sres354", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-07"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-s2592", "source_type": "bill", "tier": 1, "score": null, "month": "2025-07"}
+{"iso3": "CPV", "country_name": "Cabo Verde", "term": "Cabo Verde", "record_id": "bill-119-hres625", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr4860", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "West Bank", "record_id": "bill-119-s2672", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "FIN", "country_name": "Finland", "term": "Helsinki", "record_id": "bill-119-sconres20", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "West Bank", "record_id": "bill-119-s2667", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghan", "record_id": "bill-119-s2679", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghan", "record_id": "bill-119-hr4895", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr747", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr2643", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hres640", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "GTM", "country_name": "Guatemala", "term": "Guatemala", "record_id": "bill-119-hres647", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japanese", "record_id": "bill-119-hres653", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hres659", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Rosario", "record_id": "bill-119-hjres116", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghanistan", "record_id": "bill-119-hres667", "source_type": "bill", "tier": 1, "score": null, "month": "2025-08"}
+{"iso3": "TUN", "country_name": "Tunisia", "term": "Tunisia", "record_id": "bill-119-hr5101", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-hres674", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5144", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CPV", "country_name": "Cabo Verde", "term": "Cabo Verde", "record_id": "bill-119-sres373", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hr5180", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haitian", "record_id": "bill-119-hr5209", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hres687", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-sres381", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "DEU", "country_name": "Germany", "term": "German", "record_id": "bill-119-sres381", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-s2747", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr5293", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres689", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres689", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-hres689", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PAK", "country_name": "Pakistan", "term": "Pakistan", "record_id": "bill-119-hr5271", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "SGP", "country_name": "Singapore", "term": "Singapore", "record_id": "bill-119-hres696", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5257", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr5287", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-sres383", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "ZAF", "country_name": "South Africa", "term": "South Africa", "record_id": "bill-119-s2752", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5327", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr5329", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5328", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s2771", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "HND", "country_name": "Honduras", "term": "Honduran", "record_id": "bill-119-hres717", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "AZE", "country_name": "Azerbaijan", "term": "Azerbaijan", "record_id": "bill-119-hr5369", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-s2805", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "AZE", "country_name": "Azerbaijan", "term": "Azerbaijan", "record_id": "bill-119-sres398", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Rosario", "record_id": "bill-119-sjres79", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr5488", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr5491", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-sres410", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sres410", "source_type": "bill", "tier": 2, "score": 20.0, "month": "2025-09"}
+{"iso3": "IND", "country_name": "India", "term": "India", "record_id": "bill-119-s2868", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2884", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s2861", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnamese", "record_id": "bill-119-hconres50", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "KOR", "country_name": "South Korea", "term": "Republic of Korea", "record_id": "bill-119-hr5534", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hr5510", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestine", "record_id": "bill-119-hres769", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Jalalabad", "record_id": "bill-119-hres765", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-sres421", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres421", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-s2934", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "DEU", "country_name": "Germany", "term": "German", "record_id": "bill-119-hres783", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr5626", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "bill-119-hres774", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres777", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hres777", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "bill-119-sres423", "source_type": "bill", "tier": 1, "score": null, "month": "2025-09"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Argentina", "record_id": "bill-119-s2965", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-sres226", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-s1854", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CYP", "country_name": "Cyprus", "term": "Cyprus", "record_id": "bill-119-s2018", "source_type": "bill", "tier": 2, "score": 10.0, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2146", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s2224", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s2657", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-s2657", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s2684", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-sjres77", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "MKD", "country_name": "North Macedonia", "term": "North Macedonia", "record_id": "bill-119-sres399", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "BRA", "country_name": "Brazil", "term": "Brazil", "record_id": "bill-119-sjres81", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Philippines", "record_id": "bill-119-sres409", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-sres409", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-sres409", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "bill-119-s2960", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s2960", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-hres789", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-sres432", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "DEU", "country_name": "Germany", "term": "German", "record_id": "bill-119-sres432", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-sres438", "source_type": "bill", "tier": 2, "score": 30.0, "month": "2025-10"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza Strip", "record_id": "bill-119-sres438", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-s2978", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hres794", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-sres442", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-sres444", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-hr5739", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-hconres57", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ESP", "country_name": "Spain", "term": "Spanish", "record_id": "bill-119-hres804", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italian", "record_id": "bill-119-hres813", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hres819", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s3018", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-hr5797", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hr5808", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-sres462", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "KAZ", "country_name": "Kazakhstan", "term": "Kazakhstan", "record_id": "bill-119-sres459", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "KGZ", "country_name": "Kyrgyzstan", "term": "Kyrgyzstan", "record_id": "bill-119-sres459", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TJK", "country_name": "Tajikistan", "term": "Tajikistan", "record_id": "bill-119-sres459", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TKM", "country_name": "Turkmenistan", "term": "Turkmenistan", "record_id": "bill-119-sres459", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "UZB", "country_name": "Uzbekistan", "term": "Uzbekistan", "record_id": "bill-119-sres459", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s3036", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s3056", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr5838", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinians", "record_id": "bill-119-hres839", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "GRC", "country_name": "Greece", "term": "Greek", "record_id": "bill-119-hres840", "source_type": "bill", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hres853", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hres852", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2025-10"}
+{"iso3": "AUS", "country_name": "Australia", "term": "Sydney", "record_id": "bill-119-hres859", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hres860", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-hr1327", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr1512", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "NLD", "country_name": "Netherlands", "term": "Dutch", "record_id": "bill-119-s1476", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4276", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "MMR", "country_name": "Myanmar", "term": "Burma", "record_id": "bill-119-hr4423", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5515", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr5682", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-sjres90", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-sres463", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s3148", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-sres488", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Argentine", "record_id": "bill-119-hr5984", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr5962", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hr5980", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr5935", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres861", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexican", "record_id": "bill-119-hr5926", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hres866", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "PRK", "country_name": "North Korea", "term": "North Korean", "record_id": "bill-119-hr5959", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr5939", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr5986", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s3163", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Filipino", "record_id": "bill-119-hr6013", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-sres495", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-s3172", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-hres876", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "India", "record_id": "bill-119-hres880", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "KAZ", "country_name": "Kazakhstan", "term": "Kazakhstan", "record_id": "bill-119-hres882", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "AUS", "country_name": "Australia", "term": "Australia", "record_id": "bill-119-hr6123", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s3208", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-sres506", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s3219", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-s3262", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-sres510", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s3242", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr6194", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Tehran", "record_id": "bill-119-hr6230", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr6205", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hr6251", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr6262", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr6275", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukrainian", "record_id": "bill-119-hres915", "source_type": "bill", "tier": 1, "score": null, "month": "2025-11"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres916", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres916", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-sres523", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-sres523", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-sres523", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghanistan", "record_id": "bill-119-s3310", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres925", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres525", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s3320", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghan", "record_id": "bill-119-hr6443", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "HND", "country_name": "Honduras", "term": "Honduras", "record_id": "bill-119-hres929", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres930", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-s3344", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "HND", "country_name": "Honduras", "term": "Honduran", "record_id": "bill-119-sres530", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-sres529", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr410", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s550", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "MKD", "country_name": "North Macedonia", "term": "Macedonia", "record_id": "bill-119-hr1372", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s621", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s612", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s642", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s640", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s748", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr2302", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr2389", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-sres321", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-s2735", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hconres64", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "AZE", "country_name": "Azerbaijan", "term": "Azerbaijan", "record_id": "bill-119-hr6534", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "ETH", "country_name": "Ethiopia", "term": "Ethiopia", "record_id": "bill-119-hres937", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "bill-119-s3405", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "PRC", "record_id": "bill-119-s3447", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "India", "record_id": "bill-119-hjres134", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s3478", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "British", "record_id": "bill-119-hres952", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-s3513", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-hres957", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "AUS", "country_name": "Australia", "term": "Sydney", "record_id": "bill-119-hres956", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-sres549", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-sres547", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-sres547", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-hr6856", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr6856", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr6909", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "MNG", "country_name": "Mongolia", "term": "Mongolian", "record_id": "bill-119-hr6877", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "ARG", "country_name": "Argentina", "term": "Argentina", "record_id": "bill-119-hr6905", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "bill-119-hr6878", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s3566", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "SYR", "country_name": "Syria", "term": "Syria", "record_id": "bill-119-sres572", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-s3574", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hres971", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-hres971", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "SDN", "country_name": "Sudan", "term": "Sudan", "record_id": "bill-119-hres970", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hr6915", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-hr6917", "source_type": "bill", "tier": 1, "score": null, "month": "2025-12"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-sjres101", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr1422", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Crimea", "record_id": "bill-119-hr1600", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hr1601", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s1055", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr3377", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr5910", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-sjres98", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hr6504", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hres965", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hconres68", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-s3595", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-sres576", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "MMR", "country_name": "Myanmar", "term": "Burma", "record_id": "bill-119-hr7014", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hres993", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hr7038", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-s3621", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr7075", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "MEX", "country_name": "Mexico", "term": "Mexico", "record_id": "bill-119-hr7059", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "NIC", "country_name": "Nicaragua", "term": "Nicaragua", "record_id": "bill-119-hr7055", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-s3640", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr7121", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr7094", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "DNK", "country_name": "Denmark", "term": "Denmark", "record_id": "bill-119-hconres70", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CHN", "country_name": "China", "term": "China", "record_id": "bill-119-hr7113", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr7095", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "DNK", "country_name": "Denmark", "term": "Denmark", "record_id": "bill-119-sconres26", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuelan", "record_id": "bill-119-s3685", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iranian", "record_id": "bill-119-hres1008", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-hres1018", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-hr7211", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hres1020", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hres1020", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sjres104", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "JPN", "country_name": "Japan", "term": "Japan", "record_id": "bill-119-hconres71", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hconres71", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "AUS", "country_name": "Australia", "term": "Australia", "record_id": "bill-119-hr7276", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "NZL", "country_name": "New Zealand", "term": "New Zealand", "record_id": "bill-119-hr7276", "source_type": "bill", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "LBN", "country_name": "Lebanon", "term": "Lebanon", "record_id": "bill-119-hr7311", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2026-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hres1031", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "BRA", "country_name": "Brazil", "term": "Brazil", "record_id": "bill-119-hjres147", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr7325", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s3767", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "SOM", "country_name": "Somalia", "term": "Somalia", "record_id": "bill-119-hr7359", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "bill-119-s3781", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "HTI", "country_name": "Haiti", "term": "Haiti", "record_id": "bill-119-sres599", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "ARE", "country_name": "United Arab Emirates", "term": "United Arab Emirates", "record_id": "bill-119-sres598", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "BOL", "country_name": "Bolivia", "term": "La Paz", "record_id": "bill-119-hr1043", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr1531", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "BOL", "country_name": "Bolivia", "term": "La Paz", "record_id": "bill-119-s909", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s1216", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr2827", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "MMR", "country_name": "Myanmar", "term": "Burma", "record_id": "bill-119-hr3190", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr4463", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-s2722", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr6162", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hres1046", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "NGA", "country_name": "Nigeria", "term": "Nigeria", "record_id": "bill-119-hr7457", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr7515", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "GUY", "country_name": "Guyana", "term": "Georgetown", "record_id": "bill-119-hr7489", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "CAN", "country_name": "Canada", "term": "Canada", "record_id": "bill-119-hr7492", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr7506", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Taiwan", "record_id": "bill-119-hr7485", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-sres606", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-s3838", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "ISR", "country_name": "Israel", "term": "Israel", "record_id": "bill-119-hr7540", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2026-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Palestinian", "record_id": "bill-119-hr7545", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "Gaza", "record_id": "bill-119-hr7565", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "CUB", "country_name": "Cuba", "term": "Cuba", "record_id": "bill-119-hr7521", "source_type": "bill", "tier": 2, "score": 0.0, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indians", "record_id": "bill-119-s3878", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-s3859", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sjres108", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian Federation", "record_id": "bill-119-hres1067", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-hres1067", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-hr7622", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr7627", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "bill-119-hr7635", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "ITA", "country_name": "Italy", "term": "Italy", "record_id": "bill-119-hres1070", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "PSE", "country_name": "Palestine", "term": "West Bank", "record_id": "bill-119-hr7645", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russian", "record_id": "bill-119-hr7668", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "CHN", "country_name": "China", "term": "Chinese", "record_id": "bill-119-hr7668", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "GEO", "country_name": "Georgia", "term": "Georgia", "record_id": "bill-119-hr7668", "source_type": "bill", "tier": 2, "score": 6.0, "month": "2026-02"}
+{"iso3": "RUS", "country_name": "Russia", "term": "Russia", "record_id": "bill-119-sres612", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "UKR", "country_name": "Ukraine", "term": "Ukraine", "record_id": "bill-119-sres612", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IRN", "country_name": "Iran", "term": "Iran", "record_id": "bill-119-s3900", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr7710", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "VEN", "country_name": "Venezuela", "term": "Venezuela", "record_id": "bill-119-hr7674", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "AFG", "country_name": "Afghanistan", "term": "Afghanistan", "record_id": "bill-119-hr7669", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "bill-119-hr7705", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "POL", "country_name": "Poland", "term": "Polish", "record_id": "bill-119-hres1082", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "HND", "country_name": "Honduras", "term": "Honduras", "record_id": "bill-119-sres616", "source_type": "bill", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "NZL", "country_name": "New Zealand", "term": "New Zealand", "record_id": "nom-119-55", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "GBR", "country_name": "United Kingdom", "term": "United Kingdom", "record_id": "nom-119-24", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IRL", "country_name": "Ireland", "term": "Ireland", "record_id": "nom-119-24", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "TWN", "country_name": "Taiwan", "term": "Republic of China", "record_id": "nom-119-54", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-04"}
+{"iso3": "IND", "country_name": "India", "term": "Indian", "record_id": "nom-119-129", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-06"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "nom-119-585", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "BHR", "country_name": "Bahrain", "term": "Bahrain", "record_id": "nom-119-465", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "IND", "country_name": "India", "term": "India", "record_id": "nom-119-465", "source_type": "nomination", "tier": 1, "score": null, "month": "2025-10"}
+{"iso3": "JOR", "country_name": "Jordan", "term": "Jordan", "record_id": "nom-119-465", "source_type": "nomination", "tier": 2, "score": 20.0, "month": "2025-10"}
+{"iso3": "NZL", "country_name": "New Zealand", "term": "New Zealand", "record_id": "nom-119-62", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "MYS", "country_name": "Malaysia", "term": "Malaysia", "record_id": "nom-119-380", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "LKA", "country_name": "Sri Lanka", "term": "Sri Lanka", "record_id": "nom-119-380", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Philippines", "record_id": "nom-119-591", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "SYC", "country_name": "Seychelles", "term": "Victoria", "record_id": "nom-119-616", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CYP", "country_name": "Cyprus", "term": "Cyprus", "record_id": "nom-119-616", "source_type": "nomination", "tier": 2, "score": 10.0, "month": "2026-01"}
+{"iso3": "SAU", "country_name": "Saudi Arabia", "term": "Medina", "record_id": "nom-119-616", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "nom-119-605", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "LKA", "country_name": "Sri Lanka", "term": "Sri Lanka", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "VNM", "country_name": "Vietnam", "term": "Vietnam", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "SLV", "country_name": "El Salvador", "term": "El Salvador", "record_id": "nom-119-786", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "CYP", "country_name": "Cyprus", "term": "Cyprus", "record_id": "nom-119-730", "source_type": "nomination", "tier": 2, "score": 10.0, "month": "2026-01"}
+{"iso3": "SYC", "country_name": "Seychelles", "term": "Victoria", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "PHL", "country_name": "Philippines", "term": "Philippines", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "NOR", "country_name": "Norway", "term": "Norway", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "HUN", "country_name": "Hungary", "term": "Hungary", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "NZL", "country_name": "New Zealand", "term": "New Zealand", "record_id": "nom-119-730", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-01"}
+{"iso3": "SVN", "country_name": "Slovenia", "term": "Slovenia", "record_id": "nom-119-806", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-02"}
+{"iso3": "CHE", "country_name": "Switzerland", "term": "Geneva", "record_id": "nom-119-806", "source_type": "nomination", "tier": 1, "score": null, "month": "2026-02"}

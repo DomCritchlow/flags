@@ -2433,14 +2433,235 @@
     "country_iso2": "vn",
     "country_name": "Vietnam",
     "mention_count": 2,
-    "total_records_scanned": 12,
-    "runner_up_iso3": "BHS",
-    "runner_up_iso2": "bs",
-    "runner_up_name": "Bahamas",
-    "runner_up_count": 1,
+    "total_records_scanned": 22,
+    "runner_up_iso3": "POL",
+    "runner_up_iso2": "pl",
+    "runner_up_name": "Poland",
+    "runner_up_count": 2,
     "sample_titles": [
       "Kin Moy, of Maryland, a Career Member of the Senior Foreign Service, Class of Career Minister, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam.",
       "To designate the facility of the United States Postal Service located at 9317 Bolsa Avenue in Westminster, California, as the \"Little Saigon Vietnam War Veterans Memorial Post Office\"."
+    ]
+  },
+  {
+    "month": "2025-02",
+    "country_iso3": "CHN",
+    "country_iso2": "cn",
+    "country_name": "China",
+    "mention_count": 18,
+    "total_records_scanned": 81,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 11,
+    "sample_titles": [
+      "Chinese Currency Accountability Act of 2025",
+      "China Exchange Rate Transparency Act of 2025",
+      "Providing amounts for the expenses of the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party in the One Hundred Nineteenth Congress."
+    ]
+  },
+  {
+    "month": "2025-03",
+    "country_iso3": "ISR",
+    "country_iso2": "il",
+    "country_name": "Israel",
+    "mention_count": 12,
+    "total_records_scanned": 62,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 8,
+    "sample_titles": [
+      "Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+      "Providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services.",
+      "A joint resolution providing for congressional disapproval of the report of enhancement or upgrade of sensitive foreign military related to a sale to the Government of Israel of certain defense articles and services."
+    ]
+  },
+  {
+    "month": "2025-04",
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 4,
+    "total_records_scanned": 43,
+    "runner_up_iso3": "UKR",
+    "runner_up_iso2": "ua",
+    "runner_up_name": "Ukraine",
+    "runner_up_count": 3,
+    "sample_titles": [
+      "To provide for the rescission of certain waivers and licenses relating to Iran, and for other purposes.",
+      "Iranian Terror Prevention Act",
+      "No Iranian Energy Act"
+    ]
+  },
+  {
+    "month": "2025-05",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 6,
+    "total_records_scanned": 50,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 5,
+    "sample_titles": [
+      "Taiwan Representative Office Act",
+      "Taiwan Relations Reinforcement Act of 2025",
+      "Taiwan International Solidarity Act"
+    ]
+  },
+  {
+    "month": "2025-06",
+    "country_iso3": "IND",
+    "country_iso2": "in",
+    "country_name": "India",
+    "mention_count": 11,
+    "total_records_scanned": 47,
+    "runner_up_iso3": "IRN",
+    "runner_up_iso2": "ir",
+    "runner_up_name": "Iran",
+    "runner_up_count": 8,
+    "sample_titles": [
+      "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+      "Food Distribution Program on Indian Reservations (FDPIR) Act of 2025",
+      "To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to authorize the President to provide certain fire management assistance to Indian Tribal Governments, and for other purposes."
+    ]
+  },
+  {
+    "month": "2025-07",
+    "country_iso3": "CHN",
+    "country_iso2": "cn",
+    "country_name": "China",
+    "mention_count": 9,
+    "total_records_scanned": 58,
+    "runner_up_iso3": "IND",
+    "runner_up_iso2": "in",
+    "runner_up_name": "India",
+    "runner_up_count": 5,
+    "sample_titles": [
+      "To strike the recession of amounts made available for international disaster assistance, to ensure the United States can compete with China and maintain our long tradition of providing lifesaving aid.",
+      "China Financial Threat Mitigation Act of 2025",
+      "Protecting Our Farms and Homes from China Act"
+    ]
+  },
+  {
+    "month": "2025-08",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
+    "mention_count": 3,
+    "total_records_scanned": 13,
+    "runner_up_iso3": "PSE",
+    "runner_up_iso2": "ps",
+    "runner_up_name": "Palestine",
+    "runner_up_count": 2,
+    "sample_titles": [
+      "Fulfilling Promises to Afghan Allies Act",
+      "Afghan Adjustment Act",
+      "Honoring the members of the Armed Forces who served in the war in Afghanistan."
+    ]
+  },
+  {
+    "month": "2025-09",
+    "country_iso3": "CHN",
+    "country_iso2": "cn",
+    "country_name": "China",
+    "mention_count": 8,
+    "total_records_scanned": 49,
+    "runner_up_iso3": "IND",
+    "runner_up_iso2": "in",
+    "runner_up_name": "India",
+    "runner_up_count": 7,
+    "sample_titles": [
+      "Stop Chinese Fentanyl Act of 2025",
+      "Expressing the sense of the House of Representatives that China should no longer be labeled as a \"Developing Nation\" by the United Nations.",
+      "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific."
+    ]
+  },
+  {
+    "month": "2025-10",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 9,
+    "total_records_scanned": 44,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 7,
+    "sample_titles": [
+      "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States.",
+      "To protect the national security of the United States by imposing sanctions with respect to certain persons of the People's Republic of China and prohibiting and requiring notifications with respect to certain investments by United States persons in the People's Republic of China.",
+      "A resolution condemning the Government of the People's Republic of China for engaging in transnational repression."
+    ]
+  },
+  {
+    "month": "2025-11",
+    "country_iso3": "IND",
+    "country_iso2": "in",
+    "country_name": "India",
+    "mention_count": 8,
+    "total_records_scanned": 44,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 5,
+    "sample_titles": [
+      "To amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes.",
+      "Indian Trust Asset Reform Amendment Act",
+      "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes."
+    ]
+  },
+  {
+    "month": "2025-12",
+    "country_iso3": "IND",
+    "country_iso2": "in",
+    "country_name": "India",
+    "mention_count": 12,
+    "total_records_scanned": 52,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 8,
+    "sample_titles": [
+      "A bill to provide for the equitable settlement of certain Indian land disputes regarding land in Illinois, and for other purposes.",
+      "A bill to accept the request to revoke the charter of incorporation of the Lower Sioux Indian Community in the State of Minnesota at the request of that Community, and for other purposes.",
+      "A bill to amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes."
+    ]
+  },
+  {
+    "month": "2026-01",
+    "country_iso3": "VEN",
+    "country_iso2": "ve",
+    "country_name": "Venezuela",
+    "mention_count": 7,
+    "total_records_scanned": 39,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 5,
+    "sample_titles": [
+      "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "To direct the removal of United States Armed Forces from Venezuela that have not been authorized by Congress.",
+      "No War with Venezuela Act of 2026"
+    ]
+  },
+  {
+    "month": "2026-02",
+    "country_iso3": "IND",
+    "country_iso2": "in",
+    "country_name": "India",
+    "mention_count": 12,
+    "total_records_scanned": 53,
+    "runner_up_iso3": "TWN",
+    "runner_up_iso2": "tw",
+    "runner_up_name": "Taiwan",
+    "runner_up_count": 5,
+    "sample_titles": [
+      "Indian Health Service Emergency Claims Parity Act",
+      "Truth and Healing Commission on Indian Boarding School Policies Act of 2026",
+      "Stronger Engagement for Indian Health Needs Act of 2026"
     ]
   }
 ]

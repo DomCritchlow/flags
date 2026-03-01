@@ -27052,7 +27052,7 @@
     ]
   },
   "2025-01": {
-    "total_records": 12,
+    "total_records": 22,
     "countries": [
       {
         "iso3": "VNM",
@@ -27062,6 +27062,26 @@
         "sample_titles": [
           "Kin Moy, of Maryland, a Career Member of the Senior Foreign Service, Class of Career Minister, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam.",
           "To designate the facility of the United States Postal Service located at 9317 Bolsa Avenue in Westminster, California, as the \"Little Saigon Vietnam War Veterans Memorial Post Office\"."
+        ]
+      },
+      {
+        "iso3": "POL",
+        "iso2": "pl",
+        "name": "Poland",
+        "count": 2,
+        "sample_titles": [
+          "A resolution commemorating the 80th anniversary of the liberation of the Auschwitz extermination camp in Nazi-occupied Poland and International Holocaust Remembrance Day.",
+          "Commemorating the 80th anniversary of the liberation of the Auschwitz extermination camp in Nazi-occupied Poland and International Holocaust Remembrance Day."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 2,
+        "sample_titles": [
+          "End China’s De Minimis Abuse Act",
+          "Decoupling America's Artificial Intelligence Capabilities from China Act of 2025"
         ]
       },
       {
@@ -27152,6 +27172,3325 @@
         "count": 1,
         "sample_titles": [
           "Angela M. Kerwin, of Pennsylvania, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Brunei Darussalam."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "Halt All United States Investments in Venezuela’s Energy Sector Act of 2025"
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the Government of Mexico for failing to fulfill its water deliveries on an annual basis to the United States under the treaty between the United States and Mexico regarding the utilization of the Colorado and Tijuana Rivers and of the Rio Grande."
+        ]
+      },
+      {
+        "iso3": "BLR",
+        "iso2": "by",
+        "name": "Belarus",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the fraudulent January 2025 Belarusian presidential election and the Lukashenka regime's continued autocratic rule, calling for continued support for the people of Belarus who seek a democratic future, and calling for free and fair elections in Belarus in line with international standards."
+        ]
+      },
+      {
+        "iso3": "MNG",
+        "iso2": "mn",
+        "name": "Mongolia",
+        "count": 1,
+        "sample_titles": [
+          "Southern Mongolian Human Rights Policy Act"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "A resolution affirming the threats to world stability from a nuclear weapons-capable Islamic Republic of Iran."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Commissioner of U.S. Customs and Border Protection to identify and conduct recurrent vetting of evacuees from Afghanistan found not to be properly vetted before entering the United States."
+        ]
+      }
+    ]
+  },
+  "2025-02": {
+    "total_records": 81,
+    "countries": [
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 18,
+        "sample_titles": [
+          "Chinese Currency Accountability Act of 2025",
+          "China Exchange Rate Transparency Act of 2025",
+          "Providing amounts for the expenses of the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party in the One Hundred Nineteenth Congress."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 11,
+        "sample_titles": [
+          "To ensure continued United States support for the Government of Ukraine to stand firm against aggression by the Government of Russia in Europe.",
+          "Expressing support for the continued value of arms control agreements and negotiated constraints on Russian and Chinese strategic nuclear forces.",
+          "Non-Recognition of Russian Annexation of Ukrainian Territory Act"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 10,
+        "sample_titles": [
+          "To ensure continued United States support for the Government of Ukraine to stand firm against aggression by the Government of Russia in Europe.",
+          "Non-Recognition of Russian Annexation of Ukrainian Territory Act",
+          "Independent and Objective Oversight of Ukrainian Assistance Act"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 7,
+        "sample_titles": [
+          "Affirming the threats to world stability from a nuclear weapons-capable Islamic Republic of Iran.",
+          "Enhanced Iran Sanctions Act of 2025",
+          "A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015)."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 6,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+          "A joint resolution providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 4,
+        "sample_titles": [
+          "To authorize the Bay Mills Indian Community of the State of Michigan to convey land and interests in land owned by the Tribe.",
+          "Stronger Engagement for Indian Health Needs Act of 2025",
+          "An original resolution authorizing expenditures by the Committee on Indian Affairs."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 4,
+        "sample_titles": [
+          "Make Gaza Great Again Act",
+          "East Palestine Health Impact Monitoring Act of 2025",
+          "A resolution expressing the sense of the Senate that the United States shall not deploy United States military assets or personnel to Gaza for purposes of \"taking over\" Gaza."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 4,
+        "sample_titles": [
+          "L’Ouverture Economic Development Plan for Haiti Act of 2025",
+          "Haiti Economic Lift Program Extension Act of 2025",
+          "To require the Secretary of Homeland Security to designate Haiti for temporary protected status."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 3,
+        "sample_titles": [
+          "Filipino Veterans Family Reunification Act of 2025",
+          "Honoring the 25th anniversary of the partnership between Guam and the Republic of the Philippines under the State Partnership Program."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "Expressing the sense of Congress that the United States should resume normal diplomatic relations with Taiwan, negotiate a bilateral free trade agreement with Taiwan, and support Taiwans membership in international organizations.",
+          "Expressing the sense of the House of Representatives in condemning the Government of the People's Republic of China for its harassment and efforts to intimidate American citizens and other individuals on United States soil with the goal of suppressing speech and narratives the People's Republic of China finds unwelcome.",
+          "Taiwan Travel and Tourism Coordination Act"
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 2,
+        "sample_titles": [
+          "A resolution recognizing the 80th anniversary of the amphibious landing on the Japanese island of Iwo Jima during World War II and the raisings of the flag of the United States on Mount Suribachi.",
+          "Recognizing the 80th anniversary of the amphibious landing on the Japanese island of Iwo Jima during World War II and the raisings of the flag of the United States on Mount Suribachi."
+        ]
+      },
+      {
+        "iso3": "CZE",
+        "iso2": "cz",
+        "name": "Czechia",
+        "count": 2,
+        "sample_titles": [
+          "To include the Czech Republic in the list of foreign states whose nationals are eligible for admission into the United States as E1 nonimmigrants if United States nationals are treated similarly by the Government of the Czech Republic.",
+          "A bill to include Czechia in the list of foreign states whose nationals are eligible for admission into the United States as E-1 nonimmigrants if United States nationals are treated similarly by the Government of Czechia."
+        ]
+      },
+      {
+        "iso3": "CRI",
+        "iso2": "cr",
+        "name": "Costa Rica",
+        "count": 2,
+        "sample_titles": [
+          "Rio San José and Rio Jemez Water Settlements Act of 2025",
+          "Navajo Nation Rio San José Stream System Water Rights Settlement Act of 2025"
+        ]
+      },
+      {
+        "iso3": "GBR",
+        "iso2": "gb",
+        "name": "United Kingdom",
+        "count": 2,
+        "sample_titles": [
+          "A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015).",
+          "Calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015)."
+        ]
+      },
+      {
+        "iso3": "FRA",
+        "iso2": "fr",
+        "name": "France",
+        "count": 2,
+        "sample_titles": [
+          "A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015).",
+          "Calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015)."
+        ]
+      },
+      {
+        "iso3": "DEU",
+        "iso2": "de",
+        "name": "Germany",
+        "count": 2,
+        "sample_titles": [
+          "A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015).",
+          "Calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015)."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 2,
+        "sample_titles": [
+          "Safe and Affordable Drugs from Canada Act of 2025",
+          "Reaffirming the deep and steadfast United States-Canada partnership and the ties that bind the two countries in support of economic and national security."
+        ]
+      },
+      {
+        "iso3": "FIN",
+        "iso2": "fi",
+        "name": "Finland",
+        "count": 2,
+        "sample_titles": [
+          "Finn Sawyer Access to Cancer Testing Act"
+        ]
+      },
+      {
+        "iso3": "MMR",
+        "iso2": "mm",
+        "name": "Myanmar",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the United Nations Security Council should immediately impose an arms embargo against the military of Burma."
+        ]
+      },
+      {
+        "iso3": "PAN",
+        "iso2": "pa",
+        "name": "Panama",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing the vital importance of the Panama Canal to the United States."
+        ]
+      },
+      {
+        "iso3": "KAZ",
+        "iso2": "kz",
+        "name": "Kazakhstan",
+        "count": 1,
+        "sample_titles": [
+          "US-Kazakhstan Trade Modernization Act"
+        ]
+      },
+      {
+        "iso3": "AZE",
+        "iso2": "az",
+        "name": "Azerbaijan",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the treatment of Dr. Gubad Ibadoghlu by the Government of Azerbaijan and urging his immediate release, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 1,
+        "sample_titles": [
+          "Commission To Study the Potential of a National Museum of Italian American History and Culture Act"
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "Venezuelan Adjustment Act"
+        ]
+      },
+      {
+        "iso3": "IRL",
+        "iso2": "ie",
+        "name": "Ireland",
+        "count": 1,
+        "sample_titles": [
+          "To add Ireland to the E3 nonimmigrant visa program."
+        ]
+      },
+      {
+        "iso3": "IRQ",
+        "iso2": "iq",
+        "name": "Iraq",
+        "count": 1,
+        "sample_titles": [
+          "To repeal the authorizations for use of military force against Iraq."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Reaffirming the United States commitment to respecting the sovereignty of Mexico and condemning calls for military action in Mexico without Mexico's consent and congressional authorization."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "Alaska Native Vietnam Era Veterans Land Allotment Extension Act"
+        ]
+      }
+    ]
+  },
+  "2025-03": {
+    "total_records": 62,
+    "countries": [
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 12,
+        "sample_titles": [
+          "Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+          "Providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services.",
+          "A joint resolution providing for congressional disapproval of the report of enhancement or upgrade of sensitive foreign military related to a sale to the Government of Israel of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 8,
+        "sample_titles": [
+          "An amendment numbered 2 printed in House Report 119-38 to amend the definition of 'foreign entity of concern' to include Chinese military companies identified on the list required by section 1260H of the FY 2021 NDAA (colloquially referred to as the \"Section 1260H list\").",
+          "FIGHT China Act of 2025",
+          "Expel Illegal Chinese Police Act of 2025"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 8,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate that the Russian Federation started the war against Ukraine by launching an unprovoked full-scale invasion of Ukraine on February 24, 2022.",
+          "A resolution recognizing the partnership between the United States and Ukraine.",
+          "A resolution condemning the Armed Forces of the Russian Federation and officials of the Government of the Russian Federation for committing crimes against humanity and war crimes in Ukraine."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 4,
+        "sample_titles": [
+          "Zuni Indian Tribe Water Rights Settlement Act of 2025",
+          "Northeastern Arizona Indian Water Rights Settlement Act of 2025",
+          "A resolution recognizing the heritage, culture, and contributions of American Indian, Alaska Native, and Native Hawaiian women in the United States."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 4,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate that the Russian Federation started the war against Ukraine by launching an unprovoked full-scale invasion of Ukraine on February 24, 2022.",
+          "A resolution condemning the Armed Forces of the Russian Federation and officials of the Government of the Russian Federation for committing crimes against humanity and war crimes in Ukraine.",
+          "A resolution condemning Russia's illegal abduction of Ukrainian children."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 4,
+        "sample_titles": [
+          "Taiwan Representative Office Act",
+          "America Supports Taiwan Act",
+          "Calling on the Government of Panama to expel officials and interests of the People's Republic of China and terminate Chinese management of key Panamanian ports."
+        ]
+      },
+      {
+        "iso3": "TUR",
+        "iso2": "tr",
+        "name": "Turkey",
+        "count": 3,
+        "sample_titles": [
+          "Turkey Diplomatic Realignment Act",
+          "Supporting the designation of March 15, 2025, as \"National Osceola Turkey Day\".",
+          "A resolution designating March 15, 2025, as \"National Osceola Turkey Day\"."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 3,
+        "sample_titles": [
+          "Iran Sanctions Relief Review Act of 2025",
+          "Expressing support for designating Iranian American Heritage Month.",
+          "A resolution protecting the Iranian political refugees, including female former political prisoners, in Ashraf-3 in Albania."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 3,
+        "sample_titles": [
+          "Authorizing the use of military force against certain Mexican cartels.",
+          "Establishing the Select Committee to Defeat the Mexican Drug Cartels.",
+          "Expressing support for the diplomatic relations required to encourage the Government of Mexico to fulfill its water deliveries on an annual basis to the United States under the treaty between the United States and Mexico regarding the utilization of the Colorado and Tijuana Rivers and of the Rio Grande."
+        ]
+      },
+      {
+        "iso3": "CRI",
+        "iso2": "cr",
+        "name": "Costa Rica",
+        "count": 2,
+        "sample_titles": [
+          "Navajo Nation Rio San José Stream System Water Rights Settlement Act of 2025",
+          "Rio San José and Rio Jemez Water Settlements Act of 2025"
+        ]
+      },
+      {
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
+        "count": 2,
+        "sample_titles": [
+          "U.S. Engagement in Sudanese Peace Act",
+          "A resolution calling on the United Nations Security Council to enforce the existing arms embargo on Darfur and extend it to cover all of Sudan."
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 2,
+        "sample_titles": [
+          "To prohibit the issuance of licenses for the exportation of certain defense articles to the United Arab Emirates, and for other purposes.",
+          "A bill to prohibit sales and the issuance of licenses for the export of certain defense articles to the United Arab Emirates, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "GRC",
+        "iso2": "gr",
+        "name": "Greece",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing the 204th anniversary of the War of Greek Independence.",
+          "A resolution recognizing the 204th anniversary of the independence of Greece and celebrating democracy in Greece and the United States."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "A resolution affirming that Hamas cannot retain any political or military control in the Gaza Strip."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of Congress regarding the need to designate Nigeria a Country of Particular Concern for engaging in and tolerating systematic, ongoing, and egregious violations of religious freedom, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IRL",
+        "iso2": "ie",
+        "name": "Ireland",
+        "count": 1,
+        "sample_titles": [
+          "Commission to Study the Creation of a National Museum of Irish American History"
+        ]
+      },
+      {
+        "iso3": "KEN",
+        "iso2": "ke",
+        "name": "Kenya",
+        "count": 1,
+        "sample_titles": [
+          "To provide that members of the Armed Forces performing services in Kenya, Mali, Burkina Faso, and Chad shall be entitled to tax benefits in the same manner as if such services were performed in a combat zone."
+        ]
+      },
+      {
+        "iso3": "MLI",
+        "iso2": "ml",
+        "name": "Mali",
+        "count": 1,
+        "sample_titles": [
+          "To provide that members of the Armed Forces performing services in Kenya, Mali, Burkina Faso, and Chad shall be entitled to tax benefits in the same manner as if such services were performed in a combat zone."
+        ]
+      },
+      {
+        "iso3": "BFA",
+        "iso2": "bf",
+        "name": "Burkina Faso",
+        "count": 1,
+        "sample_titles": [
+          "To provide that members of the Armed Forces performing services in Kenya, Mali, Burkina Faso, and Chad shall be entitled to tax benefits in the same manner as if such services were performed in a combat zone."
+        ]
+      },
+      {
+        "iso3": "PAN",
+        "iso2": "pa",
+        "name": "Panama",
+        "count": 1,
+        "sample_titles": [
+          "Calling on the Government of Panama to expel officials and interests of the People's Republic of China and terminate Chinese management of key Panamanian ports."
+        ]
+      },
+      {
+        "iso3": "PAK",
+        "iso2": "pk",
+        "name": "Pakistan",
+        "count": 1,
+        "sample_titles": [
+          "Pakistan Democracy Act"
+        ]
+      },
+      {
+        "iso3": "UZB",
+        "iso2": "uz",
+        "name": "Uzbekistan",
+        "count": 1,
+        "sample_titles": [
+          "Uzbekistan Normalized Trade Act"
+        ]
+      },
+      {
+        "iso3": "MAR",
+        "iso2": "ma",
+        "name": "Morocco",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the longstanding friendship between the Kingdom of Morocco and the United States of America."
+        ]
+      },
+      {
+        "iso3": "YEM",
+        "iso2": "ye",
+        "name": "Yemen",
+        "count": 1,
+        "sample_titles": [
+          "Of inquiry requesting the President and directing the Secretary of State to transmit to the House of Representatives any record created on or after January 20, 2025, under the control of the President or the Secretary, respectively, relating to strikes on the Houthis in Yemen and the disclosure of confidential information to a journalist on the Signal application."
+        ]
+      },
+      {
+        "iso3": "ALB",
+        "iso2": "al",
+        "name": "Albania",
+        "count": 1,
+        "sample_titles": [
+          "A resolution protecting the Iranian political refugees, including female former political prisoners, in Ashraf-3 in Albania."
+        ]
+      },
+      {
+        "iso3": "BGR",
+        "iso2": "bg",
+        "name": "Bulgaria",
+        "count": 1,
+        "sample_titles": [
+          "Urging the people of the United States to observe the month of March 2025 as \"Bulgarian-American Heritage Month\"."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for designation of a Welcome Home Vietnam Veterans Day on the last Saturday of March 2025."
+        ]
+      }
+    ]
+  },
+  "2025-04": {
+    "total_records": 43,
+    "countries": [
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 4,
+        "sample_titles": [
+          "To provide for the rescission of certain waivers and licenses relating to Iran, and for other purposes.",
+          "Iranian Terror Prevention Act",
+          "No Iranian Energy Act"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "To prevent any disruption in security assistance to Ukraine.",
+          "Ukraine Support Act",
+          "Ukrainian Adjustment Act of 2025"
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 3,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
+          "Countering Hate Against Israel by Federal Contractors Act"
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 3,
+        "sample_titles": [
+          "A joint resolution terminating the national emergency declared to impose duties on articles imported from Canada.",
+          "Expressing the sense of Congress that Trump administration tariffs on Mexico and Canada are in violation of the United States of America-Mexico-Canada Agreement.",
+          "Canadian Snowbird Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "Sanctioning Russia Act of 2025",
+          "Russia-North Korea Cooperation Sanctions Act"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "Taiwan Allies Fund Act",
+          "Taiwan Assurance Implementation Act",
+          "David Perdue, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the People's Republic of China."
+        ]
+      },
+      {
+        "iso3": "PRK",
+        "iso2": "kp",
+        "name": "North Korea",
+        "count": 3,
+        "sample_titles": [
+          "Russia-North Korea Cooperation Sanctions Act",
+          "A resolution seeking justice for the Japanese citizens abducted by North Korea."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 3,
+        "sample_titles": [
+          "A resolution commemorating the 50th anniversary of the Indian Self-Determination and Education Assistance Act.",
+          "Haliwa Saponi Indian Tribe of North Carolina Act",
+          "Quinault Indian Nation Land Transfer Act"
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 3,
+        "sample_titles": [
+          "Vietnam Veterans Liver Fluke Cancer Study Act",
+          "Recognizing the 50th anniversary of Black April and the Fall of Saigon on April 30, 1975.",
+          "Vietnam Human Rights Act"
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 3,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
+          "A resolution condemning Beijing's destruction of Hong Kong's democracy and rule of law.",
+          "Protecting America’s Strategic Petroleum Reserve from China Act"
+        ]
+      },
+      {
+        "iso3": "CAF",
+        "iso2": "cf",
+        "name": "Central African Republic",
+        "count": 2,
+        "sample_titles": [
+          "USA CAR Act"
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the sense of Congress that Trump administration tariffs on Mexico and Canada are in violation of the United States of America-Mexico-Canada Agreement.",
+          "Supporting the goals and ideals of San Jacinto Day in recognition of April 21, 1836, the date on which General Sam Houston and the Texan Army defeated the Mexican Army winning Texas independence from Mexico."
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 2,
+        "sample_titles": [
+          "A resolution seeking justice for the Japanese citizens abducted by North Korea."
+        ]
+      },
+      {
+        "iso3": "ARM",
+        "iso2": "am",
+        "name": "Armenia",
+        "count": 1,
+        "sample_titles": [
+          "Armenian Genocide Education Act"
+        ]
+      },
+      {
+        "iso3": "RWA",
+        "iso2": "rw",
+        "name": "Rwanda",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate that the United States should recognize the 1994 genocide in Rwanda as \"the genocide against the Tutsi in Rwanda\"."
+        ]
+      },
+      {
+        "iso3": "BGR",
+        "iso2": "bg",
+        "name": "Bulgaria",
+        "count": 1,
+        "sample_titles": [
+          "Urging the people of the United States to observe the month of March 2025 as \"Bulgarian-American Heritage Month\"."
+        ]
+      },
+      {
+        "iso3": "IRQ",
+        "iso2": "iq",
+        "name": "Iraq",
+        "count": 1,
+        "sample_titles": [
+          "Free Iraq from Iran Act"
+        ]
+      },
+      {
+        "iso3": "NLD",
+        "iso2": "nl",
+        "name": "Netherlands",
+        "count": 1,
+        "sample_titles": [
+          "M.H. Dutch Salmon Greater Gila Wild and Scenic River Act"
+        ]
+      },
+      {
+        "iso3": "SRB",
+        "iso2": "rs",
+        "name": "Serbia",
+        "count": 1,
+        "sample_titles": [
+          "Calling for the end of impunity of unpunished Serbian sexual war crimes during the 1999 Kosovo war in the case of United States citizen and sexual war crime survivor Vasfije Krasniqi Goodman and other survivors of sexual and gender-based violence."
+        ]
+      },
+      {
+        "iso3": "XKX",
+        "iso2": "xk",
+        "name": "Kosovo",
+        "count": 1,
+        "sample_titles": [
+          "Calling for the end of impunity of unpunished Serbian sexual war crimes during the 1999 Kosovo war in the case of United States citizen and sexual war crime survivor Vasfije Krasniqi Goodman and other survivors of sexual and gender-based violence."
+        ]
+      },
+      {
+        "iso3": "KHM",
+        "iso2": "kh",
+        "name": "Cambodia",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the designation of April 17, 2025, as \"Cambodian Genocide Remembrance Day\" to remember the horrific slaughter of almost 2,000,000 Cambodian people at the hand of the Khmer Rouge regime."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "West Bank Violence Prevention Act of 2025"
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "Of inquiry requesting the President and directing the Secretary of State to transmit to the House of Representatives any record created on or after January 20, 2025, under the control of the President or the Secretary, respectively, relating to international agreements between the United States of America and El Salvador and the removal of individuals from the United States to El Salvador and subsequent detentions of such individuals."
+        ]
+      },
+      {
+        "iso3": "NZL",
+        "iso2": "nz",
+        "name": "New Zealand",
+        "count": 1,
+        "sample_titles": [
+          "Gregory Autrey, of Florida, to be Chief Financial Officer, National Aeronautics and Space Administration, vice Margaret Vo Schaus, resigned."
+        ]
+      },
+      {
+        "iso3": "GBR",
+        "iso2": "gb",
+        "name": "United Kingdom",
+        "count": 1,
+        "sample_titles": [
+          "Warren Stephens, of Arkansas, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the United Kingdom of Great Britain and Northern Ireland."
+        ]
+      },
+      {
+        "iso3": "IRL",
+        "iso2": "ie",
+        "name": "Ireland",
+        "count": 1,
+        "sample_titles": [
+          "Warren Stephens, of Arkansas, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the United Kingdom of Great Britain and Northern Ireland."
+        ]
+      }
+    ]
+  },
+  "2025-05": {
+    "total_records": 50,
+    "countries": [
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 6,
+        "sample_titles": [
+          "Taiwan Representative Office Act",
+          "Taiwan Relations Reinforcement Act of 2025",
+          "Taiwan International Solidarity Act"
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 5,
+        "sample_titles": [
+          "Fortifying U.S. Markets From Chinese Military Aggression Act",
+          "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+          "STOP China Act"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 4,
+        "sample_titles": [
+          "Solidify Iran Sanctions Act of 2025",
+          "Condemning Iran's failure to comply with its international nuclear obligations.",
+          "A resolution affirming the acceptable outcome of any nuclear deal between the United States and the Islamic Republic of Iran, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 4,
+        "sample_titles": [
+          "No Official Palestine Entry Act of 2025",
+          "A resolution calling for the urgent delivery of humanitarian aid to address the needs of civilians in Gaza.",
+          "Recognizing the ongoing Nakba and Palestinian refugees' rights."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 4,
+        "sample_titles": [
+          "Grand River Bands of Ottawa Indians Restoration Act of 2025",
+          "To amend the Internal Revenue Code of 1986 to impose a tax on United States-bound circumvented cargo through Canada or Mexico and entering the United States.",
+          "A resolution reaffirming the deep and steadfast partnership between the United States and Canada and the ties that bind the 2 countries in support of economic and national security."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 4,
+        "sample_titles": [
+          "America—Israel AI Cooperation Act",
+          "Condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes.",
+          "Expressing the sense of the House of Representatives on the enduring alliance between the United States and Israel and the necessity of expanding defense cooperation to address evolving threats."
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 4,
+        "sample_titles": [
+          "Providing for congressional disapproval of the proposed foreign military sale to the Government of the United Arab Emirates of certain defense articles and services.",
+          "Providing for congressional disapproval of the proposed military sale to the Government of the United Arab Emirates of certain defense articles and services.",
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of the United Arab Emirates of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "A resolution expressing support and appreciation for the efforts of the Republic of Romania and the Republic of Moldova to defend democracy and combat malign Russian interference.",
+          "No United States Recognition of Russian Sovereignty Over Crimea or Any Other Forcibly Seized Ukrainian Territory",
+          "Providing for consideration of the bill (H.R. 2548) to impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "No United States Recognition of Russian Sovereignty Over Crimea or Any Other Forcibly Seized Ukrainian Territory",
+          "A resolution calling for the return of abducted Ukrainian children before finalizing any peace agreement to end the war against Ukraine.",
+          "Providing for consideration of the bill (H.R. 2548) to impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 2,
+        "sample_titles": [
+          "Requesting information on El Salvador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961.",
+          "A resolution requesting information on El Salvador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "BLR",
+        "iso2": "by",
+        "name": "Belarus",
+        "count": 2,
+        "sample_titles": [
+          "Belarus Democracy, Human Rights, and Sovereignty Act of 2025"
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 2,
+        "sample_titles": [
+          "Grand River Bands of Ottawa Indians Restoration Act of 2025",
+          "Poarch Band of Creek Indians Parity Act"
+        ]
+      },
+      {
+        "iso3": "CAF",
+        "iso2": "cf",
+        "name": "Central African Republic",
+        "count": 2,
+        "sample_titles": [
+          "USA CAR Act"
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 2,
+        "sample_titles": [
+          "To amend the Internal Revenue Code of 1986 to impose a tax on United States-bound circumvented cargo through Canada or Mexico and entering the United States.",
+          "Raising concern about the constitutional reforms in Mexico."
+        ]
+      },
+      {
+        "iso3": "QAT",
+        "iso2": "qa",
+        "name": "Qatar",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that President Trump must comply with the Foreign Emoluments Clause, by submitting all plans for his jumbo jet gift from Qatar immediately to Congress.",
+          "A resolution affirming that the underlying purpose of the Foreign Emoluments Clause renders the acceptance and transfer of a plane from the government of Qatar, without the explicit consent of Congress, an illegal emolument, withholding the consent of the Senate to the acceptance and transfer of plane from the government of Qatar, and demanding the transfer of any plane received by President Donald J. Trump or entities under his control from the government of Qatar to the permanent control of the United States Government."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "To authorize the President to award the Medal of Honor to Thomas H. Griffin for acts of valor as a member of the Army during the Vietnam War."
+        ]
+      },
+      {
+        "iso3": "ROU",
+        "iso2": "ro",
+        "name": "Romania",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing support and appreciation for the efforts of the Republic of Romania and the Republic of Moldova to defend democracy and combat malign Russian interference."
+        ]
+      },
+      {
+        "iso3": "MDA",
+        "iso2": "md",
+        "name": "Moldova",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing support and appreciation for the efforts of the Republic of Romania and the Republic of Moldova to defend democracy and combat malign Russian interference."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "United States-Republic of Korea Digital Trade Enforcement Act"
+        ]
+      },
+      {
+        "iso3": "CMR",
+        "iso2": "cm",
+        "name": "Cameroon",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the plight of Cameroonian immigrants and the continued turmoil and instability in the nation of Cameroon merits a designation of humanitarian parole and calling on the Department of Homeland Security to create a humanitarian parole program for Cameroonians fleeing this violence."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "Venezuela TPS Act of 2025"
+        ]
+      },
+      {
+        "iso3": "LTU",
+        "iso2": "lt",
+        "name": "Lithuania",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the service and memory of Army Staff Sgt. Jose Duenez Jr., Army Staff Sgt. Edvin F. Franco, Army Staff Sgt. Troy S. Knutson-Collins, and Army Pfc. Dante D. Taitano of the 1st Armored Brigade Combat Team, 3rd Infantry Division, who died during a recovery mission in support of a regularly scheduled training exercise while serving in Lithuania."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 1,
+        "sample_titles": [
+          "A bill to modify the provision of law on expedited review of export licenses for exports of advanced technologies to Australia, the United Kingdom, and Canada."
+        ]
+      },
+      {
+        "iso3": "GBR",
+        "iso2": "gb",
+        "name": "United Kingdom",
+        "count": 1,
+        "sample_titles": [
+          "A bill to modify the provision of law on expedited review of export licenses for exports of advanced technologies to Australia, the United Kingdom, and Canada."
+        ]
+      }
+    ]
+  },
+  "2025-06": {
+    "total_records": 47,
+    "countries": [
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 11,
+        "sample_titles": [
+          "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+          "Food Distribution Program on Indian Reservations (FDPIR) Act of 2025",
+          "To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to authorize the President to provide certain fire management assistance to Indian Tribal Governments, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 8,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities against the Islamic Republic of Iran that have not been authorized by Congress.",
+          "Standing with Israel as it works to dismantle Iran's nuclear enrichment capabilities and defends itself against Iranian attacks on civilians.",
+          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from unauthorized hostilities in the Islamic Republic of Iran."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 4,
+        "sample_titles": [
+          "Remembering the victims of the 1989 Tiananmen Square massacre and condemning the continued and intensifying crackdown on human rights and basic freedoms within the People's Republic of China, including the Hong Kong Special Administrative Region, by the Chinese Communist Party, and for other purposes.",
+          "To prohibit the Secretary of Defense from entering into software source code contracts with entities with certain relationships with China, and for other purposes.",
+          "No China in Index Funds Act"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 4,
+        "sample_titles": [
+          "A resolution condemning Russia's devastating aerial bombardment on the people of Ukraine, particularly the use of increasingly advanced ballistic missiles, and expressing support for securing more air defense systems.",
+          "Ukraine War Risk Insurance Act",
+          "Abducted Ukrainian Children Recovery and Accountability Act"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "Remembering the victims of the 1989 Tiananmen Square massacre and condemning the continued and intensifying crackdown on human rights and basic freedoms within the People's Republic of China, including the Hong Kong Special Administrative Region, by the Chinese Communist Party, and for other purposes.",
+          "Taiwan Non-Discrimination Act of 2025"
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 3,
+        "sample_titles": [
+          "A resolution condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes.",
+          "Standing with Israel as it works to dismantle Iran's nuclear enrichment capabilities and defends itself against Iranian attacks on civilians.",
+          "Supporting President Trump's decisive actions to dismantle Iran's nuclear weapons program and affirming unwavering support for the State of Israel's right to self-defense."
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 3,
+        "sample_titles": [
+          "To repeal the Caesar Syria Civilian Protection Act of 2019.",
+          "A bill to repeal the Caesar Syria Civilian Protection Act of 2019.",
+          "Syria Sanctions Relief Act"
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 2,
+        "sample_titles": [
+          "American Patriots of WWII through Service with the Canadian and British Armed Forces Gold Medal Act of 2025",
+          "Grand River Bands of Ottawa Indians Restoration Act of 2025"
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "Calling for the urgent delivery and disbursement of humanitarian aid to address the needs of civilians in Gaza."
+        ]
+      },
+      {
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives on the urgent need to appoint a Special Envoy for Sudan to address the ongoing conflict and humanitarian crisis and to advance United States national security interests."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution condemning Russia's devastating aerial bombardment on the people of Ukraine, particularly the use of increasingly advanced ballistic missiles, and expressing support for securing more air defense systems."
+        ]
+      },
+      {
+        "iso3": "GHA",
+        "iso2": "gh",
+        "name": "Ghana",
+        "count": 1,
+        "sample_titles": [
+          "To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria."
+        ]
+      },
+      {
+        "iso3": "QAT",
+        "iso2": "qa",
+        "name": "Qatar",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Qatar of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Mexico Security Assistance Accountability Act"
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of the United Arab Emirates of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "GBR",
+        "iso2": "gb",
+        "name": "United Kingdom",
+        "count": 1,
+        "sample_titles": [
+          "American Patriots of WWII through Service with the Canadian and British Armed Forces Gold Medal Act of 2025"
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing June 12, 2025, as this year's observance of \"Philippines Independence Day\" to honor the 127th anniversary of the independence of the Philippines."
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "El Salvador Accountability Act of 2025"
+        ]
+      },
+      {
+        "iso3": "ZAF",
+        "iso2": "za",
+        "name": "South Africa",
+        "count": 1,
+        "sample_titles": [
+          "Addressing Hostile and Antisemitic Conduct by the Republic of South Africa Act of 2025"
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "Vietnam Veteran Commemoration Fund Act of 2025"
+        ]
+      },
+      {
+        "iso3": "NLD",
+        "iso2": "nl",
+        "name": "Netherlands",
+        "count": 1,
+        "sample_titles": [
+          "A resolution celebrating the June 2025 North Atlantic Treaty Organization Summit in the Hague, the Netherlands, and reaffirming priorities pertaining to transatlantic security and our commitment to NATO."
+        ]
+      },
+      {
+        "iso3": "PAK",
+        "iso2": "pk",
+        "name": "Pakistan",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives to commend President Donald J. Trump for his successful diplomatic efforts in deescalating the recent armed conflict between India and Pakistan."
+        ]
+      },
+      {
+        "iso3": "HND",
+        "iso2": "hn",
+        "name": "Honduras",
+        "count": 1,
+        "sample_titles": [
+          "Protect Honduran Democracy Act"
+        ]
+      },
+      {
+        "iso3": "TUN",
+        "iso2": "tn",
+        "name": "Tunisia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing Tunisia's leadership in the Arab Spring and expressing support for upholding its democratic principles and norms."
+        ]
+      }
+    ]
+  },
+  "2025-07": {
+    "total_records": 58,
+    "countries": [
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 9,
+        "sample_titles": [
+          "To strike the recession of amounts made available for international disaster assistance, to ensure the United States can compete with China and maintain our long tradition of providing lifesaving aid.",
+          "China Financial Threat Mitigation Act of 2025",
+          "Protecting Our Farms and Homes from China Act"
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 5,
+        "sample_titles": [
+          "Truth and Healing Commission on Indian Boarding School Policies Act of 2025",
+          "To amend title XVIII of the Social Security Act to expand the definition of critical access hospital under the Medicare program to include certain hospitals on Indian reservations.",
+          "Technical Corrections to the Northwestern New Mexico Rural Water Projects Act, Taos Pueblo Indian Water Rights Settlement Act, and Aamodt Litigation Settlement Act"
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 5,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
+          "A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel.",
+          "A resolution remembering the 33rd anniversary of the bombing of the Embassy of Israel in Buenos Aries on March 17, 1992, and the 31st anniversary of the bombing of the Argentine-Israeli Mutual Association building in Buenos Aires on July 18, 1994, and recommitting to efforts to uphold justice for victims of the attacks."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 4,
+        "sample_titles": [
+          "Expressing support for the designation of June 19, 2025, as \"Veterans of the Republic of Vietnam Armed Forces Day\".",
+          "To authorize the President to award the Medal of Honor to retired Colonel Philip J. Conran for acts of valor in Laos as a member of the Air Force during the Vietnam War.",
+          "A bill to provide for eligibility for veterans of Operation End Sweep for the Vietnam Service Medal."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "An amendment numbered 116 printed in Part A of House Report 119-199 to strike funds from being used for assistance to Ukraine.",
+          "Providing for consideration of the bill (H.R. 2913) to authorize support for Ukraine, and for other purposes.",
+          "Supporting Ukraine Act of 2025"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "An amendment numbered 293 printed in Part A of House Report 119-199 to prohibit the expenditure of funds to create, procure, or display any map that depicts Taiwan as part of the territory of the People's Republic of China.",
+          "Amendment sought to strike funding for the Taiwan Security Cooperation Initiative.",
+          "Taiwan Conflict Deterrence Act of 2025"
+        ]
+      },
+      {
+        "iso3": "PRY",
+        "iso2": "py",
+        "name": "Paraguay",
+        "count": 2,
+        "sample_titles": [
+          "Asunción Valdivia Heat Illness, Injury, and Fatality Prevention Act of 2025"
+        ]
+      },
+      {
+        "iso3": "RWA",
+        "iso2": "rw",
+        "name": "Rwanda",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing and applauding President Trump for brokering a peace agreement between Rwanda and the Democratic Republic of the Congo (DRC) and supporting diplomatic and economic efforts to achieve lasting peace in the region.",
+          "A resolution requesting information on the Republic of Rwanda's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 2,
+        "sample_titles": [
+          "A resolution remembering the 33rd anniversary of the bombing of the Embassy of Israel in Buenos Aries on March 17, 1992, and the 31st anniversary of the bombing of the Argentine-Israeli Mutual Association building in Buenos Aires on July 18, 1994, and recommitting to efforts to uphold justice for victims of the attacks.",
+          "Condemning the attack on the Argentine Jewish Mutual Association Jewish Community Center in Buenos Aires, Argentina, in July 1994, and encouraging accountability for the attack."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 1,
+        "sample_titles": [
+          "SAK PASE in Haiti Act of 2025"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "Block the Use of Transatlantic Technology in Iranian Made Drones Act"
+        ]
+      },
+      {
+        "iso3": "ZAF",
+        "iso2": "za",
+        "name": "South Africa",
+        "count": 1,
+        "sample_titles": [
+          "U.S.-South Africa Bilateral Relations Review Act of 2025"
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 1,
+        "sample_titles": [
+          "US-Japan-ROK Trilateral Cooperation Act"
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "US-Japan-ROK Trilateral Cooperation Act"
+        ]
+      },
+      {
+        "iso3": "DNK",
+        "iso2": "dk",
+        "name": "Denmark",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the deep and enduring friendship between the Kingdom of Denmark and the United States on the occasion of Danish Constitution Day celebrations."
+        ]
+      },
+      {
+        "iso3": "MMR",
+        "iso2": "mm",
+        "name": "Myanmar",
+        "count": 1,
+        "sample_titles": [
+          "Burma GAP Act"
+        ]
+      },
+      {
+        "iso3": "GRC",
+        "iso2": "gr",
+        "name": "Greece",
+        "count": 1,
+        "sample_titles": [
+          "United States-Greece Security Cooperation Reporting Act"
+        ]
+      },
+      {
+        "iso3": "SRB",
+        "iso2": "rs",
+        "name": "Serbia",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of Congress regarding the execution-style murders of United States citizens Ylli, Agron, and Mehmet Bytyqi in the Republic of Serbia in July 1999."
+        ]
+      },
+      {
+        "iso3": "CUB",
+        "iso2": "cu",
+        "name": "Cuba",
+        "count": 1,
+        "sample_titles": [
+          "A resolution commending the courage, bravery, and resolve of the fathers, mothers, sons, and daughters of Cuba, who, 4 years ago, stood in the face of brutal harassment, beatings, and torture to protest against the Communist Cuban regime, demanding access to their fundamental rights to life, dignity, and freedom."
+        ]
+      },
+      {
+        "iso3": "GUY",
+        "iso2": "gy",
+        "name": "Guyana",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Secretary of Defense to submit a report on security cooperation with Guyana."
+        ]
+      },
+      {
+        "iso3": "CYP",
+        "iso2": "cy",
+        "name": "Cyprus",
+        "count": 1,
+        "sample_titles": [
+          "End the Cyprus Embargo Act"
+        ]
+      },
+      {
+        "iso3": "MNE",
+        "iso2": "me",
+        "name": "Montenegro",
+        "count": 1,
+        "sample_titles": [
+          "Affirming the support of the United States for Montenegro's accession to the European Union."
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 1,
+        "sample_titles": [
+          "Syria Sanctions Accountability Act of 2025"
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "Honoring the brave men and women who participated in the Afghanistan evacuation in 2021 following the United States withdrawal, for their extraordinary efforts and exceptional service in the safe evacuation of over 17,000 people from Taliban-controlled Afghanistan, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "LAO",
+        "iso2": "la",
+        "name": "Laos",
+        "count": 1,
+        "sample_titles": [
+          "To authorize the President to award the Medal of Honor to retired Colonel Philip J. Conran for acts of valor in Laos as a member of the Air Force during the Vietnam War."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 1,
+        "sample_titles": [
+          "Canadian Snowbirds Act of 2025"
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A resolution condemning Nicolas Maduro and the Venezuelan regime's continued human rights abuses, political repression, and dismantling of democratic institutions, and recognizing the resilience of the Venezuelan democratic opposition under the leadership of Maria Corina Machado and Edmundo Gonzalez."
+        ]
+      },
+      {
+        "iso3": "BLR",
+        "iso2": "by",
+        "name": "Belarus",
+        "count": 1,
+        "sample_titles": [
+          "To authorize an annual strategic dialogue to return democratic rule to Belarus, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "BRA",
+        "iso2": "br",
+        "name": "Brazil",
+        "count": 1,
+        "sample_titles": [
+          "Strengthening the Rule of Law in the Brazilian Amazon Act"
+        ]
+      },
+      {
+        "iso3": "CRI",
+        "iso2": "cr",
+        "name": "Costa Rica",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Costa Rica's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "SWZ",
+        "iso2": "sz",
+        "name": "Eswatini",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Kingdom of Eswatini's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "SSD",
+        "iso2": "ss",
+        "name": "South Sudan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of South Sudan's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the United Mexican States' human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "ERI",
+        "iso2": "er",
+        "name": "Eritrea",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing widespread decades-long human rights abuses in Eritrea, including indefinite imprisonment, inhumane prison conditions, and the absence of democratic institutions, and expressing support for the rights and freedom of the Eritrean people."
+        ]
+      },
+      {
+        "iso3": "PAN",
+        "iso2": "pa",
+        "name": "Panama",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Panama's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      }
+    ]
+  },
+  "2025-08": {
+    "total_records": 13,
+    "countries": [
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 3,
+        "sample_titles": [
+          "Fulfilling Promises to Afghan Allies Act",
+          "Afghan Adjustment Act",
+          "Honoring the members of the Armed Forces who served in the war in Afghanistan."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 2,
+        "sample_titles": [
+          "SANCTIONS in the West Bank Act",
+          "West Bank Violence Prevention Act of 2025"
+        ]
+      },
+      {
+        "iso3": "CPV",
+        "iso2": "cv",
+        "name": "Cabo Verde",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 50th anniversary of the independence of the Republic of Cabo Verde and celebrating the contributions of Cabo Verdean-Americans to democracy in Cabo Verde and the United States."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 1,
+        "sample_titles": [
+          "U.S.-Taiwan Defense Innovation Partnership Act"
+        ]
+      },
+      {
+        "iso3": "FIN",
+        "iso2": "fi",
+        "name": "Finland",
+        "count": 1,
+        "sample_titles": [
+          "A concurrent resolution recognizing the 50th anniversary of the Helsinki Final Act and reaffirming the United States' commitment to its principles and values."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the significance of \"Chicano/Chicana Heritage Month\" in August as an important time to celebrate the significant contributions of Mexican Americans to the history of the United States."
+        ]
+      },
+      {
+        "iso3": "GTM",
+        "iso2": "gt",
+        "name": "Guatemala",
+        "count": 1,
+        "sample_titles": [
+          "Condemning remarks made by Representative Delia Ramirez of Illinois declaring her allegiance to the Republic of Guatemala before the United States of America."
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the Japanese Diet's Caucus for Universal Values in the Indo-Pacific and for continued United States-Japan interparliamentary collaboration to advance democracy in the region."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the designation of August 15, 2025, as \"Indian Independence Day: A National Day of Celebration of the World's Two Largest Democracies\"."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "Honoring the sacrifice of Marine Corps Lance Corporal David L. Espinoza, Marine Corps Sergeant Nicole L. Gee, Marine Corps Staff Sergeant Darin Taylor Hoover, Army Staff Sergeant Ryan Christian Knauss, Marine Corps Corporal Hunter Lopez, Marine Corps Lance Corporal Rylee J. McCollum, Marine Corps Lance Corporal Dylan R. Merola, Marine Corps Lance Corporal Kareem M. Nikoui, Marine Corps Corporal Daegan W. Page, Marine Corps Sergeant Johanny Rosario, Marine Corps Corporal Humberto A. Sanchez, Marine Corps Lance Corporal Jared M. Schmitz, and Navy Petty Officer Third Class Maxton W. Soviak."
+        ]
+      }
+    ]
+  },
+  "2025-09": {
+    "total_records": 49,
+    "countries": [
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 8,
+        "sample_titles": [
+          "Stop Chinese Fentanyl Act of 2025",
+          "Expressing the sense of the House of Representatives that China should no longer be labeled as a \"Developing Nation\" by the United Nations.",
+          "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 7,
+        "sample_titles": [
+          "Cheroenhaka (Nottoway) Indian Tribe of Southampton County, Virginia, Federal Recognition Act",
+          "To reaffirm the trust status of land taken into trust by the United States pursuant to the Act of June 18, 1934, for the benefit of an Indian Tribe that was federally recognized on the date that the land was taken into trust.",
+          "Nottoway Indian Tribe of Virginia Federal Recognition Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 5,
+        "sample_titles": [
+          "An amendment numbered 21 printed in Part A of House Report 119-255 to authorize the Baltic Security Initiative to strengthen the armed forces of Estonia, Latvia, and Lithuania to deter Russian aggression, increase interoperability, and support modernization.",
+          "Designating the Russian Federation as a State Sponsor of Terrorism Act",
+          "A resolution urging the executive branch and leaders of the G7 and the European Union to seize sovereign assets of the Russian Federation under the jurisdiction of members of the G7 and disburse such assets to Ukraine in tranches of not less than $10,000,000,000 United States dollars per month until expended."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 4,
+        "sample_titles": [
+          "Amendment sought to strike foreign aid funding for the Taiwan Security Cooperation Initiative.",
+          "To amend the National Defense Authorization Act for Fiscal Year 2000 to modify and extend the annual report on military and security developments involving the People's Republic of China.",
+          "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "An amendment numbered 22 printed in Part A of House Report 119-255 to prohibit assistance to Ukraine.",
+          "A resolution urging the executive branch and leaders of the G7 and the European Union to seize sovereign assets of the Russian Federation under the jurisdiction of members of the G7 and disburse such assets to Ukraine in tranches of not less than $10,000,000,000 United States dollars per month until expended.",
+          "Commending the Council of Europe for its efforts in seeking justice for the people of Ukraine in response to Russian crime of aggression and other international crimes."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 3,
+        "sample_titles": [
+          "Censuring Representative Rashida Tlaib for promoting and cheering on terrorism and antisemitism at the People's Conference for Palestine.",
+          "A resolution calling on the President to recognize a demilitarized State of Palestine, as consistent with international law and the principles of a two-state solution, alongside a secure State of Israel.",
+          "Original Resolution Affirming the State of Palestine’s Right to Exist"
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 2,
+        "sample_titles": [
+          "Haiti Criminal Collusion Transparency Act of 2025",
+          "HOPE for Haitian Prosperity Act of 2025"
+        ]
+      },
+      {
+        "iso3": "DEU",
+        "iso2": "de",
+        "name": "Germany",
+        "count": 2,
+        "sample_titles": [
+          "A resolution to designate September 9, 2025, as \"National World War II Italian Campaign Remembrance Day\", and to recognize the sacrifices made by American and Allied soldiers who liberated Italy from German occupation during World War II.",
+          "Reaffirming German-American friendship and supporting continued cooperation between the United States and Germany."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 2,
+        "sample_titles": [
+          "To authorize the President to award the Medal of Honor to Ret. Col. Robert J. Graham for acts of valor while as a member of the Air Force during the Vietnam War.",
+          "Recognizing the importance of the Vietnamese Heritage Flag."
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific.",
+          "A resolution commemorating the 80th anniversary of the conclusion of World War II with the surrender of Imperial Japan and honoring veterans of both the Pacific and European theaters."
+        ]
+      },
+      {
+        "iso3": "AZE",
+        "iso2": "az",
+        "name": "Azerbaijan",
+        "count": 2,
+        "sample_titles": [
+          "Azerbaijan Sanctions Review Act of 2025",
+          "A resolution condemning the treatment of Dr. Gubad Ibadoghlu by the Government of Azerbaijan and urging his immediate release."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 2,
+        "sample_titles": [
+          "Expressing support for the recognition of the month of October 2025 as Filipino American History Month and celebrating the history and culture of Filipino Americans and their immense contributions to the United States.",
+          "A resolution recognizing the month of October 2025 as Filipino American History Month and celebrating the history and culture of Filipino Americans and their immense contributions to the United States."
+        ]
+      },
+      {
+        "iso3": "LVA",
+        "iso2": "lv",
+        "name": "Latvia",
+        "count": 1,
+        "sample_titles": [
+          "An amendment numbered 21 printed in Part A of House Report 119-255 to authorize the Baltic Security Initiative to strengthen the armed forces of Estonia, Latvia, and Lithuania to deter Russian aggression, increase interoperability, and support modernization."
+        ]
+      },
+      {
+        "iso3": "LTU",
+        "iso2": "lt",
+        "name": "Lithuania",
+        "count": 1,
+        "sample_titles": [
+          "An amendment numbered 21 printed in Part A of House Report 119-255 to authorize the Baltic Security Initiative to strengthen the armed forces of Estonia, Latvia, and Lithuania to deter Russian aggression, increase interoperability, and support modernization."
+        ]
+      },
+      {
+        "iso3": "TUN",
+        "iso2": "tn",
+        "name": "Tunisia",
+        "count": 1,
+        "sample_titles": [
+          "Tunisia Democracy Restoration Act"
+        ]
+      },
+      {
+        "iso3": "CPV",
+        "iso2": "cv",
+        "name": "Cabo Verde",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing the 50th anniversary of the independence of the Republic of Cabo Verde and celebrating the contributions of Cabo Verdean-Americans to democracy in Cabo Verde and the United States."
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 1,
+        "sample_titles": [
+          "A resolution to designate September 9, 2025, as \"National World War II Italian Campaign Remembrance Day\", and to recognize the sacrifices made by American and Allied soldiers who liberated Italy from German occupation during World War II."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Nigeria Religious Freedom Accountability Act of 2025"
+        ]
+      },
+      {
+        "iso3": "PAK",
+        "iso2": "pk",
+        "name": "Pakistan",
+        "count": 1,
+        "sample_titles": [
+          "Pakistan Freedom and Accountability Act"
+        ]
+      },
+      {
+        "iso3": "SGP",
+        "iso2": "sg",
+        "name": "Singapore",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 60th anniversary of independence of the Republic of Singapore and supporting a strong United States-Singapore relationship."
+        ]
+      },
+      {
+        "iso3": "ZAF",
+        "iso2": "za",
+        "name": "South Africa",
+        "count": 1,
+        "sample_titles": [
+          "U.S.-South Africa Bilateral Relations Review Act"
+        ]
+      },
+      {
+        "iso3": "HND",
+        "iso2": "hn",
+        "name": "Honduras",
+        "count": 1,
+        "sample_titles": [
+          "Honoring Juan López, a Honduran Catholic leader and human rights advocate murdered in the Tocoa municipality of the Bajo Aguán region of Honduras and commemorating one year since his assassination."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution honoring the sacrifice of Marine Corps Lance Corporal David L. Espinoza, Marine Corps Sergeant Nicole L. Gee, Marine Corps Staff Sergeant Darin Taylor Hoover, Army Staff Sergeant Ryan Christian Knauss, Marine Corps Corporal Hunter Lopez, Marine Corps Lance Corporal Rylee J. McCollum, Marine Corps Lance Corporal Dylan R. Merola, Marine Corps Lance Corporal Kareem M. Nikoui, Marine Corps Corporal Daegan W. Page, Marine Corps Sergeant Johanny Rosario, Marine Corps Corporal Humberto A. Sanchez, Marine Corps Lance Corporal Jared M. Schmitz, and Navy Petty Officer Third Class Maxton W. Soviak."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 1,
+        "sample_titles": [
+          "A resolution calling on the President to recognize a demilitarized State of Palestine, as consistent with international law and the principles of a two-state solution, alongside a secure State of Israel."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "To add the Republic of Korea to the E-3 nonimmigrant visa program."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "United States–Mexican War Memorial Act of 2025"
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 10-year anniversary of the TORQE 62 crash in Jalalabad, Afghanistan."
+        ]
+      }
+    ]
+  },
+  "2025-10": {
+    "total_records": 44,
+    "countries": [
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 9,
+        "sample_titles": [
+          "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States.",
+          "To protect the national security of the United States by imposing sanctions with respect to certain persons of the People's Republic of China and prohibiting and requiring notifications with respect to certain investments by United States persons in the People's Republic of China.",
+          "A resolution condemning the Government of the People's Republic of China for engaging in transnational repression."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 7,
+        "sample_titles": [
+          "China Exchange Rate Transparency Act of 2025",
+          "STOP China and Russia Act of 2025",
+          "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 6,
+        "sample_titles": [
+          "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States.",
+          "To enhance United States support for identifying and recovering Ukrainian children who were abducted by the Russian Federation, and to hold accountable those who are responsible for such abductions.",
+          "STOP China and Russia Act of 2025"
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 4,
+        "sample_titles": [
+          "Expressing support for the recognition of Christopher Columbus and his impact on the Italian-American community, and recognizing the second Monday in October as \"Columbus Day\".",
+          "A resolution to designate September 9, 2025, as \"National World War II Italian Campaign Remembrance Day\", and to recognize the sacrifices made by American and Allied soldiers who liberated Italy from German occupation during World War II.",
+          "Italian Heroes and Heritage Act"
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 3,
+        "sample_titles": [
+          "A resolution condemning the brutal Hamas-led terrorist attack on the State of Israel on October 7, 2023, and supporting an outcome that ensures the forever survival of Israel, the complete denial of Hamas's ability to reconstitute in the region, and the release of all the remaining hostages from the Gaza Strip, including two United States citizens.",
+          "Honoring Wadee Alfayoumi, a 6-year-old Palestinian-American boy, murdered as a victim of a hate crime for his Palestinian-Muslim identity, in the State of Illinois.",
+          "Condemning Hamas for assassinating innocent Palestinians."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 3,
+        "sample_titles": [
+          "Recognizing the week of September 30th as \"National Orange Shirt Week\" or \"National Week of Remembrance\", which aims to honor those who were forced to attend Indian boarding schools, and to recognize the experience of Indian boarding school victims and survivors.",
+          "Recognizing the contributions made to the United States by the Indian American diaspora and condemning recent acts of racism against Indian Americans.",
+          "James Holtsnider, of Iowa, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Hashemite Kingdom of Jordan."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 2,
+        "sample_titles": [
+          "To exempt children of certain Filipino World War II veterans from the numerical limitations on immigrant visas.",
+          "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 2,
+        "sample_titles": [
+          "A resolution condemning the brutal Hamas-led terrorist attack on the State of Israel on October 7, 2023, and supporting an outcome that ensures the forever survival of Israel, the complete denial of Hamas's ability to reconstitute in the region, and the release of all the remaining hostages from the Gaza Strip, including two United States citizens.",
+          "Expressing the sense of the House of Representatives that Israel maintains sovereignty over the Temple Mount and recognizing the importance of religious freedom for all on the Temple Mount."
+        ]
+      },
+      {
+        "iso3": "FSM",
+        "iso2": "fm",
+        "name": "Micronesia",
+        "count": 1,
+        "sample_titles": [
+          "To require the Secretary of Defense to conduct a feasibility study on the removal of oil from sunken World War II vessels in waters near the Federated States of Micronesia and the Republic of Palau."
+        ]
+      },
+      {
+        "iso3": "PLW",
+        "iso2": "pw",
+        "name": "Palau",
+        "count": 1,
+        "sample_titles": [
+          "To require the Secretary of Defense to conduct a feasibility study on the removal of oil from sunken World War II vessels in waters near the Federated States of Micronesia and the Republic of Palau."
+        ]
+      },
+      {
+        "iso3": "IRQ",
+        "iso2": "iq",
+        "name": "Iraq",
+        "count": 1,
+        "sample_titles": [
+          "To repeal the authorizations for use of military force against Iraq."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "To require a strategy for United States security assistance to Mexico."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "To require the executive branch to develop a whole-of-government strategy to disrupt growing cooperation among the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea, which are the foremost adversaries of the United States, and mitigate the risks posed to the United States."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "To enhance United States support for identifying and recovering Ukrainian children who were abducted by the Russian Federation, and to hold accountable those who are responsible for such abductions."
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 1,
+        "sample_titles": [
+          "To require the President or his designee to certify whether the Government of Syria is meeting certain conditions following repeal of the Caesar Syria Civilian Protection Act of 2019."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "No Argentina Bailout Act"
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 1,
+        "sample_titles": [
+          "Haiti Criminal Collusion Transparency Act of 2025"
+        ]
+      },
+      {
+        "iso3": "CYP",
+        "iso2": "cy",
+        "name": "Cyprus",
+        "count": 1,
+        "sample_titles": [
+          "A bill to modify certain limitations and exclusions regarding defense articles and requirements regarding security assistance and sales with respect to the Republic of Cyprus."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution terminating the national emergency declared to impose duties on articles imported from Canada."
+        ]
+      },
+      {
+        "iso3": "BRA",
+        "iso2": "br",
+        "name": "Brazil",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution terminating the national emergency declared to impose duties on articles imported from Brazil."
+        ]
+      },
+      {
+        "iso3": "DEU",
+        "iso2": "de",
+        "name": "Germany",
+        "count": 1,
+        "sample_titles": [
+          "A resolution to designate September 9, 2025, as \"National World War II Italian Campaign Remembrance Day\", and to recognize the sacrifices made by American and Allied soldiers who liberated Italy from German occupation during World War II."
+        ]
+      },
+      {
+        "iso3": "ESP",
+        "iso2": "es",
+        "name": "Spain",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the importance of Spanish-language media in the United States."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Nigeria Religious Freedom Accountability Act of 2025"
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing Nobel Prize winner Maria Corina Machado and reaffirming support for democracy in Venezuela."
+        ]
+      },
+      {
+        "iso3": "GRC",
+        "iso2": "gr",
+        "name": "Greece",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the designation of October 28 as \"Oxi Day\" to commemorate the anniversary of Greek Prime Minister Ioannis Metaxas answer of \"Oxi!\" or \"No!\" to surrender to the Axis forces, inflicting a fatal wound that helped save democracy for the world."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "Jennifer Wicks McNamara, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam."
+        ]
+      },
+      {
+        "iso3": "BHR",
+        "iso2": "bh",
+        "name": "Bahrain",
+        "count": 1,
+        "sample_titles": [
+          "James Holtsnider, of Iowa, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Hashemite Kingdom of Jordan."
+        ]
+      },
+      {
+        "iso3": "JOR",
+        "iso2": "jo",
+        "name": "Jordan",
+        "count": 1,
+        "sample_titles": [
+          "James Holtsnider, of Iowa, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Hashemite Kingdom of Jordan."
+        ]
+      }
+    ]
+  },
+  "2025-11": {
+    "total_records": 44,
+    "countries": [
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 8,
+        "sample_titles": [
+          "To amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes.",
+          "Indian Trust Asset Reform Amendment Act",
+          "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 5,
+        "sample_titles": [
+          "A resolution expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance.",
+          "END Illicit Chinese Tobacco Act",
+          "Expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate regarding the European Union's actions to diversify from Russian energy sources.",
+          "A bill to require the Secretary of Defense to develop and implement a strategy to field an integrated air defense system to bolster the capability of NATO to defeat unmanned aerial systems and deter Russian aggression, and for other purposes.",
+          "Protecting Americans from Russian Litigation Act of 2025"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "To authorize the Department of Justice and the Department of State to provide law enforcement and intelligence technical assistance, training, capacity building, and advisory support to the Government of Ukraine to achieve the exchange of prisoners of war, the release of civilian detainees, and the return of forcibly transferred Ukrainian children, and for other purposes.",
+          "A resolution expressing the sense of the Senate that the 93rd anniversary of the Ukrainian Famine of 1932-1933, known as the \"Holodomor\", should serve as a reminder of repressive Soviet policies against the people of Ukraine, and that Vladimir Putin's brutal and unprovoked war against Ukraine once again threatens the existence of the Ukrainian people, while exacerbating the problems of global hunger.",
+          "Expressing the sense of the House of Representatives that the Ukrainian famine of 1932-1933, known as the Holodomor, is recognized as a genocide and should serve as a reminder of repressive Soviet policies against the people of Ukraine."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "A bill to require the Secretary of Defense to seek to engage appropriate officials of Taiwan in a joint program with Taiwan to enable the fielding of uncrewed systems and counter-uncrewed systems capabilities.",
+          "Six Assurances to Taiwan Act",
+          "Taiwan Interpol Endorsement and Inclusion Act"
+        ]
+      },
+      {
+        "iso3": "KAZ",
+        "iso2": "kz",
+        "name": "Kazakhstan",
+        "count": 2,
+        "sample_titles": [
+          "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.",
+          "Supporting the Republic of Kazakhstan's accession to the Abraham Accords, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing the 95th anniversary of the Detroit-Windsor Tunnel and its enduring significance to international trade, economic development, and cross-border relations between the United States and Canada.",
+          "To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 2,
+        "sample_titles": [
+          "Honoring Hampden-Sydney College on the 250th anniversary of its founding.",
+          "Promoting Diplomacy with Australia Act"
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 2,
+        "sample_titles": [
+          "Commending President Trump for Redesignating Nigeria a Country of Particular Concern due to Nigeria's engagement in and tolerating systematic, ongoing, and egregious violations of religious freedom, and for other purposes.",
+          "Condemning the persecution of Christians in Nigeria and standing ready to support President Donald J. Trump in taking decisive action to end the existential threat that persecuted Christians face in Nigeria."
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 2,
+        "sample_titles": [
+          "Syria Terrorism Threat Assessment Act",
+          "A bill to repeal certain Acts that impose sanctions upon Syria."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 2,
+        "sample_titles": [
+          "Mexico Cross-Border Crime Accountability Act",
+          "Mexican Energy Trade Enforcement Act"
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 2,
+        "sample_titles": [
+          "USMC Helicopter Support in Vietnam Congressional Gold Medal Act",
+          "A resolution recognizing the 50th anniversary of the end of the Vietnam War and honoring the United States veterans who served during the conflict."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing the genocide of the Palestinian people in Gaza.",
+          "A resolution honoring Wadee Alfayoumi, a 6-year-old Palestinian-American boy, murdered as a victim of a hate crime for his Palestinian-Muslim identity, in the State of Illinois."
+        ]
+      },
+      {
+        "iso3": "MKD",
+        "iso2": "mk",
+        "name": "North Macedonia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution congratulating the people of North Macedonia on the 34th anniversary of their independence and celebrating the 30th anniversary of diplomatic relations between North Macedonia and the United States."
+        ]
+      },
+      {
+        "iso3": "KGZ",
+        "iso2": "kg",
+        "name": "Kyrgyzstan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "TJK",
+        "iso2": "tj",
+        "name": "Tajikistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "TKM",
+        "iso2": "tm",
+        "name": "Turkmenistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "UZB",
+        "iso2": "uz",
+        "name": "Uzbekistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "American Manufacturers over Argentine Bailouts Act"
+        ]
+      },
+      {
+        "iso3": "PRK",
+        "iso2": "kp",
+        "name": "North Korea",
+        "count": 1,
+        "sample_titles": [
+          "North Korean Human Rights Reauthorization Act of 2025"
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "Filipino Veterans Fairness Act of 2025"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "Tehran Incitement to Violence Act"
+        ]
+      }
+    ]
+  },
+  "2025-12": {
+    "total_records": 52,
+    "countries": [
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 12,
+        "sample_titles": [
+          "A bill to provide for the equitable settlement of certain Indian land disputes regarding land in Illinois, and for other purposes.",
+          "A bill to accept the request to revoke the charter of incorporation of the Lower Sioux Indian Community in the State of Minnesota at the request of that Community, and for other purposes.",
+          "A bill to amend the Native American Tourism and Improving Visitor Experience Act to authorize grants to Indian tribes, tribal organizations, and Native Hawaiian organizations, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 8,
+        "sample_titles": [
+          "Providing for consideration of the bill (H.R. 4312) to protect the name, image, and likeness rights of student athletes and to promote fair competition with respect to intercollegiate athletics, and for other purposes; providing for consideration of the bill (H.R. 1005) to prohibit elementary and secondary schools from accepting funds from or entering into contracts with the Government of the People's Republic of China and the Chinese Communist Party, and for other purposes; providing for consideration of the bill (H.R. 1049) to ensure that parents are aware of foreign influence in their child's public school, and for other purposes; providing for consideration of the bill (H.R. 1069) to prohibit the availability of Federal education funds for elementary and secondary schools that receive direct or indirect support from the Government of the People's Republic of China; providing for consideration of the bill (H.R. 2965) to require the Administrator of the Small Business Administration to ensure that the small business regulatory budget for a small business concern in a fiscal year is not greater than zero, and for other purposes; and providing for consideration of the bill (H.R. 4305) to direct the Chief Counsel for Advocacy of the Small Business Administration to establish a Red Tape Hotline to receive notifications of burdensome agency rules, and for other purposes.",
+          "A resolution expressing the opposition of the Senate to the Chinese Communist Party's \"stolen valor\" historical revisionism with regard to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in Asia.",
+          "Keep China Out of Solar Energy Act of 2025"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 6,
+        "sample_titles": [
+          "Taiwan Assurance Implementation Act",
+          "Providing for consideration of the bill (H.R. 4312) to protect the name, image, and likeness rights of student athletes and to promote fair competition with respect to intercollegiate athletics, and for other purposes; providing for consideration of the bill (H.R. 1005) to prohibit elementary and secondary schools from accepting funds from or entering into contracts with the Government of the People's Republic of China and the Chinese Communist Party, and for other purposes; providing for consideration of the bill (H.R. 1049) to ensure that parents are aware of foreign influence in their child's public school, and for other purposes; providing for consideration of the bill (H.R. 1069) to prohibit the availability of Federal education funds for elementary and secondary schools that receive direct or indirect support from the Government of the People's Republic of China; providing for consideration of the bill (H.R. 2965) to require the Administrator of the Small Business Administration to ensure that the small business regulatory budget for a small business concern in a fiscal year is not greater than zero, and for other purposes; and providing for consideration of the bill (H.R. 4305) to direct the Chief Counsel for Advocacy of the Small Business Administration to establish a Red Tape Hotline to receive notifications of burdensome agency rules, and for other purposes.",
+          "A resolution expressing the opposition of the Senate to the Chinese Communist Party's \"stolen valor\" historical revisionism with regard to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in Asia."
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 3,
+        "sample_titles": [
+          "A resolution expressing the opposition of the Senate to the Chinese Communist Party's \"stolen valor\" historical revisionism with regard to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in Asia.",
+          "A resolution expressing unwavering support for the United States-Japan alliance in response to political, economic and military pressure by the People's Republic of China.",
+          "Condemning the coercive actions of the People's Republic of China against Japan in response to statements regarding Taiwan and reaffirming the United States commitment to its allies in the Indo-Pacific region."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 3,
+        "sample_titles": [
+          "Prohibiting Unauthorized Military Action in Venezuela Act of 2025",
+          "To direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+          "To prohibit the use of funds to use military force in or against Venezuela, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "Decreasing Russian Oil Profits Act of 2025",
+          "A resolution urging the Trump Administration to seize shadow fleet vessels transporting sanctioned oil from the Russian Federation.",
+          "To impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 2,
+        "sample_titles": [
+          "Afghanistan Vetting and Accountability Act of 2025",
+          "Afghan SIV Termination and Security Review Act of 2025"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 2,
+        "sample_titles": [
+          "Condemning the Government of Iran's state-sponsored persecution of the Baha'i minority in Iran and the continued violation of the Universal Declaration of Human Rights and the International Covenant on Civil and Political Rights.",
+          "A resolution condemning the Government of Iran's state-sponsored persecution of the Baha'i minority and its continued violation of the International Covenants on Human Rights."
+        ]
+      },
+      {
+        "iso3": "HND",
+        "iso2": "hn",
+        "name": "Honduras",
+        "count": 2,
+        "sample_titles": [
+          "Reaffirming the commitment of the United States to cooperate and partner with the Government of Honduras to counter narcotics and condemning the pardon of Juan Orlando Hernández.",
+          "A resolution condemning the pardon of ex-Honduran President Juan Orlando Hernandez."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 2,
+        "sample_titles": [
+          "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
+          "A resolution commemorating 30 years of diplomatic relations between the United States and Vietnam on July 11, 2025."
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 2,
+        "sample_titles": [
+          "A resolution honoring the service and sacrifice of United States Army Sergeant William Nathaniel Howard and United States Army Sergeant Edgar Brian Torres-Tovar, who were killed in action in Palmyra, Syria, in a targeted assault against United States service members on December 13, 2025."
+        ]
+      },
+      {
+        "iso3": "NLD",
+        "iso2": "nl",
+        "name": "Netherlands",
+        "count": 1,
+        "sample_titles": [
+          "M.H. Dutch Salmon Greater Gila Wild and Scenic River Act"
+        ]
+      },
+      {
+        "iso3": "MMR",
+        "iso2": "mm",
+        "name": "Myanmar",
+        "count": 1,
+        "sample_titles": [
+          "No New Burma Funds Act"
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "A resolution condemning anti-Palestinian hatred on the anniversary of the attack in Burlington, Vermont, on November 25, 2023."
+        ]
+      },
+      {
+        "iso3": "MKD",
+        "iso2": "mk",
+        "name": "North Macedonia",
+        "count": 1,
+        "sample_titles": [
+          "To designate the facility of the United States Postal Service located at 300 Macedonia Lane in Knoxville, Tennessee, as the \"Reverend Harold Middlebrook Post Office Building\"."
+        ]
+      },
+      {
+        "iso3": "AZE",
+        "iso2": "az",
+        "name": "Azerbaijan",
+        "count": 1,
+        "sample_titles": [
+          "To repeal a restriction on assistance to Azerbaijan."
+        ]
+      },
+      {
+        "iso3": "ETH",
+        "iso2": "et",
+        "name": "Ethiopia",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the Government of Ethiopia for actions that threaten regional stability, violate fundamental human rights, and undermine the strategic interests of the United States in the Horn of Africa."
+        ]
+      },
+      {
+        "iso3": "GBR",
+        "iso2": "gb",
+        "name": "United Kingdom",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the self-determination of Gibraltar to determine its status as a British Overseas Territory."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the antisemitic shooting in Sydney, Australia, and all forms of hatred and violence directed at religious communities."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "To impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "MNG",
+        "iso2": "mn",
+        "name": "Mongolia",
+        "count": 1,
+        "sample_titles": [
+          "Southern Mongolian Human Rights Policy Act"
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "Argentina Bailout Oversight Act"
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "El Salvador Accountability Act of 2025"
+        ]
+      },
+      {
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
+        "count": 1,
+        "sample_titles": [
+          "Original Resolution Calling on the United States Government to Help Bring Peace to Sudan"
+        ]
+      }
+    ]
+  },
+  "2026-01": {
+    "total_records": 39,
+    "countries": [
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 7,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+          "To direct the removal of United States Armed Forces from Venezuela that have not been authorized by Congress.",
+          "No War with Venezuela Act of 2026"
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 5,
+        "sample_titles": [
+          "To require the Secretary of the Treasury to include any entity identified as a Chinese military company on the Non-SDN Chinese Military-Industrial Complex Companies List.",
+          "Divesting from Communist China’s Military Act of 2026",
+          "Securing Federal Devices from Chinese Applications Act"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 4,
+        "sample_titles": [
+          "Enhanced Iran Sanctions Act of 2025",
+          "Recognizing and expressing support for the Iranian people protesting for a free and democratic Iran.",
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 3,
+        "sample_titles": [
+          "Haiti Economic Lift Program Extension Act",
+          "Providing for consideration of the bill (H.R. 1689) to require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+          "Expressing the sense of the House of Representatives that protecting and advancing the rights of women and girls in the Republic of Haiti is critical to the success of Haiti's transition from crisis and its future stability, condemning the failure to center women's leadership and distinct needs to date, and calling for urgent measures to secure all human rights of women and girls in Haiti."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "No Aid for Russian Energy Act",
+          "Ending Importation of Laundered Russian Oil Act",
+          "Honoring President Donald J. Trump for securing a historic strategic agreement establishing permanent United States sovereignty and control over critical military installations in Greenland, strengthening Arctic security, and countering malign Russian and Chinese influence."
+        ]
+      },
+      {
+        "iso3": "NZL",
+        "iso2": "nz",
+        "name": "New Zealand",
+        "count": 3,
+        "sample_titles": [
+          "To impose a 30 percent duty on sheep products and lamb products from Australia or New Zealand.",
+          "Jared Novelly, of Missouri, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to New Zealand, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Independent State of Samoa, the Cook Islands, and Niue.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 2,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sales to Taiwan of certain defense articles and services.",
+          "Expressing unwavering support for the United States-Japan alliance in response to political, economic, and military pressure by the People's Republic of China against Japan."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 2,
+        "sample_titles": [
+          "Crimea Annexation Non-Recognition Act",
+          "Defending Ukraine’s Territorial Integrity Act"
+        ]
+      },
+      {
+        "iso3": "DNK",
+        "iso2": "dk",
+        "name": "Denmark",
+        "count": 2,
+        "sample_titles": [
+          "Affirming the partnership between the United States and Denmark and Greenland.",
+          "A concurrent resolution affirming the partnership between the United States and Denmark and Greenland."
+        ]
+      },
+      {
+        "iso3": "LKA",
+        "iso2": "lk",
+        "name": "Sri Lanka",
+        "count": 2,
+        "sample_titles": [
+          "Eric Meyer, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Democratic Socialist Republic of Sri Lanka.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 2,
+        "sample_titles": [
+          "Lee Lipton, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of the Philippines.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "SYC",
+        "iso2": "sc",
+        "name": "Seychelles",
+        "count": 2,
+        "sample_titles": [
+          "Brian Gootkin, of Montana, to be United States Marshal for the District of Montana for the term of four years, vice Craig J. Anderson.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "CYP",
+        "iso2": "cy",
+        "name": "Cyprus",
+        "count": 2,
+        "sample_titles": [
+          "Brian Gootkin, of Montana, to be United States Marshal for the District of Montana for the term of four years, vice Craig J. Anderson.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 2,
+        "sample_titles": [
+          "Jennifer Wicks McNamara, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam.",
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 1,
+        "sample_titles": [
+          "To authorize leases of up to 99 years for land held in trust for federally recognized Indian Tribes."
+        ]
+      },
+      {
+        "iso3": "MMR",
+        "iso2": "mm",
+        "name": "Myanmar",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the designation of Burma for temporary protected status."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "No Unauthorized War in Mexico Act"
+        ]
+      },
+      {
+        "iso3": "NIC",
+        "iso2": "ni",
+        "name": "Nicaragua",
+        "count": 1,
+        "sample_titles": [
+          "Restoring Sovereignty and Human Rights in Nicaragua Act of 2026"
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 1,
+        "sample_titles": [
+          "Expressing unwavering support for the United States-Japan alliance in response to political, economic, and military pressure by the People's Republic of China against Japan."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 1,
+        "sample_titles": [
+          "To impose a 30 percent duty on sheep products and lamb products from Australia or New Zealand."
+        ]
+      },
+      {
+        "iso3": "MYS",
+        "iso2": "my",
+        "name": "Malaysia",
+        "count": 1,
+        "sample_titles": [
+          "Eric Meyer, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Democratic Socialist Republic of Sri Lanka."
+        ]
+      },
+      {
+        "iso3": "SAU",
+        "iso2": "sa",
+        "name": "Saudi Arabia",
+        "count": 1,
+        "sample_titles": [
+          "Brian Gootkin, of Montana, to be United States Marshal for the District of Montana for the term of four years, vice Craig J. Anderson."
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "Douglas Weaver, of Maryland, to be a Member of the Nuclear Regulatory Commission for the term of five years expiring June 30, 2031.  (Reappointment)"
+        ]
+      },
+      {
+        "iso3": "NOR",
+        "iso2": "no",
+        "name": "Norway",
+        "count": 1,
+        "sample_titles": [
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      },
+      {
+        "iso3": "HUN",
+        "iso2": "hu",
+        "name": "Hungary",
+        "count": 1,
+        "sample_titles": [
+          "Phillip Williams, Jr., of Alabama, to be United States Attorney for the Northern District of Alabama for the term of four years, vice John E. Town, term expired."
+        ]
+      }
+    ]
+  },
+  "2026-02": {
+    "total_records": 53,
+    "countries": [
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 12,
+        "sample_titles": [
+          "Indian Health Service Emergency Claims Parity Act",
+          "Truth and Healing Commission on Indian Boarding School Policies Act of 2026",
+          "Stronger Engagement for Indian Health Needs Act of 2026"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 5,
+        "sample_titles": [
+          "PROTECT Taiwan Act",
+          "Taiwan Allies Fund Act",
+          "Taiwan Energy Security and Anti-Embargo Act of 2026"
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 4,
+        "sample_titles": [
+          "Condemning the Government of the Islamic Republic of Iran for its violent repression of peaceful protesters, its documented pattern of human rights abuses, and its sponsorship of extremist militant groups across the Middle East.",
+          "A resolution condemning the Government of Iran for its suppression of the right of Iranians to peacefully assemble.",
+          "To support human rights and internet freedom in Iran and hold the Iranian regime accountable for the repression of the Iranian people."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 4,
+        "sample_titles": [
+          "Decreasing Russian Oil Profits Act of 2026",
+          "Providing for consideration of the bill (H.R. 6856) to impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes.",
+          "To require a report on Russian and Chinese intelligence assets in Georgia, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 3,
+        "sample_titles": [
+          "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
+          "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
+          "A bill to authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War"
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 3,
+        "sample_titles": [
+          "Providing for consideration of the bill (H.R. 3310) to designate Venezuela under section 244 of the Immigration and Nationality Act to permit nationals of Venezuela to be eligible for temporary protected status under such section, and for other purposes.",
+          "Venezuela Oil Proceeds Transparency Act",
+          "Venezuela Democratic Transition Strategy Act"
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 3,
+        "sample_titles": [
+          "Defending the Human Rights of Palestinian Children and Families Living Under Israeli Military Occupation Act",
+          "To ensure sufficient food assistance for the civilian population of Gaza.",
+          "To prohibit the use of United States-origin defense articles in the West Bank and Gaza unless certain conditions are met, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sales to the Government of Ukraine of certain defense articles and services.",
+          "Providing for consideration of the bill (H.R. 6856) to impose sanctions and other measures with respect to the Russian Federation if the Government of the Russian Federation refuses to negotiate a peace agreement with Ukraine, violates any such agreement, or initiates another military invasion of Ukraine, and for other purposes.",
+          "A resolution acknowledging the fourth anniversary of Russia's illegal invasion of Ukraine, reaffirming support for the people of Ukraine, and emphasizing the importance of robust United States security guarantees within a transatlantic commitment to Ukraine's sovereignty."
+        ]
+      },
+      {
+        "iso3": "BOL",
+        "iso2": "bo",
+        "name": "Bolivia",
+        "count": 2,
+        "sample_titles": [
+          "La Paz County Solar Energy and Job Creation Act"
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "Lebanon Election Integrity and Diaspora Voting Protection Act of 2026"
+        ]
+      },
+      {
+        "iso3": "BRA",
+        "iso2": "br",
+        "name": "Brazil",
+        "count": 1,
+        "sample_titles": [
+          "Terminating the national emergency declared to impose duties on articles imported from Brazil."
+        ]
+      },
+      {
+        "iso3": "SOM",
+        "iso2": "so",
+        "name": "Somalia",
+        "count": 1,
+        "sample_titles": [
+          "Somalia Immigration Moratorium Act"
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate that protecting and advancing the rights of women and girls in the Republic of Haiti is critical to the success of Haiti's transition from crisis and its future stability, condemning the failure to center women's leadership and distinct needs to date, and calling for urgent measures to secure all human rights of women and girls in Haiti."
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 1,
+        "sample_titles": [
+          "A resolution condemning and calling for the reversal of President Trump's decision to allow the export of advanced artificial intelligence chips to the United Arab Emirates, despite significant risks to national security and just months after the United Arab Emirates signed a secret $500,000,000 deal to buy close to a majority stake in the Trump family crypto company World Liberty Financial."
+        ]
+      },
+      {
+        "iso3": "MMR",
+        "iso2": "mm",
+        "name": "Myanmar",
+        "count": 1,
+        "sample_titles": [
+          "BRAVE Burma Act"
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Nigeria Religious Freedom and Accountability Act of 2026"
+        ]
+      },
+      {
+        "iso3": "GUY",
+        "iso2": "gy",
+        "name": "Guyana",
+        "count": 1,
+        "sample_titles": [
+          "Georgetown VA Community-Based Outpatient Clinic Authorization Act of 2026"
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 1,
+        "sample_titles": [
+          "Michigan-Canada Partnership Act"
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 1,
+        "sample_titles": [
+          "To enhance bilateral defense cooperation between the United States and Israel, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CUB",
+        "iso2": "cu",
+        "name": "Cuba",
+        "count": 1,
+        "sample_titles": [
+          "United States-Cuba Trade Act of 2026"
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 1,
+        "sample_titles": [
+          "Congratulating the Olympians and Paralympians of Michigan who competed in the 2026 Olympics and Paralympics in Italy."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "To require a report on Russian and Chinese intelligence assets in Georgia, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "GEO",
+        "iso2": "ge",
+        "name": "Georgia",
+        "count": 1,
+        "sample_titles": [
+          "To require a report on Russian and Chinese intelligence assets in Georgia, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "To require a report that describes the current restrictions imposed by the Taliban on women and girls in Afghanistan since August 2021."
+        ]
+      },
+      {
+        "iso3": "POL",
+        "iso2": "pl",
+        "name": "Poland",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing 250 years of Polish-American friendship and reaffirming the interest of the United States of America in the democracy, sovereignty, prosperity, and security of Poland."
+        ]
+      },
+      {
+        "iso3": "HND",
+        "iso2": "hn",
+        "name": "Honduras",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on Honduras's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "SVN",
+        "iso2": "si",
+        "name": "Slovenia",
+        "count": 1,
+        "sample_titles": [
+          "Andrew Woodson, of Virginia, to be a Member of the Federal Election Commission for a term expiring April 30, 2031, vice Allen Dickerson, term expired."
+        ]
+      },
+      {
+        "iso3": "CHE",
+        "iso2": "ch",
+        "name": "Switzerland",
+        "count": 1,
+        "sample_titles": [
+          "Andrew Woodson, of Virginia, to be a Member of the Federal Election Commission for a term expiring April 30, 2031, vice Allen Dickerson, term expired."
         ]
       }
     ]
