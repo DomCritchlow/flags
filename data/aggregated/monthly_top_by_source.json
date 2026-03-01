@@ -1,4 +1,1553 @@
 {
+  "2001-01": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Expressing sympathy for the victims of the devastating earthquake that struck India on January 26, 2001, and support for ongoing aid efforts.",
+        "Indian Reservation Jobs and Investment Act of 2001",
+        "To ensure that certain property which was taken into trust by the United States for the benefit of the Poarch Band of Creek Indians of Alabama shall be protected and shall not be used for gaming."
+      ]
+    }
+  },
+  "2001-02": {
+    "bill": {
+      "iso3": "MEX",
+      "iso2": "mx",
+      "name": "Mexico",
+      "count": 4,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives regarding the disparity between identical prescription drugs sold in the United States, Canada, and Mexico.",
+        "To provide that a certification of the cooperation of Mexico with United States counterdrug efforts not be required in fiscal year 2001 for the limitation on assistance for Mexico under section 490 of the Foreign Assistance Act of 1961 not to go into effect in that fiscal year.",
+        "A concurrent resolution expressing the sense of Congress with respect to the upcoming trip of President George W. Bush to Mexico to meet with the newly elected President Vicente Fox, and with respect to future cooperative efforts between the United States and Mexico."
+      ]
+    }
+  },
+  "2001-03": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 9,
+      "sample_titles": [
+        "Expressing sympathy for the victims of the devastating earthquake that struck India on January 26, 2001, and support for ongoing aid efforts.",
+        "To amend the Ysleta del Sur Pueblo and Alabama and Coushatta Indian Tribes of Texas Restoration Act to decrease the requisite blood quantum required for membership in the Ysleta del Sur Pueblo tribe.",
+        "An original resolution authorizing expenditures by the Senate Committee on Indian Affairs."
+      ]
+    }
+  },
+  "2001-04": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 7,
+      "sample_titles": [
+        "Condemning the Government of the People's Republic of China for its poor human rights record.",
+        "Expressing the sense of the Congress relating to the Taiwan Relations Act.",
+        "Expressing the sense of Congress that the People's Republic of China should release immediately the crew members of the United States Navy EP-3E Aries II reconnaissance aircraft that made an emergency landing on the Chinese island of Hainan on April 1, 2001, and should release immediately and intact that aircraft in accordance with international law."
+      ]
+    }
+  },
+  "2001-05": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that India should be a permanent member of the United Nations Security Council.",
+        "Burt Lake Band of Ottawa and Chippewa Indians Act",
+        "Indian Health Care Improvement Act Amendments of 2001"
+      ]
+    }
+  },
+  "2001-06": {
+    "bill": {
+      "iso3": "SYR",
+      "iso2": "sy",
+      "name": "Syria",
+      "count": 3,
+      "sample_titles": [
+        "Expressing the sense of Congress relating to remarks by the President of Syria concerning Israel.",
+        "Expressing the sense of the House of Representatives that Lebanon, Syria, and Iran should call upon Hezbollah to allow representatives of the International Committee of the Red Cross to visit four abducted Israelis, Adi Avitan, Binyamin Avraham, Omar Souad, and Elchanan Tannenbaum, presently held by Hezbollah forces in Lebanon.",
+        "A concurrent resolution expressing the sense of Congress that Lebanon, Syria, and Iran should allow representatives of the International Committee of the Red Cross to visit the four Israelis, Adi Avitan, Binyamin Avraham, Omar Souad, and Elchanan Tannenbaum, presently held by Hezbollah forces in Lebanon."
+      ]
+    }
+  },
+  "2001-07": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 4,
+      "sample_titles": [
+        "Expressing the sense of Congress that the 2008 Olympic Games should not be held in Beijing unless the Government of the People's Republic of China releases all political prisoners, ratifies the International Covenant on Civil and Political Rights, and observes internationally recognized human rights.",
+        "Expressing the sincerest condolences of the House of Representatives to the families of the 42 people, including 37 children, killed in the March 6, 2001, explosion at the Fanglin elementary school in the Jianxi province of the People's Republic of China, and for other purposes.",
+        "Disapproving the extension of the waiver authority contained in section 402(c) of the Trade Act of 1974 with respect to the People's Republic of China."
+      ]
+    }
+  },
+  "2001-08": {
+    "bill": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 3,
+      "sample_titles": [
+        "Urging the President of Ukraine to support democratic ideals, the rights of free speech, and free assembly for Ukrainian citizens.",
+        "Congratulating Ukraine on the tenth anniversary of re-establishment of its independence."
+      ]
+    }
+  },
+  "2001-09": {
+    "bill": {
+      "iso3": "VNM",
+      "iso2": "vn",
+      "name": "Vietnam",
+      "count": 3,
+      "sample_titles": [
+        "Viet Nam Human Rights Act"
+      ]
+    }
+  },
+  "2001-10": {
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of Congress with respect to the urgency of providing food and agricultural development assistance to civilian men, women, and children in Afghanistan, including Afghan refugees, and to the civilian populations of other countries in the central Asia region, including Pakistan, Iran, Kyrgyzstan, Turkmenistan, Tajikistan, and Uzbekistan.",
+        "Afghanistan Freedom Act of 2001",
+        "Supporting the Goals of the America's Fund for Afghan Children's Act"
+      ]
+    }
+  },
+  "2001-11": {
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of Congress that women from all ethnic groups in Afghanistan should participate in the economic and political reconstruction of Afghanistan.",
+        "Commending and urging increased support for organizations led by Afghan women that are providing substantial education, health, and relief services during a time of humanitarian crisis in Afghanistan and in Afghan refugee areas in neighboring countries, and for the inclusion of women in any new government established in that nation.",
+        "Afghan Women and Children Relief Act of 2001"
+      ]
+    }
+  },
+  "2001-12": {
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 9,
+      "sample_titles": [
+        "Honoring the ultimate sacrifice made by Johnny Micheal Spann, the first American killed in combat during the war against terrorism in Afghanistan, and pledging continued support for members of the Armed Forces.",
+        "Afghanistan Freedom and Reconstruction Act of 2001",
+        "To extend nondiscriminatory treatment to the products of Afghanistan."
+      ]
+    }
+  },
+  "2002-01": {
+    "bill": {
+      "iso3": "MMR",
+      "iso2": "mm",
+      "name": "Myanmar",
+      "count": 1,
+      "sample_titles": [
+        "Commending Daw Aung San Suu Kyi on the 10th anniversary of her receiving the Nobel Peace Prize and expressing the sense of the Congress with respect to the Government of Burma."
+      ]
+    }
+  },
+  "2002-02": {
+    "bill": {
+      "iso3": "PAK",
+      "iso2": "pk",
+      "name": "Pakistan",
+      "count": 3,
+      "sample_titles": [
+        "Commending President Pervez Musharraf of Pakistan for his leadership and friendship and welcoming him to the United States.",
+        "Expressing the sense of the House of Representatives with respect to violations in Pakistan of the freedom of individuals to profess and practice religion or belief.",
+        "A concurrent resolution commending President Pervez Musharraf of Pakistan for his leadership and friendship and welcoming him to the United States."
+      ]
+    }
+  },
+  "2002-03": {
+    "bill": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 4,
+      "sample_titles": [
+        "Urging the Government of Ukraine to ensure a democratic, transparent, and fair election process leading up to the March 31, 2002, parliamentary elections.",
+        "To authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to the products of Ukraine.",
+        "A resolution urging the Government of Ukraine to ensure a democratic, transparent, and fair election process leading up to the March 31, 2002, parliamentary elections."
+      ]
+    }
+  },
+  "2002-04": {
+    "bill": {
+      "iso3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "count": 3,
+      "sample_titles": [
+        "Condemning the ongoing violence in the Middle East and urging Israel and the Palestinian Authority to enter into an immediate cease fire agreement and return to negotiations.",
+        "Expressing grave concern about the continuing escalation in violence between Israel and the Palestinians.",
+        "A resolution expressing solidarity with Israel in its fight against terrorism."
+      ]
+    }
+  },
+  "2002-05": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 4,
+      "sample_titles": [
+        "To provide for the equitable settlement of certain Indian land disputes regarding land in Illinois.",
+        "Indian Child Welfare Act Amendments of 2002",
+        "American Indian Welfare Reform Act"
+      ]
+    }
+  },
+  "2002-06": {
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 3,
+      "sample_titles": [
+        "Expressing the sense of Congress regarding North Korean refugees who are detained in China and returned to North Korea where they face torture, imprisonment, and execution.",
+        "A Concurrent Resolution expressing the sense of Congress regarding North Korean refugees in China and those who are returned to North Korea where they face torture, imprisonment, and execution.",
+        "A resolution expressing the sense of the Senate regarding human rights violations in Tibet, the Panchen Lama, and the need for dialogue between the Chinese leadership and the Dalai Lama or his representatives."
+      ]
+    }
+  },
+  "2002-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Honoring the Indian American Friendship Council.",
+        "To amend the Internal Revenue Code of 1986 to permit Indian tribal courts, pursuant to tribal domestic relations laws, to alienate or assign benefits under retirement plans.",
+        "Zuni Indian Tribe Water Rights Settlement Act of 2002"
+      ]
+    }
+  },
+  "2002-08": {
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 1,
+      "sample_titles": [
+        "Expressing the sense of the Congress regarding the Chinese Government's oppression of Falun Gong in the United States and in the People's Republic of China."
+      ]
+    }
+  },
+  "2002-09": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 12,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that a postage stamp should be issued in commemoration of Diwali, a festival celebrated by people of Indian origin.",
+        "To provide grants to local governments to assist such local governments in participating in certain decisions related to certain Indian groups and Indian tribes.",
+        "Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2001"
+      ]
+    }
+  },
+  "2002-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Recognizing the 50th anniversary of the first national elections in the Republic of India and commending the Government and people of India for maintaining a commitment to democracy for half a century.",
+        "To protect certain lands held in fee by the Pechanga Band of Luiseno Mission Indians from condemnation until a final decision is made by the Secretary of the Interior regarding a pending fee to trust application for that land, and for other purposes.",
+        "For the relief of the heirs and assigns of Hattie Davis Rogers of the Nez Perce Indian Reservation, Idaho."
+      ]
+    }
+  },
+  "2002-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "A resolution commemorating the 30th Anniversary of the Founding of the American Indian Higher Education Consortium (AIHEC).",
+        "Indian Tribal Development Consolidated Funding Act of 2001",
+        "Indian Probate Reform Act of 2002"
+      ]
+    }
+  },
+  "2002-12": {
+    "bill": {
+      "iso3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "count": 2,
+      "sample_titles": [
+        "Russian River Land Act",
+        "A bill to authorize the use of Cooperative Threat Reduction funds for projects and activities to address proliferation threats outside the states of the former Soviet Union, and for other purposes."
+      ]
+    }
+  },
+  "2003-01": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 4,
+      "sample_titles": [
+        "To amend the Internal Revenue Code of 1986 to permanently extend the Indian employment credit and the depreciation rules for property used predominantly within an Indian reservation.",
+        "Indian Reservation Jobs and Investment Act of 2003",
+        "Indian Trust Asset and Trust Fund Management and Reform Act of 2003"
+      ]
+    }
+  },
+  "2003-02": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that India should be a permanent member of the United Nations Security Council.",
+        "American Indian Lands Title Report Commission Corrections Act",
+        "Indian and Alaska Native Foster Care and Adoption Services Amendments of 2003"
+      ]
+    }
+  },
+  "2003-03": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 13,
+      "sample_titles": [
+        "Expressing the sense of Congress concerning support to members of the United States Armed Forces and allied military forces engaged in the war on terrorism and the war with Iraq.",
+        "Expressing the sense of the Congress that Public Law 107-243, the authorization to use military force against Iraq, is null and void.",
+        "Urging the United Nations to put in place broad United Nations Security Council authority to help the people of Iraq."
+      ]
+    }
+  },
+  "2003-04": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 20,
+      "sample_titles": [
+        "Expressing the sense of Congress concerning United States and allied Armed Forces personnel killed or wounded or taken captive while engaged in the war on terrorism and the war with Iraq and offering deepest sympathy to the families of those killed in action.",
+        "Extending the thanks of Congress and a grateful nation to the Iraqis Mohammed and Iman for their brave actions against oppression and tyranny in providing to United States forces, at great risk to themselves, information essential for the rescue of Private First Class Jessica Lynch, United States Army, on April 1, 2003.",
+        "Expressing the sense of Congress concerning support to members of the United States Armed Forces and allied military forces engaged in the war on terrorism and the war with Iraq."
+      ]
+    }
+  },
+  "2003-05": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 13,
+      "sample_titles": [
+        "Expressing the sense of Congress that the United States should provide assistance for women and women's organizations in Iraq in order to strengthen and stabilize the emerging Iraqi democracy.",
+        "Expressing the sense of Congress that the United Nations should remove the economic sanctions against Iraq completely and without condition.",
+        "Expressing the thanks of Congress to the people of Qatar for their cooperation in supporting United States Armed Forces and the armed forces of coalition countries during the recent military action in Iraq and welcoming His Highness Sheikh Hamad bin Khalifah Al-Thani, Emir of the State of Qatar, to the United States."
+      ]
+    }
+  },
+  "2003-06": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 10,
+      "sample_titles": [
+        "Expressing appreciation to the Government of Kuwait for its medical assistance to Ali Ismaeel Abbas and other children of Iraq and for its additional humanitarian aid, and for other purposes.",
+        "Expressing the sense of Congress and appreciation for the support and cooperation from Kuwait, Bahrain, and Qatar in Operation Iraqi Freedom.",
+        "Recognizing and commending the members of the United States Armed Forces and their leaders, and the allies of the United States and their armed forces, who participated in Operation Enduring Freedom in Afghanistan and Operation Iraqi Freedom in Iraq and recognizing the continuing dedication of military families and employers and defense civilians and contractors and the countless communities and patriotic organizations that lent their support to the Armed Forces during those operations."
+      ]
+    }
+  },
+  "2003-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 9,
+      "sample_titles": [
+        "Honoring former Congressman Dalip Singh Saund and remembering his achievements as the only Indian American to serve in Congress.",
+        "Indian Child Welfare Act Amendments of 2003",
+        "To direct the Secretary of Agriculture to transfer certain land within the Ottawa National Forest to the Lac Vieux Desert Band of Lake Superior Chippewa Indians, and for other purposes."
+      ]
+    }
+  },
+  "2003-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 2,
+      "sample_titles": [
+        "To direct the Secretary of Agriculture to convey certain land in the lake Tahoe Basin Management Unit, Nevada, to the Secretary of the Interior, in trust for the Washoe Indian Tribe of Nevada and California.",
+        "American Indian Welfare Reform Act"
+      ]
+    }
+  },
+  "2003-09": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 11,
+      "sample_titles": [
+        "Expressing the sense of Congress that the United States should remain engaged in Iraq in order to ensure a peaceful, stable, unified Iraq with a representative government, and for other purposes.",
+        "Of inquiry requesting the President to transmit to the House of Representatives not later than 14 days after the date of adoption of this resolution the report prepared for the Joint Chiefs of Staff entitled \"Operation Iraqi Freedom Strategic Lessons Learned\" and other materials relating to the Administration's planning for the reconstruction and security of post-war Iraq.",
+        "To provide a 10 percent increase in the rate of basic pay for members of the uniformed services, effective January 1, 2004, to pay a one-time bonus to members of the Armed Forces who served or serve in a combat zone designated for Operation Iraqi Freedom or Operation Enduring Freedom, and for other purposes."
+      ]
+    }
+  },
+  "2003-10": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 19,
+      "sample_titles": [
+        "Expressing the sense of Congress with respect to the President's $87 billion supplemental appropriation request for the occupation and reconstruction of Iraq.",
+        "Providing for consideration of the bill (H.R. 3289) making emergency supplemental appropriations for defense and for the reconstruction of Iraq and Afghanistan for the fiscal year ending September 30, 2004, and for other purposes.",
+        "Expressing the sense of the House of Representatives that France, Germany, Russia, and other nations can contribute to Iraq's reconstruction by forgiving debts owed by Iraq to those nations and by making generous pledges for Iraq's reconstruction at the International Conference on Reconstruction in Iraq to be held in Madrid."
+      ]
+    }
+  },
+  "2003-11": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 13,
+      "sample_titles": [
+        "Commending Iraqi women for their participation in Iraqi government and civil society, encouraging the inclusion of Iraqi women in the political and economic life of Iraq, and advocating the protection of Iraqi women's human rights in the Iraqi Constitution.",
+        "Commending Michigan State University President Peter McPherson for his service to his country and his significant contribution to the financial reconstruction of Iraq.",
+        "Urging the President to establish an Iraq service medal to recognize service by members of the Armed Forces in Operation Iraqi Freedom."
+      ]
+    }
+  },
+  "2003-12": {
+    "bill": {
+      "iso3": "MEX",
+      "iso2": "mx",
+      "name": "Mexico",
+      "count": 2,
+      "sample_titles": [
+        "Providing that the executive branch should remove certain entry restrictions for Mexican nationals, and for other purposes.",
+        "To allow certain Mexican nationals to be admitted as nonimmigrant visitors for a period of 6 months."
+      ]
+    }
+  },
+  "2004-01": {
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 2,
+      "sample_titles": [
+        "To create a select committee to investigate the awarding and carrying out of contracts to conduct activities in Afghanistan and Iraq and to fight the war on terrorism.",
+        "Afghan Women Security and Freedom Act of 2004"
+      ]
+    }
+  },
+  "2004-02": {
+    "bill": {
+      "iso3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "count": 2,
+      "sample_titles": [
+        "Expressing the sense of Congress that the United States should support the principles of democracy and constitutional rule in the Republic of Haiti, and for other purposes.",
+        "Expressing the sense of Congress with respect to the urgency of cessation of hostilities in the Republic of Haiti."
+      ]
+    }
+  },
+  "2004-03": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 8,
+      "sample_titles": [
+        "Calling on the President to negotiate a bilateral security agreement with the Iraqi Governing Council before June 30, 2004.",
+        "Expressing the sense of Congress with respect to the current policy on bids for agricultural food tenders in Iraq.",
+        "Calling for the removal of all restrictions from the public, the press, and military families in mourning that would prohibit their presence at the arrival at military installations in the United States or overseas of the remains of the Nation's fallen heroes, the members of the Armed Forces who have died in Iraq or Afghanistan, with the assurance that family requests for privacy will be respected."
+      ]
+    }
+  },
+  "2004-04": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 3,
+      "sample_titles": [
+        "Emergency Supplemental Appropriations Act for Military Operations in Iraq and Afghanistan, 2004",
+        "To require United States assistance for the repair, maintenance, or construction of the transportation infrastructure of Iraq to be provided in the form of loans subject to repayment in full to the United States Government.",
+        "A resolution urging the President to immediately instruct the Secretary of State and the Secretary of Defense to respectively begin initiating consultations with other members of the United Nations Security Council concerning a United Nations Security Council Resolution for Iraq, and with the Secretary General of the North Atlantic Treaty Organization (NATO) concerning a mandate for a NATO commitment for security in Iraq, with the goal of securing both not later than May 15, 2004."
+      ]
+    }
+  },
+  "2004-05": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 10,
+      "sample_titles": [
+        "Expressing the sense of the Congress that the President of the United States should request Taiwan's President Chen Shui-bian to deploy Taiwanese Marines to Iraq to join international Coalition forces in the global war on terrorism.",
+        "Recognizing the sacrifices of individuals working in Iraq under United States Government contracts, expressing sympathy to those individuals injured or taken captive in Iraq, and expressing condolences to the families of those individuals killed in Iraq.",
+        "Deploring the abuse of persons in United States custody in Iraq, regardless of the circumstances of their detention, urging the Secretary of the Army to bring to swift justice any member of the Armed Forces who has violated the Uniform Code of Military Justice, expressing the deep appreciation of the Nation to the courageous and honorable members of the Armed Forces who have selflessly served, or are currently serving, in Operation Iraqi Freedom, and for other purposes."
+      ]
+    }
+  },
+  "2004-06": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 8,
+      "sample_titles": [
+        "Celebrating the establishment of democracy in Iraq and urging the people of the United States and of other countries in all communities and congregations to ring bells on June 30, 2004, to commemorate the restoration of freedom to the people of Iraq.",
+        "Of inquiry requesting that the Secretary of Defense transmit to the House of Representatives before the expiration of the 14-day period beginning on the date of the adoption of this resolution any picture, photograph, video, communication, or report produced in conjunction with any completed Department of Defense investigation conducted by Major General Antonio M. Taguba relating to allegations of torture or allegations of violations of the Geneva Conventions of 1949 at Abu Ghraib prison in Iraq or any completed Department of Defense investigation relating to the abuse or alleged abuse of a prisoner of war or detainee by any civilian contractor working in Iraq who is employed on behalf of the Department of Defense.",
+        "Congratulating the Interim Government of Iraq on its forthcoming assumption of sovereign authority in Iraq."
+      ]
+    }
+  },
+  "2004-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "To amend the Indian Self-Determination and Education Assistance Act to redesignate the American Indian Education Foundation as the National Fund for Excellence in American Indian Education.",
+        "To provide for and approve the settlement of certain land claims of the Sault Ste. Marie Tribe of Chippewa Indians.",
+        "To amend the Indian Gaming Regulatory Act to include a definition of initial reservation and consultation, and for other purposes."
+      ]
+    }
+  },
+  "2004-08": {
+    "bill": {
+      "iso3": "AUS",
+      "iso2": "au",
+      "name": "Australia",
+      "count": 2,
+      "sample_titles": [
+        "United States-Australia Free Trade Agreement Implementation Act",
+        "United States-Australia Free Trade Agreement Implementation Act\r"
+      ]
+    }
+  },
+  "2004-09": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 5,
+      "sample_titles": [
+        "Directing the Architect of the Capitol to establish a temporary exhibit in the rotunda of the Capitol to honor the memory of members of the United States Armed Forces who have lost their lives in Operation Iraqi Freedom and Operation Enduring Freedom.",
+        "Directing the Attorney General to transmit to the House of Representatives documents in the possession of the Attorney General relating to the treatment of prisoners and detainees in Iraq, Afghanistan, and Guantanamo Bay.",
+        "Urging the interim Government of Iraq to ensure that the charges brought against Saddam Hussein include charges for the crimes his government committed against the people of Iran during the Iran-Iraq war from 1980 to 1988."
+      ]
+    }
+  },
+  "2004-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Honoring the service of American Indians in the United States Armed Forces.\r",
+        "To amend the Act of November 2, 1966 (80 Stat. 1112), to allow binding arbitration clauses to be included in all contracts affecting the land within the Salt River Pima-Maricopa Indian Reservation.",
+        "To direct the Secretary of Interior to convey certain land held in trust for the Paiute Indian Tribe of Utah to the City of Richfield, Utah, and for other purposes."
+      ]
+    }
+  },
+  "2004-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 10,
+      "sample_titles": [
+        "Indian Health Care Improvement Act Amendments of 2004",
+        "Pechanga Band of Luiseno Mission Indians Land Transfer Act of 2004",
+        "To require the prompt review by the Secretary of the Interior of the long-standing petitions for Federal recognition of certain Indian tribes, and for other purposes."
+      ]
+    }
+  },
+  "2004-12": {
+    "bill": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 3,
+      "sample_titles": [
+        "Supporting the establishment and full funding of a staff exchange program between the House of Representatives and the Parliament of Ukraine, the Verkhovna Rada, as soon as possible.",
+        "A resolution expressing the sense of the Senate regarding the November 21, 2004, Presidential runoff election in Ukraine."
+      ]
+    }
+  },
+  "2005-01": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 7,
+      "sample_titles": [
+        "To acknowledge a long history of official depredations and ill-conceived policies by the United States Government regarding Indian tribes and offer an apology to all Native Peoples on behalf of the United States.",
+        "Indian School Bus Route Safety Reauthorization Act of 2005",
+        "To accelerate the income tax benefits for charitable cash contributions for the relief of victims of the Indian Ocean tsunami."
+      ]
+    }
+  },
+  "2005-02": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Honoring former Congressman Dalip Singh Saund and remembering his achievements as the only Indian American to serve in Congress.",
+        "Expressing the sense of the House of Representatives that India should be a permanent member of the United Nations Security Council.",
+        "To amend the Internal Revenue Code of 1986 to permanently extend the Indian employment credit and the depreciation rules for property used predominantly within an Indian reservation."
+      ]
+    }
+  },
+  "2005-03": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 9,
+      "sample_titles": [
+        "Condemning the conduct of Chief Minister Narendra Modi for his actions to incite religious persecution and urging the United States to condemn all violations of religious freedom in India.",
+        "To amend the Impact Aid program under the Elementary and Secondary Education Act of 1965 to improve the distribution of school construction payments to better meet the needs of military and Indian land school districts.",
+        "To provide assistance to combat HIV/AIDS in India, and for other purposes."
+      ]
+    }
+  },
+  "2005-04": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that a postage stamp should be issued in commemoration of Diwali, a festival celebrated by people of Indian origin.",
+        "Condemning the conduct of Chief Minister Narendra Modi for his actions to incite religious persecution and urging the United States to condemn all violations of religious freedom in India.",
+        "Recognizing and honoring the contributions of Indian Americans to economic innovation and society generally."
+      ]
+    }
+  },
+  "2005-05": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 5,
+      "sample_titles": [
+        "Calling for the immediate release of all political prisoners in Cuba, including Mr. Jose Daniel Ferrer Garcia, and for other purposes.",
+        "Expressing support to the organizers and participants of the historic meeting of the Assembly to Promote the Civil Society in Cuba on May 20, 2005, in Havana.",
+        "To lift the trade embargo on Cuba, and for other purposes."
+      ]
+    }
+  },
+  "2005-06": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 6,
+      "sample_titles": [
+        "Declaring that it is the policy of the United States not to enter into any base agreement with the Government of Iraq that would lead to a permanent United States military presence in Iraq.",
+        "Welcoming the Prime Minister of Singapore, His Excellency Lee Hsien Loong, on the occasion of his visit to the United States, expressing gratitude to the Government of Singapore for its support in the reconstruction of Iraq and its strong cooperation with the United States in the campaign against terrorism, and reaffirming the commitment of Congress to the continued expansion of friendship and cooperation between the United States and Singapore.",
+        "Expressing the sense of Congress regarding additional steps to expedite the success of the United States in Iraq, and for other purposes."
+      ]
+    }
+  },
+  "2005-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 15,
+      "sample_titles": [
+        "Supporting a landmark initiative in bilateral energy cooperation between India and Pakistan.",
+        "Commending the continuing improvement in relations between the United States and the Republic of India.",
+        "Spokane Tribe of Indians of the Spokane Reservation Grand Coulee Dam Equitable Compensation Settlement Act"
+      ]
+    }
+  },
+  "2005-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 4,
+      "sample_titles": [
+        "Colorado River Indian Reservation Boundary Correction Act",
+        "Northwest Indian Legacy Act",
+        "A joint resolution to acknowledge a long history of official depredations and ill-conceived policies by the United States Government regarding Indian tribes and offer an apology to all Native Peoples on behalf of the United States."
+      ]
+    }
+  },
+  "2005-09": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 3,
+      "sample_titles": [
+        "Indian Arts and Crafts Amendments Act of 2005",
+        "A bill to amend the Internal Revenue Code of 1986 to permanently extend the Indian employment credit and the depreciation rules for property used predominantly within an Indian reservation.",
+        "A bill to amend the Indian Financing Act of 1974, to provide for sale and assignment of loans and underlying security, and for other purposes."
+      ]
+    }
+  },
+  "2005-10": {
+    "bill": {
+      "iso3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "count": 3,
+      "sample_titles": [
+        "Congratulating the State of Israel on the election of Ambassador Dan Gillerman as Vice-President of the 60th United Nations General Assembly.",
+        "Condemning Iranian President Mahmoud Ahmadinejad's threats against Israel.",
+        "A resolution calling on the President to condemn the anti-Israel sentiments expressed by the President of Iran, Mahmoud Ahmadinejad, on October 26, 2005."
+      ]
+    }
+  },
+  "2005-11": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 7,
+      "sample_titles": [
+        "Requesting the President of the United States and directing the Secretary of State to provide to the House of Representatives certain documents in their possession relating to the White House Iraq Group.",
+        "Providing for consideration of the resolution (H. Res. 571) expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately and providing for consideration of the concurrent resolution (H. Con. Res. 308) directing the Clerk of the House of Representatives to make a technical correction in the enrollment of H.R. 3058.",
+        "Expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately."
+      ]
+    }
+  },
+  "2005-12": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 14,
+      "sample_titles": [
+        "Honoring the memory of the members of the Armed Forces of the United States who have given their lives in service to the United States in Operation Iraqi Freedom and Operation Enduring Freedom.",
+        "Providing that the new permanent Council of Representatives of Iraq is encouraged to debate and vote on whether or not a continued United States military presence in Iraq is desired by the Government of Iraq.",
+        "Providing for consideration of the joint resolution (H.J. Res. 55) requiring the President to develop and implement a plan for the withdrawal of United States Armed Forces from Iraq."
+      ]
+    }
+  },
+  "2006-01": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 5,
+      "sample_titles": [
+        "A concurrent resolution condemning the Government of Iran for its flagrant violations of its obligations under the Nuclear Non-Proliferation Treaty, and calling for certain actions in response to such violations.",
+        "A concurrent resolution condemning the Government of Iran for violating its international nuclear nonproliferation obligations and expressing support for efforts to report Iran to the United Nations Security Counsel.",
+        "A resolution condemning the Government of Iran for violating the terms of the 2004 Paris Agreement, and expressing support for efforts to refer Iran to the United Nations Security Council for its noncompliance with International Atomic Energy Agency obligations."
+      ]
+    }
+  },
+  "2006-02": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of the Republic of India and the State Government of Jammu and Kashmir should take immediate steps to remedy the situation of the Kashmiri Pandits and should act to ensure the physical, political, and economic security of this embattled community.",
+        "Expressing the sense of the House that the Secretary of Health and Human Services, acting through the Director of Indian Health Service, should maintain the current operating hours of the Wagner Service Unit until the Secretary submits to Congress a new report that accurately describes the current conditions at the Wagner Service Unit.",
+        "To impose a two year moratorium on the approval by the Secretary of the Interior of new Tribal-State compacts for gaming under the Indian Gaming Regulatory Act."
+      ]
+    }
+  },
+  "2006-03": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 10,
+      "sample_titles": [
+        "Pechanga Band of Luiseno Mission Indians Land Transfer Act of 2005",
+        "Indian Trust Reform Act of 2005",
+        "Burt Lake Band of Ottawa and Chippewa Indians Reaffirmation Act"
+      ]
+    }
+  },
+  "2006-04": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 6,
+      "sample_titles": [
+        "Directing the Architect of the Capitol to establish a temporary exhibit in the rotunda of the Capitol to honor the memory of the members of the United States Armed Forces who have lost their lives in Operation Iraqi Freedom and Operation Enduring Freedom.",
+        "To pay a one-time bonus to members of the Armed Forces who serve honorably in a combat zone designated for Operation Iraqi Freedom or Operation Enduring Freedom, and for other purposes.",
+        "A concurrent resolution directing the Architect of the Capitol to establish a temporary exhibit in the rotunda of the Capitol to honor the memory of the members of the United States Armed Forces who have lost their lives in Operation Iraqi Freedom and Operation Enduring Freedom."
+      ]
+    }
+  },
+  "2006-05": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 7,
+      "sample_titles": [
+        "Honoring the members of the Armed Forces serving as health care professionals in Iraq and Afghanistan, and for other purposes.",
+        "Requiring certain committees of Congress to review and evaluate the activities and progress of the Government of Iraq in securing and stabilizing Iraq.",
+        "Expressing the sense of Congress in support of a broad-based political settlement in Iraq."
+      ]
+    }
+  },
+  "2006-06": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 9,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of Iraq should not grant blanket amnesty to persons known to have attacked, killed, or wounded members of the United States Armed Forces in Iraq.",
+        "Expressing the sense of Congress with respect to accomplishing the mission in Iraq.",
+        "Informing the American people of our Nation's progress in the world War on Terror, defining the situation and the stakes in the battle against the terrorist enemy in the sovereign, democratic, and united nation of Iraq, and declaring the unwavering dedication of the United States to defend humanity, expand liberty, defeat the terrorist enemy, and win the world War on Terror."
+      ]
+    }
+  },
+  "2006-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 14,
+      "sample_titles": [
+        "Expressing the condolences of the House of Representatives to the victims, their families and friends, and the people of India for the loss suffered during the terrorist attacks in Mumbai, India, on July 11, 2006.",
+        "Providing for consideration of the bill (H.R. 5682) to exempt from certain requirements of the Atomic Energy Act of 1954 a proposed nuclear agreement for cooperation with India.",
+        "Expressing the condolences of the House of Representatives to the families and friends of the victims of the July 11, 2006, terrorist bombings in Mumbai, India, and sympathy to the people of India."
+      ]
+    }
+  },
+  "2006-08": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 2,
+      "sample_titles": [
+        "To exclude from admission to the United States aliens who have made investments contributing to the enhancement of the ability of Cuba to develop its petroleum resources, and for other purposes.",
+        "Cuba Transition Act of 2006"
+      ]
+    }
+  },
+  "2006-09": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 10,
+      "sample_titles": [
+        "Calling on Iran to immediately fulfill its nuclear nonproliferation obligations, and for other purposes.",
+        "Condemning the repression of the Iranian Baha'i community and calling for the emancipation of Iranian Baha'is.",
+        "Recognizing the centennial anniversary on August 5, 2006, of the Iranian constitution of 1906."
+      ]
+    }
+  },
+  "2006-10": {
+    "bill": {
+      "iso3": "TUR",
+      "iso2": "tr",
+      "name": "Turkey",
+      "count": 1,
+      "sample_titles": [
+        "Urging the Republic of Turkey to comply with all European Union standards and criteria prior to its accession to the European Union."
+      ]
+    }
+  },
+  "2006-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Indian Health Care Improvement Act Amendments of 2006",
+        "Fort McDowell Indian Community Water Rights Settlement Act of 2006",
+        "Indian Land Consolidation Act Amendments of 2006"
+      ]
+    }
+  },
+  "2006-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Waiving points of order against the conference report to accompany the bill (H.R. 5682) to exempt from certain requirements of the Atomic Energy Act of 1954 a proposed nuclear agreement for cooperation with India.",
+        "Henry J. Hyde United States and India Nuclear Cooperation Promotion Act of 2006",
+        "Indian Gaming Regulatory Act Amendments of 2006"
+      ]
+    }
+  },
+  "2007-01": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 15,
+      "sample_titles": [
+        "Expressing the sense of Congress on the new strategy in Iraq.",
+        "Calling for the removal of all restrictions from the public, the press, and military families in mourning that would prohibit their presence at the arrival at military installations in the United States or overseas of the remains of the Nation's fallen heroes, the members of the Armed Forces who have died in Iraq or Afghanistan, with the assurance that family requests for privacy will be respected.",
+        "Expressing the sense of the House of Representatives that an increase in number of members of the United States Forces deployed in Iraq is the wrong course of action and that a drastic shift in the political and diplomatic strategy of the United States is needed to help secure and stabilize Iraq."
+      ]
+    }
+  },
+  "2007-02": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 14,
+      "sample_titles": [
+        "Expressing the sense of Congress that the President should not order an escalation in the total number of members of the United States Armed Forces serving in Iraq.",
+        "Expressing the sense of Congress that the President should implement Recommendation 9 of the Iraq Study Group Report.",
+        "Disapproving of the decision of the President announced on January 10, 2007, to deploy more than 20,000 additional United States combat troops to Iraq."
+      ]
+    }
+  },
+  "2007-03": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 26,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of Iraq should not grant blanket amnesty to persons known to have attacked, killed, or wounded members of the United States Armed Forces in Iraq.",
+        "Expressing the sense of Congress that Iraq should vote to approve or disapprove the continued deployment of United States Armed Forces to Iraq and, unless Iraq votes to approve such continued deployment, the President of the United States should commence the phased redeployment of United States Armed Forces from Iraq within 60 days of the Iraqi vote.",
+        "Disagreeing with the plan announced by the President on January 10, 2007, to increase by more than 20,000 the number of United States combat troops in Iraq, and urging the President instead to consider options and alternatives for achieving success in Iraq."
+      ]
+    }
+  },
+  "2007-04": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 7,
+      "sample_titles": [
+        "Recognizing that the plight of Kashmiri Pandits has been an ongoing concern since 1989 and that their physical, political, and economic security should be safeguarded by the Government of India and the state government of Jammu and Kashmir.",
+        "To amend the Internal Revenue Code of 1986 to permanently extend the Indian employment credit and the depreciation rules for property used predominantly within an Indian reservation.",
+        "To provide for the consideration of a petition for Federal Recognition of the Lumbee Indians of Robeson and adjoining counties, and for other purposes."
+      ]
+    }
+  },
+  "2007-05": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 12,
+      "sample_titles": [
+        "Expressing gratitude to the people and Government of the Republic of Georgia for their support and commitment in combating Islamist terrorism worldwide and their specific efforts to bring security and stability in Iraq and Afghanistan.",
+        "Providing for consideration of the bill (H.R. 2237) to provide for the redeployment of United States Armed Forces and defense contractors from Iraq, providing for consideration of the bill (H.R. 2206) making emergency supplemental appropriations for the fiscal year ending September 30, 2007, and for other purposes, and providing for consideration of the bill (H.R. 2207) making supplemental appropriations for agricultural and other emergency assistance for the fiscal year ending September 30, 2007, and for other purposes.",
+        "Recognizing the significance of the contribution of the Brotherhood of the Badge to the Global War on Terror through its provision of surplus law enforcement equipment to Iraqi police forces."
+      ]
+    }
+  },
+  "2007-06": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 7,
+      "sample_titles": [
+        "To amend the Carl D. Perkins Vocational and Technical Education Act of 1998 to modify the definition of \"Indian student count\".",
+        "National Fund for Excellence in American Indian Education Amendments Act of 2007",
+        "To amend the Small Business Act to expand and improve the assistance provided by Small Business Development Centers to Indian tribe members, Alaska Natives, and Native Hawaiians."
+      ]
+    }
+  },
+  "2007-07": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 9,
+      "sample_titles": [
+        "Providing for consideration of the bill (H.R. 2956) to require the Secretary of Defense to commence the reduction of the number of United States Armed Forces in Iraq to a limited presence by April 1, 2008, and for other purposes.",
+        "Iraq Policy Revitalization and Congressional Oversight Enhancement Act",
+        "Enhancing America's Security through Redeployment from Iraq Act"
+      ]
+    }
+  },
+  "2007-08": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of Iraq should schedule a referendum to determine whether or not the people of Iraq want the Armed Forces of the United States to be withdrawn from Iraq or to remain in Iraq until order is restored to the country.",
+        "Providing for consideration of the bill (H.R. 3159) to mandate minimum periods of rest and recuperation for units and members of the regular and reserve components of the Armed Forces between deployments for Operation Iraqi Freedom or Operation Enduring Freedom.",
+        "To amend the U.S. Troop Readiness, Veterans' Care, Katrina Recovery, and Iraq Accountability Appropriations Act, 2007, to strike a requirement relating to forage producers."
+      ]
+    }
+  },
+  "2007-09": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 10,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of Iraq should schedule a referendum to determine whether or not the people of Iraq want the Armed Forces of the United States to be withdrawn from Iraq or to remain in Iraq until order is restored to the country.",
+        "Commending General David H. Petraeus for his exemplary service to the United States and for his leadership as Commander of the Multi-National Force-Iraq and condemning in the strongest possible terms the reprehensible efforts of certain persons questioning the honesty, integrity, and service of General Petraeus.",
+        "Expressing the sense of the House of Representatives concerning the creation of federal regions in Iraq."
+      ]
+    }
+  },
+  "2007-10": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 16,
+      "sample_titles": [
+        "Concurrent resolution commending the 1st Brigade Combat Team/34th Infantry Division of the Minnesota National Guard upon its completion of the longest continuous deployment of any United States ground combat military unit in Operation Iraqi Freedom.",
+        "Expressing the sense of Congress that the Government of the United States should submit to the Government of Iraq a draft bilateral status-of-forces agreement by not later than September 1, 2007.",
+        "Expressing the sense of Congress that the Government of the United States should submit to the Government of Iraq a draft bilateral status-of-forces agreement."
+      ]
+    }
+  },
+  "2007-11": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 6,
+      "sample_titles": [
+        "Condemning Syria for its destablizing actions in the Middle East region and calling on Iraq not to reopen its oil pipeline to Syria.",
+        "Clarifying that the use of force against Iran is not authorized by the Authorization for Use of Military Force Against Iraq Resolution of 2002, any resolution previously adopted, or any other provision of law.",
+        "Iraqi Refugee and Internally Displaced Persons Humanitarian Assistance, Resettlement, and Security Act of 2007"
+      ]
+    }
+  },
+  "2007-12": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 5,
+      "sample_titles": [
+        "Urging the United States Government to initiate a diplomatic surge to foster security and stability in the Middle East by engaging international stakeholders and governments throughout the region to curtail destabilizing influences, help prevent the spread of violence, address humanitarian concerns, and enhance prospects for security, political, and economic progress in Iraq.",
+        "Expressing the need for a more comprehensive diplomatic initiative led by the United States, Republic of Iraq, and international community.",
+        "Expressing the sense of the House that the United States should increase United States forces in Afghanistan and responsibly redeploy forces from Iraq."
+      ]
+    }
+  },
+  "2008-01": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 2,
+      "sample_titles": [
+        "Regarding ending World Bank disbursements to Iran until the International Atomic Energy Agency certifies the compliance of the Islamic Republic of Iran with Resolutions 1696 and 1747 of the United Nations Security Council and the terms of the Nuclear Non-Proliferation Treaty.",
+        "Iran Diplomatic Accountability Act of 2008"
+      ]
+    }
+  },
+  "2008-02": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the need for a more comprehensive diplomatic initiative led by the United States, Republic of Iraq, and international community.",
+        "Expressing the Sense of Congress on the Humanitarian Crisis in Iraq.",
+        "Disapproving of any formal agreement emerging from the \"Declaration of Principles for a Long-Term Relationship of Cooperation and Friendship Between the Republic of Iraq and the United States of America\" unless the agreement is approved through an Act of Congress."
+      ]
+    }
+  },
+  "2008-03": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 4,
+      "sample_titles": [
+        "Supporting the idea that coalition victory in Iraq is possible.",
+        "Recognizing March 19, 2008, as the fifth anniversary of the Iraq war and urging President George W. Bush to begin an immediate and safe redeployment of United States Armed Forces from Iraq.",
+        "Authorizing the use of the rotunda of the Capitol for a ceremony to honor the 5 years of service and sacrifice of our troops and their families in the war in Iraq and to remember those who are serving our Nation in Afghanistan and throughout the world."
+      ]
+    }
+  },
+  "2008-04": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 10,
+      "sample_titles": [
+        "Expressing the need for a more comprehensive diplomatic initiative led by the United States, Iraq, and the international community.",
+        "Expressing the sense of the House of Representatives that any funding provided by the United States to the Government of Iraq for reconstruction, training for Iraqi security forces, and fuel for United States operations in Iraq should be provided in the form of loans.",
+        "Calling on the President of the United States not to commit the United States to any status of forces agreement or any other bilateral agreement with the Republic of Iraq that involves the continued presence of the United States Armed Forces in Iraq unless the agreement includes a provision under which the Republic of Iraq agrees to reimburse the United States for all costs incurred by the United States related to the presence of United States Armed Forces in Iraq after the effective date of the agreement."
+      ]
+    }
+  },
+  "2008-05": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 5,
+      "sample_titles": [
+        "Noting that the Government of Iraq will likely enjoy $32 billion in surplus oil revenues in 2008 and requesting the Government of Iraq to dedicate $1 billion to address the needs of Iraqi refugees and internally displaced persons.",
+        "Amending the Rules of the House of Representatives to observe a moment of silence in the House on the first legislative day of each month for those killed or wounded in United States engagements in Iraq or Afghanistan.",
+        "To designate the facility of the United States Postal Service located at 3050 Hunsinger Lane in Louisville, Kentucky, as the \"Iraq and Afghanistan Fallen Military Heroes of Louisville Memorial Post Office Building\", in honor of the servicemen and women from Louisville, Kentucky, who died in service during Operation Enduring Freedom and Operation Iraqi Freedom."
+      ]
+    }
+  },
+  "2008-06": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 6,
+      "sample_titles": [
+        "Honoring the Armed Forces from the Inland Empire in California and their families for their extraordinary sacrifices serving the United States in Operation Enduring Freedom and Operation Iraqi Freedom.",
+        "Urging the Government of the Republic of Iraq to recognize the right of the State of Israel to exist and to establish diplomatic relations with Israel, and for other purposes.",
+        "Iraqi Police Service Improvement Act of 2008"
+      ]
+    }
+  },
+  "2008-07": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 8,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that the United States should accept the Iraqi Government's stated goal of setting a timetable for withdrawal of United States Armed Forces from Iraq.",
+        "Calling on the President to respect and honor Iraq's sovereignty.",
+        "Amending the Rules of the House of Representatives to authorize and direct the Speaker to issue rules permitting the display outside of the offices of Members, Delegates, and the Resident Commissioner in the House office buildings of tributes to members of the Armed Forces killed in United States engagements in Iraq or Afghanistan."
+      ]
+    }
+  },
+  "2008-08": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 3,
+      "sample_titles": [
+        "Condemning the persecution of Baha'is in Iran.",
+        "Enable Divestment from Sudan and Iran Act of 2008",
+        "Comprehensive Iran Sanctions, Accountability, and Divestment Act of 2008"
+      ]
+    }
+  },
+  "2008-09": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 14,
+      "sample_titles": [
+        "Condemning the recent religious violence in India and calling on the Government of India to stop the violence and address its root causes.",
+        "Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2007",
+        "United States-India Nuclear Cooperation Approval and Nonproliferation Enhancement Act"
+      ]
+    }
+  },
+  "2008-10": {
+    "bill": {
+      "iso3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "count": 2,
+      "sample_titles": [
+        "Urging the President to direct the Commodity Futures Trading Commission to work with the United Kingdom Financial Services Authority to establish position limits on oil futures traded by traders on the Intercontinental Exchange that are similar to those established by the Commodity Futures Trading Commission for traders on the New York Mercantile Exchange.",
+        "Close the London Loophole Act of 2008"
+      ]
+    }
+  },
+  "2008-11": {
+    "bill": {
+      "iso3": "VNM",
+      "iso2": "vn",
+      "name": "Vietnam",
+      "count": 1,
+      "sample_titles": [
+        "Calling on the State Department to list the Socialist Republic of Vietnam as a \"Country of Particular Concern\" with respect to religious freedom."
+      ]
+    }
+  },
+  "2008-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Condemning the November 26, 2008, terrorist attacks in Mumbai, India, and expressing sympathy to the innocent victims from India and around the world.",
+        "A resolution recognizing National American Indian and Alaska Native Heritage Month and celebrating the heritage and culture of American Indians and Alaska Natives and the contributions of American Indians and Alaska Natives to the United States.",
+        "A resolution expressing the sense of the Senate on the horrific terrorist attacks and siege in Mumbai, India, beginning on November 26, 2008, and concluding on November 29, 2008."
+      ]
+    }
+  },
+  "2009-01": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 6,
+      "sample_titles": [
+        "Expressing the sense of Congress that the Government of Iraq should not grant blanket amnesty to persons known to have attacked, killed, or wounded members of the United States Armed Forces in Iraq.",
+        "Expressing the sense of the House of Representatives that absent congressional approval the Agreement Between the United States of America and the Republic of Iraq on the Withdrawal of United States Forces from Iraq and the Organization of Their Activities During Their Temporary Presence in Iraq is merely advisory and not legally binding on the United States, and for other purposes.",
+        "Military Success in Iraq And Diplomatic Surge for National and Political Reconciliation in Iraq Act of 2009"
+      ]
+    }
+  },
+  "2009-02": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 8,
+      "sample_titles": [
+        "To prohibit the use of funds to transfer individuals detained at Naval Station, Guantanamo Bay, Cuba, to facilities in North Carolina or to house such individuals at such facilities.",
+        "To prohibit the provision of medical treatment to enemy combatants detained by the United States at Naval Station, Guantanamo Bay, Cuba, in the same facility as a member of the Armed Forces or Department of Veterans Affairs medical facility.",
+        "To prohibit the use of funds to transfer individuals detained at Naval Station, Guantanamo Bay, Cuba, to facilities in Georgia or to house such individuals at such facilities."
+      ]
+    }
+  },
+  "2009-03": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 7,
+      "sample_titles": [
+        "To prohibit the use of funds to transfer enemy combatants detained by the United States at Naval Station, Guantanamo Bay, Cuba, to the Florence Federal Correctional Complex in Colorado, or to construct facilities for such enemy combatants at such location.",
+        "To prohibit the presence in the United States of any alien formerly detained at the Department of Defense detention facility at Naval Station, Guantanamo Bay, Cuba.",
+        "Free Trade With Cuba Act"
+      ]
+    }
+  },
+  "2009-04": {
+    "bill": {
+      "iso3": "VNM",
+      "iso2": "vn",
+      "name": "Vietnam",
+      "count": 4,
+      "sample_titles": [
+        "Expressing support for designation of May 2, 2009, as \"Vietnamese Refugees Day\".",
+        "Calling on the Government of Vietnam to release from prison, end the detention without trial, and cease the harassment and house arrest of the people who signed the Manifesto on Freedom and Democracy for Vietnam, and expressing the sense of Congress that the President should encourage Vietnam to release such people from prison and to direct the Secretary of State to establish a Countries of Particular Concern list to condemn countries like Vietnam, which engage in \"particularly severe violations\" of human rights.",
+        "Vietnam Human Rights Act of 2009"
+      ]
+    }
+  },
+  "2009-05": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 6,
+      "sample_titles": [
+        "Expressing the sense of Congress that with respect to the totalitarian government of Cuba, the United States should pursue a policy that insists upon freedom, democracy, and human rights, including the release of all political prisoners, the legalization of political parties, free speech and a free press, and supervised elections, before increasing United States trade and tourism to Cuba.",
+        "United States-Cuba Trade Normalization Act of 2009",
+        "To prohibit the use of funds to transfer enemy combatants detained at Naval Station, Guantanamo Bay, Cuba, to facilities in Ohio or to construct facilities in Ohio for such enemy combatants."
+      ]
+    }
+  },
+  "2009-06": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Providing for consideration of the bill (H.R. 31) to provide for the recognition of the Lumbee Tribe of North Carolina, and for other purposes, and providing for consideration of the bill (H.R. 1385) to extend Federal recognition to the Chickahominy Indian Tribe, the Chickahominy Indian Tribe-Eastern Division, the Upper Mattaponi Tribe, the Rappahannock Tribe, Inc., the Monacan Indian Nation, and the Nansemond Indian Tribe.",
+        "Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2009",
+        "To authorize a process by which the Secretary of the Interior shall process acquisitions of certain real property of the Samish Indian Nation into trust, and for other purposes."
+      ]
+    }
+  },
+  "2009-07": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 5,
+      "sample_titles": [
+        "Providing for consideration of the bill (H.R. 2194) to amend the Iran Sanctions Act of 1996 to enhance United States diplomatic efforts with respect to Iran by expanding economic sanctions against Iran.",
+        "Iran Threat Reduction Act of 2009",
+        "Reduce Iranian Cyber-Suppression Act"
+      ]
+    }
+  },
+  "2009-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 3,
+      "sample_titles": [
+        "To grant a Federal charter to the National American Indian Veterans, Incorporated.",
+        "A joint resolution to acknowledge a long history of official depredations and ill-conceived policies by the Federal Government regarding Indian tribes and offer an apology to all Native Peoples on behalf of the United States.",
+        "Indian Arts and Crafts Amendments Act of 2009"
+      ]
+    }
+  },
+  "2009-09": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 3,
+      "sample_titles": [
+        "Encouraging the Government of Iran to grant consular access by the Government of Switzerland to Joshua Fattal, Shane Bauer, and Sarah Shourd, and to allow the 3 young people to reunite with their families in the United States at the soonest possible opportunity.",
+        "Demanding that the Government of Iran immediately disclose the existence of any additional nuclear-related facilities and provide unfettered access to its Qom enrichment facility.",
+        "A concurrent resolution encouraging the Government of Iran to grant consular access by the Government of Switzerland to Joshua Fattal, Shane Bauer, and Sarah Shourd, and to allow the 3 young people to reunite with their families in the United States as soon as possible."
+      ]
+    }
+  },
+  "2009-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that a postage stamp should be issued in commemoration of Diwali, a festival celebrated by people of Indian origin.",
+        "To amend chapter 40 of title 18, United States Code, to exempt the transportation, shipment, receipt, or importation of explosive materials for delivery to a federally recognized Indian tribe or an agency of such a tribe from various Federal criminal prohibitions relating to explosives.",
+        "Indian Health Care Improvement Act Amendments of 2009"
+      ]
+    }
+  },
+  "2009-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Welcoming the Prime Minister of the Republic of India, His Excellency Dr. Manmohan Singh, to the United States.",
+        "To amend the Act of June 18, 1934, to reaffirm the authority of the Secretary of the Interior to take land into trust for Indian tribes.",
+        "To amend the Act of August 9, 1955, to authorize the Confederated Tribes of the Siletz Indians of Oregon to obtain 99-year lease authority for trust land."
+      ]
+    }
+  },
+  "2009-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Pechanga Band of Luiseno Mission Indians Water Rights Settlement Act",
+        "To amend Part B of title XVIII of the Social Security Act to eliminate the sunset for reimbursement for services furnished by certain Indian hospitals and clinics.",
+        "To amend the Act of August 9, 1955, to modify a provision relating to leases involving certain Indian tribes."
+      ]
+    }
+  },
+  "2010-01": {
+    "bill": {
+      "iso3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "count": 9,
+      "sample_titles": [
+        "Expressing condolences to and solidarity with the people of Haiti in the aftermath of the devastating earthquake of January 12, 2010.",
+        "Expressing the sense of the House of Representatives that the actions by United States Armed Forces and first responders to help the people of Haiti after the recent devastating earthquake reflect the highest level of dedication and heroism.",
+        "To accelerate the income tax benefits for charitable cash contributions for the relief of victims of the earthquake in Haiti."
+      ]
+    }
+  },
+  "2010-02": {
+    "bill": {
+      "iso3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "count": 7,
+      "sample_titles": [
+        "Expressing gratitude and appreciation to the individuals and organizations that comprise the National Urban Search and Rescue System of the Federal Emergency Management Agency for their unyielding determination and work as first responders to victims of disasters and other incidents, including the victims of the recent earthquake in Haiti, and for other purposes.",
+        "Commending the efforts and honoring the work of the men and women of USNS Comfort and the United States Navy in the immediate response to those affected by the earthquake that struck Haiti on January 12, 2010.",
+        "Recognizing the bravery and efforts of the United States Armed Forces, local first responders, and other members of Operation Unified Response for their swift and coordinated action in light of the devastation wrought upon the nation of Haiti after a horrific 7.0 magnitude earthquake struck Port-Au-Prince and surrounding cities on January 12, 2010."
+      ]
+    }
+  },
+  "2010-03": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Recognizing the importance and significance of the 2010 Census and encouraging each community within the Indian Country to name an elder to be the first member of that community to answer the 2010 Census.",
+        "Rural, American Indian Veterans Health Care Improvement Act of 2009",
+        "To direct the Secretary of the Army to conduct a study to determine the feasibility of carrying out a project to address the water resource development and management needs of the Soboba Band of Luiseno Indians Reservation, California."
+      ]
+    }
+  },
+  "2010-04": {
+    "bill": {
+      "iso3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "count": 7,
+      "sample_titles": [
+        "Recognizing the many contributions made by general aviation pilots and operators to the Haiti earthquake relief efforts, and for other purposes.",
+        "Commending the efforts and honoring the work of the State of Israel, the Israel Defense Forces, and the Israeli people for their coordinated efforts to save lives and provide relief to the people of Haiti in the aftermath of the devastating earthquake that struck the island nation on January 12, 2010.",
+        "Haiti Debt Relief and Earthquake Recovery Act of 2010"
+      ]
+    }
+  },
+  "2010-05": {
+    "bill": {
+      "iso3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "count": 5,
+      "sample_titles": [
+        "Encouraging the continuation and further expansion of sister-city relationships between United States and Haitian municipalities as an essential instrument in the ongoing efforts to rebuild Haiti and restore hope and prosperity to its people.",
+        "Recognizing the significance of the Haitian flag to the people of Haiti and supporting the goals and ideals of Haitian Flag Day.",
+        "Haiti Economic Lift Program Act of 2010"
+      ]
+    }
+  },
+  "2010-06": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of Congress that any official within the Government of Iran at the level of deputy minister or higher or officer within the Iranian Revolutionary Guard is presumptively ineligible for a travel visa to the United States.",
+        "Calling for an end to the violence, unlawful arrests, torture, and ill treatment perpetrated against Iranian citizens, as well as the unconditional release of all political prisoners in Iran.",
+        "Expressing the sense of the House of Representatives on the one-year anniversary of the Government of Iran's fraudulent manipulation of Iranian elections, the Government of Iran's continued denial of human rights and democracy to the people of Iran, and the Government of Iran's continued pursuit of a nuclear weapons capability."
+      ]
+    }
+  },
+  "2010-07": {
+    "bill": {
+      "iso3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "count": 5,
+      "sample_titles": [
+        "Congratulating the Commandant of the Coast Guard and the Superintendent of the Coast Guard Academy and its staff for 100 years of operation of the Coast Guard Academy in New London, Connecticut, and for other purposes.",
+        "Expressing support for the private property rights protections guaranteed by the 5th Amendment to the Constitution on the 5th anniversary of the Supreme Court's decision of Kelo v. City of New London.",
+        "Encouraging the United Kingdom to investigate British Petroleum (BP) for foreign corrupt practices."
+      ]
+    }
+  },
+  "2010-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "A resolution recognizing the 63rd anniversary of India's independence, expressing appreciation to Americans of Indian descent for their contributions to society, and expressing support and optimism for the strategic partnership and friendship between the United States and India in the future.",
+        "A bill to amend the Act of June 18, 1934, to reaffirm the authority of the Secretary of the Interior to take land into trust for Indian tribes.",
+        "A bill to amend the Surface Mining Control and Reclamation Act of 1977 to clarify that uncertified States and Indian tribes have the authority to use certain payments for certain noncoal reclamation projects."
+      ]
+    }
+  },
+  "2010-09": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 4,
+      "sample_titles": [
+        "Honoring the service and sacrifice of members of the United States Armed Forces who are serving in, or have served in, Operation Iraqi Freedom.",
+        "Honoring eight marines from the 3rd Battalion 1st Marines who fought in Haditha, Iraq on November 19, 2005.",
+        "Encouraging elected officials and political leaders in the Republic of Iraq to redouble their efforts to form a government that is just, representative, and accountable to the people of Iraq."
+      ]
+    }
+  },
+  "2010-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 2,
+      "sample_titles": [
+        "Indian Veterans Housing Opportunity Act of 2010",
+        "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado."
+      ]
+    }
+  },
+  "2010-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that the United Nations should forthwith take the procedural actions necessary to amend Article 23 of the Charter of the United Nations to establish India as a permanent member of the United Nations Security Council.",
+        "Expressing support for the Republic of India to gain a permanent seat on the United Nations Security Council.",
+        "A resolution recognizing National American Indian and Alaska Native Heritage Month and celebrating the heritage and culture of American Indians and Alaska Natives and the contributions of American Indians and Alaska Natives to the United States."
+      ]
+    }
+  },
+  "2010-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "Hoh Indian Tribe Safe Homelands Act",
+        "To amend the Ysleta del Sur Pueblo and Alabama and Coushatta Indian Tribes of Texas Restoration Act to allow the Ysleta del Sur Pueblo Tribe to determine blood quantum requirement for membership in that tribe.",
+        "To amend the Communications Act of 1934 to establish a position for a representative of Indian Tribes on the Joint Board overseeing the implementation of universal service, and for other purposes."
+      ]
+    }
+  },
+  "2011-01": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 1,
+      "sample_titles": [
+        "Indian Pueblo Cultural Center Clarification Act"
+      ]
+    }
+  },
   "2013-01": {
     "bill": {
       "iso3": "IND",

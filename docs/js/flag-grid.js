@@ -129,20 +129,11 @@ const FlagGrid = {
       const congress = this._congressNum(yearNum);
       const politics = this.POLITICAL[congress];
 
-      // Insert Congress session divider when the session changes
-      if (prevCongress !== null && congress !== prevCongress) {
-        const divider = document.createElement('div');
-        divider.className = 'congress-divider';
-        const lbl = document.createElement('span');
-        lbl.className = 'congress-divider-label';
-        lbl.textContent = this._congressOrdinal(congress) + ' Congress';
-        divider.appendChild(lbl);
-        body.appendChild(divider);
-      }
+      const isNewCongress = prevCongress !== null && congress !== prevCongress;
       prevCongress = congress;
 
       const row = document.createElement('div');
-      row.className = 'grid-row';
+      row.className = isNewCongress ? 'grid-row congress-start' : 'grid-row';
 
       // Year label with political dots
       const yearLabel = document.createElement('div');

@@ -195,33 +195,9 @@ body {
   opacity: 0.75;
 }
 
-/* Congress session dividers */
-.congress-divider {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 2px 0;
-  padding-right: 0.4rem;
-  min-height: 10px;
-}
-
-.congress-divider::after {
-  content: '';
-  flex: 1;
-  border-top: 1px dashed var(--rule-light);
-}
-
-.congress-divider-label {
-  font-size: 0.58rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  white-space: nowrap;
-  flex-shrink: 0;
-  width: 62px;
-  text-align: right;
-  padding-right: 0.4rem;
+/* Congress session boundary — inset shadow so no extra height */
+.grid-row.congress-start {
+  box-shadow: 0 -2px 0 0 var(--rule-light);
 }
 
 .grid-cell {
@@ -607,7 +583,6 @@ body {
     gap: 2px;
   }
 
-  .congress-divider-label { width: 52px; }
   .year-label { font-size: 0.65rem; padding-right: 0.25rem; }
   .month-label { font-size: 0.6rem; }
   .grid-cell img { width: 80%; }
@@ -629,7 +604,6 @@ body {
     gap: 2px;
   }
 
-  .congress-divider-label { width: 40px; }
   .year-dots { display: none; }
   .year-label { font-size: 0.58rem; padding-right: 0.15rem; }
   .month-label { font-size: 0.5rem; letter-spacing: 0; }
