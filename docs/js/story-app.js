@@ -23,42 +23,61 @@
         `${DataLoader.formatMonthLong(first)} \u2013 ${DataLoader.formatMonthLong(last)} | ${monthlyTop.length} months of data`;
     }
 
-    // -- Detail panel handler --
-    function showDetail(entry) {
-      const detail = document.getElementById('cell-detail');
-      if (!entry) {
-        detail.classList.add('hidden');
-        return;
+    // -- Inline detail panel --
+    let currentInlineDetail = null;
+
+    function closeInlineDetail() {
+      if (currentInlineDetail) {
+        currentInlineDetail.remove();
+        currentInlineDetail = null;
       }
+      if (FlagGrid.selectedCell) {
+        FlagGrid.selectedCell.classList.remove('selected');
+        FlagGrid.selectedCell = null;
+      }
+    }
 
-      document.getElementById('detail-flag').src = DataLoader.flagPath(entry.country_iso2);
-      document.getElementById('detail-flag').alt = entry.country_name;
-      document.getElementById('detail-country').textContent = entry.country_name;
-      document.getElementById('detail-month').textContent = DataLoader.formatMonthLong(entry.month);
-      document.getElementById('detail-count').textContent = entry.mention_count;
-      document.getElementById('detail-total').textContent = entry.total_records_scanned;
-      document.getElementById('detail-runner-up').textContent =
-        entry.runner_up_name ? `${entry.runner_up_name} (${entry.runner_up_count})` : '\u2014';
+    function showDetail(entry, rowEl) {
+      // Remove existing panel
+      if (currentInlineDetail) {
+        currentInlineDetail.remove();
+        currentInlineDetail = null;
+      }
+      if (!entry) return;
 
-      const titlesList = document.getElementById('detail-titles');
-      titlesList.innerHTML = '';
       const titles = entry.sample_titles || [];
-      if (titles.length > 0) {
-        for (const t of titles) {
-          const li = document.createElement('li');
-          li.textContent = t;
-          titlesList.appendChild(li);
-        }
-      } else {
-        const li = document.createElement('li');
-        li.textContent = 'No sample titles available';
-        li.style.fontStyle = 'italic';
-        li.style.borderLeft = 'none';
-        titlesList.appendChild(li);
-      }
+      const runnerUp = entry.runner_up_name
+        ? `${entry.runner_up_name} (${entry.runner_up_count})`
+        : 'none';
 
-      detail.classList.remove('hidden');
-      detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      const titlesHtml = titles.length > 0
+        ? titles.map(t => `<li>${t}</li>`).join('')
+        : '<li class="inline-detail-empty">No sample titles available</li>';
+
+      const panel = document.createElement('div');
+      panel.className = 'inline-detail';
+      panel.innerHTML = `
+        <button class="inline-detail-close" aria-label="Close">&times;</button>
+        <div class="inline-detail-top">
+          <img class="detail-flag" src="${DataLoader.flagPath(entry.country_iso2)}" alt="${entry.country_name}">
+          <div>
+            <strong class="detail-country">${entry.country_name}</strong>
+            <span class="detail-month">${DataLoader.formatMonthLong(entry.month)}</span>
+          </div>
+          <div class="inline-detail-stats">
+            <div class="stat"><span class="stat-number">${entry.mention_count}</span><span class="stat-label">mentions</span></div>
+            <div class="stat"><span class="stat-number">${entry.total_records_scanned}</span><span class="stat-label">records scanned</span></div>
+            <div class="stat"><span class="stat-number">${runnerUp}</span><span class="stat-label">runner-up</span></div>
+          </div>
+        </div>
+        <ul class="inline-detail-titles">${titlesHtml}</ul>
+      `;
+
+      panel.querySelector('.inline-detail-close').addEventListener('click', closeInlineDetail);
+
+      rowEl.insertAdjacentElement('afterend', panel);
+      currentInlineDetail = panel;
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
     // -- Build per-source monthlyTop arrays from monthlyTopBySource --
@@ -107,8 +126,8 @@
         btn.classList.add('active');
         activeSource = source;
 
-        // Hide detail card
-        document.getElementById('cell-detail').classList.add('hidden');
+        // Close any open inline detail
+        closeInlineDetail();
 
         // Get filtered data
         const filtered = source === 'all' ? monthlyTop : buildSourceTop(source);
@@ -119,18 +138,6 @@
         // Re-render insights
         const insights = StoryInsights.generate(filtered);
         StoryInsights.render(insights);
-      });
-    }
-
-    // Detail close button
-    const closeBtn = document.querySelector('.detail-close');
-    if (closeBtn) {
-      closeBtn.addEventListener('click', () => {
-        document.getElementById('cell-detail').classList.add('hidden');
-        if (FlagGrid.selectedCell) {
-          FlagGrid.selectedCell.classList.remove('selected');
-          FlagGrid.selectedCell = null;
-        }
       });
     }
 

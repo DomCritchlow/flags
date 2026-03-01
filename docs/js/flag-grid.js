@@ -50,7 +50,7 @@ const FlagGrid = {
     const min = Math.min(...nums);
     const max = Math.max(...nums);
     const years = [];
-    for (let y = min; y <= max; y++) {
+    for (let y = max; y >= min; y--) {
       years.push(String(y));
     }
     return years;
@@ -119,6 +119,6 @@ const FlagGrid = {
 
     cell.classList.add('selected');
     this.selectedCell = cell;
-    if (this.options.onCellClick) this.options.onCellClick(entry);
+    if (this.options.onCellClick) this.options.onCellClick(entry, cell.closest('.grid-row'));
   },
 };

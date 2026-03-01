@@ -71,15 +71,26 @@ body {
   max-width: 620px;
   margin: 0 auto;
   padding: 1.5rem 1.5rem 2.5rem;
-  text-align: center;
 }
 
 .lede-text {
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
-  font-style: italic;
-  line-height: 1.8;
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  line-height: 1.85;
   color: var(--text-body);
+  text-align: justify;
+  hyphens: auto;
+}
+
+.lede-link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.lede-link:hover {
+  opacity: 0.8;
 }
 
 /* === Source Toggle === */
@@ -216,6 +227,92 @@ body {
   color: var(--text-muted);
   font-style: italic;
   margin-top: 0.75rem;
+}
+
+/* === Inline Detail (inserted after grid row on click) === */
+
+.inline-detail {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--grid-border);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.25rem 0.85rem;
+  animation: inlineOpen 0.15s ease-out;
+}
+
+@keyframes inlineOpen {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.inline-detail-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.inline-detail-close:hover { color: var(--text-headline); }
+
+.inline-detail-top {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding-right: 2rem;
+}
+
+.inline-detail-top .detail-country {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-headline);
+  display: block;
+  line-height: 1.2;
+}
+
+.inline-detail-top .detail-month {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.inline-detail-stats {
+  display: flex;
+  gap: 1.25rem;
+  margin-left: auto;
+}
+
+.inline-detail-titles {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.75rem;
+  border-top: 1px solid var(--rule-light);
+  padding-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.inline-detail-titles li {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  padding: 0.2rem 0 0.2rem 0.65rem;
+  border-left: 2px solid var(--accent);
+  line-height: 1.45;
+}
+
+.inline-detail-empty {
+  font-style: italic;
+  border-left: none !important;
+  color: var(--text-muted) !important;
+  padding-left: 0 !important;
 }
 
 /* === Detail Card === */
@@ -456,7 +553,7 @@ body {
 
 @media (max-width: 768px) {
   .masthead-title { font-size: 2rem; }
-  .lede-text { font-size: 1.05rem; }
+  .lede-text { font-size: 1rem; }
 
   .grid-header,
   .grid-row {
@@ -475,7 +572,7 @@ body {
   .masthead { padding: 1.5rem 1rem 1rem; }
   .masthead-title { font-size: 1.6rem; }
   .lede { padding: 1rem 1rem 2rem; }
-  .lede-text { font-size: 0.95rem; }
+  .lede-text { font-size: 0.92rem; }
 
   .grid-section { padding: 0 0.75rem 1.5rem; }
 
