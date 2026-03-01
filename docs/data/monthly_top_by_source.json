@@ -3881,6 +3881,314 @@
       ]
     }
   },
+  "1999-01": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 3,
+      "sample_titles": [
+        "To prohibit the export to the People's Republic of China of satellites and related items.",
+        "A resolution expressing the sense of the Senate regarding the human rights situation in the People's Republic of China.",
+        "People's Republic of China Policy Act of 1999"
+      ]
+    }
+  },
+  "1999-02": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 3,
+      "sample_titles": [
+        "Expressing the sense of the Congress regarding support for the formation of the China Democracy Party (CDP) and to urge the Government of the People's Republic of China to guarantee the rights and safety of the CDP organizers.",
+        "Providing that the President should seek a public renunciation by the People's Republic of China of any use of force, or threat to use force, against Taiwan, and that the United States should help Taiwan in case of threats or a military attack by the People's Republic of China.",
+        "A resolution expressing the sense of the Senate regarding the human rights situation in the People's Republic of China."
+      ]
+    }
+  },
+  "1999-03": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the sense of Congress that the United States should introduce and make all efforts necessary to pass a resolution criticizing the People's Republic of China for its human rights abuses in China and Tibet at the annual meeting of the United Nations Commission on Human Rights.",
+        "Commemorating the 20th anniversary of the Taiwan Relations Act.",
+        "Extending the Select Committee on U.S. National Security and Military/Commercial Concerns With the People's Republic of China."
+      ]
+    }
+  },
+  "1999-04": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 4,
+      "sample_titles": [
+        "Concerning the Taiwan Relations Act.",
+        "Expressing the sense of the Congress that all Chinese people, including the people of Taiwan, deserve to be represented in international institutions.",
+        "A concurrent resolution concerning the 20th Anniversary of the Taiwan Relations Act."
+      ]
+    }
+  },
+  "1999-05": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "The Incentives for Nuclear Nonproliferation in India and China Act of 1999",
+        "To provide for the settlement of claims of the Menominee Indian Tribe of Wisconsin.",
+        "To terminate certain sanctions with respect to India and Pakistan."
+      ]
+    }
+  },
+  "1999-06": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 4,
+      "sample_titles": [
+        "To approve and ratify certain transfers of land and natural resources by or on behalf of the Delaware Nation of Indians, and for other purposes.",
+        "Gila River Indian Community-Phelps Dodge Corporation Water Rights Settlement Act of 1999",
+        "Indian Tribal Government Unemployment Compensation Act Tax Relief Amendments of 1999"
+      ]
+    }
+  },
+  "1999-07": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 4,
+      "sample_titles": [
+        "Expressing the sense of the Congress in opposition to the Government of Pakistan's support for armed incursion into Jammu and Kashmir, India.",
+        "Spokane Tribe of Indians of the Spokane Reservation Grand Coulee Dam Equitable Compensation Settlement Act",
+        "An original resolution authorizing expenditures by the Committee on Indian Affairs."
+      ]
+    }
+  },
+  "1999-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 3,
+      "sample_titles": [
+        "American Indian Education Foundation Act of 1999",
+        "A bill to amend part E of title IV of the Social Security Act to provide equitable access for foster care and adoption services for Indian children in tribal areas.",
+        "Spokane Tribe of Indians of the Spokane Reservation Grand Coulee Dam Equitable Compensation Settlement Act"
+      ]
+    }
+  },
+  "1999-09": {
+    "bill": {
+      "iso3": "TLS",
+      "iso2": "tl",
+      "name": "Timor-Leste",
+      "count": 10,
+      "sample_titles": [
+        "Supporting the results of the East Timor plebiscite held on August 30, 1999, and calling for an end to the violence in East Timor.",
+        "Calling upon the Government of Indonesia to respect the results of the September 4, 1999, referendum on the status of East Timor and to bring about an immediate end to the violence in East Timor with the assistance of United Nations forces if necessary.",
+        "Expressing the sense of the House of Representatives with regard to the escalating violence in East Timor."
+      ]
+    }
+  },
+  "1999-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the strong support of the Congress for the recently concluded elections in the Republic of India and urging the President to travel to India.",
+        "Chippewa Cree Tribe of the Rocky Boy's Reservation Indian Reserved Water Rights Settlement and Water Supply Enhancement Act of 1999",
+        "A bill to elevate the position of Director of the Indian Health Service within the Department of Health and Human Services to Assistant Secretary for Indian Health, and for other purposes."
+      ]
+    }
+  },
+  "1999-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the strong suppport of the Congress for the recently concluded elections in the Republic of India and urging the President to travel to India.",
+        "Expressing the sense of the Congress that a portion of the budget surplus should be used to fulfill moral and legal responsibilities of the United States by ensuring proper payment and management of all federally held tribal trust fund accounts and individual Indian money accounts.",
+        "Lower Muscogee-Creek Indian Tribe of Georgia Recognition Act"
+      ]
+    }
+  },
+  "1999-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 2,
+      "sample_titles": [
+        "Indian Health Care Improvement Act Amendments of 2000",
+        "Chippewa Cree Tribe of the Rocky Boy's Reservation Indian Reserved Water Rights Settlement and Water Supply Enhancement Act of 1999"
+      ]
+    }
+  },
+  "2000-01": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 1,
+      "sample_titles": [
+        "A concurrent resolution expressing the sense of the Congress that, the Government of the People's Republic of China should immediately release from prison and drop all criminal charges against Yongyi Song, and should guarantee in their legal system fair and professional treatment of criminal defense lawyers and conduct fair and open trials."
+      ]
+    }
+  },
+  "2000-02": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 4,
+      "sample_titles": [
+        "Expressing the sense of the Congress that the Government of the People's Republic of China should immediately release Rabiya Kadeer, her secretary, and her son, abide by the International Covenant on Civil and Political Rights, and permit Kadeer, her secretary, and her son to move to the United States if they so desire.",
+        "Expressing the sense of the House of Representatives with respect to a dialog between the People's Republic of China and Tibet.",
+        "Providing for consideration of the bill (H.R. 1838) to assist in the enhancement of the security of Taiwan, and for other purposes."
+      ]
+    }
+  },
+  "2000-03": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 4,
+      "sample_titles": [
+        "Expressing the sense of Congress on the accession of Taiwan to the World Trade Organization (WTO).",
+        "Commending the people of Taiwan for reaffirming, in their upcoming presidential elections, their dedication to democratic ideals, and for other purposes.",
+        "Congratulating the people of Taiwan for the successful conclusion of presidential elections on March 18, 2000, and reaffirming United States policy toward Taiwan and the People's Republic of China."
+      ]
+    }
+  },
+  "2000-04": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 3,
+      "sample_titles": [
+        "Taiwan Security Enhancement Act",
+        "Concerning the participation of Taiwan in the World Health Organization.",
+        "A resolution regarding the human rights situation in the People's Republic of China."
+      ]
+    }
+  },
+  "2000-05": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 7,
+      "sample_titles": [
+        "Expressing the sense of Congress regarding the accession of Taiwan to the World Trade Organization (WTO).",
+        "Expressing the sense of Congress that normal trade relations treatment for products of the People's Republic of China should be revoked if that country attacks, invades, or imposes a blockade on Taiwan.",
+        "Providing for further consideration of the bill (H.R. 4444) to authorize extension of nondiscriminatory treatment (normal trade relations treatment) to the People's Republic of China."
+      ]
+    }
+  },
+  "2000-06": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 9,
+      "sample_titles": [
+        "To authorize leases for terms not to exceed 99 years on land held in trust for the Torres Martinez Desert Cahuilla Indians and the Guidiville Band of Pomo Indians of the Guidiville Indian Rancheria.",
+        "To provide that land which is owned by the Lower Sioux Indian Community in the State of Minnesota but which is not held in trust by the United States for the Community may be leased or transferred by the Community without further approval by the United States.",
+        "To require the valuation of nontribal interest ownership of subsurface rights within the boundaries of the Acoma Indian Reservation, and for other purposes."
+      ]
+    }
+  },
+  "2000-07": {
+    "bill": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of Congress that Elian Gonzalez should be reunited with his father, Juan Gonzalez of Cuba.",
+        "Providing for consideration of the bill (H.R. 4118) to prohibit the rescheduling or forgiveness of any outstanding bilateral debt owed to the United States by the Government of the Russian Federation until the President certifies to the Congress that the Government of the Russian Federation has ceased all its operations at, removed all personnel from, and permanently closed the intelligence facility at Lourdes, Cuba.",
+        "Free Trade With Cuba Act"
+      ]
+    }
+  },
+  "2000-08": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 2,
+      "sample_titles": [
+        "Shivwits Band of the Paiute Indian Tribe of Utah Water Rights Settlement Act",
+        "Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2000"
+      ]
+    }
+  },
+  "2000-09": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 8,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that it is in the interest of both the United States and the Republic of India to expand and strengthen United States-India relations, intensify bilateral cooperation in the fight against terrorism, and broaden the ongoing dialogue between the United States and India, of which the upcoming visit to the United States of the Prime Minister of India, Atal Bihari Vajpayee, is a significant step.",
+        "A resolution expressing the sense of the Senate regarding the Republic of India's closed market to United States soda ash exports",
+        "A resolution welcoming Prime Minister Atal Bihari Vajpayee, Prime Minister of India, upon his first official visit to the United States, and for other purposes."
+      ]
+    }
+  },
+  "2000-10": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 11,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that the Government of India should take immediate steps to end the human rights abuses by government forces in India, and for other purposes.",
+        "To amend the Ysleta del Sur Pueblo and Alabama and Coushatta Indian Tribes of Texas Restoration Act to decrease the requisite blood quantum required for membership in the Ysleta del Sur Pueblo tribe.",
+        "To provide for the ownership and operation of the irrigation works on the Salt River Pima-Maricopa Indian Community's reservation in Maricopa County, Arizona, by the Salt River Pima-Maricopa Indian Community."
+      ]
+    }
+  },
+  "2000-11": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 6,
+      "sample_titles": [
+        "To provide that gaming shall not be allowed on certain Indian trust lands in California that were purchased with certain Federal grant funds.",
+        "Alaska Native and American Indian Direct Reimbursement Act of 2000",
+        "Indian Tribal Regulatory Reform and Business Development Act of 2000"
+      ]
+    }
+  },
+  "2000-12": {
+    "bill": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 3,
+      "sample_titles": [
+        "American Indian Education Foundation Act of 1999",
+        "Omnibus Indian Advancement Act",
+        "Indian Tribal Justice Technical and Legal Assistance Act of 2000"
+      ]
+    }
+  },
   "2001-01": {
     "bill": {
       "iso3": "IND",
@@ -5424,9 +5732,300 @@
       "iso3": "IND",
       "iso2": "in",
       "name": "India",
+      "count": 2,
+      "sample_titles": [
+        "Indian Pueblo Cultural Center Clarification Act",
+        "A bill to prohibit the regulation of carbon dioxide emissions in the United States until China, India, and Russia implement similar reductions."
+      ]
+    }
+  },
+  "2011-02": {
+    "bill": {
+      "iso3": "ITA",
+      "iso2": "it",
+      "name": "Italy",
+      "count": 2,
+      "sample_titles": [
+        "Recognizing the significance of the 65th anniversary of the signing of Executive Order 9066 by President Franklin D. Roosevelt and supporting the goals of the Japanese American, German American, and Italian American communities in recognizing a National Day of Remembrance to increase public awareness of the events surrounding the restriction, exclusion, and internment of individuals and families during World War II.",
+        "A bill to award posthumously a Congressional Gold Medal to Giuseppe Garibaldi, and to Recognize the Republic of Italy on the 150th Anniversary of its Unification."
+      ]
+    }
+  },
+  "2011-03": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 5,
+      "sample_titles": [
+        "Expressing the sense of Congress that the President is required to obtain in advance specific statutory authorization for the use of United States Armed Forces in response to civil unrest in Libya.",
+        "Expressing the sense of Congress that the President should adhere to the War Powers Resolution and obtain specific statutory authorization for the use of United States Armed Forces in Libya.",
+        "Protect America from U.S. Military Expenses in Libya Act of 2011"
+      ]
+    }
+  },
+  "2011-04": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 3,
+      "sample_titles": [
+        "Protect America from U.S. Military Expenses in Libya Act of 2011",
+        "A resolution expressing the sense of the Senate that it is not in the vital interest of the United States to intervene militarily in Libya, calling on NATO to ensure that member states dedicate the resources necessary to ensure that objectives as outlined in the United Nations Resolutions 1970 and 1973 are accomplished, and to urge members of the Arab League who have yet to participate in operations over Libya to provide additional military and financial assistance.",
+        "A resolution calling on the President to submit to Congress a detailed description of United States policy objectives in Libya, both during and after Muammar Qaddafi's rule, and a plan to achieve them, and to seek congressional authorization for the use of military force against Libya."
+      ]
+    }
+  },
+  "2011-05": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 9,
+      "sample_titles": [
+        "Declaring that the President has exceeded his authority under the War Powers Resolution as it pertains to the ongoing military engagement in Libya.",
+        "Directing the Secretary of Defense to transmit to the House of Representatives copies of any document, record, memo, correspondence, or other communication of the Department of Defense, or any portion of such communication, that refers or relates to any consultation with Congress regarding Operation Odyssey Dawn or military actions in or against Libya.",
+        "Directing the Secretary of State to transmit to the House of Representatives copies of any document, record, memo, correspondence, or other communication of the Department of State, or any portion of such communication, that refers or relates to any consultation with Congress regarding Operation Odyssey Dawn or military actions in or against Libya."
+      ]
+    }
+  },
+  "2011-06": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 13,
+      "sample_titles": [
+        "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from Libya.",
+        "Expressing the sense of Congress that the President is in violation of the War Powers Resolution regarding the use of United States Armed Forces in Libya, and for other purposes.",
+        "Expressing disapproval of United States intervention in Libya."
+      ]
+    }
+  },
+  "2011-07": {
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 3,
+      "sample_titles": [
+        "Expressing the regret of the House of Representatives for the passage of discriminatory laws against the Chinese in the United States, including the Chinese Exclusion Act.",
+        "Calling for a peaceful and collaborative resolution of maritime territorial disputes in the South China Sea and its environs and other maritime areas adjacent to the East Asian mainland.",
+        "A resolution recognizing the continued persecution of Falun Gong practitioners in China on the 12th anniversary of the campaign by the Chinese Communist Party to suppress the Falun Gong movement, recognizing the Tuidang movement whereby Chinese citizens renounce their ties to the Chinese Communist Party and its affiliates, and calling for an immediate end to the campaign to persecute Falun Gong practitioners."
+      ]
+    }
+  },
+  "2011-08": {
+    "bill": {
+      "iso3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "count": 4,
+      "sample_titles": [
+        "Declaring that it is the policy of the United States to support and facilitate Israel in maintaining defensible borders and that it is contrary to United States policy and national security to have the borders of Israel return to the armistice lines that existed on June 4, 1967.",
+        "Reaffirming United States principles regarding the security of Israel and peace in the Middle East.",
+        "Expressing support for the State of Israel's right to defend Israeli sovereignty, to protect the lives and safety of the Israeli people, and to use all means necessary to confront and eliminate nuclear threats posed by the Islamic Republic of Iran, including the use of military force if no other peaceful solution can be found within reasonable time to protect against such an immediate and existential threat to the State of Israel."
+      ]
+    }
+  },
+  "2011-09": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 3,
+      "sample_titles": [
+        "Expressing the sense of Congress that Libya's frozen assets be utilized to pay for NATO's military campaign.",
+        "Expressing the sense of Congress that the United Nations or NATO should investigate the treatment of black Africans in Libya."
+      ]
+    }
+  },
+  "2011-10": {
+    "bill": {
+      "iso3": "PSE",
+      "iso2": "ps",
+      "name": "Palestine",
+      "count": 3,
+      "sample_titles": [
+        "Supporting Israel's right to annex Judea and Samaria in the event that the Palestinian Authority continues to press for unilateral recognition of Palestinian statehood at the United Nations.",
+        "Palestinian Accountability Act",
+        "To direct the Secretary of State to submit a report on whether any support organization that participated in the planning or execution of the recent Gaza flotilla attempt should be designated as a foreign terrorist organization and any actions taken by the Department of State to express gratitude to the government of Greece for preventing the Gaza flotilla from setting sail in contravention of Israel's legal blockade of Gaza, and for other purposes."
+      ]
+    }
+  },
+  "2011-11": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 3,
+      "sample_titles": [
+        "Taiwan Policy Act of 2011",
+        "Taiwan Airpower Modernization Act of 2011",
+        "To direct the President to impose duties on merchandise from the People's Republic of China in an amount equivalent to the estimated annual loss of revenue to holders of United States intellectual property rights as a result of violations of such intellectual property rights in China, and for other purposes."
+      ]
+    }
+  },
+  "2011-12": {
+    "bill": {
+      "iso3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "count": 2,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives that the United States should leave no member of the Armed Forces unaccounted for in the withdrawal of forces from Iraq and Afghanistan.",
+        "A resolution commemorating and honoring the service and sacrifice of members of the United States Armed Forces and their families as the official combat mission in Iraq draws to a close."
+      ]
+    }
+  },
+  "2012-01": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 2,
+      "sample_titles": [
+        "To require the President to impose sanctions on foreign financial institutions that conduct transactions with the Central Bank of Iran.",
+        "To direct the Secretary of State to designate Iran's Revolutionary Guard Corps as a foreign terrorist organization, and for other purposes."
+      ]
+    }
+  },
+  "2012-02": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 7,
+      "sample_titles": [
+        "To require the President to impose sanctions on foreign financial institutions that conduct transactions with the Central Bank of Iran if the President determines that the Central Bank of Iran has engaged in certain transactions relating to the proliferation of chemical, biological, or nuclear weapons or support for acts of international terrorism.",
+        "To amend the Comprehensive Iran Sanctions, Accountability, and Divestment Act of 2010 to provide for the imposition of sanctions with respect to the National Iranian Oil Company and the National Iranian Tanker Company.",
+        "To require the imposition of sanctions on foreign financial institutions that are members of an entity that provides services relating to secure communications, electronic funds transfers, or cable transfers to the Central Bank of Iran or sanctioned financial institutions."
+      ]
+    }
+  },
+  "2012-03": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 5,
+      "sample_titles": [
+        "Condemning the Government of Iran for its continued persecution, imprisonment, and sentencing of Youcef Nadarkhani on the charge of apostasy.",
+        "Prevent Iran from Acquiring Nuclear Weapons and Stop War Through Diplomacy Act",
+        "Iranian Energy Sector and Proliferation Sanctions Act"
+      ]
+    }
+  },
+  "2012-04": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 2,
+      "sample_titles": [
+        "Iran Financial Sanctions Improvement Act of 2012",
+        "Credible Military Option to Counter Iran Act"
+      ]
+    }
+  },
+  "2012-05": {
+    "bill": {
+      "iso3": "SYR",
+      "iso2": "sy",
+      "name": "Syria",
+      "count": 5,
+      "sample_titles": [
+        "Calling for democratic change in Syria.",
+        "Condemning violence by the Government of Syria against journalists, and expressing the sense of the House of Representatives on freedom of the press in Syria.",
+        "Commending the Government of Turkey for its efforts to facilitate, host, and care for refugees fleeing the Al-Assad regime's escalating violence in Syria."
+      ]
+    }
+  },
+  "2012-06": {
+    "bill": {
+      "iso3": "TUR",
+      "iso2": "tr",
+      "name": "Turkey",
+      "count": 3,
+      "sample_titles": [
+        "Calling upon the Government of Turkey to facilitate the reopening of the Ecumenical Patriarchate's Theological School of Halki without condition or further delay.",
+        "To expose and halt the Republic of Turkey's illegal colonization of the Republic of Cyprus with non-Cypriot populations, to support Cyprus in its efforts to control all of its territory, to end Turkey's illegal occupation of northern Cyprus, and to exploit its energy resources without illegal interference by Turkey.",
+        "A resolution condemning the PKK and expressing solidarity with Turkey."
+      ]
+    }
+  },
+  "2012-07": {
+    "bill": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 2,
+      "sample_titles": [
+        "Recognizing the 200th anniversary of the War of 1812 and the ensuing 200 years of peace and cooperation between the United States and Canada.",
+        "To approve the construction, operation, and maintenance of the northern portion of the Keystone XL pipeline from the Canadian border to the South Dakota/Nebraska border."
+      ]
+    }
+  },
+  "2012-08": {
+    "bill": {
+      "iso3": "SYR",
+      "iso2": "sy",
+      "name": "Syria",
+      "count": 5,
+      "sample_titles": [
+        "Condemning the Government of the Russian Federation for providing weapons to the regime of President Bashar al-Assad of Syria.",
+        "Condemning the targeted violence of vulnerable minority faith communities in Syria and calling on the United States Government to prioritize the safety and security of these communities.",
+        "Expressing the sense of the House of Representatives that President Barack Obama should request authorization before sending the United States Armed Forces into Syria."
+      ]
+    }
+  },
+  "2012-09": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "count": 8,
+      "sample_titles": [
+        "Expressing the sense of the House of Representatives with respect to the attacks on United States diplomats in Libya and Egypt.",
+        "Honoring the four United States public servants who died in Libya and condemning the attacks on United States diplomatic facilities in Libya, Egypt, and Yemen.",
+        "To require investigations into and a report on the September 11-13, 2012, attacks on the United States missions in Libya, Egypt, and Yemen, and for other purposes."
+      ]
+    }
+  },
+  "2012-10": {
+    "bill": {
+      "iso3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
       "count": 1,
       "sample_titles": [
-        "Indian Pueblo Cultural Center Clarification Act"
+        "Expressing the disappointment and concern of the Congress on the failure of the United States to properly investigate the Pan Am 103 bombing and the failure of Libya to grant permission for United States Pan Am 103 criminal investigators to investigate and gather evidence in Libya regarding the Pan Am 103 bombing."
+      ]
+    }
+  },
+  "2012-11": {
+    "bill": {
+      "iso3": "ALB",
+      "iso2": "al",
+      "name": "Albania",
+      "count": 2,
+      "sample_titles": [
+        "Commending the Albanian people on the 100th anniversary of the declaration of their independence from the Turkish Ottoman Empire on November 28, 1912, and commending Albanians in Albania and Kosova for protecting and saving the lives of all Jews who either lived in Albania or sought asylum there during the Holocaust.",
+        "A resolution commending the people of Albania on the 100th anniversary of the declaration of their independence from the Turkish Ottoman Empire on November 28, 1912, and commending Albanians in Albania and Kosovo for protecting and saving the lives of all Jews who either lived in Albania or sought asylum there during the Holocaust."
+      ]
+    }
+  },
+  "2012-12": {
+    "bill": {
+      "iso3": "EGY",
+      "iso2": "eg",
+      "name": "Egypt",
+      "count": 3,
+      "sample_titles": [
+        "To prohibit United States assistance to the country of Egypt.",
+        "Egypt Accountability and Democracy Promotion Act",
+        "Conditioning United States-Egypt Military Exercises Act of 2012"
       ]
     }
   },

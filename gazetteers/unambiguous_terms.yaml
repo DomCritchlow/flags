@@ -132,7 +132,7 @@ india:
   iso3: IND
   terms:
     names: ["India"]
-    demonyms: ["Indian", "Indians"]
+    demonyms: []
     cities: ["New Delhi", "Mumbai", "Bangalore", "Bengaluru", "Kolkata", "Chennai", "Hyderabad", "Ahmedabad"]
     historical: []
     acronyms: []

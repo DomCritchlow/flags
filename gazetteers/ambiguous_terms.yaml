@@ -964,4 +964,98 @@ congo:
     strong:
       - "Congo line"
       - "Congo Square"
+
+# ---------------------------------------------------------------------------
+# Indian — country demonym for India vs. Native American / domestic reference
+# "Indian tribe", "Bureau of Indian Affairs", "American Indian" etc. are
+# overwhelmingly domestic in congressional text. Default to non-country.
+# ---------------------------------------------------------------------------
+indian:
+  country_iso3: IND
+  conflict_type: domestic_reference
+  default: STATE
+  country_terms: ["Indian", "Indians"]
+  country_signals:
+    strong:
+      - "Indian government"
+      - "Indian prime minister"
+      - "Indian parliament"
+      - "Indian military"
+      - "Indian navy"
+      - "Indian army"
+      - "Indian air force"
+      - "Indian nuclear"
+      - "Indian diplomat"
+      - "Indian embassy"
+      - "Indian rupee"
+      - "Indo-Pakistani"
+      - "Indo-US"
+      - "India-Pakistan"
+      - "India-China"
+      - "Modi"
+      - "Nehru"
+      - "Gandhi"
+      - "New Delhi"
+      - "Bollywood"
+      - "Hindustan"
+      - "Subcontinental"
+    moderate:
+      - "South Asia"
+      - "subcontinent"
+      - "Kashmir"
+      - "Rajasthan"
+      - "Gujarat"
+      - "Punjab"
+      - "nuclear deal"
+      - "outsourcing"
+  non_country_signals:
+    strong:
+      - "Indian tribe"
+      - "Indian tribes"
+      - "Indian tribal"
+      - "Indian reservation"
+      - "Indian reservations"
+      - "Indian lands"
+      - "Indian territory"
+      - "Indian country"
+      - "Indian trust"
+      - "Indian health"
+      - "Indian Health Service"
+      - "Indian affairs"
+      - "Bureau of Indian Affairs"
+      - "Indian gaming"
+      - "Indian gaming compact"
+      - "Indian Child Welfare"
+      - "Indian Education"
+      - "Indian Self-Determination"
+      - "American Indian"
+      - "American Indians"
+      - "Alaska Native"
+      - "Native American"
+      - "Native Americans"
+      - "Native Hawaiian"
+      - "Native Hawaiians"
+      - "indigenous"
+      - "treaty rights"
+      - "tribal sovereignty"
+      - "tribal government"
+      - "tribal council"
+      - "tribal lands"
+      - "tribal member"
+      - "federal recognition"
+      - "federally recognized tribe"
+      - "Secretary of the Interior"
+      - "take land into trust"
+      - "held in trust"
+      - "allotment"
+      - "Eastern Band"
+      - "Band of Indians"
+      - "Nation of Indians"
+    moderate:
+      - "tribe"
+      - "tribal"
+      - "reservation"
+      - "sovereignty"
+      - "Interior Department"
+      - "BIA"
     moderate: []

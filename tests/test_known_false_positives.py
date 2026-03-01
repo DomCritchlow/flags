@@ -187,6 +187,50 @@ KNOWN_CASES = [
         "id": "hearing-118-2024-08-01",
         "notes": "British Columbia should not trigger Colombia",
     },
+
+    # === India / Indian: Native American false positives ===
+    {
+        "text": "To amend the Act of June 18, 1934, to reaffirm the authority of the "
+                "Secretary of the Interior to take land into trust for Indian tribes",
+        "should_not_contain": ["IND"],
+        "id": "bill-113-s1234",
+        "notes": "Indian tribes = Native American context, not India",
+    },
+    {
+        "text": "A bill to reauthorize the Indian Health Service and improve health care "
+                "for American Indians and Alaska Natives",
+        "should_not_contain": ["IND"],
+        "id": "bill-115-s2474",
+        "notes": "Indian Health Service is a domestic agency, not India",
+    },
+    {
+        "text": "The Bureau of Indian Affairs shall consult with federally recognized tribes",
+        "should_not_contain": ["IND"],
+        "id": "bill-114-hr4300",
+        "notes": "Bureau of Indian Affairs is a domestic agency",
+    },
+    {
+        "text": "An act to provide for Indian self-determination and education assistance",
+        "should_not_contain": ["IND"],
+        "id": "bill-94-pl638",
+        "notes": "Indian Self-Determination Act refers to Native Americans",
+    },
+
+    # === India / Indian: country cases (SHOULD detect) ===
+    {
+        "text": "The United States and India signed a civil nuclear agreement "
+                "following Prime Minister Modi's visit to Washington",
+        "should_contain": ["IND"],
+        "id": "bill-114-hr1190",
+        "notes": "India the country, Modi context",
+    },
+    {
+        "text": "India's parliament approved new legislation affecting trade relations "
+                "with the United States and New Delhi signaled support",
+        "should_contain": ["IND"],
+        "id": "hearing-116-2019-02",
+        "notes": "India the country, parliament + New Delhi context",
+    },
 ]
 
 
