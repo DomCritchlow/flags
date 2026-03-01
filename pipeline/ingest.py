@@ -1,8 +1,8 @@
 """Congress.gov API ingestion with buffered windows and deduplication.
 
-Pulls records from 6 endpoints (bill, hearing, congressional-record,
-committee-report, amendment, nomination) using a ±N day buffer around
-the target month to catch late-published and boundary-week records.
+Pulls records from 7 endpoints (bill, hearing, congressional-record,
+committee-report, amendment, nomination, treaty) using a ±N day buffer
+around the target month to catch late-published and boundary-week records.
 """
 
 import json
@@ -171,13 +171,15 @@ class CongressIngester:
 
         # Endpoints that need congress-scoped queries (list endpoint
         # returns stubs without titles/dates unless scoped to a congress)
-        CONGRESS_SCOPED = {"bill", "hearing"}
+        CONGRESS_SCOPED = {"bill", "hearing", "treaty"}
 
         # Endpoints where fromDateTime/toDateTime don't work or are harmful.
         # Bill: date params filter by *update* date, so historical bills that
         # haven't been updated recently return 0 results. Instead, fetch all
         # bills per congress and post-filter by action date.
-        NO_DATE_FILTER = {"bill", "hearing", "congressional-record"}
+        # Treaty: same issue — transmittedDate is the meaningful date but
+        # the API filters by updateDate, so we post-filter instead.
+        NO_DATE_FILTER = {"bill", "hearing", "congressional-record", "treaty"}
 
         for endpoint in config.ENDPOINTS:
             try:
@@ -212,6 +214,12 @@ class CongressIngester:
                 # Enrichment is capped; date post-filter discards the rest.
                 if endpoint == "hearing":
                     raw_records = self._enrich_hearings(raw_records)
+
+                # For treaties, fetch detail pages to get countriesParties
+                # and formal titles. Treaties are few (~50-150 per congress)
+                # so per-item fetches are cheap.
+                if endpoint == "treaty":
+                    raw_records = self._enrich_treaties(raw_records)
 
                 normalized = []
                 for raw in raw_records:
@@ -491,6 +499,7 @@ class CongressIngester:
             "committee-report": "reports",
             "amendment": "amendments",
             "nomination": "nominations",
+            "treaty": "treaties",
         }
         key = key_map.get(endpoint, endpoint + "s")
 
@@ -546,6 +555,8 @@ class CongressIngester:
                 return self._normalize_amendment(raw, run_id, now)
             elif endpoint == "nomination":
                 return self._normalize_nomination(raw, run_id, now)
+            elif endpoint == "treaty":
+                return self._normalize_treaty(raw, run_id, now)
             else:
                 return None
         except Exception as e:
@@ -717,6 +728,79 @@ class CongressIngester:
             "ingested_at": now,
             "ingested_by": run_id,
         }
+
+    def _normalize_treaty(self, raw: dict, run_id: str, now: str) -> Optional[dict]:
+        congress = raw.get("congressReceived", raw.get("congress", ""))
+        number = raw.get("number", "")
+        if not (congress and number):
+            return None
+
+        suffix = (raw.get("suffix") or "").upper()
+        record_id = f"treaty-{congress}-{number}{suffix}"
+
+        # Prefer formal treaty title from detail endpoint
+        title = ""
+        for t in raw.get("titles", []):
+            if isinstance(t, dict):
+                title = t.get("title", "")
+                if title:
+                    break
+
+        # Fallback: build from countriesParties + topic
+        if not title:
+            countries = raw.get("countriesParties", "")
+            topic = raw.get("topic", "")
+            if countries and topic:
+                title = f"{topic} Treaty: {countries}"
+            else:
+                title = countries or topic
+
+        date = (raw.get("transmittedDate") or raw.get("updateDate") or "")[:10]
+
+        return {
+            "id": record_id,
+            "source": "treaty",
+            "congress": congress,
+            "date": date,
+            "title": title,
+            "summary": "",
+            "committee": "",
+            "url": raw.get("url", ""),
+            "ingested_at": now,
+            "ingested_by": run_id,
+        }
+
+    def _enrich_treaties(self, raw_records: list[dict]) -> list[dict]:
+        """Fetch treaty detail pages to get countriesParties and formal titles.
+
+        Treaties are few (~50-150 per congress) so per-item fetches are cheap.
+        The detail endpoint adds: titles (formal treaty name), countriesParties,
+        indexTerms, and resolutionText — all high-signal for country detection.
+        """
+        enriched = []
+        for rec in raw_records:
+            url = rec.get("url", "")
+            if not url:
+                enriched.append(rec)
+                continue
+            detail_url = url
+            response = self._request_with_retry(detail_url, {
+                "api_key": self.api_key,
+                "format": "json",
+            })
+            if response is None:
+                enriched.append(rec)
+                continue
+            detail = response.json().get("treaty", {})
+            # Some treaty endpoints return a list (multi-part treaties)
+            if isinstance(detail, list):
+                detail = detail[0] if detail else {}
+            if isinstance(detail, dict) and detail:
+                enriched.append({**rec, **detail})
+            else:
+                enriched.append(rec)
+        logger.info(f"  treaty: enriched {len(enriched)} records with detail pages")
+        return enriched
 
     def _save_raw(self, records: list[dict]) -> None:
         """Append records to raw data files organized by congress."""

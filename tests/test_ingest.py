@@ -110,3 +110,61 @@ class TestNormalization:
         ingester = CongressIngester.__new__(CongressIngester)
         result = ingester._normalize_bill(raw, "test-run", "2024-04-01")
         assert result is None
+
+    def test_normalize_treaty(self):
+        from pipeline.ingest import CongressIngester
+        raw = {
+            "congressReceived": 118,
+            "number": 4,
+            "suffix": None,
+            "topic": "Taxation",
+            "transmittedDate": "2023-08-02",
+            "titles": [{"title": "Protocol Amending the Convention Between the United States and Luxembourg", "titleType": "Treaty"}],
+            "countriesParties": "Luxembourg",
+            "url": "https://api.congress.gov/v3/treaty/118/4",
+        }
+        ingester = CongressIngester.__new__(CongressIngester)
+        result = ingester._normalize_treaty(raw, "test-run", "2024-01-01")
+        assert result["id"] == "treaty-118-4"
+        assert result["source"] == "treaty"
+        assert result["date"] == "2023-08-02"
+        assert "Luxembourg" in result["title"]
+
+    def test_normalize_treaty_with_suffix(self):
+        from pipeline.ingest import CongressIngester
+        raw = {
+            "congressReceived": 117,
+            "number": 1,
+            "suffix": "A",
+            "topic": "Defense",
+            "transmittedDate": "2022-01-10",
+            "countriesParties": "Japan",
+            "url": "https://api.congress.gov/v3/treaty/117/1/A",
+        }
+        ingester = CongressIngester.__new__(CongressIngester)
+        result = ingester._normalize_treaty(raw, "test-run", "2024-01-01")
+        assert result["id"] == "treaty-117-1A"
+        assert "Japan" in result["title"]
+
+    def test_normalize_treaty_fallback_title(self):
+        from pipeline.ingest import CongressIngester
+        # No titles array — should build title from countriesParties + topic
+        raw = {
+            "congressReceived": 118,
+            "number": 7,
+            "topic": "Extradition",
+            "transmittedDate": "2024-03-15",
+            "countriesParties": "Canada",
+            "url": "https://api.congress.gov/v3/treaty/118/7",
+        }
+        ingester = CongressIngester.__new__(CongressIngester)
+        result = ingester._normalize_treaty(raw, "test-run", "2024-04-01")
+        assert result["id"] == "treaty-118-7"
+        assert "Canada" in result["title"]
+        assert "Extradition" in result["title"]
+
+    def test_normalize_treaty_missing_required(self):
+        from pipeline.ingest import CongressIngester
+        ingester = CongressIngester.__new__(CongressIngester)
+        assert ingester._normalize_treaty({}, "test-run", "2024-01-01") is None
+        assert ingester._normalize_treaty({"congressReceived": 118}, "test-run", "2024-01-01") is None

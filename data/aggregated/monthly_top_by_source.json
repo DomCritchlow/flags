@@ -1973,6 +1973,15 @@
         "A concurrent resolution expressing the sense of the Congress that the United States should support the courageous efforts of Bishop Desmond Tutu to peacefully end racial segregation in the Republic of South Africa.",
         "A bill to prohibit the importation into the United States of coal, steel, and fluorspar mined or produced in South Africa."
       ]
+    },
+    "treaty": {
+      "iso3": "PAN",
+      "iso2": "pa",
+      "name": "Panama",
+      "count": 1,
+      "sample_titles": [
+        "The Treaty between the United States of America and the Republic of Panama concerning the Treatment and Protection of Investments, with Agreed Minutes, signed at Washington, October 27, 1982."
+      ]
     }
   },
   "1986-04": {
@@ -2766,6 +2775,15 @@
         "Providing for the consideration of a joint resolution, a bill, and a concurrent resolution relating to most-favored-nation treatment for the People's Republic of China.",
         "Disapproving the extension of nondiscriminatory treatment, (most-favored-nation treatment) to the products of the People's Republic of China."
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "The Convention for a North Pacific Marine Science Organization (PICES), which was done at Ottawa on December 12, 1990, and signed by the United States on May 28, 1991."
+      ]
     }
   },
   "1991-08": {
@@ -2843,6 +2861,15 @@
         "Congratulating the president and people of Armenia for holding free democratic multi-party elections and achieving national independence and urging the President of the United States to strengthen the special relationship between the United States and Armenia.",
         "Concerning the conflict between the Armenian and Azerbaijani populations of the Nagorno-Karabakh Autonomous Oblast in the Territory of Azerbaijan.",
         "A concurrent resolution congratulating the president and people of Armenia for holding free democratic multi-party elections and achieving national independence and urging the President of the United States to strengthen the special relationship between the United States and Armenia."
+      ]
+    },
+    "treaty": {
+      "iso3": "ESP",
+      "iso2": "es",
+      "name": "Spain",
+      "count": 1,
+      "sample_titles": [
+        "The Treaty on Mutual Legal Assistance in Criminal Matters between the United States of America and the Kingdom of Spain, signed at Washington on November 20, 1990."
       ]
     }
   },
@@ -3087,6 +3114,15 @@
         "Urging the President to withdraw all United States Armed Forces from Somalia.",
         "Concerning United States policy towards Somalia."
       ]
+    },
+    "treaty": {
+      "iso3": "MDA",
+      "iso2": "md",
+      "name": "Moldova",
+      "count": 1,
+      "sample_titles": [
+        "The Treaty Between the United States of America and the Republic of Moldova Concerning the Encouragement and Reciprocal Protection of Investment, with Protocol and related exchange of letters, signed at Washington on April 21, 1993."
+      ]
     }
   },
   "1993-10": {
@@ -3173,6 +3209,15 @@
         "Providing for the consideration of the bill (H.R. 3221) to provide for the adjudication of certain claims against the Government of Iraq.",
         "A resolution urging the Government of Kuwait to compensate United States citizens and their families for financial losses incurred as a result of their evacuation during the Iraqi invasion of Kuwait."
       ]
+    },
+    "treaty": {
+      "iso3": "ITA",
+      "iso2": "it",
+      "name": "Italy",
+      "count": 1,
+      "sample_titles": [
+        "The Agreement to Promote Compliance with International Conservation and Management Measures by Fishing Vessels on the High Seas, which was adopted at Rome by consensus by the Conference of the United Nations Food and Agriculture Organization on November 24, 1993."
+      ]
     }
   },
   "1994-05": {
@@ -3235,6 +3280,15 @@
         "Concerning deployment of United States Armed Forces in Haiti.",
         "Commending the President and the special delegation to Haiti, and supporting the United States Armed Forces in Haiti.",
         "A resolution commending the President and the special delegation to Haiti, and supporting the United States Armed Forces in Haiti."
+      ]
+    },
+    "treaty": {
+      "iso3": "SWE",
+      "iso2": "se",
+      "name": "Sweden",
+      "count": 1,
+      "sample_titles": [
+        "Convention Between the Government of the United States of America and the Government of Sweden for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income Signed at Stockholm on September 1, 1994, Together with a Related Exchange of Notes."
       ]
     }
   },
@@ -3664,6 +3718,15 @@
         "To approve a governing international fishery agreement between the United States and the People's Republic of China.",
         "A concurrent resolution commending Dr. Jason C. Hu, Representative of the Taipei Economic and Cultural Representative Office in the United States."
       ]
+    },
+    "treaty": {
+      "iso3": "MEX",
+      "iso2": "mx",
+      "name": "Mexico",
+      "count": 1,
+      "sample_titles": [
+        "The Protocol Between the Government of the United States of America and the Government of the United Mexican States Amending the Convention for the Protection of Migratory Birds and Game Mammals, signed at Mexico City on May 5, 1997."
+      ]
     }
   },
   "1997-10": {
@@ -3777,6 +3840,15 @@
         "Expressing the sense of the Congress that the President of the United States should reconsider his decision to be formally received in Tiananmen Square by the Government of the People's Republic of China.",
         "To establish the Select Committee on U.S. National Security and Military/Commercial Concerns With the People's Republic of China."
       ]
+    },
+    "treaty": {
+      "iso3": "AUT",
+      "iso2": "at",
+      "name": "Austria",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty With Austria"
+      ]
     }
   },
   "1998-07": {
@@ -3851,6 +3923,17 @@
         "A resolution expressing the sense of the Senate regarding the human rights situation in the People's Republic of China.",
         "People's Republic of China Policy Act of 1999"
       ]
+    },
+    "treaty": {
+      "iso3": "NLD",
+      "iso2": "nl",
+      "name": "Netherlands",
+      "count": 3,
+      "sample_titles": [
+        "The Hague Convention and the Hague Protocol",
+        "The Hague Convention",
+        "The Hague Protocol"
+      ]
     }
   },
   "1999-02": {
@@ -3915,6 +3998,15 @@
         "Expressing congratulations and thanks to United States and NATO troops for successfully bringing peace to Kosovo and halting the brutal ethnic cleansing of Kosovar Albanians.",
         "To prohibit reconstruction assistance (other than humanitarian assistance) for the Federal Republic of Yugoslavia (other than Kosovo) until Slobodan Milosevic and the four other officials of the Government of the Federal Republic of Yugoslavia named in the indictment of the International Criminal Tribunal for the former Yugoslavia have been arrested and placed in custody of the Tribunal."
       ]
+    },
+    "treaty": {
+      "iso3": "VEN",
+      "iso2": "ve",
+      "name": "Venezuela",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Venezuela"
+      ]
     }
   },
   "1999-07": {
@@ -3966,6 +4058,15 @@
         "Expressing sympathy for those killed and injured in the recent earthquakes in Turkey and Greece and commending Turkey and Greece for their recent efforts in opening a national dialogue and taking steps to further bilateral relations.",
         "United States-Turkey Free Trade Agreement Act of 1999"
       ]
+    },
+    "treaty": {
+      "iso3": "IRL",
+      "iso2": "ie",
+      "name": "Ireland",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Ireland"
+      ]
     }
   },
   "1999-11": {
@@ -3978,6 +4079,15 @@
         "Expressing the sense of the Congress that the Panama Canal and the Panama Canal Zone should be considered to be the sovereign territory of the United States.",
         "Notifying the Government of Panama of the nullity of the Carter-Torrijos treaties and recognizing the validity of the Hay-Bunau-Varilla Treaty with respect to control of the Panama Canal Zone.",
         "Panama Canal Treaties Property Transfer Authorization Act"
+      ]
+    },
+    "treaty": {
+      "iso3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Ukraine on Mutual Legal Assistance in Criminal Matters"
       ]
     }
   },
@@ -4001,6 +4111,15 @@
       "sample_titles": [
         "A concurrent resolution expressing the sense of the Congress that, the Government of the People's Republic of China should immediately release from prison and drop all criminal charges against Yongyi Song, and should guarantee in their legal system fair and professional treatment of criminal defense lawyers and conduct fair and open trials."
       ]
+    },
+    "treaty": {
+      "iso3": "FRA",
+      "iso2": "fr",
+      "name": "France",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with France on Mutual Legal Assistance in Criminal Matters"
+      ]
     }
   },
   "2000-02": {
@@ -4013,6 +4132,15 @@
         "Expressing the sense of the Congress that the Government of the People's Republic of China should immediately release Rabiya Kadeer, her secretary, and her son, abide by the International Covenant on Civil and Political Rights, and permit Kadeer, her secretary, and her son to move to the United States if they so desire.",
         "Expressing the sense of the House of Representatives with respect to a dialog between the People's Republic of China and Tibet.",
         "Providing for consideration of the bill (H.R. 1838) to assist in the enhancement of the security of Taiwan, and for other purposes."
+      ]
+    },
+    "treaty": {
+      "iso3": "ROU",
+      "iso2": "ro",
+      "name": "Romania",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Romania on Mutual Legal Assistance in Criminal Matters"
       ]
     }
   },
@@ -4053,6 +4181,15 @@
         "Expressing the sense of Congress that normal trade relations treatment for products of the People's Republic of China should be revoked if that country attacks, invades, or imposes a blockade on Taiwan.",
         "Providing for further consideration of the bill (H.R. 4444) to authorize extension of nondiscriminatory treatment (normal trade relations treatment) to the People's Republic of China."
       ]
+    },
+    "treaty": {
+      "iso3": "BOL",
+      "iso2": "bo",
+      "name": "Bolivia",
+      "count": 1,
+      "sample_titles": [
+        "Investment Treaty with Bolivia"
+      ]
     }
   },
   "2000-06": {
@@ -4066,6 +4203,15 @@
         "Expressing the sense of the Congress regarding manipulation of the mass media and intimidation of the independent press in the Russian Federation, expressing support for freedom of speech and the independent media in the Russian Federation, and calling on the President of the United States to express his strong concern for freedom of speech and the independent media in the Russian Federation.",
         "A concurrent resolution expressing the sense of the Congress regarding manipulation of the mass and intimidation of the independent press in the Russian Federation, expressing support for freedom of speech and the independent media in the Russian Federation, and calling on the President of the United States to express his strong concern for freedom of speech and the independent media in the Russian Federation."
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "Amendment to Montreal Protocol (\"Beijing Amendment\")"
+      ]
     }
   },
   "2000-07": {
@@ -4078,6 +4224,15 @@
         "Expressing the sense of Congress that Elian Gonzalez should be reunited with his father, Juan Gonzalez of Cuba.",
         "Providing for consideration of the bill (H.R. 4118) to prohibit the rescheduling or forgiveness of any outstanding bilateral debt owed to the United States by the Government of the Russian Federation until the President certifies to the Congress that the Government of the Russian Federation has ceased all its operations at, removed all personnel from, and permanently closed the intelligence facility at Lourdes, Cuba.",
         "Free Trade With Cuba Act"
+      ]
+    },
+    "treaty": {
+      "iso3": "CYP",
+      "iso2": "cy",
+      "name": "Cyprus",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Cyprus on Mutual Legal Assistance in Criminal Matters"
       ]
     }
   },
@@ -4103,6 +4258,16 @@
         "To urge the Nobel Commission to award the year 2000 Nobel Prize for Peace to former United States Senator George J. Mitchell for his dedication to fostering peace in Northern Ireland.",
         "Expressing the sense of the House of Representatives with respect to the peace process in Northern Ireland.",
         "A joint resolution expressing the sense of the Congress with respect to the peace process in Northern Ireland."
+      ]
+    },
+    "treaty": {
+      "iso3": "PAN",
+      "iso2": "pa",
+      "name": "Panama",
+      "count": 2,
+      "sample_titles": [
+        "Protocol between the Government of the United States of America and the Government of the Republic of Panama Amending the Treaty Concerning the Treatment and Protection of Investments of October 27, 1982. Protocol signed at Panama City, on June 1, 2000.",
+        "Treaty with Panama on Return of Vehicles and Aircraft"
       ]
     }
   },
@@ -4342,6 +4507,15 @@
         "Expressing grave concern about the continuing escalation in violence between Israel and the Palestinians.",
         "A resolution expressing solidarity with Israel in its fight against terrorism."
       ]
+    },
+    "treaty": {
+      "iso3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with India on Mutual Legal Assistance In Criminal Matters"
+      ]
     }
   },
   "2002-05": {
@@ -4354,6 +4528,15 @@
         "Expressing regret and sympathy for the families of the 4 Canadian soldiers who lost their lives on April 17, 2002, in a friendly-fire incident in southern Afghanistan.",
         "To permit commercial importation of prescription drugs from Canada, and for other purposes.",
         "To establish a joint United States-Canada customs inspection pilot project."
+      ]
+    },
+    "treaty": {
+      "iso3": "LTU",
+      "iso2": "lt",
+      "name": "Lithuania",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty with Lithuania"
       ]
     }
   },
@@ -4381,6 +4564,15 @@
         "Expressing the sense of the House of Representatives concerning the continuous repression of freedoms within Iran and of individual human rights abuses, particularly with regard to women.",
         "A resolution expressing the sense of the Senate concerning the continuous repression of freedoms within Iran and of individual human rights abuses, particularly with regard to women."
       ]
+    },
+    "treaty": {
+      "iso3": "SWE",
+      "iso2": "se",
+      "name": "Sweden",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Sweden on Mutual Legal Assistance in Criminal Matters"
+      ]
     }
   },
   "2002-08": {
@@ -4404,6 +4596,15 @@
         "Expressing the sense of Congress regarding the use of force against Iraq.",
         "Expressing the sense of Congress with respect to the importance of the United States working through the United Nations to assure Iraq's compliance with United Nations Security Council resolutions and advance peace and security in the Persian Gulf region.",
         "Liberation of the Iraqi People Resolution"
+      ]
+    },
+    "treaty": {
+      "iso3": "HND",
+      "iso2": "hn",
+      "name": "Honduras",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Honduras for Return of Stolen, Robbed, and Embezzled Vehicles and Aircraft, with Annexes and Exchange of Notes"
       ]
     }
   },
@@ -4431,6 +4632,15 @@
         "A concurrent resolution urging the Government of Egypt and other Arab governments not to allow their government-controlled television stations to broadcast any program that lends legitimacy to the Protocols of the Elders of Zion, and for other purposes.",
         "A  resolution urging the Government of Egypt and other Arab governments not to allow their government-controlled television stations to broadcast any program that lends legitimacy to the Protocols of the Elders of Zion, and for other purposes."
       ]
+    },
+    "treaty": {
+      "iso3": "AUS",
+      "iso2": "au",
+      "name": "Australia",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending Convention with Australia Regarding Double Taxation and Prevention of Fiscal Evasion"
+      ]
     }
   },
   "2002-12": {
@@ -4456,6 +4666,15 @@
         "A resolution expressing the sense of the Senate with respect to the actions the President should take before any use of military force against Iraq without the broad support of the international community.",
         "A resolution expressing the sense of the Senate that the United Nations weapons inspectors should be given sufficient time for a thorough assessment of the level of compliance by the Government of Iraq with United Nations Security Council Resolution 1441 (2002) and that the United States should seek a United Nations Security Council resolution specifically authorizing the use of force before initiating any offensive military operations against Iraq."
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "Agreement Amending Treaty with Canada Concerning Pacific Coast Albacore Tuna Vessels and Port Privileges"
+      ]
     }
   },
   "2003-02": {
@@ -4468,6 +4687,15 @@
         "Condemning the designation of Iraq as chair of the United Nations Conference on Disarmament.",
         "Expressing the sense of the House of Representatives that United Nations weapons inspectors should be given sufficient time for a thorough assessment of the level of compliance by the Government of Iraq with United Nations Security Council Resolution 1441 (2002) and that the United States should seek a Security Council resolution specifically authorizing the use of force before initiating any offensive military operations against Iraq.",
         "Calling for the establishment of an international criminal tribunal for the purpose of indicting, prosecuting, and imprisoning Saddam Hussein and other Iraqi officials who are responsible for crimes against humanity, genocide, and other criminal violations of international law."
+      ]
+    },
+    "treaty": {
+      "iso3": "MEX",
+      "iso2": "mx",
+      "name": "Mexico",
+      "count": 1,
+      "sample_titles": [
+        "Second Additional Protocol Modifying Convention with Mexico Regarding Double Taxation and Prevention of Fiscal Evasion"
       ]
     }
   },
@@ -4494,6 +4722,15 @@
         "Expressing the sense of Congress concerning United States and allied Armed Forces personnel killed or wounded or taken captive while engaged in the war on terrorism and the war with Iraq and offering deepest sympathy to the families of those killed in action.",
         "Extending the thanks of Congress and a grateful nation to the Iraqis Mohammed and Iman for their brave actions against oppression and tyranny in providing to United States forces, at great risk to themselves, information essential for the rescue of Private First Class Jessica Lynch, United States Army, on April 1, 2003.",
         "Expressing the sense of Congress concerning support to members of the United States Armed Forces and allied military forces engaged in the war on terrorism and the war with Iraq."
+      ]
+    },
+    "treaty": {
+      "iso3": "BGR",
+      "iso2": "bg",
+      "name": "Bulgaria",
+      "count": 1,
+      "sample_titles": [
+        "Protocols to North Atlantic Treaty of 1949 on Accession of Bulgaria, Estonia, Latvia, Lithuania, Romania, Slovakia, and Slovenia"
       ]
     }
   },
@@ -4558,6 +4795,15 @@
         "Of inquiry requesting the President to transmit to the House of Representatives not later than 14 days after the date of adoption of this resolution the report prepared for the Joint Chiefs of Staff entitled \"Operation Iraqi Freedom Strategic Lessons Learned\" and other materials relating to the Administration's planning for the reconstruction and security of post-war Iraq.",
         "To provide a 10 percent increase in the rate of basic pay for members of the uniformed services, effective January 1, 2004, to pay a one-time bonus to members of the Armed Forces who served or serve in a combat zone designated for Operation Iraqi Freedom or Operation Enduring Freedom, and for other purposes."
       ]
+    },
+    "treaty": {
+      "iso3": "DNK",
+      "iso2": "dk",
+      "name": "Denmark",
+      "count": 1,
+      "sample_titles": [
+        "Protocol to Treaty of Friendship, Commerce, and Navigation with Denmark"
+      ]
     }
   },
   "2003-10": {
@@ -4570,6 +4816,15 @@
         "Expressing the sense of Congress with respect to the President's $87 billion supplemental appropriation request for the occupation and reconstruction of Iraq.",
         "Providing for consideration of the bill (H.R. 3289) making emergency supplemental appropriations for defense and for the reconstruction of Iraq and Afghanistan for the fiscal year ending September 30, 2004, and for other purposes.",
         "Expressing the sense of the House of Representatives that France, Germany, Russia, and other nations can contribute to Iraq's reconstruction by forgiving debts owed by Iraq to those nations and by making generous pledges for Iraq's reconstruction at the International Conference on Reconstruction in Iraq to be held in Madrid."
+      ]
+    },
+    "treaty": {
+      "iso3": "LKA",
+      "iso2": "lk",
+      "name": "Sri Lanka",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending Tax Convention with Sri Lanka"
       ]
     }
   },
@@ -4584,6 +4839,15 @@
         "Commending Michigan State University President Peter McPherson for his service to his country and his significant contribution to the financial reconstruction of Iraq.",
         "Urging the President to establish an Iraq service medal to recognize service by members of the Armed Forces in Operation Iraqi Freedom."
       ]
+    },
+    "treaty": {
+      "iso3": "JPN",
+      "iso2": "jp",
+      "name": "Japan",
+      "count": 1,
+      "sample_titles": [
+        "Mutual Legal Assistance Treaty with Japan"
+      ]
     }
   },
   "2003-12": {
@@ -4596,6 +4860,15 @@
         "Providing that the executive branch should remove certain entry restrictions for Mexican nationals, and for other purposes.",
         "To allow certain Mexican nationals to be admitted as nonimmigrant visitors for a period of 6 months."
       ]
+    },
+    "treaty": {
+      "iso3": "JPN",
+      "iso2": "jp",
+      "name": "Japan",
+      "count": 1,
+      "sample_titles": [
+        "Taxation Convention with Japan"
+      ]
     }
   },
   "2004-01": {
@@ -4607,6 +4880,15 @@
       "sample_titles": [
         "To create a select committee to investigate the awarding and carrying out of contracts to conduct activities in Afghanistan and Iraq and to fight the war on terrorism.",
         "Afghan Women Security and Freedom Act of 2004"
+      ]
+    },
+    "treaty": {
+      "iso3": "BGR",
+      "iso2": "bg",
+      "name": "Bulgaria",
+      "count": 1,
+      "sample_titles": [
+        "Additional Protocol Amending Investment Treaty with Bulgaria"
       ]
     }
   },
@@ -4633,6 +4915,15 @@
         "Expressing the sense of Congress with respect to the current policy on bids for agricultural food tenders in Iraq.",
         "Calling for the removal of all restrictions from the public, the press, and military families in mourning that would prohibit their presence at the arrival at military installations in the United States or overseas of the remains of the Nation's fallen heroes, the members of the Armed Forces who have died in Iraq or Afghanistan, with the assurance that family requests for privacy will be respected."
       ]
+    },
+    "treaty": {
+      "iso3": "POL",
+      "iso2": "pl",
+      "name": "Poland",
+      "count": 1,
+      "sample_titles": [
+        "Additional Protocol Concerning Business and Economic Relations with Poland"
+      ]
     }
   },
   "2004-04": {
@@ -4645,6 +4936,15 @@
         "Emergency Supplemental Appropriations Act for Military Operations in Iraq and Afghanistan, 2004",
         "To require United States assistance for the repair, maintenance, or construction of the transportation infrastructure of Iraq to be provided in the form of loans subject to repayment in full to the United States Government.",
         "A resolution urging the President to immediately instruct the Secretary of State and the Secretary of Defense to respectively begin initiating consultations with other members of the United Nations Security Council concerning a United Nations Security Council Resolution for Iraq, and with the Secretary General of the North Atlantic Treaty Organization (NATO) concerning a mandate for a NATO commitment for security in Iraq, with the goal of securing both not later than May 15, 2004."
+      ]
+    },
+    "treaty": {
+      "iso3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty with United Kingdom"
       ]
     }
   },
@@ -4672,6 +4972,15 @@
         "Of inquiry requesting that the Secretary of Defense transmit to the House of Representatives before the expiration of the 14-day period beginning on the date of the adoption of this resolution any picture, photograph, video, communication, or report produced in conjunction with any completed Department of Defense investigation conducted by Major General Antonio M. Taguba relating to allegations of torture or allegations of violations of the Geneva Conventions of 1949 at Abu Ghraib prison in Iraq or any completed Department of Defense investigation relating to the abuse or alleged abuse of a prisoner of war or detainee by any civilian contractor working in Iraq who is employed on behalf of the Department of Defense.",
         "Congratulating the Interim Government of Iraq on its forthcoming assumption of sovereign authority in Iraq."
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "Agreement with Canada on Pacific Hake/Whiting"
+      ]
     }
   },
   "2004-07": {
@@ -4684,6 +4993,15 @@
         "Supporting the construction by Israel of a security fence to prevent Palestinian terrorist attacks and condemning the decision by the United Nations General Assembly to request the International Court of Justice to render an opinion on the legality of the security fence.",
         "Condemning the adoption of United Nations General Assembly Resolution ES-10/14 (December 8, 2003) which requests the International Court of Justice (ICJ) to render an advisory opinion concerning the international legal consequences arising from Israel's construction of a security fence in parts of the West Bank, and for other purposes.",
         "Expressing the sense of the House of Representatives in support of full membership of Israel in the Western European and Others Group at the United Nations."
+      ]
+    },
+    "treaty": {
+      "iso3": "NLD",
+      "iso2": "nl",
+      "name": "Netherlands",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending Tax Convention with the Netherlands"
       ]
     }
   },
@@ -4710,6 +5028,15 @@
         "Directing the Attorney General to transmit to the House of Representatives documents in the possession of the Attorney General relating to the treatment of prisoners and detainees in Iraq, Afghanistan, and Guantanamo Bay.",
         "Urging the interim Government of Iraq to ensure that the charges brought against Saddam Hussein include charges for the crimes his government committed against the people of Iran during the Iran-Iraq war from 1980 to 1988."
       ]
+    },
+    "treaty": {
+      "iso3": "BRB",
+      "iso2": "bb",
+      "name": "Barbados",
+      "count": 1,
+      "sample_titles": [
+        "2nd Protocol Amending Tax Convention with Barbados"
+      ]
     }
   },
   "2004-10": {
@@ -4734,6 +5061,15 @@
       "sample_titles": [
         "Constantine Menges Ukraine Democracy and Fair Elections Act of 2004\r",
         "A resolution urging the Government of Ukraine to ensure a democratic, transparent, and fair election process for the Presidential run-off election on November 21, 2004."
+      ]
+    },
+    "treaty": {
+      "iso3": "DEU",
+      "iso2": "de",
+      "name": "Germany",
+      "count": 1,
+      "sample_titles": [
+        "Mutual Legal Assistance Treaty with Germany"
       ]
     }
   },
@@ -4862,6 +5198,15 @@
         "Urging the appropriate representative of the United States to the 61st session of the United Nations Commission on Human Rights to introduce a resolution calling upon the Government of the People's Republic of China to end its human rights violations in China, and for other purposes.",
         "Expressing the sense of Congress welcoming President Chen Shui-bian of Taiwan to the United States on September 20, 2005."
       ]
+    },
+    "treaty": {
+      "iso3": "FRA",
+      "iso2": "fr",
+      "name": "France",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Convention Between the Government of the United States of America and the Government of the French Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income and Capital, signed at Paris on August 31, 1994."
+      ]
     }
   },
   "2005-10": {
@@ -4875,6 +5220,15 @@
         "Condemning Iranian President Mahmoud Ahmadinejad's threats against Israel.",
         "A resolution calling on the President to condemn the anti-Israel sentiments expressed by the President of Iran, Mahmoud Ahmadinejad, on October 26, 2005."
       ]
+    },
+    "treaty": {
+      "iso3": "BGD",
+      "iso2": "bd",
+      "name": "Bangladesh",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Bangladesh"
+      ]
     }
   },
   "2005-11": {
@@ -4887,6 +5241,15 @@
         "Requesting the President of the United States and directing the Secretary of State to provide to the House of Representatives certain documents in their possession relating to the White House Iraq Group.",
         "Providing for consideration of the resolution (H. Res. 571) expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately and providing for consideration of the concurrent resolution (H. Con. Res. 308) directing the Clerk of the House of Representatives to make a technical correction in the enrollment of H.R. 3058.",
         "Expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately."
+      ]
+    },
+    "treaty": {
+      "iso3": "SWE",
+      "iso2": "se",
+      "name": "Sweden",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Convention Between the Government of the United States of America and the Government of Sweden for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income signed at Washington on September 30, 2005."
       ]
     }
   },
@@ -4952,6 +5315,15 @@
         "To pay a one-time bonus to members of the Armed Forces who serve honorably in a combat zone designated for Operation Iraqi Freedom or Operation Enduring Freedom, and for other purposes.",
         "A concurrent resolution directing the Architect of the Capitol to establish a temporary exhibit in the rotunda of the Capitol to honor the memory of the members of the United States Armed Forces who have lost their lives in Operation Iraqi Freedom and Operation Enduring Freedom."
       ]
+    },
+    "treaty": {
+      "iso3": "URY",
+      "iso2": "uy",
+      "name": "Uruguay",
+      "count": 1,
+      "sample_titles": [
+        "Investment Treaty with Uruguay"
+      ]
     }
   },
   "2006-05": {
@@ -4977,6 +5349,16 @@
         "Expressing the sense of Congress that the Government of Iraq should not grant blanket amnesty to persons known to have attacked, killed, or wounded members of the United States Armed Forces in Iraq.",
         "Expressing the sense of Congress with respect to accomplishing the mission in Iraq.",
         "Informing the American people of our Nation's progress in the world War on Terror, defining the situation and the stakes in the battle against the terrorist enemy in the sovereign, democratic, and united nation of Iraq, and declaring the unwavering dedication of the United States to defend humanity, expand liberty, defeat the terrorist enemy, and win the world War on Terror."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHE",
+      "iso2": "ch",
+      "name": "Switzerland",
+      "count": 2,
+      "sample_titles": [
+        "Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Adoption of an Additional Distinctive Emblem (the \"Geneva Protocol III\"), adopted at Geneva on December 8, 2005, and signed by the United States on that date.",
+        "Protocol III to 1949 Geneva Conventions and an Amendment and Protocol to 1980 Conventional Weapons Convention"
       ]
     }
   },
@@ -5016,6 +5398,15 @@
         "Condemning the repression of the Iranian Baha'i community and calling for the emancipation of Iranian Baha'is.",
         "Recognizing the centennial anniversary on August 5, 2006, of the Iranian constitution of 1906."
       ]
+    },
+    "treaty": {
+      "iso3": "DNK",
+      "iso2": "dk",
+      "name": "Denmark",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Convention Between the Government of the United States of America and the Government of\nthe Kingdom of Denmark for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income signed at Copenhagen May 2, 2006 (the \"Protocol\")"
+      ]
     }
   },
   "2006-10": {
@@ -5039,6 +5430,15 @@
         "To expand the oversight and accounting authority of the Office of the Special Inspector General for Iraq Reconstruction over funds appropriated for the Iraq Security Forces Fund and to restore a termination date for the Office based on the percentage of expenditures from the Iraq Relief and Reconstruction Fund and the Iraq Security Forces Fund.",
         "Iraq Weapons Accountability Act of 2006",
         "A bill to provide for the redeployment of United States forces from Iraq by July 1, 2007."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHE",
+      "iso2": "ch",
+      "name": "Switzerland",
+      "count": 1,
+      "sample_titles": [
+        "Geneva Act of the Hague Agreement Concerning the International Registration of Industrial Designs"
       ]
     }
   },
@@ -5118,6 +5518,15 @@
         "Providing for consideration of the bill (H.R. 2237) to provide for the redeployment of United States Armed Forces and defense contractors from Iraq, providing for consideration of the bill (H.R. 2206) making emergency supplemental appropriations for the fiscal year ending September 30, 2007, and for other purposes, and providing for consideration of the bill (H.R. 2207) making supplemental appropriations for agricultural and other emergency assistance for the fiscal year ending September 30, 2007, and for other purposes.",
         "Recognizing the significance of the contribution of the Brotherhood of the Badge to the Global War on Terror through its provision of surplus law enforcement equipment to Iraqi police forces."
       ]
+    },
+    "treaty": {
+      "iso3": "SGP",
+      "iso2": "sg",
+      "name": "Singapore",
+      "count": 1,
+      "sample_titles": [
+        "Singapore Treaty on the Law of Trademarks"
+      ]
     }
   },
   "2007-06": {
@@ -5130,6 +5539,15 @@
         "Providing for Operation Iraqi Freedom cost accountability.",
         "Expressing the sense of the House of Representatives that the Iraqi National Assembly should cancel or postpone its planned two-month recess scheduled to begin in July 2007 and work toward meeting political, social, and military benchmarks.",
         "President Gerald R. Ford Iraqi Ally and Refugee Responsibility Memorial Act of 2007"
+      ]
+    },
+    "treaty": {
+      "iso3": "BEL",
+      "iso2": "be",
+      "name": "Belgium",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Belgium"
       ]
     }
   },
@@ -5170,6 +5588,15 @@
         "Commending General David H. Petraeus for his exemplary service to the United States and for his leadership as Commander of the Multi-National Force-Iraq and condemning in the strongest possible terms the reprehensible efforts of certain persons questioning the honesty, integrity, and service of General Petraeus.",
         "Expressing the sense of the House of Representatives concerning the creation of federal regions in Iraq."
       ]
+    },
+    "treaty": {
+      "iso3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "count": 1,
+      "sample_titles": [
+        "Treaty Between the Government of the United States of America and the Government of the United Kingdom of Great Britain and Northern Ireland Concerning Defense Trade Cooperation, done at Washington and London on June 21 and 26, 2007."
+      ]
     }
   },
   "2007-10": {
@@ -5209,6 +5636,15 @@
         "Expressing the need for a more comprehensive diplomatic initiative led by the United States, Republic of Iraq, and international community.",
         "Expressing the sense of the House that the United States should increase United States forces in Afghanistan and responsibly redeploy forces from Iraq."
       ]
+    },
+    "treaty": {
+      "iso3": "AUS",
+      "iso2": "au",
+      "name": "Australia",
+      "count": 1,
+      "sample_titles": [
+        "Treaty Between the Government of the United States of America and the Government of Australia Concerning Defense Trade Cooperation, done at Sydney, September 5, 2007."
+      ]
     }
   },
   "2008-01": {
@@ -5220,6 +5656,15 @@
       "sample_titles": [
         "Regarding ending World Bank disbursements to Iran until the International Atomic Energy Agency certifies the compliance of the Islamic Republic of Iran with Resolutions 1696 and 1747 of the United Nations Security Council and the terms of the Nuclear Non-Proliferation Treaty.",
         "Iran Diplomatic Accountability Act of 2008"
+      ]
+    },
+    "treaty": {
+      "iso3": "BGR",
+      "iso2": "bg",
+      "name": "Bulgaria",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty with Bulgaria and an Agreement on Certain Aspects of Mutual Legal Assistance in Criminal Matters with Bulgaria"
       ]
     }
   },
@@ -5247,6 +5692,15 @@
         "Recognizing March 19, 2008, as the fifth anniversary of the Iraq war and urging President George W. Bush to begin an immediate and safe redeployment of United States Armed Forces from Iraq.",
         "Authorizing the use of the rotunda of the Capitol for a ceremony to honor the 5 years of service and sacrifice of our troops and their families in the war in Iraq and to remember those who are serving our Nation in Afghanistan and throughout the world."
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending 1980 Tax Convention with Canada"
+      ]
     }
   },
   "2008-04": {
@@ -5259,6 +5713,15 @@
         "Expressing the need for a more comprehensive diplomatic initiative led by the United States, Iraq, and the international community.",
         "Expressing the sense of the House of Representatives that any funding provided by the United States to the Government of Iraq for reconstruction, training for Iraqi security forces, and fuel for United States operations in Iraq should be provided in the form of loans.",
         "Calling on the President of the United States not to commit the United States to any status of forces agreement or any other bilateral agreement with the Republic of Iraq that involves the continued presence of the United States Armed Forces in Iraq unless the agreement includes a provision under which the Republic of Iraq agrees to reimburse the United States for all costs incurred by the United States related to the presence of United States Armed Forces in Iraq after the effective date of the agreement."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHE",
+      "iso2": "ch",
+      "name": "Switzerland",
+      "count": 1,
+      "sample_titles": [
+        "Amendments to the Constitution and Convention of the International Telecommunication Union (Geneva, 1992)"
       ]
     }
   },
@@ -5273,6 +5736,15 @@
         "Amending the Rules of the House of Representatives to observe a moment of silence in the House on the first legislative day of each month for those killed or wounded in United States engagements in Iraq or Afghanistan.",
         "To designate the facility of the United States Postal Service located at 3050 Hunsinger Lane in Louisville, Kentucky, as the \"Iraq and Afghanistan Fallen Military Heroes of Louisville Memorial Post Office Building\", in honor of the servicemen and women from Louisville, Kentucky, who died in service during Operation Enduring Freedom and Operation Iraqi Freedom."
       ]
+    },
+    "treaty": {
+      "iso3": "ISL",
+      "iso2": "is",
+      "name": "Iceland",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Iceland"
+      ]
     }
   },
   "2008-06": {
@@ -5286,6 +5758,15 @@
         "Urging the Government of the Republic of Iraq to recognize the right of the State of Israel to exist and to establish diplomatic relations with Israel, and for other purposes.",
         "Iraqi Police Service Improvement Act of 2008"
       ]
+    },
+    "treaty": {
+      "iso3": "BGR",
+      "iso2": "bg",
+      "name": "Bulgaria",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Bulgaria with Proposed Protocol of Amendment"
+      ]
     }
   },
   "2008-07": {
@@ -5298,6 +5779,15 @@
         "Expressing the sense of the House of Representatives that the United States should accept the Iraqi Government's stated goal of setting a timetable for withdrawal of United States Armed Forces from Iraq.",
         "Calling on the President to respect and honor Iraq's sovereignty.",
         "Amending the Rules of the House of Representatives to authorize and direct the Speaker to issue rules permitting the display outside of the offices of Members, Delegates, and the Resident Commissioner in the House office buildings of tributes to members of the Armed Forces killed in United States engagements in Iraq or Afghanistan."
+      ]
+    },
+    "treaty": {
+      "iso3": "ALB",
+      "iso2": "al",
+      "name": "Albania",
+      "count": 1,
+      "sample_titles": [
+        "Protocols to the North Atlantic Treaty of 1949 on Accession of Albania and Croatia"
       ]
     }
   },
@@ -5348,6 +5838,15 @@
       "sample_titles": [
         "Calling on the State Department to list the Socialist Republic of Vietnam as a \"Country of Particular Concern\" with respect to religious freedom."
       ]
+    },
+    "treaty": {
+      "iso3": "RWA",
+      "iso2": "rw",
+      "name": "Rwanda",
+      "count": 1,
+      "sample_titles": [
+        "Investment Treaty with Rwanda"
+      ]
     }
   },
   "2008-12": {
@@ -5373,6 +5872,15 @@
         "Expressing the sense of Congress that the Government of Iraq should not grant blanket amnesty to persons known to have attacked, killed, or wounded members of the United States Armed Forces in Iraq.",
         "Expressing the sense of the House of Representatives that absent congressional approval the Agreement Between the United States of America and the Republic of Iraq on the Withdrawal of United States Forces from Iraq and the Organization of Their Activities During Their Temporary Presence in Iraq is merely advisory and not legally binding on the United States, and for other purposes.",
         "Military Success in Iraq And Diplomatic Surge for National and Political Reconciliation in Iraq Act of 2009"
+      ]
+    },
+    "treaty": {
+      "iso3": "MLT",
+      "iso2": "mt",
+      "name": "Malta",
+      "count": 1,
+      "sample_titles": [
+        "Tax Convention with Malta"
       ]
     }
   },
@@ -5439,6 +5947,15 @@
         "Expressing support for all Iranian citizens who struggle for freedom, human rights, civil liberties, and the protection of the rule of law.",
         "Expressing support for all Iranian citizens who embrace the values of freedom, human rights, civil liberties, and rule of law, and rescinding the invitation to Iranian officials to attend July 4th celebrations at United States embassies and for other purposes."
       ]
+    },
+    "treaty": {
+      "iso3": "NZL",
+      "iso2": "nz",
+      "name": "New Zealand",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending Tax Convention with New Zealand"
+      ]
     }
   },
   "2009-07": {
@@ -5476,6 +5993,15 @@
         "Encouraging the Government of Iran to grant consular access by the Government of Switzerland to Joshua Fattal, Shane Bauer, and Sarah Shourd, and to allow the 3 young people to reunite with their families in the United States at the soonest possible opportunity.",
         "Demanding that the Government of Iran immediately disclose the existence of any additional nuclear-related facilities and provide unfettered access to its Qom enrichment facility.",
         "A concurrent resolution encouraging the Government of Iran to grant consular access by the Government of Switzerland to Joshua Fattal, Shane Bauer, and Sarah Shourd, and to allow the 3 young people to reunite with their families in the United States as soon as possible."
+      ]
+    },
+    "treaty": {
+      "iso3": "FRA",
+      "iso2": "fr",
+      "name": "France",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending Tax Convention with France"
       ]
     }
   },
@@ -5581,6 +6107,15 @@
         "Recognizing the significance of the Haitian flag to the people of Haiti and supporting the goals and ideals of Haitian Flag Day.",
         "Haiti Economic Lift Program Act of 2010"
       ]
+    },
+    "treaty": {
+      "iso3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "count": 1,
+      "sample_titles": [
+        "Treaty between the United States of America and the Russian Federation on Measures for the Further Reduction and Limitation of Strategic Offensive Arms, signed in Prague on April 8, 2010, with Protocol."
+      ]
     }
   },
   "2010-06": {
@@ -5656,6 +6191,15 @@
         "A bill to amend title 38, United States Code, to provide benefits for children with spina bifida of veterans exposed to herbicides while serving in the Armed Forces during the Vietnam era outside Vietnam, and for other purposes.",
         "Vietnam Human Rights Sanctions Act"
       ]
+    },
+    "treaty": {
+      "iso3": "LUX",
+      "iso2": "lu",
+      "name": "Luxembourg",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Convention between the Government of the United States of America and the Government of the Grand Duchy of Luxembourg for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income and Capital, signed on May 20, 2009, at Luxembourg (the \"proposed Protocol\") and a related agreement effected by the exchange of notes also signed on May 20, 2009"
+      ]
     }
   },
   "2010-12": {
@@ -5680,6 +6224,15 @@
       "sample_titles": [
         "Recognizing the 16th anniversary of the Future Leaders Exchange (FLEX) program, a program funded by the Government of the United States to provide an opportunity for high school students from the countries of the former Soviet Union to study and live in the United States in order to promote democratic values and institutions in Eurasia, and supporting the mission, goals, and accomplishments of the FLEX program.",
         "A bill to prohibit the regulation of carbon dioxide emissions in the United States until China, India, and Russia implement similar reductions."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHE",
+      "iso2": "ch",
+      "name": "Switzerland",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Convention between the United States of America and the Swiss Confederation for the Avoidance of Double Taxation with Respect to Taxes on Income, signed at Washington on October 2, 1996, signed on September 23, 2009, at Washington, as corrected by an exchange of notes effected November 16, 2010 and a related agreement effected by an exchange of notes on September 23, 2009."
       ]
     }
   },
@@ -5731,6 +6284,15 @@
         "Declaring that the President has exceeded his authority under the War Powers Resolution as it pertains to the ongoing military engagement in Libya.",
         "Directing the Secretary of Defense to transmit to the House of Representatives copies of any document, record, memo, correspondence, or other communication of the Department of Defense, or any portion of such communication, that refers or relates to any consultation with Congress regarding Operation Odyssey Dawn or military actions in or against Libya.",
         "Directing the Secretary of State to transmit to the House of Representatives copies of any document, record, memo, correspondence, or other communication of the Department of State, or any portion of such communication, that refers or relates to any consultation with Congress regarding Operation Odyssey Dawn or military actions in or against Libya."
+      ]
+    },
+    "treaty": {
+      "iso3": "EGY",
+      "iso2": "eg",
+      "name": "Egypt",
+      "count": 1,
+      "sample_titles": [
+        "Protocols I and II to the African Nuclear-Weapon-Free Zone Treaty, signed on behalf of the United States at Cairo, Egypt, on April 11, 1996, including a third protocol related to the Treaty."
       ]
     }
   },
@@ -5809,6 +6371,15 @@
         "Taiwan Airpower Modernization Act of 2011",
         "To direct the President to impose duties on merchandise from the People's Republic of China in an amount equivalent to the estimated annual loss of revenue to holders of United States intellectual property rights as a result of violations of such intellectual property rights in China, and for other purposes."
       ]
+    },
+    "treaty": {
+      "iso3": "ITA",
+      "iso2": "it",
+      "name": "Italy",
+      "count": 1,
+      "sample_titles": [
+        "Agreement on Port State Measures to Prevent, Deter, and Eliminate Illegal, Unreported, and Unregulated Fishing, done at the Food and Agriculture Organization of the United Nations, in Rome, Italy, on November 22, 2009 (the \"Agreement\")."
+      ]
     }
   },
   "2011-12": {
@@ -5883,6 +6454,15 @@
         "Calling for democratic change in Syria.",
         "Condemning violence by the Government of Syria against journalists, and expressing the sense of the House of Representatives on freedom of the press in Syria.",
         "Commending the Government of Turkey for its efforts to facilitate, host, and care for refugees fleeing the Al-Assad regime's escalating violence in Syria."
+      ]
+    },
+    "treaty": {
+      "iso3": "NLD",
+      "iso2": "nl",
+      "name": "Netherlands",
+      "count": 1,
+      "sample_titles": [
+        "The Convention on the Law Applicable to Certain Rights in Respect of Securities Held with an Intermediary (the \"Convention\"), done at The Hague  on July 5, 2006, and signed by the United States on that same day."
       ]
     }
   },
@@ -6022,6 +6602,15 @@
         "Expressing the sense of the House of Representatives that the Broadcasting Board of Governors should broadcast and direct Azeri language content into the Islamic Republic of Iran and Baloch language content into the Islamic Republic of Iran and the Islamic Republic of Pakistan.",
         "Iran, North Korea, and Syria Nonproliferation Accountability Act of 2013",
         "Justice for the American Diplomats Held Hostage in Tehran Act"
+      ]
+    },
+    "treaty": {
+      "iso3": "NZL",
+      "iso2": "nz",
+      "name": "New Zealand",
+      "count": 1,
+      "sample_titles": [
+        "Convention on the Conservation and Management of High Seas Fishery Resources in the South Pacific Ocean, done at Auckland, New Zealand, November 14, 2009."
       ]
     }
   },
@@ -6190,6 +6779,15 @@
         "Providing for consideration of the resolution (H. Res. 567) providing for the Establishment of the Select Committee on the Events Surrounding the 2012 Terrorist Attack in Benghazi.",
         "To authorize the use of force against those nations, organizations, or persons responsible for the attack against United States personnel in Benghazi, Libya."
       ]
+    },
+    "treaty": {
+      "iso3": "POL",
+      "iso2": "pl",
+      "name": "Poland",
+      "count": 1,
+      "sample_titles": [
+        "The Convention between the United States of America and the Republic of Poland for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income, signed on February 13, 2013, at Warsaw."
+      ]
     }
   },
   "2014-06": {
@@ -6240,6 +6838,15 @@
         "Urging Congress to debate and vote on a statutory authorization for any sustained United States combat role in Iraq or Syria.",
         "Expressing the sense of the House of Representatives on the current situation in Iraq and the urgent need to protect religious minorities from persecution from the Sunni Islamist insurgent and terrorist group the Islamic State in Iraq and Levant (ISIL) as it expands its control over areas in northwestern Iraq.",
         "Calling on the Department of Defense to expedite the delivery of all necessary military equipment, weapons, ammunition, and other needed materials to the Kurdish Peshmerga forces to successfully combat and defeat the Islamic State of Iraq and al-Sham (ISIS)."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHL",
+      "iso2": "cl",
+      "name": "Chile",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty between the Government of the United States of America and the Republic of Chile"
       ]
     }
   },
@@ -6312,6 +6919,15 @@
       "sample_titles": [
         "Iran Nuclear Agreement Review Act of 2015",
         "A concurrent resolution providing that the President may not provide sanctions relief to Iran until certain United States citizens are released from Iran."
+      ]
+    },
+    "treaty": {
+      "iso3": "JPN",
+      "iso2": "jp",
+      "name": "Japan",
+      "count": 1,
+      "sample_titles": [
+        "Protocol Amending the Tax Convention with Japan"
       ]
     }
   },
@@ -6391,6 +7007,15 @@
         "Providing for consideration of the bill (H.R. 3457) to prohibit the lifting of sanctions on Iran until the Government of Iran pays the judgments against it for acts of terrorism, and for other purposes; providing for consideration of the conference report to accompany the bill (H.R. 1735) to authorize appropriations for fiscal year 2016 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; and providing for consideration of motions to suspend the rules.",
         "Expressing the sense of the House of Representatives relating to the exercise of presidential waiver authority of certain sanctions imposed against Iran under United States law."
       ]
+    },
+    "treaty": {
+      "iso3": "DZA",
+      "iso2": "dz",
+      "name": "Algeria",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Algeria on Mutual Legal Assistance in Criminal Matters."
+      ]
     }
   },
   "2015-11": {
@@ -6442,6 +7067,15 @@
         "A resolution calling on the Government of Iran to follow through on repeated promises of assistance in the case of Robert Levinson, the longest held United States civilian in our Nation's history.",
         "Iran Terror Finance Transparency Act"
       ]
+    },
+    "treaty": {
+      "iso3": "DOM",
+      "iso2": "do",
+      "name": "Dominican Republic",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty with the Dominican Republic."
+      ]
     }
   },
   "2016-03": {
@@ -6454,6 +7088,15 @@
         "Expressing the sense of Congress that the atrocities perpetrated by ISIL against religious and ethnic minorities in Iraq and Syria include war crimes, crimes against humanity, and genocide.",
         "Recognizing the soldiers of the 14th Quartermaster Detachment of the United States Army Reserve, who were killed or wounded in their barracks by an Iraqi SCUD missile attack in Dhahran, Saudi Arabia, during Operation Desert Shield and Operation Desert Storm, on the occasion of the 25th anniversary of the attack.",
         "A resolution expressing the sense of the Senate that individuals captured by the United States for supporting the Islamic State of Iraq and the Levant should be detained at United States Naval Station, Guantanamo Bay, Cuba."
+      ]
+    },
+    "treaty": {
+      "iso3": "KAZ",
+      "iso2": "kz",
+      "name": "Kazakhstan",
+      "count": 1,
+      "sample_titles": [
+        "Treaty with Kazakhstan on Mutual Legal Assistance in Criminal Matters"
       ]
     }
   },
@@ -6492,6 +7135,15 @@
       "sample_titles": [
         "Recognizing the sense of the House of Representatives that it is in the United States national security interest for Israel to maintain control of the Golan Heights.",
         "A resolution expressing support for the expeditious consideration and finalization of a new, robust, and long-term Memorandum of Understanding on military assistance to Israel between the United States Government and the Government of Israel."
+      ]
+    },
+    "treaty": {
+      "iso3": "MNE",
+      "iso2": "me",
+      "name": "Montenegro",
+      "count": 1,
+      "sample_titles": [
+        "Protocol to the North Atlantic Treaty of 1949 on the Accession of Montenegro"
       ]
     }
   },
@@ -6566,6 +7218,16 @@
         "Nonnuclear Iran Sanctions Act of 2016",
         "Denouncing the wrongful and unjust seizure and confiscation of private property of Iranians both inside and outside of Iran, including United States citizens of Iranian descent, by the Government of Iran."
       ]
+    },
+    "treaty": {
+      "iso3": "KIR",
+      "iso2": "ki",
+      "name": "Kiribati",
+      "count": 2,
+      "sample_titles": [
+        "The Treaty between the Government of the United States of America and the Government of the Republic of Kiribati on the Delimitation of Maritime Boundaries, signed at Majuro on September 6, 2013, and the Treaty between the Government of the United States of America and the Government of the Federated States of Micronesia on the Delimitation of a Maritime Boundary, signed at Koror on August 1, 2014",
+        "The Treaty between the Government of the United States of America and the Government of the Republic of Kiribati on the Delimitation of Maritime Boundaries, signed at Majuro on September 6, 2013."
+      ]
     }
   },
   "2017-01": {
@@ -6578,6 +7240,15 @@
         "Iran Ballistic Missile Sanctions Act",
         "Authorization of Use of Force Against Iran Resolution",
         "IRGC Terrorist Designation Act"
+      ]
+    },
+    "treaty": {
+      "iso3": "SRB",
+      "iso2": "rs",
+      "name": "Serbia",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty between the United States of America and the Republic of Serbia (the \"Treaty\"), signed at Belgrade on August 15, 2016."
       ]
     }
   },
@@ -6932,6 +7603,15 @@
       "sample_titles": [
         "Robert K. Scott, of Maryland, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Malawi."
       ]
+    },
+    "treaty": {
+      "iso3": "MKD",
+      "iso2": "mk",
+      "name": "North Macedonia",
+      "count": 1,
+      "sample_titles": [
+        "Protocol to the North Atlantic Treaty of 1949 on the Accession of the Republic of North Macedonia"
+      ]
     }
   },
   "2019-05": {
@@ -7175,6 +7855,16 @@
       "count": 1,
       "sample_titles": [
         "Sethuraman Panchanathan, of Arizona, to be Director of the National Science Foundation for a term of six years, vice France A. Cordova, term expiring."
+      ]
+    },
+    "treaty": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 2,
+      "sample_titles": [
+        "Convention on the Suppression of Unlawful Acts Relating to International Civil Aviation (the \"Beijing Convention\"), adopted by the International Civil Aviation Organization International Conference on Air Law (Diplomatic Conference on Aviation Security) in Beijing on September 10, 2010, and signed by the United States on that same date",
+        "Protocol Supplementary to the Convention for the Suppression of Unlawful Seizure of Aircraft (the \"Beijing Protocol\"), adopted by the International Civil Aviation Organization International Conference on Air Law (Diplomatic Conference on Aviation Security) in Beijing on September 10, 2010, and signed by the United States on that same date"
       ]
     }
   },
@@ -7480,6 +8170,15 @@
         "A bill to express the sense of Congress on interoperability with Taiwan.",
         "United States-Taiwan Public Health Protection Act"
       ]
+    },
+    "treaty": {
+      "iso3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "count": 1,
+      "sample_titles": [
+        "Amendment to the Montreal Protocol on Substances that Deplete the Ozone Layer (the \"Montreal Protocol\"), adopted at Kigali on October 15, 2016, by the Twenty-Eighth Meeting of the Parties to the Montreal Protocol (the \"Kigali Amendment\")."
+      ]
     }
   },
   "2021-12": {
@@ -7573,6 +8272,15 @@
         "Ending Importation of Russian Oil Act",
         "Suspending Normal Trade Relations with Russia and Belarus Act"
       ]
+    },
+    "treaty": {
+      "iso3": "ALB",
+      "iso2": "al",
+      "name": "Albania",
+      "count": 1,
+      "sample_titles": [
+        "Extradition Treaty Between the Government of the United States of America and the Government of the Republic of Albania"
+      ]
     }
   },
   "2022-05": {
@@ -7620,6 +8328,15 @@
         "A bill to prohibit the importation of uranium from the Russian Federation.",
         "A resolution calling on the Secretary of State to designate the Russian Federation as a state sponsor of terrorism.",
         "To modify the annual report on military and security developments involving the Russian Federation."
+      ]
+    },
+    "treaty": {
+      "iso3": "FIN",
+      "iso2": "fi",
+      "name": "Finland",
+      "count": 1,
+      "sample_titles": [
+        "Protocols to the North Atlantic Treaty of 1949 on the Accession of the Republic of Finland and the Kingdom of Sweden"
       ]
     }
   },
@@ -7866,6 +8583,15 @@
         "Exposing China’s Support for the Taliban Act",
         "Chinese Spy Balloon Assessment Act",
         "No Taxpayer Dollars for Communist China COVID Tests Act"
+      ]
+    },
+    "treaty": {
+      "iso3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "count": 1,
+      "sample_titles": [
+        "The Treaty between the United States of America and the Republic of Cuba on the Delimitation of the Continental Shelf in the Eastern Gulf of Mexico beyond 200 Nautical Miles, and the Treaty between the Government of the United States of America and the Government of the United Mexican States on the Delimitation of the Maritime Boundary in the Eastern Gulf of Mexico, both of which were signed at Washington on January 18, 2017"
       ]
     }
   },
@@ -8137,6 +8863,15 @@
       "count": 1,
       "sample_titles": [
         "Calvin Smyre, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Commonwealth of The Bahamas."
+      ]
+    },
+    "treaty": {
+      "iso3": "ARE",
+      "iso2": "ae",
+      "name": "United Arab Emirates",
+      "count": 1,
+      "sample_titles": [
+        "Treaty between the Government of the United States of America and the Government of the United Arab Emirates on Mutual Legal Assistance in Criminal Matters"
       ]
     }
   },

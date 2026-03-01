@@ -43,6 +43,7 @@ ENDPOINTS = [
     "committee-report",
     "amendment",
     "nomination",
+    "treaty",  # congress-scoped; detail fetch adds countriesParties + formal titles
 ]
 
 # Detection settings
