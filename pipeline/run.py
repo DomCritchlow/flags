@@ -73,10 +73,11 @@ def main(month: str, buffer_days: int, dry_run: bool, skip_ingest: bool):
             record_mentions = detector.detect(
                 text, record["id"], record["source"]
             )
-            # Assign month to each mention
+            # Assign month and title to each mention
             month_str = record_month(record.get("date", ""))
             for m in record_mentions:
                 m.month = month_str
+                m.title = record.get("title", "")
             all_mentions.extend(record_mentions)
 
         append_mentions(all_mentions)

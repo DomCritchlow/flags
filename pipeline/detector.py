@@ -36,6 +36,7 @@ class Mention:
     tier: int  # which tier confirmed this (1, 2, or 3)
     score: Optional[float] = None  # disambiguation score if tier 2/3
     month: str = ""  # YYYY-MM, set by caller
+    title: str = ""  # source record title, set by caller
 
     def to_dict(self) -> dict:
         return {
@@ -47,6 +48,7 @@ class Mention:
             "tier": self.tier,
             "score": self.score,
             "month": self.month,
+            "title": self.title,
         }
 
 

@@ -104,8 +104,10 @@ class Aggregator:
                 country_counts[iso3] += 1
 
             # Collect sample titles (up to 3 per country)
+            # Prefer the title stored on the mention (set at detection time),
+            # fall back to title_index for older mentions that predate this field.
             if len(sample_titles[iso3]) < 3 and record_id:
-                title = self.title_index.get(record_id, record_id)
+                title = m.get("title") or self.title_index.get(record_id, record_id)
                 if title not in sample_titles[iso3]:
                     sample_titles[iso3].append(title)
 
