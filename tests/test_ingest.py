@@ -14,6 +14,11 @@ class TestResolveMonth:
         assert len(result) == 7
         assert result[4] == "-"
 
+    def test_current_month(self):
+        result = resolve_month("current")
+        assert len(result) == 7
+        assert result[4] == "-"
+
     def test_invalid_format_raises(self):
         with pytest.raises(ValueError):
             resolve_month("2024/02")
