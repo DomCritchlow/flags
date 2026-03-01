@@ -364,15 +364,17 @@ guinea:
   conflict_type: multi_country
   default: SKIP
   require_full_name: true
-  related_countries:
-    - iso3: GIN
-      names: ["Guinea", "Republic of Guinea"]
-    - iso3: GNQ
-      names: ["Equatorial Guinea"]
-    - iso3: GNB
-      names: ["Guinea-Bissau", "Guinea Bissau"]
-    - iso3: PNG
-      names: ["Papua New Guinea"]
+  full_names:
+    - term: "Republic of Guinea"
+      iso3: GIN
+    - term: "Equatorial Guinea"
+      iso3: GNQ
+    - term: "Guinea-Bissau"
+      iso3: GNB
+    - term: "Guinea Bissau"
+      iso3: GNB
+    - term: "Papua New Guinea"
+      iso3: PNG
   notes: >
     Bare "Guinea" is too ambiguous — could be any of four countries or the
     guinea pig, guinea fowl, guinea coin, or a racial slur. Always require
@@ -415,9 +417,13 @@ marshall:
   conflict_type: person_name
   default: SKIP
   require_full_name: true
-  required_forms:
-    - "Marshall Islands"
-    - "Republic of the Marshall Islands"
+  full_names:
+    - term: "Marshall Islands"
+      iso3: MHL
+    - term: "Republic of the Marshall Islands"
+      iso3: MHL
+    - term: "Marshallese"
+      iso3: MHL
   country_signals:
     strong:
       - "Marshall Islands"
@@ -646,11 +652,13 @@ dominica:
   conflict_type: multi_country
   default: SKIP
   require_full_name: true
-  related_countries:
-    - iso3: DMA
-      names: ["Dominica", "Commonwealth of Dominica"]
-    - iso3: DOM
-      names: ["Dominican Republic"]
+  full_names:
+    - term: "Dominica"
+      iso3: DMA
+    - term: "Commonwealth of Dominica"
+      iso3: DMA
+    - term: "Dominican Republic"
+      iso3: DOM
   notes: >
     "Dominica" alone is ambiguous — it could be the Commonwealth of Dominica
     (small Caribbean island, ISO DMA) or a truncation of "Dominican Republic"
@@ -906,19 +914,23 @@ congo:
   conflict_type: multi_country
   default: SKIP
   require_full_name: true
-  related_countries:
-    - iso3: COD
-      names:
-        - "Democratic Republic of the Congo"
-        - "Democratic Republic of Congo"
-        - "DRC"
-        - "DR Congo"
-        - "Congo-Kinshasa"
-    - iso3: COG
-      names:
-        - "Republic of the Congo"
-        - "Republic of Congo"
-        - "Congo-Brazzaville"
+  full_names:
+    - term: "Democratic Republic of the Congo"
+      iso3: COD
+    - term: "Democratic Republic of Congo"
+      iso3: COD
+    - term: "DRC"
+      iso3: COD
+    - term: "DR Congo"
+      iso3: COD
+    - term: "Congo-Kinshasa"
+      iso3: COD
+    - term: "Republic of the Congo"
+      iso3: COG
+    - term: "Republic of Congo"
+      iso3: COG
+    - term: "Congo-Brazzaville"
+      iso3: COG
   notes: >
     Bare "Congo" is ambiguous between the Democratic Republic of the Congo
     (COD, capital Kinshasa) and the Republic of the Congo (COG, capital

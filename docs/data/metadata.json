@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-03-01T19:12:02.342938+00:00",
+  "last_run": "2026-03-01T19:37:01.081825+00:00",
   "last_run_target_month": "",
   "last_run_new_records": 0,
   "last_run_months_touched": [],
-  "total_records_processed": 17225,
-  "total_mentions_detected": 19677,
+  "total_records_processed": 17292,
+  "total_mentions_detected": 19755,
   "date_range": [
     "1973-01",
     "2026-02"
