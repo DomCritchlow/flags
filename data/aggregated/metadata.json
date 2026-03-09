@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-03-03T07:12:09.305859+00:00",
-  "last_run_target_month": "2026-02",
-  "last_run_new_records": 0,
-  "last_run_months_touched": [],
-  "total_records_processed": 17435,
-  "total_mentions_detected": 19912,
+  "last_run": "2026-03-09T06:50:53.967171+00:00",
+  "last_run_target_month": "2026-03",
+  "last_run_new_records": 262,
+  "last_run_months_touched": [
+    "2026-03"
+  ],
+  "total_records_processed": 17454,
+  "total_mentions_detected": 19931,
   "date_range": [
     "1973-01",
-    "2026-02"
+    "2026-03"
   ],
-  "month_count": 627
+  "month_count": 628
 }
