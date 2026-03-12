@@ -38,13 +38,20 @@
 
   <main class="story">
 
+    <!-- ═══ The Hook ═══ -->
+
     <section class="lede">
       <p class="lede-text">
-        Every month, the U.S. Congress names countries in bills, hearings,
-        and floor speeches. The flags below show which nation led the count
-        each month, a proxy for where American foreign-policy attention lands.
-        Inspired by <a class="lede-link" href="https://pudding.cool/2018/12/countries" target="_blank" rel="noopener">The Pudding&rsquo;s landmark analysis of the&nbsp;New York&nbsp;Times</a>,
-        this project applies a similar lens to the legislative record.
+        When a country dominates U.S. congressional language &mdash; in bills,
+        hearings, and floor speeches &mdash; it tells you something about where
+        American foreign-policy attention lands. Not where it <em>should</em> land.
+        Where it <em>does</em>.
+      </p>
+      <p class="lede-text lede-sub">
+        Since 1973, we&rsquo;ve tracked every country mention in the congressional
+        record. The flags below tell the story. Inspired by
+        <a class="lede-link" href="https://pudding.cool/2018/12/countries" target="_blank" rel="noopener">The Pudding&rsquo;s landmark analysis</a>
+        of the&nbsp;New York&nbsp;Times.
       </p>
     </section>
 
@@ -63,97 +70,76 @@
 
     <section class="insights" id="insights"></section>
 
-    <!-- ═══ The Rankings ═══ -->
+    <!-- ═══ The Scale ═══ -->
+
+    <section class="big-number-section" id="big-numbers"></section>
+
+    <!-- ═══ Who Dominates ═══ -->
 
     <div class="section-rule"><span>The Rankings</span></div>
 
-    <section class="stats-section">
-      <div class="stats-grid" id="stat-cards">
-        <div class="stat-card"><span class="stat-num" id="stat-months">&mdash;</span><span class="stat-label">months tracked</span></div>
-        <div class="stat-card"><span class="stat-num" id="stat-mentions">&mdash;</span><span class="stat-label">country mentions</span></div>
-        <div class="stat-card"><span class="stat-num" id="stat-countries">&mdash;</span><span class="stat-label">countries in the record</span></div>
-        <div class="stat-card"><span class="stat-num" id="stat-leader">&mdash;</span><span class="stat-label">most cited country</span></div>
-        <div class="stat-card"><span class="stat-num" id="stat-streak">&mdash;</span><span class="stat-label">longest consecutive months at #1</span></div>
-        <div class="stat-card"><span class="stat-num" id="stat-unique-leaders">&mdash;</span><span class="stat-label">countries that have led</span></div>
-      </div>
-    </section>
-
     <section class="article-section">
       <div class="section-header">
-        <p class="section-label">All-Time</p>
-        <h2 class="section-headline">Who Dominated Congressional Language</h2>
-        <p class="section-dek">Total country mentions across all bills, nominations, amendments, and congressional records. One mention = one record that named the country.</p>
+        <h2 class="section-headline">Who Dominates Congressional Language</h2>
+        <p class="section-dek" id="bar-intro"></p>
       </div>
       <div id="bar-chart"></div>
     </section>
 
-    <!-- ═══ Congressional Eras ═══ -->
+    <!-- ═══ Turning Points ═══ -->
 
-    <div class="section-rule"><span>By Congress</span></div>
-
-    <section class="article-section">
-      <div class="section-header">
-        <p class="section-label">Congressional Eras</p>
-        <h2 class="section-headline">How Priorities Shifted Session by Session</h2>
-        <p class="section-dek">Each two-year Congress has its own foreign policy fingerprint, shaped by crises, elections, and shifting alliances.</p>
-      </div>
-      <div id="era-grid"></div>
-    </section>
-
-    <!-- ═══ Crisis Moments ═══ -->
-
-    <div class="section-rule"><span>Crisis Moments</span></div>
+    <div class="section-rule"><span>Turning Points</span></div>
 
     <section class="article-section">
       <div class="section-header">
-        <p class="section-label">Sudden Surges</p>
         <h2 class="section-headline">When the World Broke Through</h2>
-        <p class="section-dek">Global events announce themselves as spikes in congressional attention. These are the months where a country surged most dramatically, told in the legislative language of that moment.</p>
+        <p class="section-dek">Global crises announce themselves as spikes in the legislative record. But Congress doesn&rsquo;t react instantly &mdash; bills take weeks to draft, hearings take months to schedule. The lag between a crisis and its congressional peak is itself part of the story.</p>
       </div>
       <div id="crisis-timeline"></div>
     </section>
 
-    <!-- ═══ Two Branches ═══ -->
+    <!-- ═══ The Eras ═══ -->
 
-    <div class="section-rule"><span>Two Branches</span></div>
+    <div class="section-rule"><span>The Eras</span></div>
 
     <section class="article-section">
       <div class="section-header">
-        <p class="section-label">Congress vs. Executive</p>
+        <h2 class="section-headline">Five Decades of Shifting Priorities</h2>
+        <p class="section-dek">Each era of congressional foreign policy has its own fingerprint, shaped by the crises, alliances, and presidents that defined it.</p>
+      </div>
+      <div id="era-narrative"></div>
+    </section>
+
+    <!-- ═══ The Twist ═══ -->
+
+    <div class="section-rule"><span>The Twist</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
         <h2 class="section-headline">Two Branches, Different Worlds</h2>
-        <p class="section-dek">The legislative and executive branches often focus on entirely different countries. Congressional attention is shaped by bills, hearings, and nominations; presidential attention by the stroke of a pen. The overlap is smaller than you might expect.</p>
+        <p class="section-dek">Presidents govern by executive order. Congress legislates through bills, hearings, and nominations. The countries they focus on are not the same &mdash; and the overlap is smaller than you might expect.</p>
       </div>
       <div id="branch-comparison"></div>
     </section>
 
-    <!-- ═══ Patterns ═══ -->
+    <!-- ═══ Explore ═══ -->
 
-    <div class="section-rule"><span>Patterns</span></div>
-
-    <section class="article-section">
-      <div class="section-header">
-        <p class="section-label">What the Data Reveals</p>
-        <h2 class="section-headline">The Deeper Story in the Numbers</h2>
-        <p class="section-dek">Across five decades, a few structural patterns emerge from the noise of individual crises.</p>
-      </div>
-      <div id="patterns"></div>
-    </section>
-
-    <!-- ═══ Heat Map ═══ -->
-
-    <div class="section-rule"><span>Full Picture</span></div>
+    <div class="section-rule"><span>Explore</span></div>
 
     <section class="article-section">
       <div class="section-header">
-        <p class="section-label">Heat Map</p>
         <h2 class="section-headline">Every Country, Every Month</h2>
-        <p class="section-dek">The top 25 countries by total mentions, plotted across all months of coverage. Darker cells mean more mentions that month. Hover any cell to explore.</p>
+        <p class="section-dek">The top 25 countries by total mentions, plotted across all months of coverage. Darker cells mean more mentions. Scroll to explore &mdash; horizontal streaks are sustained crises; sudden vertical bands are months where a single event dominated everything.</p>
       </div>
       <div id="heat-matrix-container">
         <div id="heat-tooltip" class="heat-tooltip hidden"></div>
         <div id="heat-matrix"></div>
       </div>
     </section>
+
+    <!-- ═══ Closing ═══ -->
+
+    <section class="closing" id="closing"></section>
 
   </main>
 
