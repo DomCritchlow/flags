@@ -9,7 +9,7 @@
   <!-- SEO -->
   <meta name="description" content="Which countries dominate U.S. congressional language? Which crises break through? Decades of legislative records, updated weekly.">
 
-  <!-- Open Graph (iMessage, WhatsApp, Slack, LinkedIn, Facebook) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://critchlow.us/flags/">
   <meta property="og:title" content="U.S. Congressional World View">
@@ -24,7 +24,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/story.css">
 </head>
 <body>
@@ -39,34 +39,18 @@
   <main class="story">
 
     <section class="lede">
-      <p class="lede-text" id="lede-congress">
+      <p class="lede-text">
         Every month, the U.S. Congress names countries in bills, hearings,
         and floor speeches. The flags below show which nation led the count
         each month, a proxy for where American foreign-policy attention lands.
         Inspired by <a class="lede-link" href="https://pudding.cool/2018/12/countries" target="_blank" rel="noopener">The Pudding&rsquo;s landmark analysis of the&nbsp;New York&nbsp;Times</a>,
-        this project applies the same lens to the legislative record.
-      </p>
-      <p class="lede-text" id="lede-executive" style="display:none">
-        Since 1993, U.S. presidents have signed more than 1,500 executive orders
-        naming foreign nations&mdash;sanctions, trade actions, national emergencies,
-        and peace agreements. The flags below show which country appeared most
-        in presidential orders each month, a direct read of White House foreign-policy
-        priorities unmediated by the legislative process.
+        this project applies a similar lens to the legislative record.
       </p>
     </section>
 
+    <!-- ═══ Interactive Explorer ═══ -->
+
     <section class="grid-section">
-      <div class="branch-toggle" id="branch-toggle">
-        <button class="branch-btn active" data-branch="congress">Congress</button>
-        <button class="branch-btn" data-branch="executive">Executive</button>
-      </div>
-      <div class="source-toggle" id="source-toggle">
-        <button class="toggle-btn active" data-source="all">All</button>
-        <button class="toggle-btn" data-source="bill">Bills</button>
-        <button class="toggle-btn" data-source="nomination">Nominations</button>
-        <button class="toggle-btn" data-source="amendment">Amendments</button>
-        <button class="toggle-btn" data-source="treaty">Treaties</button>
-      </div>
       <div class="grid-wrapper">
         <div class="grid-header" id="grid-header"></div>
         <div class="grid-body" id="grid-body"></div>
@@ -79,10 +63,96 @@
 
     <section class="insights" id="insights"></section>
 
-    <section class="explore">
-      <h2>Explore the full data story</h2>
-      <p>Who dominated, which crises broke through, and what the full congressional record reveals.</p>
-      <a href="bump/" class="explore-link">View data story &rarr;</a>
+    <!-- ═══ The Rankings ═══ -->
+
+    <div class="section-rule"><span>The Rankings</span></div>
+
+    <section class="stats-section">
+      <div class="stats-grid" id="stat-cards">
+        <div class="stat-card"><span class="stat-num" id="stat-months">&mdash;</span><span class="stat-label">months tracked</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-mentions">&mdash;</span><span class="stat-label">country mentions</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-countries">&mdash;</span><span class="stat-label">countries in the record</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-leader">&mdash;</span><span class="stat-label">most cited country</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-streak">&mdash;</span><span class="stat-label">longest consecutive months at #1</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-unique-leaders">&mdash;</span><span class="stat-label">countries that have led</span></div>
+      </div>
+    </section>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">All-Time</p>
+        <h2 class="section-headline">Who Dominated Congressional Language</h2>
+        <p class="section-dek">Total country mentions across all bills, nominations, amendments, and congressional records. One mention = one record that named the country.</p>
+      </div>
+      <div id="bar-chart"></div>
+    </section>
+
+    <!-- ═══ Congressional Eras ═══ -->
+
+    <div class="section-rule"><span>By Congress</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">Congressional Eras</p>
+        <h2 class="section-headline">How Priorities Shifted Session by Session</h2>
+        <p class="section-dek">Each two-year Congress has its own foreign policy fingerprint, shaped by crises, elections, and shifting alliances.</p>
+      </div>
+      <div id="era-grid"></div>
+    </section>
+
+    <!-- ═══ Crisis Moments ═══ -->
+
+    <div class="section-rule"><span>Crisis Moments</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">Sudden Surges</p>
+        <h2 class="section-headline">When the World Broke Through</h2>
+        <p class="section-dek">Global events announce themselves as spikes in congressional attention. These are the months where a country surged most dramatically, told in the legislative language of that moment.</p>
+      </div>
+      <div id="crisis-timeline"></div>
+    </section>
+
+    <!-- ═══ Two Branches ═══ -->
+
+    <div class="section-rule"><span>Two Branches</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">Congress vs. Executive</p>
+        <h2 class="section-headline">Two Branches, Different Worlds</h2>
+        <p class="section-dek">The legislative and executive branches often focus on entirely different countries. Congressional attention is shaped by bills, hearings, and nominations; presidential attention by the stroke of a pen. The overlap is smaller than you might expect.</p>
+      </div>
+      <div id="branch-comparison"></div>
+    </section>
+
+    <!-- ═══ Patterns ═══ -->
+
+    <div class="section-rule"><span>Patterns</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">What the Data Reveals</p>
+        <h2 class="section-headline">The Deeper Story in the Numbers</h2>
+        <p class="section-dek">Across five decades, a few structural patterns emerge from the noise of individual crises.</p>
+      </div>
+      <div id="patterns"></div>
+    </section>
+
+    <!-- ═══ Heat Map ═══ -->
+
+    <div class="section-rule"><span>Full Picture</span></div>
+
+    <section class="article-section">
+      <div class="section-header">
+        <p class="section-label">Heat Map</p>
+        <h2 class="section-headline">Every Country, Every Month</h2>
+        <p class="section-dek">The top 25 countries by total mentions, plotted across all months of coverage. Darker cells mean more mentions that month. Hover any cell to explore.</p>
+      </div>
+      <div id="heat-matrix-container">
+        <div id="heat-tooltip" class="heat-tooltip hidden"></div>
+        <div id="heat-matrix"></div>
+      </div>
     </section>
 
   </main>
@@ -97,9 +167,12 @@
     <p class="colophon-update" id="last-update"></p>
   </footer>
 
+  <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="js/data-loader.js"></script>
+  <script src="js/data-transform.js"></script>
   <script src="js/flag-grid.js"></script>
   <script src="js/story-insights.js"></script>
+  <script src="js/heat-matrix.js"></script>
   <script src="js/story-app.js"></script>
 </body>
 </html>
