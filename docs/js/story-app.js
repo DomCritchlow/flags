@@ -247,8 +247,8 @@
   /** Build sparkline SVG for a country around a center month.
    *  All labels live inside the SVG — no external label div needed. */
   function buildSparkline(monthlyAll, centerMonth, iso3, windowSize) {
-    const W = 340, H = 80;
-    const padT = 22, padB = 20, padL = 30, padR = 10;
+    const W = 200, H = 130;
+    const padT = 24, padB = 22, padL = 30, padR = 8;
     const innerW = W - padL - padR;
     const innerH = H - padT - padB;
 
@@ -522,19 +522,19 @@
         const card = document.createElement('article');
         card.className = 'crisis-card';
         card.innerHTML = `
-          <div class="crisis-dateline">${DataLoader.formatMonthLong(event.month)}</div>
-          <div class="crisis-header">
-            <img class="crisis-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || event.iso3}" />
-            <h3 class="crisis-headline">${event.headline}</h3>
-          </div>
-          <p class="crisis-context">${event.context}</p>
-          <div class="crisis-viz">
-            <div class="crisis-spark-wrap">
-              ${sparkline}
+          <div class="crisis-left">
+            <div class="crisis-dateline">${DataLoader.formatMonthLong(event.month)}</div>
+            <div class="crisis-header">
+              <img class="crisis-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || event.iso3}" />
+              <h3 class="crisis-headline">${event.headline}</h3>
             </div>
+            <p class="crisis-context">${event.context}</p>
+            ${titles.length > 0 ? `<ul class="crisis-samples">${titlesHtml}</ul>` : ''}
+          </div>
+          <div class="crisis-right">
+            ${sparkline}
             ${rank ? `<div class="crisis-rank-badge">#${rank} that month</div>` : ''}
           </div>
-          ${titles.length > 0 ? `<ul class="crisis-samples">${titlesHtml}</ul>` : ''}
         `;
         container.appendChild(card);
       }

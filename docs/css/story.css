@@ -576,13 +576,20 @@ body {
   border: 1px solid var(--rule-light);
   border-bottom: none;
   padding: 1.75rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 1.75rem;
+  align-items: start;
 }
 
 .crisis-card:last-child {
   border-bottom: 1px solid var(--rule-light);
+}
+
+.crisis-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
 }
 
 .crisis-dateline {
@@ -620,27 +627,23 @@ body {
   font-size: 0.88rem;
   color: var(--text-secondary);
   line-height: 1.65;
-  max-width: 620px;
 }
 
-.crisis-viz {
-  padding: 0.25rem 0 0.5rem;
-}
-
-.crisis-spark-wrap {
-  width: 100%;
+.crisis-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.25rem;
 }
 
 .crisis-spark {
   display: block;
   width: 100%;
-  height: 80px;
+  height: 130px;
   overflow: visible;
 }
 
 .crisis-rank-badge {
-  display: inline-block;
-  margin-top: 0.35rem;
   font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1123,7 +1126,8 @@ body {
   .big-number-card { padding: 1.5rem 1rem; }
   .big-number-reveal { font-size: 1rem; }
 
-  .crisis-spark { height: 72px; }
+  .crisis-card { grid-template-columns: 1fr 180px; gap: 1.25rem; }
+  .crisis-spark { height: 120px; }
 
   .era-block-header { flex-direction: column; gap: 0.5rem; }
   .era-country-row { grid-template-columns: 24px 100px 1fr 36px; }
@@ -1136,6 +1140,9 @@ body {
 
   .section-headline { font-size: 1.4rem; }
   .bar-row { grid-template-columns: 28px 100px 1fr 44px; }
+
+  .crisis-card { grid-template-columns: 1fr; gap: 0; }
+  .crisis-right { border-top: 1px solid var(--rule-light); padding-top: 1rem; }
 
   .branch-diverge-callout { flex-direction: column; text-align: center; }
   .branch-diverge-num { font-size: 2.5rem; }
@@ -1171,6 +1178,6 @@ body {
   .crisis-headline { font-size: 1.05rem; }
   .era-block-name { font-size: 1.1rem; }
 
-  .crisis-metrics { flex-wrap: wrap; gap: 0.75rem; }
-  .crisis-metric-num { font-size: 1.3rem; }
+  .crisis-card { padding: 1.25rem 1rem; }
+  .crisis-spark { height: 110px; }
 }
