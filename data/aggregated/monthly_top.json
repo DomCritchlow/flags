@@ -10509,5 +10509,20 @@
       "Reaffirming Iran remains the largest state sponsor of terrorism.",
       "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
     ]
+  },
+  {
+    "month": "2026-04",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 3,
+    "runner_up_iso3": "MDA",
+    "runner_up_iso2": "md",
+    "runner_up_name": "Moldova",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+    ]
   }
 ]

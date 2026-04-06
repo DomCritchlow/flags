@@ -9157,5 +9157,16 @@
         "Preston Wells Griffith III, of Virginia, to be Representative of the United States of America to the Vienna Office of the United Nations, with the rank of Ambassador."
       ]
     }
+  },
+  "2026-04": {
+    "bill": {
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 1,
+      "sample_titles": [
+        "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+      ]
+    }
   }
 }

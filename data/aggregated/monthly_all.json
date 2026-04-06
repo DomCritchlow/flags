@@ -109053,5 +109053,37 @@
         ]
       }
     ]
+  },
+  "2026-04": {
+    "total_records": 3,
+    "countries": [
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 1,
+        "sample_titles": [
+          "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "MDA",
+        "iso2": "md",
+        "name": "Moldova",
+        "count": 1,
+        "sample_titles": [
+          "To require the Secretary of State to facilitate strategic dialogue with Moldova and submit a report on support for Moldova, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "KHM",
+        "iso2": "kh",
+        "name": "Cambodia",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing and honoring Cambodian veterans of the Khmer National Armed Forces for their sacrifices, their support of the Armed Forces of the United States, and their defense of freedom in Southeast Asia."
+        ]
+      }
+    ]
   }
 }
