@@ -9160,12 +9160,13 @@
   },
   "2026-04": {
     "bill": {
-      "iso3": "TWN",
-      "iso2": "tw",
-      "name": "Taiwan",
-      "count": 1,
+      "iso3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "count": 2,
       "sample_titles": [
-        "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+        "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
+        "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
       ]
     }
   }

@@ -10512,17 +10512,18 @@
   },
   {
     "month": "2026-04",
-    "country_iso3": "TWN",
-    "country_iso2": "tw",
-    "country_name": "Taiwan",
-    "mention_count": 1,
-    "total_records_scanned": 3,
-    "runner_up_iso3": "MDA",
-    "runner_up_iso2": "md",
-    "runner_up_name": "Moldova",
-    "runner_up_count": 1,
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 2,
+    "total_records_scanned": 7,
+    "runner_up_iso3": "IRN",
+    "runner_up_iso2": "ir",
+    "runner_up_name": "Iran",
+    "runner_up_count": 2,
     "sample_titles": [
-      "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+      "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
+      "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
     ]
   }
 ]
