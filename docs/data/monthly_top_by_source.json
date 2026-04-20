@@ -9160,13 +9160,23 @@
   },
   "2026-04": {
     "bill": {
-      "iso3": "RUS",
-      "iso2": "ru",
-      "name": "Russia",
-      "count": 2,
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 11,
       "sample_titles": [
-        "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
-        "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
+        "To nullify Iran-related General License U, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Iranian Origin Loaded on Vessels as of March 20, 2026\", and for other purposes.",
+        "Praising the efforts of United States Combat Search and Rescue teams in the recovery of two United States Air Force Airmen who ejected over Iran.",
+        "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
+      ]
+    },
+    "nomination": {
+      "iso3": "ALB",
+      "iso2": "al",
+      "name": "Albania",
+      "count": 1,
+      "sample_titles": [
+        "Eric Wendt, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America  to the Republic of Albania."
       ]
     }
   }

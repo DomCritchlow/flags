@@ -109055,8 +109055,30 @@
     ]
   },
   "2026-04": {
-    "total_records": 7,
+    "total_records": 25,
     "countries": [
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 11,
+        "sample_titles": [
+          "To nullify Iran-related General License U, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Iranian Origin Loaded on Vessels as of March 20, 2026\", and for other purposes.",
+          "Praising the efforts of United States Combat Search and Rescue teams in the recovery of two United States Air Force Airmen who ejected over Iran.",
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 3,
+        "sample_titles": [
+          "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes.",
+          "A bill to require the Secretary of War to submit an annual report to Congress that assesses the capacity of the United States to fully implement the Taiwan Relations Act, and for other purposes.",
+          "A resolution expressing the sense of the Sente that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping."
+        ]
+      },
       {
         "iso3": "RUS",
         "iso2": "ru",
@@ -109068,22 +109090,23 @@
         ]
       },
       {
-        "iso3": "IRN",
-        "iso2": "ir",
-        "name": "Iran",
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
         "count": 2,
         "sample_titles": [
-          "To nullify Iran-related General License U, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Iranian Origin Loaded on Vessels as of March 20, 2026\", and for other purposes.",
-          "Praising the efforts of United States Combat Search and Rescue teams in the recovery of two United States Air Force Airmen who ejected over Iran."
+          "Condemning attacks on civilians in Sudan and calling for an end to external support to the warring parties and for efforts to promote a negotiated settlement of the war.",
+          "To direct the Secretary of State to conduct a comprehensive review of whether to designate the Rapid Support Forces of Sudan as a specially designated global terrorist organization."
         ]
       },
       {
-        "iso3": "TWN",
-        "iso2": "tw",
-        "name": "Taiwan",
-        "count": 1,
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 2,
         "sample_titles": [
-          "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes."
+          "A resolution expressing the sense of the Sente that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+          "A bill to require regulatory review of pharmaceutical products from Chinese entities, and for other purposes."
         ]
       },
       {
@@ -109129,6 +109152,51 @@
         "count": 1,
         "sample_titles": [
           "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from Lebanon."
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that President Donald Trump, his Special Envoy Steven Witkoff, and all Federal officials must comply with the Foreign Emoluments Clause of the Constitution by immediately turning over to the Department of the Treasury any payments received from the United Arab Emirates or any other foreign state and divest from all business interests linked to foreign governments."
+        ]
+      },
+      {
+        "iso3": "SOM",
+        "iso2": "so",
+        "name": "Somalia",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the suspension of bilateral and multilateral foreign assistance to the Government of Somalia, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "ALB",
+        "iso2": "al",
+        "name": "Albania",
+        "count": 1,
+        "sample_titles": [
+          "Eric Wendt, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America  to the Republic of Albania."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "Michelle Steel, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Korea."
         ]
       }
     ]

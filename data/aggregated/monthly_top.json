@@ -10512,18 +10512,19 @@
   },
   {
     "month": "2026-04",
-    "country_iso3": "RUS",
-    "country_iso2": "ru",
-    "country_name": "Russia",
-    "mention_count": 2,
-    "total_records_scanned": 7,
-    "runner_up_iso3": "IRN",
-    "runner_up_iso2": "ir",
-    "runner_up_name": "Iran",
-    "runner_up_count": 2,
+    "country_iso3": "IRN",
+    "country_iso2": "ir",
+    "country_name": "Iran",
+    "mention_count": 11,
+    "total_records_scanned": 25,
+    "runner_up_iso3": "TWN",
+    "runner_up_iso2": "tw",
+    "runner_up_name": "Taiwan",
+    "runner_up_count": 3,
     "sample_titles": [
-      "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
-      "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
+      "To nullify Iran-related General License U, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Iranian Origin Loaded on Vessels as of March 20, 2026\", and for other purposes.",
+      "Praising the efforts of United States Combat Search and Rescue teams in the recovery of two United States Air Force Airmen who ejected over Iran.",
+      "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
     ]
   }
 ]
