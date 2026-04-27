@@ -109055,13 +109055,13 @@
     ]
   },
   "2026-04": {
-    "total_records": 25,
+    "total_records": 40,
     "countries": [
       {
         "iso3": "IRN",
         "iso2": "ir",
         "name": "Iran",
-        "count": 11,
+        "count": 16,
         "sample_titles": [
           "To nullify Iran-related General License U, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Iranian Origin Loaded on Vessels as of March 20, 2026\", and for other purposes.",
           "Praising the efforts of United States Combat Search and Rescue teams in the recovery of two United States Air Force Airmen who ejected over Iran.",
@@ -109072,7 +109072,7 @@
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 3,
+        "count": 4,
         "sample_titles": [
           "To enhance the security, resilience, and protection of critical undersea infrastructure vital to Taiwan's national security, economic stability, and defense, particularly in countering gray zone tactics employed by the People's Republic of China, and for other purposes.",
           "A bill to require the Secretary of War to submit an annual report to Congress that assesses the capacity of the United States to fully implement the Taiwan Relations Act, and for other purposes.",
@@ -109083,10 +109083,33 @@
         "iso3": "RUS",
         "iso2": "ru",
         "name": "Russia",
-        "count": 2,
+        "count": 4,
         "sample_titles": [
           "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
-          "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes."
+          "To nullify Russia-related General License 133, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 5, 2026 to India\", and Russia-related General License 134A, \"Authorizing the Delivery and Sale of Crude Oil and Petroleum Products of Russian Federation Origin Loaded on Vessels as of March 12, 2026\", and for other purposes.",
+          "To require the Secretary of State and the Secretary of Defense to jointly submit a report on efforts by the Government of the Russian Federation to persecute, suppress, discriminate, or otherwise violate the religious freedoms of Ukraine and temporarily occupied territories of Ukraine, to require the President to impose all applicable sanctions with respect to foreign persons certified to have engaged in such efforts, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 4,
+        "sample_titles": [
+          "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes.",
+          "A resolution expressing the sense of the Senate by condemning the handling of the 2019 Ukraine Whistleblower Complaint, calling for the Department of Justice to initiate an investigation and prosecution of the matter, and declaring the impeachment of President Donald J. Trump by the House of Representatives lacks legitimacy.",
+          "To require the Secretary of State and the Secretary of Defense to jointly submit a report on efforts by the Government of the Russian Federation to persecute, suppress, discriminate, or otherwise violate the religious freedoms of Ukraine and temporarily occupied territories of Ukraine, to require the President to impose all applicable sanctions with respect to foreign persons certified to have engaged in such efforts, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 3,
+        "sample_titles": [
+          "A resolution expressing the sense of the Sente that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+          "A bill to require regulatory review of pharmaceutical products from Chinese entities, and for other purposes.",
+          "Keeping China Off the Rails Act"
         ]
       },
       {
@@ -109097,16 +109120,6 @@
         "sample_titles": [
           "Condemning attacks on civilians in Sudan and calling for an end to external support to the warring parties and for efforts to promote a negotiated settlement of the war.",
           "To direct the Secretary of State to conduct a comprehensive review of whether to designate the Rapid Support Forces of Sudan as a specially designated global terrorist organization."
-        ]
-      },
-      {
-        "iso3": "CHN",
-        "iso2": "cn",
-        "name": "China",
-        "count": 2,
-        "sample_titles": [
-          "A resolution expressing the sense of the Sente that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
-          "A bill to require regulatory review of pharmaceutical products from Chinese entities, and for other purposes."
         ]
       },
       {
@@ -109131,15 +109144,6 @@
         "iso3": "HUN",
         "iso2": "hu",
         "name": "Hungary",
-        "count": 1,
-        "sample_titles": [
-          "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes."
-        ]
-      },
-      {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
         "count": 1,
         "sample_titles": [
           "To encourage Hungary to end its reliance on Russian energy and prevent Hungary's efforts to obstruct financial or security assistance to Ukraine, and for other purposes."
@@ -109197,6 +109201,60 @@
         "count": 1,
         "sample_titles": [
           "Michelle Steel, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Korea."
+        ]
+      },
+      {
+        "iso3": "GRC",
+        "iso2": "gr",
+        "name": "Greece",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 200th anniversary of the heroic Exodus of Missolonghi and commemorating its historical significance to the Greek War of Independence."
+        ]
+      },
+      {
+        "iso3": "EGY",
+        "iso2": "eg",
+        "name": "Egypt",
+        "count": 1,
+        "sample_titles": [
+          "To repeal an act entitled \"An act to retrocede the county of Alexandria, in the District of Columbia, to the State of Virginia,\" and for other purposes."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "To protect the jobs of American railroad workers in cross border traffic with Mexico, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "VAT",
+        "iso2": "va",
+        "name": "Vatican City",
+        "count": 1,
+        "sample_titles": [
+          "Commending the Holy See for its enduring diplomatic relationship with Taiwan and affirming the support of Congress for the continued preservation of the Vatican-Taiwan diplomatic relationship."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 1,
+        "sample_titles": [
+          "To reduce the price of prescription drugs in the United States by more than 50 percent by adopting Most Favored Nation drug pricing so that the American people pay no more for prescription drugs than Europeans or Canadians."
+        ]
+      },
+      {
+        "iso3": "BLZ",
+        "iso2": "bz",
+        "name": "Belize",
+        "count": 1,
+        "sample_titles": [
+          "Rudolph Bauer, of South Carolina, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Belize."
         ]
       }
     ]
