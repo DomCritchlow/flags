@@ -109328,5 +109328,68 @@
         ]
       }
     ]
+  },
+  "2026-05": {
+    "total_records": 9,
+    "countries": [
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 3,
+        "sample_titles": [
+          "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
+          "No Funds for Iran War Act",
+          "2026 Authorization for Use of Military Force Against Iran"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+          "To develop economic tools to deter aggression by the People's Republic of China against Taiwan."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+          "ENDS Chinese Vapes Act of 2026"
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "To impose sanctions on foreign persons and foreign governments participating in or facilitating the recruitment of foreign nationals from African countries for the purpose of fighting in the war in Ukraine."
+        ]
+      },
+      {
+        "iso3": "COD",
+        "iso2": "cd",
+        "name": "Democratic Republic of the Congo",
+        "count": 1,
+        "sample_titles": [
+          "STABLE DRC Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the designation of the Russian Federation as a state sponsor of terrorism."
+        ]
+      }
+    ]
   }
 }

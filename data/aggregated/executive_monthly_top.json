@@ -1928,5 +1928,20 @@
     "sample_titles": [
       "Addressing Threats to the United States by the Government of Iran"
     ]
+  },
+  {
+    "month": "2026-05",
+    "country_iso3": "CUB",
+    "country_iso2": "cu",
+    "country_name": "Cuba",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": null,
+    "runner_up_iso2": null,
+    "runner_up_name": null,
+    "runner_up_count": 0,
+    "sample_titles": [
+      "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy"
+    ]
   }
 ]

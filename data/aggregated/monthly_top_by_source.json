@@ -9188,5 +9188,18 @@
         "Eric Wendt, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America  to the Republic of Albania."
       ]
     }
+  },
+  "2026-05": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 3,
+      "sample_titles": [
+        "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
+        "No Funds for Iran War Act",
+        "2026 Authorization for Use of Military Force Against Iran"
+      ]
+    }
   }
 }

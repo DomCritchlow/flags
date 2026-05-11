@@ -2243,5 +2243,19 @@
         ]
       }
     ]
+  },
+  "2026-05": {
+    "total_records": 1,
+    "countries": [
+      {
+        "iso3": "CUB",
+        "iso2": "cu",
+        "name": "Cuba",
+        "count": 1,
+        "sample_titles": [
+          "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy"
+        ]
+      }
+    ]
   }
 }
