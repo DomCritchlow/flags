@@ -9194,11 +9194,20 @@
       "iso3": "IRN",
       "iso2": "ir",
       "name": "Iran",
-      "count": 3,
+      "count": 9,
       "sample_titles": [
         "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
         "No Funds for Iran War Act",
         "2026 Authorization for Use of Military Force Against Iran"
+      ]
+    },
+    "nomination": {
+      "iso3": "SVK",
+      "iso2": "sk",
+      "name": "Slovakia",
+      "count": 1,
+      "sample_titles": [
+        "Douglas Mastriano, of Pennsylvania, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Slovak Republic."
       ]
     }
   }

@@ -109330,13 +109330,13 @@
     ]
   },
   "2026-05": {
-    "total_records": 9,
+    "total_records": 24,
     "countries": [
       {
         "iso3": "IRN",
         "iso2": "ir",
         "name": "Iran",
-        "count": 3,
+        "count": 9,
         "sample_titles": [
           "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
           "No Funds for Iran War Act",
@@ -109347,20 +109347,42 @@
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 2,
+        "count": 5,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
-          "To develop economic tools to deter aggression by the People's Republic of China against Taiwan."
+          "To develop economic tools to deter aggression by the People's Republic of China against Taiwan.",
+          "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy."
         ]
       },
       {
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 2,
+        "count": 4,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
-          "ENDS Chinese Vapes Act of 2026"
+          "ENDS Chinese Vapes Act of 2026",
+          "Designating the Chinese Communist Party as a Transnational Organized Crime Group Act"
+        ]
+      },
+      {
+        "iso3": "COD",
+        "iso2": "cd",
+        "name": "Democratic Republic of the Congo",
+        "count": 2,
+        "sample_titles": [
+          "STABLE DRC Act",
+          "Recognizing, from Chicago to Palestine to the Democratic Republic of the Congo to Puerto Rico, that the pain, violence, and oppression the global majority experiences are interconnected, acknowledges that the future must be self-determined, and affirms our humanity and dignity through a renewed mandate for human rights."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing, from Chicago to Palestine to the Democratic Republic of the Congo to Puerto Rico, that the pain, violence, and oppression the global majority experiences are interconnected, acknowledges that the future must be self-determined, and affirms our humanity and dignity through a renewed mandate for human rights.",
+          "Recognizing the ongoing Nakba and Palestinian refugees' rights."
         ]
       },
       {
@@ -109373,21 +109395,48 @@
         ]
       },
       {
-        "iso3": "COD",
-        "iso2": "cd",
-        "name": "Democratic Republic of the Congo",
-        "count": 1,
-        "sample_titles": [
-          "STABLE DRC Act"
-        ]
-      },
-      {
         "iso3": "RUS",
         "iso2": "ru",
         "name": "Russia",
         "count": 1,
         "sample_titles": [
           "To provide for the designation of the Russian Federation as a state sponsor of terrorism."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "Affirming the alliance between the United States and the Republic of Korea."
+        ]
+      },
+      {
+        "iso3": "PER",
+        "iso2": "pe",
+        "name": "Peru",
+        "count": 1,
+        "sample_titles": [
+          "Celebrating 200 years of United States diplomatic relations with Peru."
+        ]
+      },
+      {
+        "iso3": "SVK",
+        "iso2": "sk",
+        "name": "Slovakia",
+        "count": 1,
+        "sample_titles": [
+          "Douglas Mastriano, of Pennsylvania, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Slovak Republic."
+        ]
+      },
+      {
+        "iso3": "JAM",
+        "iso2": "jm",
+        "name": "Jamaica",
+        "count": 1,
+        "sample_titles": [
+          "Kari Lake, of Arizona, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Jamaica."
         ]
       }
     ]
