@@ -109330,13 +109330,13 @@
     ]
   },
   "2026-05": {
-    "total_records": 24,
+    "total_records": 40,
     "countries": [
       {
         "iso3": "IRN",
         "iso2": "ir",
         "name": "Iran",
-        "count": 9,
+        "count": 12,
         "sample_titles": [
           "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
           "No Funds for Iran War Act",
@@ -109347,7 +109347,7 @@
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 5,
+        "count": 8,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
           "To develop economic tools to deter aggression by the People's Republic of China against Taiwan.",
@@ -109358,7 +109358,7 @@
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 4,
+        "count": 8,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
           "ENDS Chinese Vapes Act of 2026",
@@ -109383,6 +109383,16 @@
         "sample_titles": [
           "Recognizing, from Chicago to Palestine to the Democratic Republic of the Congo to Puerto Rico, that the pain, violence, and oppression the global majority experiences are interconnected, acknowledges that the future must be self-determined, and affirms our humanity and dignity through a renewed mandate for human rights.",
           "Recognizing the ongoing Nakba and Palestinian refugees' rights."
+        ]
+      },
+      {
+        "iso3": "CUB",
+        "iso2": "cu",
+        "name": "Cuba",
+        "count": 2,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress.",
+          "To direct the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress."
         ]
       },
       {
@@ -109437,6 +109447,42 @@
         "count": 1,
         "sample_titles": [
           "Kari Lake, of Arizona, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Jamaica."
+        ]
+      },
+      {
+        "iso3": "TZA",
+        "iso2": "tz",
+        "name": "Tanzania",
+        "count": 1,
+        "sample_titles": [
+          "A bill to reassess the United States-Tanzania bilateral relationship, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "To authorize the Development Finance Corporation to invest in Venezuela."
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "To prohibit funding for the United Nations Interim Force in Lebanon beginning on October 1, 2027, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Calling on the Government of Nigeria to ensure that all legal proceedings involving Mazi Nnamdi Kanu are conducted in full accordance with Nigeria's constitutional obligations and international human rights commitments."
         ]
       }
     ]
