@@ -109330,7 +109330,7 @@
     ]
   },
   "2026-05": {
-    "total_records": 40,
+    "total_records": 41,
     "countries": [
       {
         "iso3": "IRN",
@@ -109483,6 +109483,15 @@
         "count": 1,
         "sample_titles": [
           "Calling on the Government of Nigeria to ensure that all legal proceedings involving Mazi Nnamdi Kanu are conducted in full accordance with Nigeria's constitutional obligations and international human rights commitments."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 120th anniversary of the immigration of Filipinos to Hawai'i."
         ]
       }
     ]
