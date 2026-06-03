@@ -10533,15 +10533,30 @@
     "country_iso2": "ir",
     "country_name": "Iran",
     "mention_count": 12,
-    "total_records_scanned": 41,
-    "runner_up_iso3": "TWN",
-    "runner_up_iso2": "tw",
-    "runner_up_name": "Taiwan",
-    "runner_up_count": 8,
+    "total_records_scanned": 45,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 10,
     "sample_titles": [
       "To provide for the prohibition on exports of crude oil, gasoline, and diesel fuel during period of military operations against Iran.",
       "No Funds for Iran War Act",
       "2026 Authorization for Use of Military Force Against Iran"
+    ]
+  },
+  {
+    "month": "2026-06",
+    "country_iso3": "TWN",
+    "country_iso2": "tw",
+    "country_name": "Taiwan",
+    "mention_count": 1,
+    "total_records_scanned": 4,
+    "runner_up_iso3": "CHN",
+    "runner_up_iso2": "cn",
+    "runner_up_name": "China",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes."
     ]
   }
 ]

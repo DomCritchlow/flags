@@ -109330,7 +109330,7 @@
     ]
   },
   "2026-05": {
-    "total_records": 41,
+    "total_records": 45,
     "countries": [
       {
         "iso3": "IRN",
@@ -109344,25 +109344,25 @@
         ]
       },
       {
-        "iso3": "TWN",
-        "iso2": "tw",
-        "name": "Taiwan",
-        "count": 8,
-        "sample_titles": [
-          "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
-          "To develop economic tools to deter aggression by the People's Republic of China against Taiwan.",
-          "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy."
-        ]
-      },
-      {
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 8,
+        "count": 10,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
           "ENDS Chinese Vapes Act of 2026",
           "Designating the Chinese Communist Party as a Transnational Organized Crime Group Act"
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 9,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+          "To develop economic tools to deter aggression by the People's Republic of China against Taiwan.",
+          "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy."
         ]
       },
       {
@@ -109393,6 +109393,16 @@
         "sample_titles": [
           "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress.",
           "To direct the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 2,
+        "sample_titles": [
+          "To authorize the Development Finance Corporation to invest in Venezuela.",
+          "To establish a Venezuela Restoration Fund, and for other purposes."
         ]
       },
       {
@@ -109459,15 +109469,6 @@
         ]
       },
       {
-        "iso3": "VEN",
-        "iso2": "ve",
-        "name": "Venezuela",
-        "count": 1,
-        "sample_titles": [
-          "To authorize the Development Finance Corporation to invest in Venezuela."
-        ]
-      },
-      {
         "iso3": "LBN",
         "iso2": "lb",
         "name": "Lebanon",
@@ -109492,6 +109493,227 @@
         "count": 1,
         "sample_titles": [
           "Recognizing the 120th anniversary of the immigration of Filipinos to Hawai'i."
+        ]
+      }
+    ]
+  },
+  "2026-06": {
+    "total_records": 4,
+    "countries": [
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 1,
+        "sample_titles": [
+          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "To authorize the President to award the Medal of Honor to Robert Lodge for acts of valor as a member of the Air Force during the Vietnam War."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Secretary of State to submit a strategy to Congress for countering Iranian and Hezbollah influence operations in Latin America."
+        ]
+      },
+      {
+        "iso3": "KHM",
+        "iso2": "kh",
+        "name": "Cambodia",
+        "count": 1,
+        "sample_titles": [
+          "Christopher Anderson, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kingdom of Cambodia."
+        ]
+      },
+      {
+        "iso3": "AZE",
+        "iso2": "az",
+        "name": "Azerbaijan",
+        "count": 1,
+        "sample_titles": [
+          "Alexander Alden, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Azerbaijan."
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "Mark Abreu, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of El Salvador."
+        ]
+      },
+      {
+        "iso3": "GNQ",
+        "iso2": "gq",
+        "name": "Equatorial Guinea",
+        "count": 1,
+        "sample_titles": [
+          "Stanley Brown, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Equatorial Guinea."
+        ]
+      },
+      {
+        "iso3": "MDA",
+        "iso2": "md",
+        "name": "Moldova",
+        "count": 1,
+        "sample_titles": [
+          "Joseph Burkhalter, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Moldova."
+        ]
+      },
+      {
+        "iso3": "IDN",
+        "iso2": "id",
+        "name": "Indonesia",
+        "count": 1,
+        "sample_titles": [
+          "William Grayson, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Indonesia."
+        ]
+      },
+      {
+        "iso3": "BGR",
+        "iso2": "bg",
+        "name": "Bulgaria",
+        "count": 1,
+        "sample_titles": [
+          "Douglas Holder, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Bulgaria."
+        ]
+      },
+      {
+        "iso3": "BIH",
+        "iso2": "ba",
+        "name": "Bosnia and Herzegovina",
+        "count": 1,
+        "sample_titles": [
+          "Ronald Johnson, of Massachusetts, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Bosnia and Herzegovina."
+        ]
+      },
+      {
+        "iso3": "TTO",
+        "iso2": "tt",
+        "name": "Trinidad and Tobago",
+        "count": 1,
+        "sample_titles": [
+          "Jennifer Johnson-Carroll, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Trinidad and Tobago."
+        ]
+      },
+      {
+        "iso3": "PRY",
+        "iso2": "py",
+        "name": "Paraguay",
+        "count": 1,
+        "sample_titles": [
+          "Paul Kalmbach, of Ohio, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Paraguay."
+        ]
+      },
+      {
+        "iso3": "BRA",
+        "iso2": "br",
+        "name": "Brazil",
+        "count": 1,
+        "sample_titles": [
+          "Daniel Perez, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federative Republic of Brazil."
+        ]
+      },
+      {
+        "iso3": "MNE",
+        "iso2": "me",
+        "name": "Montenegro",
+        "count": 1,
+        "sample_titles": [
+          "Peter McCoy, of South Carolina, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Montenegro."
+        ]
+      },
+      {
+        "iso3": "LTU",
+        "iso2": "lt",
+        "name": "Lithuania",
+        "count": 1,
+        "sample_titles": [
+          "Keith Noreika, of Pennsylvania, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Lithuania."
+        ]
+      },
+      {
+        "iso3": "COL",
+        "iso2": "co",
+        "name": "Colombia",
+        "count": 1,
+        "sample_titles": [
+          "Nathaniel Morris, of Kentucky, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Colombia."
+        ]
+      },
+      {
+        "iso3": "EGY",
+        "iso2": "eg",
+        "name": "Egypt",
+        "count": 1,
+        "sample_titles": [
+          "Nick Oberheiden, of Texas, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Arab Republic of Egypt."
+        ]
+      },
+      {
+        "iso3": "KEN",
+        "iso2": "ke",
+        "name": "Kenya",
+        "count": 1,
+        "sample_titles": [
+          "Henry Wooster, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Kenya."
+        ]
+      },
+      {
+        "iso3": "ECU",
+        "iso2": "ec",
+        "name": "Ecuador",
+        "count": 1,
+        "sample_titles": [
+          "Peter Snyder, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Ecuador."
+        ]
+      },
+      {
+        "iso3": "GMB",
+        "iso2": "gm",
+        "name": "Gambia",
+        "count": 1,
+        "sample_titles": [
+          "Laurence Socha, of Illinois, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of The Gambia."
+        ]
+      },
+      {
+        "iso3": "SLE",
+        "iso2": "sl",
+        "name": "Sierra Leone",
+        "count": 1,
+        "sample_titles": [
+          "Daniel Travis, of California, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Sierra Leone."
+        ]
+      },
+      {
+        "iso3": "SRB",
+        "iso2": "rs",
+        "name": "Serbia",
+        "count": 1,
+        "sample_titles": [
+          "Michael Young, of Utah, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Serbia."
         ]
       }
     ]
