@@ -109498,24 +109498,37 @@
     ]
   },
   "2026-06": {
-    "total_records": 4,
+    "total_records": 9,
     "countries": [
       {
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 1,
+        "count": 3,
         "sample_titles": [
-          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes."
+          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
+          "To establish intelligence community funding restrictions on institutions of higher education that have a relationship with certain entities in the People's Republic of China, and for other purposes.",
+          "To amend title 35, United State Code, to require the Director of the United States Patent and Trademark Office to require disclosures in patent applications regarding ties to the People's Republic of China and other foreign adversaries, and for other purposes."
         ]
       },
       {
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 1,
+        "count": 2,
         "sample_titles": [
-          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes."
+          "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
+          "To prohibit the differential treatment of Hong Kong with respect to China and to impose sanctions with respect to certain persons who undermine democracy and human rights in Hong Kong, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 2,
+        "sample_titles": [
+          "A bill to require the Secretary of State to submit a strategy to Congress for countering Iranian and Hezbollah influence operations in Latin America.",
+          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism."
         ]
       },
       {
@@ -109525,15 +109538,6 @@
         "count": 1,
         "sample_titles": [
           "To authorize the President to award the Medal of Honor to Robert Lodge for acts of valor as a member of the Air Force during the Vietnam War."
-        ]
-      },
-      {
-        "iso3": "IRN",
-        "iso2": "ir",
-        "name": "Iran",
-        "count": 1,
-        "sample_titles": [
-          "A bill to require the Secretary of State to submit a strategy to Congress for countering Iranian and Hezbollah influence operations in Latin America."
         ]
       },
       {
@@ -109714,6 +109718,24 @@
         "count": 1,
         "sample_titles": [
           "Michael Young, of Utah, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Serbia."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism."
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon."
         ]
       }
     ]
