@@ -109498,13 +109498,13 @@
     ]
   },
   "2026-06": {
-    "total_records": 9,
+    "total_records": 21,
     "countries": [
       {
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 3,
+        "count": 6,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
           "To establish intelligence community funding restrictions on institutions of higher education that have a relationship with certain entities in the People's Republic of China, and for other purposes.",
@@ -109515,20 +109515,32 @@
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 2,
+        "count": 4,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
-          "To prohibit the differential treatment of Hong Kong with respect to China and to impose sanctions with respect to certain persons who undermine democracy and human rights in Hong Kong, and for other purposes."
+          "To prohibit the differential treatment of Hong Kong with respect to China and to impose sanctions with respect to certain persons who undermine democracy and human rights in Hong Kong, and for other purposes.",
+          "A resolution recognizing the United States-Philippines alliance on the 80th anniversary of diplomatic relations, the 75th anniversary of the Mutual Defense Treaty between the United States of America and the Republic of the Philippines, and the 10th anniversary of the landmark arbitral award upholding Manila's sovereignty against escalating aggression and lawfare by the People's Republic of China in the South China Sea."
         ]
       },
       {
         "iso3": "IRN",
         "iso2": "ir",
         "name": "Iran",
-        "count": 2,
+        "count": 4,
         "sample_titles": [
           "A bill to require the Secretary of State to submit a strategy to Congress for countering Iranian and Hezbollah influence operations in Latin America.",
-          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism."
+          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism.",
+          "Expressing the sense of the House of Representatives supporting the Department of State's efforts to prevent the Islamic Revolutionary Guard Corps (IRGC) from embedding themselves within the Iranian National Football Delegation during the 2026 FIFA World Cup and to limit the delegation's presence in the United States to the minimum time necessary for scheduled match play."
+        ]
+      },
+      {
+        "iso3": "MDA",
+        "iso2": "md",
+        "name": "Moldova",
+        "count": 2,
+        "sample_titles": [
+          "Joseph Burkhalter, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Moldova.",
+          "To require the Secretary of State to submit a report on energy in Moldova."
         ]
       },
       {
@@ -109574,15 +109586,6 @@
         "count": 1,
         "sample_titles": [
           "Stanley Brown, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Equatorial Guinea."
-        ]
-      },
-      {
-        "iso3": "MDA",
-        "iso2": "md",
-        "name": "Moldova",
-        "count": 1,
-        "sample_titles": [
-          "Joseph Burkhalter, of Georgia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Moldova."
         ]
       },
       {
@@ -109736,6 +109739,60 @@
         "count": 1,
         "sample_titles": [
           "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing the United States-Philippines alliance on the 80th anniversary of diplomatic relations, the 75th anniversary of the Mutual Defense Treaty between the United States of America and the Republic of the Philippines, and the 10th anniversary of the landmark arbitral award upholding Manila's sovereignty against escalating aggression and lawfare by the People's Republic of China in the South China Sea."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
+        "count": 1,
+        "sample_titles": [
+          "A bill to promote efforts to bring about stability and security in Sudan, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "PRT",
+        "iso2": "pt",
+        "name": "Portugal",
+        "count": 1,
+        "sample_titles": [
+          "A resolution commemorating the Day of Portugal, Camões, and the Portuguese Communities, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "GUY",
+        "iso2": "gy",
+        "name": "Guyana",
+        "count": 1,
+        "sample_titles": [
+          "A bill to designate the facility of the United States Postal Service located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building\"."
+        ]
+      },
+      {
+        "iso3": "KOR",
+        "iso2": "kr",
+        "name": "South Korea",
+        "count": 1,
+        "sample_titles": [
+          "Honoring the life, military service, and congressional legacy of the Honorable Charles Bernard Rangel, and his enduring contributions to the alliance between the United States and the Republic of Korea."
         ]
       }
     ]
