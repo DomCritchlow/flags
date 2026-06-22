@@ -109498,7 +109498,7 @@
     ]
   },
   "2026-06": {
-    "total_records": 21,
+    "total_records": 27,
     "countries": [
       {
         "iso3": "TWN",
@@ -109515,7 +109515,7 @@
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 4,
+        "count": 5,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
           "To prohibit the differential treatment of Hong Kong with respect to China and to impose sanctions with respect to certain persons who undermine democracy and human rights in Hong Kong, and for other purposes.",
@@ -109534,6 +109534,16 @@
         ]
       },
       {
+        "iso3": "KHM",
+        "iso2": "kh",
+        "name": "Cambodia",
+        "count": 2,
+        "sample_titles": [
+          "Christopher Anderson, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kingdom of Cambodia.",
+          "A resolution recognizing and honoring Cambodian veterans of the Khmer National Armed Forces for their sacrifices, their support of the Armed Forces of the United States, and their defense of freedom in Southeast Asia."
+        ]
+      },
+      {
         "iso3": "MDA",
         "iso2": "md",
         "name": "Moldova",
@@ -109544,21 +109554,22 @@
         ]
       },
       {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 2,
+        "sample_titles": [
+          "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes.",
+          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation."
+        ]
+      },
+      {
         "iso3": "VNM",
         "iso2": "vn",
         "name": "Vietnam",
         "count": 1,
         "sample_titles": [
           "To authorize the President to award the Medal of Honor to Robert Lodge for acts of valor as a member of the Air Force during the Vietnam War."
-        ]
-      },
-      {
-        "iso3": "KHM",
-        "iso2": "kh",
-        "name": "Cambodia",
-        "count": 1,
-        "sample_titles": [
-          "Christopher Anderson, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kingdom of Cambodia."
         ]
       },
       {
@@ -109751,15 +109762,6 @@
         ]
       },
       {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
-        "count": 1,
-        "sample_titles": [
-          "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes."
-        ]
-      },
-      {
         "iso3": "SDN",
         "iso2": "sd",
         "name": "Sudan",
@@ -109793,6 +109795,51 @@
         "count": 1,
         "sample_titles": [
           "Honoring the life, military service, and congressional legacy of the Honorable Charles Bernard Rangel, and his enduring contributions to the alliance between the United States and the Republic of Korea."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "A bill to clarify provisions of the United States-Mexico-Canada Agreement Implementation Act and the Foreign Trade Zones Act with respect to the appropriate tariff treatment of merchandise in a United States foreign-trade zone, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 1,
+        "sample_titles": [
+          "A bill to clarify provisions of the United States-Mexico-Canada Agreement Implementation Act and the Foreign Trade Zones Act with respect to the appropriate tariff treatment of merchandise in a United States foreign-trade zone, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Secretary of Homeland Security to designate Haiti for temporary protected status."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Secretary of State to develop a strategy for supporting free and fair elections in Venezuela, to impose sanctions on individuals who are complicit in gross violations of internationally recognized human rights in Venezuela, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 1,
+        "sample_titles": [
+          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation."
         ]
       }
     ]
