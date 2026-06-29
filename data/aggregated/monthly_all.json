@@ -109498,13 +109498,13 @@
     ]
   },
   "2026-06": {
-    "total_records": 27,
+    "total_records": 38,
     "countries": [
       {
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 6,
+        "count": 8,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
           "To establish intelligence community funding restrictions on institutions of higher education that have a relationship with certain entities in the People's Republic of China, and for other purposes.",
@@ -109534,6 +109534,28 @@
         ]
       },
       {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes.",
+          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
+          "To amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
+          "To amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
+          "To counter Russian trafficking in persons."
+        ]
+      },
+      {
         "iso3": "KHM",
         "iso2": "kh",
         "name": "Cambodia",
@@ -109554,13 +109576,43 @@
         ]
       },
       {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
         "count": 2,
         "sample_titles": [
-          "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes.",
-          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation."
+          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism.",
+          "A resolution requesting information on Israel's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PRT",
+        "iso2": "pt",
+        "name": "Portugal",
+        "count": 2,
+        "sample_titles": [
+          "A resolution commemorating the Day of Portugal, Camões, and the Portuguese Communities, and for other purposes.",
+          "Expressing support for the designation of June as Portuguese National Heritage Month."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 2,
+        "sample_titles": [
+          "A bill to require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+          "To provide for adjustment of status for certain nationals of Haiti, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "JPN",
+        "iso2": "jp",
+        "name": "Japan",
+        "count": 2,
+        "sample_titles": [
+          "A bill to award a Congressional Gold Medal, collectively, to the individuals who fought for or with the United States against the armed forces of Imperial Japan in the Pacific theater and became prisoners of war from December 8, 1941, to August 15, 1945.",
+          "To award a Congressional Gold Medal, collectively, to the individuals who fought for or with the United States against the armed forces of Imperial Japan in the Pacific theater and became prisoners of war from December 8, 1941, to August 15, 1945."
         ]
       },
       {
@@ -109735,15 +109787,6 @@
         ]
       },
       {
-        "iso3": "ISR",
-        "iso2": "il",
-        "name": "Israel",
-        "count": 1,
-        "sample_titles": [
-          "Expressing the sense of the House of Representatives in support of Prime Minister Benjamin Netanyahu's initiative to transition the United States-Israel relationship toward mutual defense cooperation and joint economic investment, recognizing the contributions of Israel to joint military operations against Iran, and condemning the global rise of antisemitism."
-        ]
-      },
-      {
         "iso3": "LBN",
         "iso2": "lb",
         "name": "Lebanon",
@@ -109768,15 +109811,6 @@
         "count": 1,
         "sample_titles": [
           "A bill to promote efforts to bring about stability and security in Sudan, and for other purposes."
-        ]
-      },
-      {
-        "iso3": "PRT",
-        "iso2": "pt",
-        "name": "Portugal",
-        "count": 1,
-        "sample_titles": [
-          "A resolution commemorating the Day of Portugal, Camões, and the Portuguese Communities, and for other purposes."
         ]
       },
       {
@@ -109816,15 +109850,6 @@
         ]
       },
       {
-        "iso3": "HTI",
-        "iso2": "ht",
-        "name": "Haiti",
-        "count": 1,
-        "sample_titles": [
-          "A bill to require the Secretary of Homeland Security to designate Haiti for temporary protected status."
-        ]
-      },
-      {
         "iso3": "VEN",
         "iso2": "ve",
         "name": "Venezuela",
@@ -109834,12 +109859,30 @@
         ]
       },
       {
-        "iso3": "RUS",
-        "iso2": "ru",
-        "name": "Russia",
+        "iso3": "DEU",
+        "iso2": "de",
+        "name": "Germany",
         "count": 1,
         "sample_titles": [
-          "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation."
+          "A bill to award a Congressional Gold Medal, collectively, to people of the United States who were active in rescuing and aiding Jews and other refugees during the period of Nazi Germany's genocidal \"Final Solution\" policy to murder every Jew in Europe, in recognition of their contributions, which resulted in tens of thousands of Jews and others being spared from almost certain death."
+        ]
+      },
+      {
+        "iso3": "PRK",
+        "iso2": "kp",
+        "name": "North Korea",
+        "count": 1,
+        "sample_titles": [
+          "A bill to reauthorize the North Korean Human Rights Act of 2004, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "MNG",
+        "iso2": "mn",
+        "name": "Mongolia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution condemning the People's Republic of China's Ethnic Unity and Progress Law, concerned with its implications on the rights and freedoms, as well as survival of the identity, of Tibetans, Uyghurs, Mongolians, and other affected communities, and calling on the Government of the People's Republic of China to end its abuses and campaigns of transnational repression that undermine United States sovereignty and threaten the safety and freedoms of people in the United States."
         ]
       }
     ]
