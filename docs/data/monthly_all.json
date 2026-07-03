@@ -109498,13 +109498,13 @@
     ]
   },
   "2026-06": {
-    "total_records": 38,
+    "total_records": 41,
     "countries": [
       {
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 8,
+        "count": 9,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
           "To establish intelligence community funding restrictions on institutions of higher education that have a relationship with certain entities in the People's Republic of China, and for other purposes.",
@@ -109515,7 +109515,7 @@
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 5,
+        "count": 6,
         "sample_titles": [
           "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
           "To prohibit the differential treatment of Hong Kong with respect to China and to impose sanctions with respect to certain persons who undermine democracy and human rights in Hong Kong, and for other purposes.",
@@ -109537,7 +109537,7 @@
         "iso3": "UKR",
         "iso2": "ua",
         "name": "Ukraine",
-        "count": 3,
+        "count": 4,
         "sample_titles": [
           "A bill to establish a United States-Ukraine Strategic Defense Innovation Working Group, and for other purposes.",
           "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
@@ -109548,7 +109548,7 @@
         "iso3": "RUS",
         "iso2": "ru",
         "name": "Russia",
-        "count": 3,
+        "count": 4,
         "sample_titles": [
           "A bill to amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
           "To amend the Rebuilding Economic Prosperity and Opportunity for Ukrainians Act to authorize the use of amounts in the Ukraine Support Fund for purchases by the Government of Ukraine of defense articles and services to respond to and recover from the consequences of the aggression of the Russian Federation.",
@@ -109883,6 +109883,38 @@
         "count": 1,
         "sample_titles": [
           "A resolution condemning the People's Republic of China's Ethnic Unity and Progress Law, concerned with its implications on the rights and freedoms, as well as survival of the identity, of Tibetans, Uyghurs, Mongolians, and other affected communities, and calling on the Government of the People's Republic of China to end its abuses and campaigns of transnational repression that undermine United States sovereignty and threaten the safety and freedoms of people in the United States."
+        ]
+      }
+    ]
+  },
+  "2026-07": {
+    "total_records": 3,
+    "countries": [
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 1,
+        "sample_titles": [
+          "Honoring the life and legacy of Father Stan, a prominent human rights activist who died while in custody of the Indian state on July 5, 2021, and encouraging India to pursue an independent investigation into his arrest, incarceration, and death."
+        ]
+      },
+      {
+        "iso3": "TUR",
+        "iso2": "tr",
+        "name": "Turkey",
+        "count": 1,
+        "sample_titles": [
+          "Providing for congressional disapproval of the proposed foreign military sale to Turkey of certain defense articles and services."
         ]
       }
     ]

@@ -9216,7 +9216,7 @@
       "iso3": "TWN",
       "iso2": "tw",
       "name": "Taiwan",
-      "count": 8,
+      "count": 9,
       "sample_titles": [
         "To require a report regarding the scope of efforts by the People's Republic of China and Chinese Communist Party to utilize the Belt and Road Initiative to undermine the United States-led international world order and a detailed strategy regarding how the United States Government intends to counter such Initiative, and for other purposes.",
         "To establish intelligence community funding restrictions on institutions of higher education that have a relationship with certain entities in the People's Republic of China, and for other purposes.",
@@ -9230,6 +9230,17 @@
       "count": 1,
       "sample_titles": [
         "Christopher Anderson, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kingdom of Cambodia."
+      ]
+    }
+  },
+  "2026-07": {
+    "bill": {
+      "iso3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "count": 1,
+      "sample_titles": [
+        "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports."
       ]
     }
   }
