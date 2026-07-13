@@ -109888,7 +109888,7 @@
     ]
   },
   "2026-07": {
-    "total_records": 3,
+    "total_records": 4,
     "countries": [
       {
         "iso3": "CHN",
@@ -109915,6 +109915,15 @@
         "count": 1,
         "sample_titles": [
           "Providing for congressional disapproval of the proposed foreign military sale to Turkey of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "To authorize the President to posthumously award the Medal of Honor to Sergeant First Class Jorge Otero Barreto for acts of valor as a member of the Army during the Vietnam War."
         ]
       }
     ]
