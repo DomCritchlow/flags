@@ -9234,13 +9234,23 @@
     }
   },
   "2026-07": {
+    "amendment": {
+      "iso3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "count": 1,
+      "sample_titles": [
+        "Amendment sought to prohibit funds appropriated by the Act from being used for Israel, and accordingly reduces the Foreign Military Financing Program account by $3,300,000,000."
+      ]
+    },
     "bill": {
       "iso3": "CHN",
       "iso2": "cn",
       "name": "China",
-      "count": 1,
+      "count": 2,
       "sample_titles": [
-        "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports."
+        "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
+        "No More Debt Relief to China Act"
       ]
     }
   }

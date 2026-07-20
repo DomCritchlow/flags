@@ -109888,15 +109888,26 @@
     ]
   },
   "2026-07": {
-    "total_records": 4,
+    "total_records": 13,
     "countries": [
       {
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 1,
+        "count": 2,
         "sample_titles": [
-          "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports."
+          "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
+          "No More Debt Relief to China Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 2,
+        "sample_titles": [
+          "To amend the Internal Revenue Code of 1986 to deny any foreign tax credit with respect to taxes paid or accrued to the Russian Federation.",
+          "A bill to impose sanctions and other measures with respect to the Russian Federation, and for other purposes."
         ]
       },
       {
@@ -109924,6 +109935,60 @@
         "count": 1,
         "sample_titles": [
           "To authorize the President to posthumously award the Medal of Honor to Sergeant First Class Jorge Otero Barreto for acts of valor as a member of the Army during the Vietnam War."
+        ]
+      },
+      {
+        "iso3": "CUB",
+        "iso2": "cu",
+        "name": "Cuba",
+        "count": 1,
+        "sample_titles": [
+          "A resolution commending the courage, bravery, and resolve of the fathers, mothers, sons, and daughters of Cuba, whom 5 years ago, stood in the face of brutal harassment, beatings, and torture to protest against the Communist Cuban regime, demanding access to their fundamental rights to life, dignity, and freedom."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 1,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the United States should ratify the Rome Statute and join the International Criminal Court."
+        ]
+      },
+      {
+        "iso3": "QAT",
+        "iso2": "qa",
+        "name": "Qatar",
+        "count": 1,
+        "sample_titles": [
+          "A bill to prohibit certain transfers of aircraft provided by the Government of Qatar, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 1,
+        "sample_titles": [
+          "Amendment sought to prohibit funds appropriated by the Act from being used for Israel, and accordingly reduces the Foreign Military Financing Program account by $3,300,000,000."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "An amendment numbered 27 printed in Part A of House Report 119-749 to increase withholding of assistance to Nigeria from 50% to 100%, keeping metrics in place that force Nigeria to take effective steps to prevent and respond to violence in the country."
         ]
       }
     ]
