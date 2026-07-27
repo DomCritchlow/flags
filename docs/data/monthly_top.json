@@ -10566,15 +10566,16 @@
     "country_iso3": "CHN",
     "country_iso2": "cn",
     "country_name": "China",
-    "mention_count": 2,
-    "total_records_scanned": 13,
+    "mention_count": 4,
+    "total_records_scanned": 26,
     "runner_up_iso3": "RUS",
     "runner_up_iso2": "ru",
     "runner_up_name": "Russia",
     "runner_up_count": 2,
     "sample_titles": [
       "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
-      "No More Debt Relief to China Act"
+      "No More Debt Relief to China Act",
+      "Stop PRC Economic Espionage Act of 2026"
     ]
   }
 ]

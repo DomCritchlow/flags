@@ -109888,16 +109888,17 @@
     ]
   },
   "2026-07": {
-    "total_records": 13,
+    "total_records": 26,
     "countries": [
       {
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 2,
+        "count": 4,
         "sample_titles": [
           "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
-          "No More Debt Relief to China Act"
+          "No More Debt Relief to China Act",
+          "Stop PRC Economic Espionage Act of 2026"
         ]
       },
       {
@@ -109908,6 +109909,26 @@
         "sample_titles": [
           "To amend the Internal Revenue Code of 1986 to deny any foreign tax credit with respect to taxes paid or accrued to the Russian Federation.",
           "A bill to impose sanctions and other measures with respect to the Russian Federation, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 2,
+        "sample_titles": [
+          "To impose sanctions with respect to the Government of Canada in response to transboundary wildfire smoke affecting the United States, and for other purposes.",
+          "A resolution expressing the sense of the Senate regarding the adverse impacts on the United States of the recent Canadian wildfires and the importance of the Government of Canada to take responsibility for such impacts by increasing efforts to extinguish these fires and prevent their recurrence."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 2,
+        "sample_titles": [
+          "To designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
+          "Amendment sought to strike section 1213, relating to the deadline for the Afghanistan War Commission's final report, and maintain the current statutory reporting deadline."
         ]
       },
       {
@@ -109989,6 +110010,114 @@
         "count": 1,
         "sample_titles": [
           "An amendment numbered 27 printed in Part A of House Report 119-749 to increase withholding of assistance to Nigeria from 50% to 100%, keeping metrics in place that force Nigeria to take effective steps to prevent and respond to violence in the country."
+        ]
+      },
+      {
+        "iso3": "ARG",
+        "iso2": "ar",
+        "name": "Argentina",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the attack on the Argentine Jewish Mutual Association Jewish Community Center in Buenos Aires, Argentina, in July 1994, and encouraging accountability for the attack."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 1,
+        "sample_titles": [
+          "Honoring the lives and service of Emily Barker, Nick Hutcherson, Sydney Watson, Nicholas Dale, and all those who serve on the front lines of America's wildland firefighting efforts."
+        ]
+      },
+      {
+        "iso3": "FJI",
+        "iso2": "fj",
+        "name": "Fiji",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing that for 55 years, the Republic of Fiji has worked with the United States toward stability, prosperity, and peace in the Pacific and beyond, and expressing the sense of the House of Representatives that the United States will continue to remain a strong, reliable, and active partner in the Pacific."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "To prohibit contributions to the United Nations Relief and Works Agency for Palestine Refugees in the Near East, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "KAZ",
+        "iso2": "kz",
+        "name": "Kazakhstan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring 35 years of independence for the countries of Central Asia and recognizing the importance of the United States' growing relationship with Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "KGZ",
+        "iso2": "kg",
+        "name": "Kyrgyzstan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring 35 years of independence for the countries of Central Asia and recognizing the importance of the United States' growing relationship with Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "TJK",
+        "iso2": "tj",
+        "name": "Tajikistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring 35 years of independence for the countries of Central Asia and recognizing the importance of the United States' growing relationship with Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "TKM",
+        "iso2": "tm",
+        "name": "Turkmenistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring 35 years of independence for the countries of Central Asia and recognizing the importance of the United States' growing relationship with Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "UZB",
+        "iso2": "uz",
+        "name": "Uzbekistan",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring 35 years of independence for the countries of Central Asia and recognizing the importance of the United States' growing relationship with Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "An amendment numbered 15 printed in Part A of House Report 119-755 to prohibit funds for Ukraine Security Assistance except for U.S. embassy security in Ukraine."
+        ]
+      },
+      {
+        "iso3": "RWA",
+        "iso2": "rw",
+        "name": "Rwanda",
+        "count": 1,
+        "sample_titles": [
+          "Nicholas Checker, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Rwanda."
+        ]
+      },
+      {
+        "iso3": "MYS",
+        "iso2": "my",
+        "name": "Malaysia",
+        "count": 1,
+        "sample_titles": [
+          "Joshua Harris, of Maryland, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Malaysia."
         ]
       }
     ]

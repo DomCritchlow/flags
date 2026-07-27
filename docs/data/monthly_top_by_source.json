@@ -9247,10 +9247,20 @@
       "iso3": "CHN",
       "iso2": "cn",
       "name": "China",
-      "count": 2,
+      "count": 4,
       "sample_titles": [
         "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
-        "No More Debt Relief to China Act"
+        "No More Debt Relief to China Act",
+        "Stop PRC Economic Espionage Act of 2026"
+      ]
+    },
+    "nomination": {
+      "iso3": "RWA",
+      "iso2": "rw",
+      "name": "Rwanda",
+      "count": 1,
+      "sample_titles": [
+        "Nicholas Checker, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Rwanda."
       ]
     }
   }
