@@ -109888,7 +109888,7 @@
     ]
   },
   "2026-07": {
-    "total_records": 26,
+    "total_records": 32,
     "countries": [
       {
         "iso3": "CHN",
@@ -109899,6 +109899,28 @@
           "To amend the Export-Import Bank Act of 1945 to include quantum information science and technology in the areas covered by the Program on China and Transformational Exports.",
           "No More Debt Relief to China Act",
           "Stop PRC Economic Espionage Act of 2026"
+        ]
+      },
+      {
+        "iso3": "TUR",
+        "iso2": "tr",
+        "name": "Turkey",
+        "count": 3,
+        "sample_titles": [
+          "Providing for congressional disapproval of the proposed foreign military sale to Turkey of certain defense articles and services.",
+          "Turkey Human Rights Promotion Act of 2026",
+          "A bill to promote democracy, defend human rights, and impose accountability on the Government of Turkey for systemic political repression, censorship, transnational repression, and violations of international law."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 3,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
+          "To impose sanctions on the Polisario Front if it cooperates with an Iranian-affiliated terrorist organization.",
+          "A resolution condemning the Government of the Islamic Republic of Iran for its ongoing human rights abuses, including its use of politically motivated espionage claims to justify arbitrary detention and executions."
         ]
       },
       {
@@ -109932,21 +109954,22 @@
         ]
       },
       {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 2,
+        "sample_titles": [
+          "An amendment numbered 15 printed in Part A of House Report 119-755 to prohibit funds for Ukraine Security Assistance except for U.S. embassy security in Ukraine.",
+          "A bill to amend the Arms Export Control Act to address third party transfers of certain defense articles for Ukraine, and for other purposes."
+        ]
+      },
+      {
         "iso3": "IND",
         "iso2": "in",
         "name": "India",
         "count": 1,
         "sample_titles": [
           "Honoring the life and legacy of Father Stan, a prominent human rights activist who died while in custody of the Indian state on July 5, 2021, and encouraging India to pursue an independent investigation into his arrest, incarceration, and death."
-        ]
-      },
-      {
-        "iso3": "TUR",
-        "iso2": "tr",
-        "name": "Turkey",
-        "count": 1,
-        "sample_titles": [
-          "Providing for congressional disapproval of the proposed foreign military sale to Turkey of certain defense articles and services."
         ]
       },
       {
@@ -109965,15 +109988,6 @@
         "count": 1,
         "sample_titles": [
           "A resolution commending the courage, bravery, and resolve of the fathers, mothers, sons, and daughters of Cuba, whom 5 years ago, stood in the face of brutal harassment, beatings, and torture to protest against the Communist Cuban regime, demanding access to their fundamental rights to life, dignity, and freedom."
-        ]
-      },
-      {
-        "iso3": "IRN",
-        "iso2": "ir",
-        "name": "Iran",
-        "count": 1,
-        "sample_titles": [
-          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
         ]
       },
       {
@@ -110094,15 +110108,6 @@
         ]
       },
       {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
-        "count": 1,
-        "sample_titles": [
-          "An amendment numbered 15 printed in Part A of House Report 119-755 to prohibit funds for Ukraine Security Assistance except for U.S. embassy security in Ukraine."
-        ]
-      },
-      {
         "iso3": "RWA",
         "iso2": "rw",
         "name": "Rwanda",
@@ -110118,6 +110123,15 @@
         "count": 1,
         "sample_titles": [
           "Joshua Harris, of Maryland, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Malaysia."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 1,
+        "sample_titles": [
+          "A bill to require the Secretary of State and relevant executive branch agencies to monitor and address gray-zone operations of the People's Republic of China in the Indo-Pacific, to hold accountable gray-zone activities by national and international actors, and for other purposes."
         ]
       }
     ]
