@@ -109888,7 +109888,7 @@
     ]
   },
   "2026-07": {
-    "total_records": 32,
+    "total_records": 34,
     "countries": [
       {
         "iso3": "CHN",
@@ -109924,6 +109924,17 @@
         ]
       },
       {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 3,
+        "sample_titles": [
+          "To impose sanctions with respect to the Government of Canada in response to transboundary wildfire smoke affecting the United States, and for other purposes.",
+          "A resolution expressing the sense of the Senate regarding the adverse impacts on the United States of the recent Canadian wildfires and the importance of the Government of Canada to take responsibility for such impacts by increasing efforts to extinguish these fires and prevent their recurrence.",
+          "Celebrating the opening of the Gordie Howe International Bridge and the friendship between the United States and Canada."
+        ]
+      },
+      {
         "iso3": "RUS",
         "iso2": "ru",
         "name": "Russia",
@@ -109931,16 +109942,6 @@
         "sample_titles": [
           "To amend the Internal Revenue Code of 1986 to deny any foreign tax credit with respect to taxes paid or accrued to the Russian Federation.",
           "A bill to impose sanctions and other measures with respect to the Russian Federation, and for other purposes."
-        ]
-      },
-      {
-        "iso3": "CAN",
-        "iso2": "ca",
-        "name": "Canada",
-        "count": 2,
-        "sample_titles": [
-          "To impose sanctions with respect to the Government of Canada in response to transboundary wildfire smoke affecting the United States, and for other purposes.",
-          "A resolution expressing the sense of the Senate regarding the adverse impacts on the United States of the recent Canadian wildfires and the importance of the Government of Canada to take responsibility for such impacts by increasing efforts to extinguish these fires and prevent their recurrence."
         ]
       },
       {
@@ -110132,6 +110133,15 @@
         "count": 1,
         "sample_titles": [
           "A bill to require the Secretary of State and relevant executive branch agencies to monitor and address gray-zone operations of the People's Republic of China in the Indo-Pacific, to hold accountable gray-zone activities by national and international actors, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "PRK",
+        "iso2": "kp",
+        "name": "North Korea",
+        "count": 1,
+        "sample_titles": [
+          "North Korean FAKER Act"
         ]
       }
     ]
