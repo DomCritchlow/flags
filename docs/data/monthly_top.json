@@ -10577,5 +10577,22 @@
       "No More Debt Relief to China Act",
       "Stop PRC Economic Espionage Act of 2026"
     ]
+  },
+  {
+    "month": "2026-08",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 3,
+    "total_records_scanned": 16,
+    "runner_up_iso3": "AFG",
+    "runner_up_iso2": "af",
+    "runner_up_name": "Afghanistan",
+    "runner_up_count": 2,
+    "sample_titles": [
+      "A resolution celebrating the 35th anniversary of the independence of Ukraine from the former Soviet Union.",
+      "To impose sanctions and other measures with respect to the Russian Federation.",
+      "To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion."
+    ]
   }
 ]

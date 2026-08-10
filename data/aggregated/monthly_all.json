@@ -110145,5 +110145,222 @@
         ]
       }
     ]
+  },
+  "2026-08": {
+    "total_records": 16,
+    "countries": [
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "A resolution celebrating the 35th anniversary of the independence of Ukraine from the former Soviet Union.",
+          "To impose sanctions and other measures with respect to the Russian Federation.",
+          "To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 2,
+        "sample_titles": [
+          "A bill to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
+          "A bill to provide for records preservation processes for certain at-risk Afghan allies."
+        ]
+      },
+      {
+        "iso3": "NIC",
+        "iso2": "ni",
+        "name": "Nicaragua",
+        "count": 2,
+        "sample_titles": [
+          "A bill to reauthorize and expand the imposition of sanctions under the Nicaragua Investment Conditionality Act of 2018, and for other purposes.",
+          "Natasha Franceschi, of California, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Nicaragua."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 2,
+        "sample_titles": [
+          "A bill to require a report on the artificial intelligence power of the People's Republic of China.",
+          "A bill to state the policy of the United States with respect to international religious freedom in the People's Republic of China, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "SRB",
+        "iso2": "rs",
+        "name": "Serbia",
+        "count": 1,
+        "sample_titles": [
+          "Supporting the designation of \"Serbian American Heritage Month\" and celebrating the history, culture, and contributions of Serbian Americans to the United States."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A resolution reaffirming the policy of the United States to support a peaceful democratic transition in Venezuela through free and fair elections."
+        ]
+      },
+      {
+        "iso3": "PRK",
+        "iso2": "kp",
+        "name": "North Korea",
+        "count": 1,
+        "sample_titles": [
+          "A bill to expedite the provision of humanitarian assistance, including life-saving medical care, to the people of North Korea, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "A resolution celebrating the 35th anniversary of the independence of Ukraine from the former Soviet Union."
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "A bill to support Lebanon's rule of law and democratic institutions through sanctions and support, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "XKX",
+        "iso2": "xk",
+        "name": "Kosovo",
+        "count": 1,
+        "sample_titles": [
+          "A bill to designate a building of the Chancery of the United States in Pristina, Kosovo, as the \"Elliot L. Engel Building\"."
+        ]
+      },
+      {
+        "iso3": "AUS",
+        "iso2": "au",
+        "name": "Australia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution honoring the lives and service of Emily Barker, Nicholas Hutcherson, Sydney Watson, Nathan Matthews, Nicholas Dale, and all those who serve on the front lines of wildland firefighting efforts in the United States."
+        ]
+      },
+      {
+        "iso3": "TON",
+        "iso2": "to",
+        "name": "Tonga",
+        "count": 1,
+        "sample_titles": [
+          "Justin Bytheway, of Utah, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kingdom of Tonga."
+        ]
+      },
+      {
+        "iso3": "MDG",
+        "iso2": "mg",
+        "name": "Madagascar",
+        "count": 1,
+        "sample_titles": [
+          "Marc Dillard, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Madagascar, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Union of the Comoros."
+        ]
+      },
+      {
+        "iso3": "COM",
+        "iso2": "km",
+        "name": "Comoros",
+        "count": 1,
+        "sample_titles": [
+          "Marc Dillard, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Madagascar, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Union of the Comoros."
+        ]
+      },
+      {
+        "iso3": "TCD",
+        "iso2": "td",
+        "name": "Chad",
+        "count": 1,
+        "sample_titles": [
+          "William Flens, of the District of Columbia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Chad."
+        ]
+      },
+      {
+        "iso3": "CPV",
+        "iso2": "cv",
+        "name": "Cabo Verde",
+        "count": 1,
+        "sample_titles": [
+          "Nutan Patel, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Cabo Verde."
+        ]
+      },
+      {
+        "iso3": "MWI",
+        "iso2": "mw",
+        "name": "Malawi",
+        "count": 1,
+        "sample_titles": [
+          "John McIntyre, of Texas, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Malawi."
+        ]
+      },
+      {
+        "iso3": "BEN",
+        "iso2": "bj",
+        "name": "Benin",
+        "count": 1,
+        "sample_titles": [
+          "Peter Lord, of Florida, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Benin."
+        ]
+      },
+      {
+        "iso3": "MRT",
+        "iso2": "mr",
+        "name": "Mauritania",
+        "count": 1,
+        "sample_titles": [
+          "Jessica Long, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Islamic Republic of Mauritania."
+        ]
+      },
+      {
+        "iso3": "KGZ",
+        "iso2": "kg",
+        "name": "Kyrgyzstan",
+        "count": 1,
+        "sample_titles": [
+          "Steven Gillen, of Virginia, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Kyrgyz Republic."
+        ]
+      },
+      {
+        "iso3": "TGO",
+        "iso2": "tg",
+        "name": "Togo",
+        "count": 1,
+        "sample_titles": [
+          "Charles Goodman III, of Florida, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Togolese Republic."
+        ]
+      },
+      {
+        "iso3": "GAB",
+        "iso2": "ga",
+        "name": "Gabon",
+        "count": 1,
+        "sample_titles": [
+          "Keith Heffern, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Gabonese Republic."
+        ]
+      }
+    ]
   }
 }

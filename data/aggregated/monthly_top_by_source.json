@@ -9263,5 +9263,36 @@
         "Nicholas Checker, of Wisconsin, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Rwanda."
       ]
     }
+  },
+  "2026-08": {
+    "amendment": {
+      "iso3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "count": 2,
+      "sample_titles": [
+        "To impose sanctions and other measures with respect to the Russian Federation.",
+        "To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion."
+      ]
+    },
+    "bill": {
+      "iso3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "count": 2,
+      "sample_titles": [
+        "A bill to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
+        "A bill to provide for records preservation processes for certain at-risk Afghan allies."
+      ]
+    },
+    "nomination": {
+      "iso3": "NIC",
+      "iso2": "ni",
+      "name": "Nicaragua",
+      "count": 1,
+      "sample_titles": [
+        "Natasha Franceschi, of California, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Nicaragua."
+      ]
+    }
   }
 }
