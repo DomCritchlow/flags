@@ -1,6 +1,5 @@
 """Gazetteer loader — reads YAML files, builds lookup structures and Aho-Corasick automaton."""
 
-import re
 from pathlib import Path
 from typing import Optional
 
@@ -85,13 +84,9 @@ class Gazetteer:
         data = yaml.safe_load(path.read_text())
         if data:
             for key, entry in data.items():
+                # country_terms are registered on the automaton in
+                # _build_automaton and resolved by the disambiguator.
                 self.ambiguous_terms[key] = entry
-                # Also register any explicit country_terms for exact matching
-                if "country_terms" in entry:
-                    for term in entry["country_terms"]:
-                        # These are handled specially by the disambiguator,
-                        # not the Aho-Corasick automaton
-                        pass
 
     def _load_blocklist(self):
         """Load congressional blocklist phrases."""
@@ -171,9 +166,6 @@ class Gazetteer:
                 )
 
         # Check for terms appearing in both unambiguous and ambiguous
-        ambiguous_triggers = set()
-        for key in self.ambiguous_terms:
-            ambiguous_triggers.add(key.capitalize())
         for term in self.unambiguous_terms:
             if term.lower() in self.ambiguous_terms:
                 issues.append(

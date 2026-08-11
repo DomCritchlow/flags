@@ -11,9 +11,13 @@ Usage:
 import json
 import logging
 import sys
-from pathlib import Path
 
-from pipeline.aggregator import Aggregator, append_mentions
+from pipeline.aggregator import (
+    Aggregator,
+    EXCLUDED_RAW_DIRS,
+    append_mentions,
+    discover_raw_files,
+)
 from pipeline.detector import CountryDetector
 from pipeline.gazetteer import Gazetteer
 from pipeline import config
@@ -35,8 +39,11 @@ def main():
     detector = CountryDetector(gazetteer, enable_llm=False)
     log.info(f"Gazetteer loaded: {gazetteer.stats()}")
 
-    raw_files = sorted(Path("data/raw").glob("*/*.jsonl"))
-    log.info(f"Found {len(raw_files)} raw JSONL files to process")
+    raw_files = discover_raw_files()
+    log.info(
+        f"Found {len(raw_files)} raw JSONL files to process "
+        f"(excluding {', '.join(sorted(EXCLUDED_RAW_DIRS))})"
+    )
 
     total_records = 0
     total_mentions = 0
