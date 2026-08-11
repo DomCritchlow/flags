@@ -14,8 +14,10 @@
 congressional-world-view/
 ├── .github/
 │   └── workflows/
-│       ├── monthly-ingest.yml          # Scheduled monthly data pull + NER
-│       └── deploy-pages.yml            # Build and deploy site on data change
+│       ├── weekly-ingest.yml           # Monday pull of the current month
+│       ├── monthly-ingest.yml          # 3rd-of-month pull of the previous month
+│       └── tests.yml                   # pytest + gazetteer validation
+│                                       # (no deploy workflow — see "Deploy Model")
 │
 ├── pipeline/                           # Python data pipeline
 │   ├── __init__.py
@@ -30,16 +32,14 @@ congressional-world-view/
 │   └── export.py                       # Write final JSON for frontend
 │
 ├── gazetteers/                         # All lookup data (version-controlled)
-│   ├── countries.yaml                  # Master country registry
-│   ├── unambiguous_terms.yaml          # Terms that map 1:1 to a country
-│   ├── ambiguous_terms.yaml            # Terms requiring disambiguation
-│   ├── demonyms.yaml                   # "Iranian", "Ukrainian", etc.
-│   ├── cities.yaml                     # Major cities → country mapping
-│   ├── historical_names.yaml           # "Burma", "Zaire", "Persia", etc.
-│   ├── acronyms.yaml                   # "DPRK", "PRC", "UAE", etc.
-│   ├── congressional_blocklist.yaml    # False positive suppressions
-│   ├── disambiguation_rules.yaml       # Context rules for ambiguous terms
-│   └── recess_calendar.yaml            # Known recess periods by congress
+│   ├── countries.yaml                  # Master country registry (197 entries)
+│   ├── unambiguous_terms.yaml          # Terms that map 1:1 to a country.
+│   │                                   #   Demonyms, cities, historical names
+│   │                                   #   and acronyms are category keys
+│   │                                   #   inside this file, not separate files.
+│   ├── ambiguous_terms.yaml            # Terms requiring disambiguation,
+│   │                                   #   with their context signal lists
+│   └── congressional_blocklist.yaml    # False positive suppressions
 │
 ├── data/                               # Pipeline outputs (committed to repo)
 │   ├── raw/                            # Raw API responses by congress/session
@@ -57,15 +57,18 @@ congressional-world-view/
 │   ├── seen_ids.json                   # Dedup index — all ingested record IDs
 │   └── audit_log.jsonl                 # Tier 2/3 decisions for manual review
 │
-├── site/                               # GitHub Pages static frontend
-│   ├── index.html
-│   ├── css/
+├── docs/                               # GitHub Pages static frontend
+│   ├── index.html                      # The data story (grid → rankings → heat map)
+│   ├── css/story.css
 │   ├── js/
-│   │   ├── app.js                      # Main visualization logic
-│   │   ├── timeline.js                 # Scrollable timeline component
-│   │   └── data-loader.js             # Fetch JSONs from /data/aggregated/
-│   ├── flags/                          # SVG flag files (from lipis/flag-icons)
-│   └── assets/
+│   │   ├── story-app.js                # Main visualization logic
+│   │   ├── flag-grid.js                # Calendar grid renderer
+│   │   ├── heat-matrix.js              # Country-by-month heat map
+│   │   ├── story-insights.js           # Templated narrative blocks
+│   │   └── data-loader.js              # Fetch JSONs from docs/data/
+│   ├── data/                           # Copy of data/aggregated/*.json (7 files)
+│   ├── bump/index.html                 # Legacy path; meta-refreshes to ../
+│   └── flags/                          # SVG flag files (from lipis/flag-icons)
 │
 ├── tests/
 │   ├── test_detector.py                # Unit tests for detection pipeline
@@ -101,6 +104,20 @@ The [Congress.gov API](https://api.congress.gov) is free, public, and rate-limit
 | `/committee-report` | Committee report titles | ~1,000/congress | HIGH |
 | `/amendment` | Amendment titles/purposes | ~5,000/congress | MEDIUM |
 | `/nomination` | Ambassadorial nominations | ~500/congress | HIGH — "Ambassador to the Republic of Kenya" |
+| `/treaty` | Treaty titles + `countriesParties` from the detail fetch | ~700 total | HIGH |
+
+**The table above is the original plan. As built, it is wrong in three places** — `ENDPOINTS` in `pipeline/config.py` is the authoritative list, not this document.
+
+`pipeline/ingest.py` implements normalizers for 6 endpoints — bill, hearing, congressional-record, amendment, nomination, treaty — of which **5 are enabled**: `bill`, `congressional-record`, `amendment`, `nomination`, `treaty`. The other two planned endpoints are gone in different ways:
+
+- `/hearing` — implemented but commented out in `config.ENDPOINTS`. Its list response carries no dates or titles, so it would need a detail fetch per hearing. The normalizer survives, so re-enabling it is a config edit plus that fetch.
+- `/committee-report` — **removed outright.** Same defect (list payload with neither a title nor an action date, only `updateDate`), so every record normalized to an empty title and was dropped by the date post-filter. It never landed a single record in `data/raw/` across any congress. Its normalizer, `key_map` entry, and dispatch branch have all been deleted; reviving it means writing it again on top of a per-report detail fetch.
+
+And one of the five active endpoints contributes nothing:
+
+- `/congressional-record` — ingested (5,851 issues) but yields **zero** mentions. The API returns daily-issue objects, not floor text, so the only string available to normalize into a title is the section-label list — "Senate Section | House Section | Daily Digest | Extensions of Remarks Section | Entire Issue" — which is identical for nearly every issue and names no countries. Getting floor speeches would mean fetching and parsing the linked full-text documents.
+
+Every mention on the site today therefore comes from `bill`, `treaty`, `nomination`, or `amendment`. Detection also runs on titles alone: no ingested congressional record has a non-empty `summary` field.
 
 ### Ingestion Strategy
 
@@ -129,7 +146,7 @@ This means a record from Jan 30 that the API publishes late on Feb 4 gets caught
 
 **Why ±5 days and not ±1 week:** Congress occasionally takes long recesses (August, holidays) where no new records appear for weeks. A 5-day buffer catches the realistic publishing lag and boundary-week bleed without pulling massive redundant windows. For recess periods, the buffer is irrelevant — there's simply nothing new to pull.
 
-**Congressional recess awareness:** The pipeline includes a lightweight recess calendar (`gazetteers/recess_calendar.yaml`) listing known recess periods by Congress. During recess months, the Action still runs (to catch late-published records from pre-recess activity) but logs that low record counts are expected. This prevents false alarms in monitoring.
+**Congressional recess awareness:** Not implemented. The pipeline has no recess calendar and does not special-case recess months — the scheduled runs fire on the same cadence year-round and a near-zero record count during August or the holidays is simply reported as-is. Reading a low count as normal rather than as a failure is currently a human judgement call, not something the pipeline annotates.
 
 ### Record Schema (Internal)
 
@@ -158,6 +175,8 @@ record:
 **What it does:** Single-pass scan of text against a compiled set of terms that map to exactly one country with no possible confusion.
 
 **Implementation:** [Aho-Corasick](https://pypi.org/project/pyahocorasick/) automaton. Build once, scan any text in O(n) time. This is the workhorse — it handles ~190 of ~200 countries with zero ambiguity and zero cost.
+
+**A note on file layout.** An earlier draft of this spec split the lookup data across ten YAML files, giving demonyms, cities, historical names, and acronyms one file each. As built there are four files, and those four categories are *keys inside each country's entry in `unambiguous_terms.yaml`* rather than separate files — `gazetteer.py::_load_unambiguous` walks `["names", "demonyms", "cities", "historical", "acronyms"]` per entry. Context rules for ambiguous terms likewise live alongside the terms they disambiguate in `ambiguous_terms.yaml`, not in a separate rules file.
 
 **The gazetteer (`unambiguous_terms.yaml`) includes:**
 
@@ -526,68 +545,73 @@ jobs:
           TARGET=${{ github.event.inputs.target_month || 'previous' }}
           python -m pipeline.ingest --month "$TARGET" --buffer-days 5
 
-      # Step 2: Run country detection on NEW records only
-      # The detector reads seen_ids.json to know which records are new
-      # since the last run. Outputs to data/processed/mentions.jsonl.
+      # Step 2: Run country detection over the raw corpus.
+      # The detector's skip set is the record IDs already present in
+      # data/processed/mentions.jsonl — NOT seen_ids.json. It cannot use
+      # seen_ids.json: ingest marks IDs seen the moment it writes them, so
+      # by the time the detector runs the set of "ingested but unseen" is
+      # always empty. Appends to data/processed/mentions.jsonl.
       - name: Detect country mentions
         run: python -m pipeline.detector --incremental
 
       # Step 3: Reaggregate all months that received new records.
       # A February run with ±5 day buffer may land new records in
       # January, February, and March. All three get reaggregated.
-      - name: Aggregate affected months
+      # This step WRITES NOTHING — it reads mentions.jsonl and prints a
+      # summary. Keep it for the log trail, drop it and nothing breaks.
+      - name: Aggregate affected months (reporting only)
         run: python -m pipeline.aggregator --touched-months
 
-      # Step 4: Commit everything back to repo
+      # Step 4: Export. THIS is what produces the committable JSON.
+      # export.py re-runs the aggregation internally and writes all four
+      # files; there is no incremental export.
+      - name: Export frontend JSON
+        run: python -m pipeline.export
+
+      # Step 5: Copy into the published directory and commit
       - name: Commit data updates
         run: |
+          cp data/aggregated/*.json docs/data/
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ docs/
           git diff --staged --quiet || git commit -m "data: $(date +%Y-%m) monthly ingestion [buffer ±5d]"
           git push
 ```
 
-**Why `--touched-months` matters:** When the February run pulls records with a Jan 25 – Mar 5 window, it may discover late-published January records that the January run missed (due to API lag). Those records get assigned to January by their `date` field. The aggregator detects which calendar months received new records during this run and reaggregates only those months. This means January's "top country" can shift retroactively — which is correct behavior. The alternative (freezing months after their run) would systematically undercount the last few days of every month.
+The real workflows collapse steps 1–4 into `python -m pipeline.run --month "$TARGET" --buffer-days 5`, which sequences the same four stages in-process. The expanded form above is here to show the data flow, and to make one thing explicit: **`pipeline.export` is the only module in the pipeline that writes files under `data/aggregated/`.** `Aggregator.aggregate_all`, `aggregate_month`, and `aggregate_touched` compute and return dictionaries — they persist nothing.
 
-**Idempotency guarantee:** Every step is safe to re-run. `ingest` skips records already in `seen_ids.json`. `detector` skips records already in `mentions.jsonl`. `aggregator` rebuilds month-level rollups from the full `mentions.jsonl` each time (cheap — it's just counting). The git commit is a no-op if nothing changed.
+**Why `--touched-months` matters:** When the February run pulls records with a Jan 25 – Mar 5 window, it may discover late-published January records that the January run missed (due to API lag). Those records get assigned to January by their `date` field. The aggregator reaggregates only the calendar months that received new records. This means January's "top country" can shift retroactively — which is correct behavior. The alternative (freezing months after their run) would systematically undercount the last few days of every month.
 
-### Deploy Workflow
+The flag does not recompute that set. It reads `last_run_months_touched` from `data/aggregated/metadata.json`, which `pipeline.ingest` computes from the dates of the new records and `pipeline.export` persists. If that file is missing, empty, or corrupt, the CLI prints a message and **exits 0 rather than failing** — deliberate, so a week that ingested nothing doesn't red-X the scheduled job.
 
-**`.github/workflows/deploy-pages.yml`:**
+**Idempotency guarantee:** Every step is safe to re-run. `ingest` skips records already in `seen_ids.json`. `detector` skips records already in `mentions.jsonl`. `aggregator` rebuilds month-level rollups from the full `mentions.jsonl` each time (cheap — it's just counting). `export` rewrites all four JSON files from scratch. The git commit is a no-op if nothing changed.
+
+One wrinkle in the detector's skip rule: `mentions.jsonl` records only *successful* detections, so a record that matched no country leaves no trace and is rescanned on every incremental run. Incremental means "skip records that already have mentions," not "skip records already scanned." Harmless — detection is pure, and a rescan that finds nothing appends nothing — but it means incremental cost scales with the whole corpus, not just the new records. `python -m pipeline.detector --reprocess` truncates `mentions.jsonl` and rebuilds it; both modes construct a fresh `Gazetteer()`, so both see gazetteer edits, and only `--reprocess` re-scores records that already matched.
+
+### Deploy Model
+
+There is no deploy workflow, no build artifact, and no `github-pages` environment. GitHub Pages is configured as **Deploy from branch → `main` → `/docs`**, so the checked-in contents of `docs/` *are* the published site.
+
+That makes the ingest workflows the whole deploy path. Each one ends with:
 
 ```yaml
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    paths:
-      - 'data/aggregated/**'    # Only redeploy when aggregated data changes
-      - 'site/**'               # Or when frontend code changes
-
-permissions:
-  pages: write
-  id-token: write
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - uses: actions/checkout@v4
-
-      # Copy aggregated data into site directory for static hosting
-      - name: Prepare site
+      - name: Commit data updates
         run: |
-          cp -r data/aggregated/ site/data/
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site/
-
-      - uses: actions/deploy-pages@v4
+          cp data/aggregated/*.json docs/data/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          git diff --staged --quiet || git commit -m "data: ..."
+          # push to main (with rebase-and-retry, see the workflow file)
 ```
+
+The aggregated JSON is therefore stored twice on purpose: `data/aggregated/` is the pipeline's output, and `docs/data/` is the copy Pages serves. The copy step keeps them in sync; nothing else writes to `docs/data/`.
+
+Two consequences worth remembering:
+
+- **A push to `main` is a deploy.** Editing `docs/` by hand publishes immediately, with no gate.
+- **The two ingest workflows share a concurrency group**, because both commit to `main` and the 3rd of the month is sometimes a Monday.
 
 ### Secrets Required
 
@@ -602,7 +626,7 @@ jobs:
 
 ### Data Contract
 
-The frontend consumes three JSON files from `data/aggregated/`:
+The frontend consumes four JSON files, served from `docs/data/` (copied verbatim from `data/aggregated/`): `monthly_top.json`, `monthly_all.json`, `monthly_top_by_source.json`, and `metadata.json`. Three further files — `executive_monthly_top.json`, `executive_monthly_all.json`, `executive_metadata.json` — come from the separate executive-orders pipeline and back the Congress-vs-executive comparison.
 
 **`monthly_top.json`** — One entry per month, the "winner":
 
@@ -692,7 +716,7 @@ Mirror The Pudding's concept but adapted for congressional data:
 |------|---------|----------|
 | Boundary work weeks | Session runs Jan 28–Feb 1, related records span both months | ±5 day buffer on pull window, assign by record date, dedup by ID |
 | Late-published records | Bill introduced Jan 30 doesn't appear in API until Feb 5 | Buffer catches it; January reaggregated retroactively |
-| Recess months | August recess — near-zero records is normal, not an error | Recess calendar suppresses false-alarm monitoring |
+| Recess months | August recess — near-zero records is normal, not an error | Unsolved. No recess calendar exists; a low month is reported as-is and has to be read as normal by a human |
 | Double-counting from overlap | March run buffer overlaps February run buffer | `seen_ids.json` dedup index prevents any record from being processed twice |
 | Month assignment drift | A hearing on Jan 31 has its transcript published dated Feb 3 | Use the API's `date` field (action date), not publication/update timestamp |
 | State-in-country-name | "New Mexico" → Mexico | Blocklist pre-filter removes compound state names before scanning |
