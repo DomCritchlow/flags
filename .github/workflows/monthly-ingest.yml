@@ -14,21 +14,27 @@ on:
         required: false
         default: 'previous'
 
-env:
-  CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+# Deny everything at the workflow level; each job opts back in.
+permissions: {}
+
+# Shared with weekly-ingest.yml so the two can never run at once — they
+# both commit to main, and the 3rd of the month is sometimes a Monday.
+# Queue rather than cancel: a cancelled run loses a whole ingestion.
+concurrency:
+  group: congress-data-ingest
+  cancel-in-progress: false
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
-      contents: write
+      contents: write  # commits refreshed data back to main
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -37,22 +43,56 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run full pipeline
+        env:
+          # Scoped to this step only — it is the only one that talks to
+          # Congress.gov or Anthropic.
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Passed via env, never interpolated into the shell, so a crafted
+          # dispatch input cannot inject commands or word-split.
+          TARGET_MONTH: ${{ github.event.inputs.target_month }}
         run: |
-          TARGET=${{ github.event.inputs.target_month || 'previous' }}
+          set -euo pipefail
+          TARGET="${TARGET_MONTH:-previous}"
           echo "Target month: $TARGET"
           PYTHONPATH=. python -m pipeline.run --month "$TARGET" --buffer-days 5
 
       - name: Update Executive Orders
+        # No secrets: the Federal Register API is unauthenticated and
+        # reprocess_executive runs the detector with the LLM tier disabled.
         run: |
+          set -euo pipefail
           PYTHONPATH=. python -m scripts.ingest_executive_orders
           PYTHONPATH=. python -m scripts.reprocess_executive
           PYTHONPATH=. python -m pipeline.export_executive
 
       - name: Commit data updates
         run: |
+          set -euo pipefail
           cp data/aggregated/*.json docs/data/
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ docs/
-          git diff --staged --quiet || git commit -m "data: $(date +%Y-%m) monthly ingestion [buffer ±5d]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: $(date +%Y-%m) monthly ingestion [buffer ±5d]"
+
+          # Rebase onto whatever landed while we were ingesting, and retry
+          # once — a lost race used to discard the entire run silently.
+          pushed=false
+          for attempt in 1 2; do
+            if git pull --rebase --autostash origin "$GITHUB_REF_NAME" \
+              && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              pushed=true
+              break
+            fi
+            echo "Push attempt $attempt failed; retrying."
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          if [ "$pushed" != true ]; then
+            echo "::error::Failed to push ingested data after 2 attempts"
+            exit 1
+          fi
