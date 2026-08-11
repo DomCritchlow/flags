@@ -45,7 +45,13 @@ ENDPOINTS = [
     #              # expensive per-hearing detail fetches. TODO: re-enable
     #              # with smarter date-based strategy.
     "congressional-record",
-    "committee-report",
+    # "committee-report",  # Removed: the list endpoint returns neither a
+    #                      # title nor an action date (only updateDate), so
+    #                      # every record normalized to an empty title and
+    #                      # was dropped by the date post-filter — it has
+    #                      # never produced a single record. Re-enabling it
+    #                      # needs per-report detail fetches, the same cost
+    #                      # that keeps `hearing` disabled.
     "amendment",
     "nomination",
     "treaty",  # congress-scoped; detail fetch adds countriesParties + formal titles

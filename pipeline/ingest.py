@@ -1,12 +1,22 @@
 """Congress.gov API ingestion with buffered windows and deduplication.
 
-Pulls records from 7 endpoints (bill, hearing, congressional-record,
-committee-report, amendment, nomination, treaty) using a ±N day buffer
-around the target month to catch late-published and boundary-week records.
+This module implements normalizers for 6 Congress.gov endpoints — bill,
+hearing, congressional-record, amendment, nomination, treaty — of which 5
+are enabled in ``config.ENDPOINTS``; ``hearing`` is implemented but
+commented out there. Records are pulled with a ±N day buffer around the
+target month to catch late-published and boundary-week records.
+
+``hearing`` is disabled, and ``committee-report`` was removed outright,
+for the same reason: their list payloads carry neither a title nor an
+action date (only ``updateDate``). Every committee-report record therefore
+normalized to an empty title and was silently dropped by the date
+post-filter — the endpoint never produced a single record. Reinstating
+either one requires a per-item detail fetch across thousands of items.
 """
 
 import json
 import logging
+import re
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -32,6 +42,23 @@ MAX_RECORDS_PER_CONGRESS = 25000
 FIRST_CONGRESS_YEAR = 1789
 
 logger = logging.getLogger(__name__)
+
+# Matches an api_key/apikey query parameter and its value anywhere in a
+# string — request URLs, but also `requests` exception messages, which
+# embed the fully-rendered URL ("Max retries exceeded with url: ...").
+_API_KEY_RE = re.compile(r"(?i)\b(api[-_]?key=)[^&\s\"'\\)]+")
+
+
+def redact_url(text) -> str:
+    """Return `text` with any api_key query-parameter value scrubbed.
+
+    Applied to everything that could carry a credential into the logs:
+    URLs, exception messages, and API error bodies. GitHub Actions logs
+    for this repo are public, so an unredacted key is a live leak.
+    """
+    if text is None:
+        return ""
+    return _API_KEY_RE.sub(r"\1<redacted>", str(text))
 
 
 def congresses_for_date_range(start_date: str, end_date: str) -> list[int]:
@@ -164,6 +191,8 @@ class CongressIngester:
 
         all_new = []
         months_touched = set()
+        error_count = 0
+        skipped_count = 0
 
         # Determine which congresses overlap our date window
         active_congresses = congresses_for_date_range(start_date, end_date)
@@ -227,11 +256,24 @@ class CongressIngester:
                     if record:
                         normalized.append(record)
 
+                # A normalizer returning None means the payload was missing
+                # required fields. Silently dropping these hid the fact that
+                # committee-report never produced a single record, so make
+                # the loss visible instead of swallowing it.
+                dropped_by_normalizer = len(raw_records) - len(normalized)
+                if dropped_by_normalizer:
+                    skipped_count += dropped_by_normalizer
+                    logger.warning(
+                        f"  {endpoint}: normalizer dropped "
+                        f"{dropped_by_normalizer}/{len(raw_records)} records "
+                        f"(missing required fields)"
+                    )
+
                 # Post-filter: Congress.gov API date params filter by update
                 # time, not action date. Discard records outside our window.
                 before_filter = len(normalized)
                 normalized = self._filter_by_date(
-                    normalized, start_date, end_date
+                    normalized, start_date, end_date, label=endpoint
                 )
                 filtered_out = before_filter - len(normalized)
                 if filtered_out:
@@ -258,7 +300,13 @@ class CongressIngester:
                 )
 
             except Exception as e:
-                logger.error(f"  {endpoint}: ERROR — {e}")
+                error_count += 1
+                # Keep going on the other endpoints, but log the traceback —
+                # a bare message here made whole-endpoint failures look like
+                # "0 records this month".
+                logger.error(
+                    f"  {endpoint}: ERROR — {redact_url(e)}", exc_info=True
+                )
 
         # Persist new records
         if all_new:
@@ -268,19 +316,24 @@ class CongressIngester:
         result = IngestResult(
             new_records=all_new,
             months_touched=sorted(months_touched),
+            skipped_count=skipped_count,
+            error_count=error_count,
         )
         logger.info(
             f"Ingestion complete: {len(all_new)} new records, "
+            f"{skipped_count} skipped, {error_count} endpoint errors, "
             f"months touched: {result.months_touched}"
         )
         return result
 
     def _filter_by_date(
-        self, records: list[dict], start_date: str, end_date: str
+        self, records: list[dict], start_date: str, end_date: str,
+        label: str = "",
     ) -> list[dict]:
         """Keep only records whose date falls within [start_date, end_date].
 
         Records without dates are dropped — they can't be assigned to months.
+        `label` is the endpoint name, used only to make the drop log useful.
         """
         filtered = []
         no_date = 0
@@ -293,7 +346,11 @@ class CongressIngester:
             if start_date <= record_date <= end_date:
                 filtered.append(r)
         if no_date:
-            logger.debug(f"Dropped {no_date} records with no date")
+            prefix = f"  {label}: " if label else "  "
+            logger.warning(
+                f"{prefix}dropped {no_date}/{len(records)} records with "
+                f"no usable date"
+            )
         return filtered
 
     def _enrich_hearings(
@@ -472,13 +529,16 @@ class CongressIngester:
                     time.sleep(delay)
                 else:
                     logger.error(
-                        f"HTTP {response.status_code} from {url}: "
-                        f"{response.text[:200]}"
+                        f"HTTP {response.status_code} from "
+                        f"{redact_url(url)}: "
+                        f"{redact_url(response.text[:200])}"
                     )
                     return None
 
             except requests.RequestException as e:
-                logger.error(f"Request failed: {e}")
+                # requests embeds the fully-rendered URL (api_key included)
+                # in its exception messages — redact before logging.
+                logger.error(f"Request failed: {redact_url(e)}")
                 if attempt < config.MAX_RETRIES:
                     time.sleep(config.RETRY_BASE_DELAY * (2 ** attempt))
                 else:
@@ -496,7 +556,6 @@ class CongressIngester:
             "bill": "bills",
             "hearing": "hearings",
             "congressional-record": "Results",
-            "committee-report": "reports",
             "amendment": "amendments",
             "nomination": "nominations",
             "treaty": "treaties",
@@ -549,8 +608,6 @@ class CongressIngester:
                 return self._normalize_hearing(raw, run_id, now)
             elif endpoint == "congressional-record":
                 return self._normalize_crecord(raw, run_id, now)
-            elif endpoint == "committee-report":
-                return self._normalize_report(raw, run_id, now)
             elif endpoint == "amendment":
                 return self._normalize_amendment(raw, run_id, now)
             elif endpoint == "nomination":
@@ -560,7 +617,9 @@ class CongressIngester:
             else:
                 return None
         except Exception as e:
-            logger.debug(f"Failed to normalize {endpoint} record: {e}")
+            logger.warning(
+                f"Failed to normalize {endpoint} record: {redact_url(e)}"
+            )
             return None
 
     def _normalize_bill(self, raw: dict, run_id: str, now: str) -> Optional[dict]:
@@ -659,26 +718,6 @@ class CongressIngester:
             "title": title,
             "summary": "",
             "committee": "",
-            "url": raw.get("url", ""),
-            "ingested_at": now,
-            "ingested_by": run_id,
-        }
-
-    def _normalize_report(self, raw: dict, run_id: str, now: str) -> Optional[dict]:
-        congress = raw.get("congress", "")
-        report_type = raw.get("type", "").lower()
-        number = raw.get("number", "")
-        if not (congress and number):
-            return None
-
-        return {
-            "id": f"report-{congress}-{report_type}{number}",
-            "source": "report",
-            "congress": congress,
-            "date": raw.get("issueDate", raw.get("date", "")),
-            "title": raw.get("title", ""),
-            "summary": "",
-            "committee": raw.get("committee", {}).get("name", "") if isinstance(raw.get("committee"), dict) else "",
             "url": raw.get("url", ""),
             "ingested_at": now,
             "ingested_by": run_id,
@@ -852,8 +891,10 @@ def main(month: str, buffer_days: int, dry_run: bool):
     ingester = CongressIngester()
     result = ingester.ingest_month(target, buffer_days)
 
-    print(f"\nResults:")
+    print("\nResults:")
     print(f"  New records:    {len(result.new_records)}")
+    print(f"  Skipped:        {result.skipped_count}")
+    print(f"  Endpoint errors:{result.error_count}")
     print(f"  Months touched: {result.months_touched}")
     print(f"  Total seen IDs: {ingester.dedup.count}")
 

@@ -32,6 +32,17 @@ from pipeline.ingest import (
 
 logger = logging.getLogger(__name__)
 
+# Phase 1 fetches these once per congress (historical records don't respond
+# to date filtering); phase 2 is everything else in config.ENDPOINTS, walked
+# month by month. Derived rather than hardcoded so the --sources help text
+# can't drift again — it advertised the long-dead committee-report endpoint.
+PHASE1_SOURCES = ("bill", "treaty")
+
+
+def _phase2_sources() -> list[str]:
+    """Endpoints phase 2 walks month-by-month (everything not in phase 1)."""
+    return [e for e in config.ENDPOINTS if e not in PHASE1_SOURCES]
+
 
 def congress_date_range(congress_num: int) -> tuple[date, date]:
     """Compute the approximate start and end dates for a Congress.
@@ -213,8 +224,8 @@ def bulk_fetch_treaties(ingester, congress_num, dedup, detector, gazetteer):
 @click.option("--sources", default=None,
               help=(
                   "Comma-separated sources to restrict. "
-                  "Phase 1: bill,treaty. "
-                  "Phase 2: amendment,nomination,congressional-record,committee-report. "
+                  f"Phase 1: {','.join(PHASE1_SOURCES)}. "
+                  f"Phase 2: {','.join(_phase2_sources())}. "
                   "Example: --sources treaty  or  --sources amendment,nomination"
               ))
 def main(
@@ -262,12 +273,12 @@ def main(
 
     if dry_run:
         if run_phase1:
-            p1_sources = {"bill", "treaty"}
+            p1_sources = set(PHASE1_SOURCES)
             if source_filter:
                 p1_sources &= source_filter
             print(f"Phase 1 would run: {sorted(p1_sources)} for congresses {congress_start}–{congress_end}")
         if run_phase2:
-            p2_endpoints = [e for e in config.ENDPOINTS if e not in ("bill", "treaty")]
+            p2_endpoints = _phase2_sources()
             if source_filter:
                 p2_endpoints = [e for e in p2_endpoints if e in source_filter]
             print(f"Phase 2 would run: {p2_endpoints} for {len(all_months)} months")
@@ -324,7 +335,7 @@ def main(
     # have them from Phase 1, then optionally filter further by --sources.
     if run_phase2:
         original_endpoints = config.ENDPOINTS[:]
-        phase2_endpoints = [e for e in config.ENDPOINTS if e not in ("bill", "treaty")]
+        phase2_endpoints = _phase2_sources()
         if source_filter:
             phase2_endpoints = [e for e in phase2_endpoints if e in source_filter]
         config.ENDPOINTS = phase2_endpoints
