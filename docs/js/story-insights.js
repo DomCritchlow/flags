@@ -60,7 +60,15 @@ const StoryInsights = {
     const container = document.getElementById('insights');
     if (!container) return;
 
-    container.innerHTML = '';
+    /** Element with a class and a plain-text body (never parsed as HTML). */
+    const el = (tag, className, text) => {
+      const node = document.createElement(tag);
+      node.className = className;
+      node.textContent = text == null ? '' : String(text);
+      return node;
+    };
+
+    container.replaceChildren();
 
     if (insights.length === 0) return;
 
@@ -71,11 +79,16 @@ const StoryInsights = {
     for (const ins of insights) {
       const article = document.createElement('article');
       article.className = 'insight';
-      article.innerHTML = `
-        <span class="insight-kicker">${ins.kicker}</span>
-        <h3 class="insight-headline">${ins.headline}</h3>
-        <p class="insight-body">${ins.body}</p>
-      `;
+
+      // kicker / headline / body are plain text composed in generate() from
+      // upstream JSON (country names, month keys, counts). They never carry
+      // intentional markup, so they are attached as text nodes — a bill title
+      // or country name containing "<img onerror=...>" can never be parsed
+      // as HTML here.
+      article.appendChild(el('span', 'insight-kicker', ins.kicker));
+      article.appendChild(el('h3', 'insight-headline', ins.headline));
+      article.appendChild(el('p', 'insight-body', ins.body));
+
       container.appendChild(article);
     }
   },
