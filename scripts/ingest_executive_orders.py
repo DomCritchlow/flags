@@ -61,17 +61,8 @@ def _normalize(doc: dict, run_id: str) -> dict:
 
 def fetch_all_eos() -> list[dict]:
     """Paginate through FR API and return all executive order documents."""
-    params = {
-        "conditions[type][]": "PRESDOCU",
-        "conditions[presidential_document_type][]": "executive_order",
-        "order": "oldest",
-        "per_page": 1000,
-        "page": 1,
-    }
-    for field in FIELDS:
-        params[f"fields[]"] = field  # last one wins — build list below
-
-    # requests handles repeated keys properly via list of tuples
+    # A list of tuples, not a dict: the FR API takes repeated `fields[]` keys,
+    # which a dict cannot express.
     base_params = [
         ("conditions[type][]", "PRESDOCU"),
         ("conditions[presidential_document_type][]", "executive_order"),

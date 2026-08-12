@@ -12,23 +12,28 @@ from pathlib import Path
 import click
 
 from pipeline import config
+from pipeline.aggregator import discover_raw_files
 from pipeline.ingest import record_month
 
 
-def iter_raw_records():
-    """Iterate over all raw records across all congress directories."""
-    for congress_dir in sorted(config.RAW_DIR.iterdir()):
-        if not congress_dir.is_dir():
-            continue
-        for jsonl_file in sorted(congress_dir.glob("*.jsonl")):
-            with open(jsonl_file) as f:
-                for line in f:
-                    line = line.strip()
-                    if line:
-                        try:
-                            yield json.loads(line)
-                        except json.JSONDecodeError:
-                            continue
+def iter_raw_records(raw_dir: Path | None = None):
+    """Iterate over all raw congressional records.
+
+    Uses the shared discovery helper so non-congressional sources are skipped:
+    data/raw/executive_orders/ holds Federal Register executive orders, which
+    have no congressional month-boundary semantics and must not be audited
+    here. See pipeline.aggregator.EXCLUDED_RAW_DIRS.
+    """
+    root = raw_dir if raw_dir is not None else config.RAW_DIR
+    for jsonl_file in discover_raw_files(root):
+        with open(jsonl_file) as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        yield json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
 
 
 @click.command()

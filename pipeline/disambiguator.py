@@ -8,6 +8,7 @@ import json
 import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Optional
 
 from pipeline import config
@@ -28,8 +29,24 @@ class DisambiguationResult:
 class Disambiguator:
     """Tier 2 rule-based scorer for ambiguous terms."""
 
-    def __init__(self, gazetteer):
+    def __init__(self, gazetteer, audit_log_path: Optional[Path] = None):
+        """Create a disambiguator.
+
+        Args:
+            gazetteer: loaded Gazetteer instance.
+            audit_log_path: where disambiguation decisions are appended. When
+                omitted, resolves lazily to ``config.AUDIT_LOG_PATH`` at write
+                time so tests can redirect the log by patching config.
+        """
         self.gazetteer = gazetteer
+        self._audit_log_path = Path(audit_log_path) if audit_log_path else None
+
+    @property
+    def audit_log_path(self) -> Path:
+        """Resolved audit log destination."""
+        if self._audit_log_path is not None:
+            return self._audit_log_path
+        return Path(config.AUDIT_LOG_PATH)
 
     def disambiguate(
         self,
@@ -236,9 +253,10 @@ class Disambiguator:
             "source_type": source_type,
             "context_snippet": context[:200],
         }
+        path = self.audit_log_path
         try:
-            config.AUDIT_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-            with open(config.AUDIT_LOG_PATH, "a") as f:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with open(path, "a") as f:
                 f.write(json.dumps(log_entry) + "\n")
         except OSError:
             pass  # Don't fail detection if audit logging fails

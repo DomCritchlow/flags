@@ -1,9 +1,21 @@
 """Export aggregated data to frontend JSON files.
 
-Produces three files consumed by the GitHub Pages frontend:
-- monthly_top.json — one entry per month with the "winner"
-- monthly_all.json — full country breakdown per month
-- metadata.json — pipeline health and stats
+Writes four files into ``data/aggregated/`` (override with ``--output-dir``),
+rebuilding every month on every run — there is no incremental mode:
+
+- ``monthly_top.json`` — one entry per month with the "winner" and runner-up
+- ``monthly_all.json`` — full country breakdown per month
+- ``monthly_top_by_source.json`` — the winner per month *per source type*
+- ``metadata.json`` — run info and totals
+
+Two ``metadata.json`` fields are easy to misread. ``total_records_processed``
+counts records that produced at least one mention, not records ingested;
+``total_mentions_detected`` counts unique (country, record) pairs, not raw rows
+in ``mentions.jsonl``.
+
+The executive-orders equivalents (``executive_*.json``) come from
+``pipeline/export_executive.py``, not this module. The GitHub Pages copies under
+``docs/data/`` are made by the ingest workflows, not here.
 """
 
 import json

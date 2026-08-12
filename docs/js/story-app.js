@@ -173,6 +173,22 @@
     return DataLoader.flagPath(iso2);
   }
 
+  /**
+   * Escape a value for safe interpolation into an HTML template string.
+   * Covers both text and (single- or double-quoted) attribute contexts.
+   * Every piece of data that originates in the loaded JSON — bill titles,
+   * country names, ISO codes, month keys, counts — must go through this
+   * before it reaches an innerHTML assignment.
+   */
+  function esc(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   function buildCountryMeta(allData) {
     const meta = {};
     for (const entry of Object.values(allData)) {
@@ -282,7 +298,7 @@
 
     // Y-axis tick + label at max
     svg += `<line x1="${padL - 4}" x2="${padL}" y1="${padT}" y2="${padT}" stroke="var(--rule-light)" stroke-width="0.75"/>`;
-    svg += `<text x="${padL - 6}" y="${padT + 3}" text-anchor="end" font-size="8" fill="var(--text-muted)" font-family="IBM Plex Sans, sans-serif">${maxC}</text>`;
+    svg += `<text x="${padL - 6}" y="${padT + 3}" text-anchor="end" font-size="8" fill="var(--text-muted)" font-family="IBM Plex Sans, sans-serif">${esc(maxC)}</text>`;
     // Zero tick
     svg += `<line x1="${padL - 4}" x2="${padL}" y1="${padT + innerH}" y2="${padT + innerH}" stroke="var(--rule-light)" stroke-width="0.75"/>`;
     svg += `<text x="${padL - 6}" y="${padT + innerH + 3}" text-anchor="end" font-size="8" fill="var(--text-muted)" font-family="IBM Plex Sans, sans-serif">0</text>`;
@@ -299,7 +315,7 @@
     if (eventCoord) {
       svg += `<line x1="${eventCoord.x}" x2="${eventCoord.x}" y1="${padT}" y2="${padT + innerH}" stroke="var(--text-muted)" stroke-width="0.75" stroke-dasharray="3,2" opacity="0.55"/>`;
       const evLabel = DataLoader.formatMonth(centerMonth);
-      svg += `<text x="${eventCoord.x}" y="${H - 3}" text-anchor="middle" font-size="8" fill="var(--text-muted)" font-family="IBM Plex Sans, sans-serif">${evLabel}</text>`;
+      svg += `<text x="${eventCoord.x}" y="${H - 3}" text-anchor="middle" font-size="8" fill="var(--text-muted)" font-family="IBM Plex Sans, sans-serif">${esc(evLabel)}</text>`;
     }
 
     // Peak: horizontal dashed guide + dot + count label above + month label if different
@@ -310,14 +326,14 @@
       // Count label: nudge so it doesn't clip edges
       const countX = Math.min(Math.max(peakCoord.x, padL + 10), W - padR - 10);
       const countY = peakCoord.y > padT + 12 ? peakCoord.y - 7 : peakCoord.y + 14;
-      svg += `<text x="${countX}" y="${countY}" text-anchor="middle" font-size="9" font-weight="600" fill="var(--accent)" font-family="IBM Plex Sans, sans-serif">${peak.count} mentions</text>`;
+      svg += `<text x="${countX}" y="${countY}" text-anchor="middle" font-size="9" font-weight="600" fill="var(--accent)" font-family="IBM Plex Sans, sans-serif">${esc(peak.count)} mentions</text>`;
 
       // Peak month label below axis only if it differs from event month
       if (peak.month !== centerMonth) {
         const pkLabel = DataLoader.formatMonth(peak.month);
         // avoid overlap: offset slightly if x coords are close
         const labelX = Math.min(Math.max(peakCoord.x, padL + 14), W - padR - 14);
-        svg += `<text x="${labelX}" y="${H - 3}" text-anchor="middle" font-size="8" font-weight="600" fill="var(--accent)" font-family="IBM Plex Sans, sans-serif">${pkLabel}</text>`;
+        svg += `<text x="${labelX}" y="${H - 3}" text-anchor="middle" font-size="8" font-weight="600" fill="var(--accent)" font-family="IBM Plex Sans, sans-serif">${esc(pkLabel)}</text>`;
       }
     }
 
@@ -384,7 +400,7 @@
         : 'none';
 
       const titlesHtml = titles.length > 0
-        ? titles.map(t => `<li>${t}</li>`).join('')
+        ? titles.map(t => `<li>${esc(t)}</li>`).join('')
         : '<li class="inline-detail-empty">No sample titles available</li>';
 
       const panel = document.createElement('div');
@@ -392,15 +408,15 @@
       panel.innerHTML = `
         <button class="inline-detail-close" aria-label="Close">&times;</button>
         <div class="inline-detail-top">
-          <img class="detail-flag" src="${flagSrc(entry.country_iso2)}" alt="${entry.country_name}">
+          <img class="detail-flag" src="${esc(flagSrc(entry.country_iso2))}" alt="${esc(entry.country_name)}">
           <div>
-            <strong class="detail-country">${entry.country_name}</strong>
-            <span class="detail-month">${DataLoader.formatMonthLong(entry.month)}</span>
+            <strong class="detail-country">${esc(entry.country_name)}</strong>
+            <span class="detail-month">${esc(DataLoader.formatMonthLong(entry.month))}</span>
           </div>
           <div class="inline-detail-stats">
-            <div class="stat"><span class="stat-number">${entry.mention_count}</span><span class="stat-label">mentions</span></div>
-            <div class="stat"><span class="stat-number">${entry.total_records_scanned}</span><span class="stat-label">records scanned</span></div>
-            <div class="stat"><span class="stat-number">${runnerUp}</span><span class="stat-label">runner-up</span></div>
+            <div class="stat"><span class="stat-number">${esc(entry.mention_count)}</span><span class="stat-label">mentions</span></div>
+            <div class="stat"><span class="stat-number">${esc(entry.total_records_scanned)}</span><span class="stat-label">records scanned</span></div>
+            <div class="stat"><span class="stat-number">${esc(runnerUp)}</span><span class="stat-label">runner-up</span></div>
           </div>
         </div>
         <ul class="inline-detail-titles">${titlesHtml}</ul>
@@ -440,7 +456,7 @@
             <span class="big-label">months tracked</span>
           </div>
           <div class="big-number-card">
-            <span class="big-num">${totalMentions.toLocaleString()}</span>
+            <span class="big-num">${esc(totalMentions.toLocaleString())}</span>
             <span class="big-label">country mentions detected</span>
           </div>
           <div class="big-number-card">
@@ -450,10 +466,10 @@
         </div>
         <p class="big-number-reveal">
           One country &mdash;
-          <img class="inline-flag" src="${flagSrc(topMeta.iso2)}" alt="${topMeta.name}" />
-          <strong>${topMeta.name}</strong>
+          <img class="inline-flag" src="${esc(flagSrc(topMeta.iso2))}" alt="${esc(topMeta.name)}" />
+          <strong>${esc(topMeta.name)}</strong>
           &mdash; leads the all-time count. It has held the #1 spot
-          for <strong>${streak.months} consecutive months</strong> at its peak.
+          for <strong>${esc(streak.months)} consecutive months</strong> at its peak.
         </p>
       `;
     })();
@@ -474,7 +490,7 @@
         const total = metadata.total_mentions_detected || 1;
         const top5Pct = Math.round(top5Sum / total * 100);
         const top5Names = sorted.slice(0, 5).map(([iso3]) => countryMeta[iso3]?.name || iso3);
-        introEl.innerHTML = `Across all bills, nominations, amendments, and congressional records, <strong>${topMeta.name}</strong> leads with ${max.toLocaleString()} mentions. Five countries &mdash; ${top5Names.join(', ')} &mdash; account for <strong>${top5Pct}%</strong> of all mentions. The rest of the world splits the remainder.`;
+        introEl.innerHTML = `Across all bills, nominations, amendments, and congressional records, <strong>${esc(topMeta.name)}</strong> leads with ${esc(max.toLocaleString())} mentions. Five countries &mdash; ${esc(top5Names.join(', '))} &mdash; account for <strong>${top5Pct}%</strong> of all mentions. The rest of the world splits the remainder.`;
       }
 
       const container = document.getElementById('bar-chart');
@@ -484,10 +500,10 @@
         const row = document.createElement('div');
         row.className = 'bar-row';
         row.innerHTML = `
-          <img class="bar-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || iso3}" />
-          <span class="bar-country">${meta.name || iso3}</span>
+          <img class="bar-flag" src="${esc(flagSrc(meta.iso2))}" alt="${esc(meta.name || iso3)}" />
+          <span class="bar-country">${esc(meta.name || iso3)}</span>
           <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
-          <span class="bar-count">${count.toLocaleString()}</span>
+          <span class="bar-count">${esc(count.toLocaleString())}</span>
         `;
         container.appendChild(row);
       }
@@ -514,7 +530,7 @@
           ? ((peakEntry.countries || []).find(c => c.iso3 === event.iso3)?.sample_titles || [])
           : [];
         const titlesHtml = titles.slice(0, 2).map(t =>
-          `<li>${t.length > 100 ? t.slice(0, 99) + '\u2026' : t}</li>`
+          `<li>${esc(t.length > 100 ? t.slice(0, 99) + '\u2026' : t)}</li>`
         ).join('');
 
         const sparkline = buildSparkline(monthlyAll, event.month, event.iso3, 6);
@@ -523,9 +539,9 @@
         card.className = 'crisis-card';
         card.innerHTML = `
           <div class="crisis-left">
-            <div class="crisis-dateline">${DataLoader.formatMonthLong(event.month)}</div>
+            <div class="crisis-dateline">${esc(DataLoader.formatMonthLong(event.month))}</div>
             <div class="crisis-header">
-              <img class="crisis-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || event.iso3}" />
+              <img class="crisis-flag" src="${esc(flagSrc(meta.iso2))}" alt="${esc(meta.name || event.iso3)}" />
               <h3 class="crisis-headline">${event.headline}</h3>
             </div>
             <p class="crisis-context">${event.context}</p>
@@ -571,10 +587,10 @@
           const pct = (count / eraMax * 100).toFixed(0);
           return `
             <div class="era-country-row">
-              <img class="era-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || iso3}" />
-              <span class="era-country-name">${meta.name || iso3}</span>
+              <img class="era-flag" src="${esc(flagSrc(meta.iso2))}" alt="${esc(meta.name || iso3)}" />
+              <span class="era-country-name">${esc(meta.name || iso3)}</span>
               <div class="era-bar-track"><div class="era-bar-fill" style="width:${pct}%"></div></div>
-              <span class="era-country-count">${count}</span>
+              <span class="era-country-count">${esc(count)}</span>
             </div>
           `;
         }).join('');
@@ -652,10 +668,10 @@
           const meta = allMeta[iso3] || {};
           const pct = (count / maxCount * 100).toFixed(1);
           return `<div class="compare-row">
-            <img class="compare-flag" src="${flagSrc(meta.iso2)}" alt="${meta.name || iso3}" />
-            <span class="compare-name">${meta.name || iso3}</span>
+            <img class="compare-flag" src="${esc(flagSrc(meta.iso2))}" alt="${esc(meta.name || iso3)}" />
+            <span class="compare-name">${esc(meta.name || iso3)}</span>
             <div class="compare-track"><div class="compare-fill ${fillClass}" style="width:${pct}%"></div></div>
-            <span class="compare-count">${count}</span>
+            <span class="compare-count">${esc(count)}</span>
           </div>`;
         }).join('');
       }
@@ -681,7 +697,7 @@
             ${buildRows(exTop10, exMax, 'compare-fill--executive')}
           </div>
         </div>
-        <p class="branch-compare-note">Each column normalized to its own maximum. Congressional totals run into the thousands; executive totals into the dozens.${exOnly.length > 0 ? ` Executive-only top\u00a010: <strong>${exOnly.join(', ')}</strong>.` : ''}</p>
+        <p class="branch-compare-note">Each column normalized to its own maximum. Congressional totals run into the thousands; executive totals into the dozens.${exOnly.length > 0 ? ` Executive-only top\u00a010: <strong>${esc(exOnly.join(', '))}</strong>.` : ''}</p>
       `;
     })();
 
@@ -739,11 +755,12 @@
     console.error('Story init failed:', err);
     const grid = document.querySelector('.grid-section');
     if (grid) {
-      grid.innerHTML = `
-        <p style="text-align:center;padding:3rem;color:var(--text-muted);">
-          Could not load data. ${err.message}
-        </p>
-      `;
+      const msg = document.createElement('p');
+      msg.style.textAlign = 'center';
+      msg.style.padding = '3rem';
+      msg.style.color = 'var(--text-muted)';
+      msg.textContent = `Could not load data. ${err.message}`;
+      grid.replaceChildren(msg);
     }
   }
 })();

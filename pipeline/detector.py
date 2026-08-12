@@ -6,14 +6,22 @@ Tier 2: Rule-based contextual disambiguation
 Tier 3: LLM fallback for unresolvable cases
 """
 
+import json
+import logging
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional
 
+import click
+
 from pipeline import config
+from pipeline.aggregator import append_mentions, discover_raw_files
 from pipeline.gazetteer import Gazetteer
-from pipeline.disambiguator import Disambiguator, DisambiguationResult
+from pipeline.disambiguator import Disambiguator
 from pipeline.llm_fallback import LLMFallback
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -207,16 +215,14 @@ class CountryDetector:
         # Sort by start position, then by length descending (longest first)
         boundary_matches.sort(key=lambda m: (m.start, -(m.end - m.start)))
 
-        # Greedy longest-match-first, no overlaps
+        # Greedy longest-match-first, no overlaps. The sort above already
+        # puts the longest match of each start offset first, so a later
+        # match that overlaps is never longer than the one already kept.
         result = []
         last_end = -1
         for m in boundary_matches:
             if m.start >= last_end:
                 result.append(m)
-                last_end = m.end
-            elif m.end - m.start > result[-1].end - result[-1].start and m.start == result[-1].start:
-                # Longer match at same position replaces shorter
-                result[-1] = m
                 last_end = m.end
 
         return result
@@ -259,3 +265,203 @@ class CountryDetector:
                 seen.add(key)
                 result.append(m)
         return result
+
+
+# === Batch detection over the raw corpus ===
+
+@dataclass
+class DetectionStats:
+    """Summary of a batch detection run."""
+    files: int = 0
+    records_scanned: int = 0
+    records_skipped: int = 0
+    mentions: int = 0
+
+
+def load_raw_file(path: Path) -> list[dict]:
+    """Load one raw JSONL file, skipping unparseable lines."""
+    records = []
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                records.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return records
+
+
+def detected_record_ids(mentions_path: Optional[Path] = None) -> set[str]:
+    """Record IDs that already appear in mentions.jsonl.
+
+    This is the only durable record of what detection has seen. Note that
+    a record which produced *no* mentions leaves no trace, so it is
+    rescanned on every incremental run — harmless (detection is pure and
+    nothing is appended) but not free.
+    """
+    mentions_path = mentions_path or config.MENTIONS_PATH
+    ids: set[str] = set()
+    if not mentions_path.exists():
+        return ids
+    with open(mentions_path) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                record_id = json.loads(line).get("record_id", "")
+            except json.JSONDecodeError:
+                continue
+            if record_id:
+                ids.add(record_id)
+    return ids
+
+
+def clear_mentions(mentions_path: Optional[Path] = None) -> None:
+    """Truncate mentions.jsonl so it can be rebuilt from scratch."""
+    mentions_path = mentions_path or config.MENTIONS_PATH
+    mentions_path.parent.mkdir(parents=True, exist_ok=True)
+    mentions_path.write_text("")
+
+
+def detect_records(
+    detector: CountryDetector,
+    records: list[dict],
+    skip_ids: Optional[set[str]] = None,
+) -> tuple[list[Mention], int, int]:
+    """Detect mentions across raw records.
+
+    Returns (mentions, scanned, skipped). Each mention gets its month and
+    title assigned from the source record, matching pipeline/run.py.
+    """
+    # Imported here so the detection core doesn't pull in the HTTP client.
+    from pipeline.ingest import record_month
+
+    skip_ids = skip_ids or set()
+    mentions: list[Mention] = []
+    scanned = 0
+    skipped = 0
+
+    for record in records:
+        record_id = record.get("id", "")
+        if not record_id or record_id in skip_ids:
+            skipped += 1
+            continue
+        text = f"{record.get('title', '')} {record.get('summary', '')}"
+        if not text.strip():
+            skipped += 1
+            continue
+
+        scanned += 1
+        record_mentions = detector.detect(
+            text, record_id, record.get("source", "")
+        )
+        month_str = record_month(record.get("date", ""))
+        for m in record_mentions:
+            m.month = month_str
+            m.title = record.get("title", "")
+        mentions.extend(record_mentions)
+
+    return mentions, scanned, skipped
+
+
+def run_detection(
+    detector: CountryDetector,
+    skip_ids: Optional[set[str]] = None,
+    raw_dir: Optional[Path] = None,
+    mentions_path: Optional[Path] = None,
+    dry_run: bool = False,
+) -> DetectionStats:
+    """Run detection over the whole raw corpus, appending new mentions.
+
+    Mentions are flushed per file so an interrupted run keeps its progress
+    (a resumed incremental run then skips what was already written).
+    """
+    stats = DetectionStats()
+    files = discover_raw_files(raw_dir)
+    stats.files = len(files)
+
+    for i, path in enumerate(files, 1):
+        records = load_raw_file(path)
+        mentions, scanned, skipped = detect_records(detector, records, skip_ids)
+
+        if mentions and not dry_run:
+            append_mentions(mentions, mentions_path)
+
+        stats.records_scanned += scanned
+        stats.records_skipped += skipped
+        stats.mentions += len(mentions)
+
+        if i % 25 == 0 or i == len(files):
+            logger.info(
+                f"[{i}/{len(files)}] {path.parent.name}/{path.name} — "
+                f"{stats.records_scanned} scanned, "
+                f"{stats.records_skipped} skipped, "
+                f"{stats.mentions} mentions"
+            )
+
+    return stats
+
+
+# === CLI Entry Point ===
+
+@click.command()
+@click.option("--incremental", is_flag=True,
+              help="Detect only records with no mentions yet (default mode)")
+@click.option("--reprocess", is_flag=True,
+              help="Clear mentions.jsonl and re-detect every raw record")
+@click.option("--enable-llm", is_flag=True,
+              help="Enable the Tier 3 LLM fallback (off by default: costs API credits)")
+@click.option("--dry-run", is_flag=True,
+              help="Report what would be detected without writing mentions.jsonl")
+def main(incremental: bool, reprocess: bool, enable_llm: bool, dry_run: bool):
+    """Detect country mentions in ingested records."""
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+    if incremental and reprocess:
+        raise click.UsageError(
+            "--incremental and --reprocess are mutually exclusive"
+        )
+
+    files = discover_raw_files()
+    if not files:
+        raise click.ClickException(
+            f"No congressional raw records found under {config.RAW_DIR} — "
+            "run `python -m pipeline.ingest` first"
+        )
+
+    # Gazetteers are (re)read from disk on every run, so both modes pick up
+    # gazetteer edits; --reprocess additionally re-scores existing records.
+    gazetteer = Gazetteer()
+    logger.info(f"Gazetteer loaded: {gazetteer.stats()}")
+    detector = CountryDetector(gazetteer, enable_llm=enable_llm)
+
+    if reprocess:
+        mode = "reprocess"
+        skip_ids: set[str] = set()
+        if dry_run:
+            logger.info("DRY RUN — mentions.jsonl would be cleared and rebuilt")
+        else:
+            clear_mentions()
+            logger.info("Cleared mentions.jsonl")
+    else:
+        mode = "incremental"
+        skip_ids = detected_record_ids()
+        logger.info(f"{len(skip_ids)} records already have mentions — skipping those")
+        if dry_run:
+            logger.info("DRY RUN — no mentions will be written")
+
+    logger.info(f"Detecting over {len(files)} raw files ({mode} mode)...")
+    stats = run_detection(detector, skip_ids=skip_ids, dry_run=dry_run)
+
+    print(f"\nDetection ({mode}):")
+    print(f"  Raw files:        {stats.files}")
+    print(f"  Records scanned:  {stats.records_scanned}")
+    print(f"  Records skipped:  {stats.records_skipped}")
+    print(f"  Mentions written: {stats.mentions}" + (" (dry run)" if dry_run else ""))
+
+
+if __name__ == "__main__":
+    main()

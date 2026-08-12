@@ -7,6 +7,10 @@ from typing import Optional
 from pipeline import config
 
 
+class DedupIndexError(RuntimeError):
+    """Raised when the seen-IDs index exists but cannot be trusted."""
+
+
 class DedupManager:
     """Manages the seen-records index for deduplication.
 
@@ -19,14 +23,44 @@ class DedupManager:
         self._ids: set[str] = self._load()
 
     def _load(self) -> set[str]:
-        """Load seen IDs from disk."""
-        if self.path.exists():
-            try:
-                data = json.loads(self.path.read_text())
-                return set(data)
-            except (json.JSONDecodeError, OSError):
-                return set()
-        return set()
+        """Load seen IDs from disk.
+
+        A missing file is the legitimate first-run case and yields an empty
+        set. A file that exists but cannot be read or parsed is fatal: it
+        would silently defeat deduplication and cause a full re-ingest with
+        doubled counts, so abort loudly instead.
+        """
+        if not self.path.exists():
+            return set()
+
+        try:
+            raw = self.path.read_text()
+        except OSError as exc:
+            raise DedupIndexError(
+                f"Cannot read dedup index {self.path}: {exc}. "
+                "Refusing to continue — an unreadable index would silently "
+                "trigger a full re-ingest and duplicate every record."
+            ) from exc
+
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            raise DedupIndexError(
+                f"Dedup index {self.path} is corrupt and could not be parsed: "
+                f"{exc}. Refusing to continue — treating it as empty would "
+                "silently trigger a full re-ingest and duplicate every record. "
+                "Restore the file (e.g. `git checkout -- "
+                f"{self.path}`) or delete it deliberately to start fresh."
+            ) from exc
+
+        if not isinstance(data, list):
+            raise DedupIndexError(
+                f"Dedup index {self.path} has unexpected structure: expected a "
+                f"JSON array of record IDs, got {type(data).__name__}. "
+                "Refusing to continue."
+            )
+
+        return set(data)
 
     def is_seen(self, record_id: str) -> bool:
         """Check if a record ID has already been processed."""

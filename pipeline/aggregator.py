@@ -16,6 +16,25 @@ from pipeline import config
 
 logger = logging.getLogger(__name__)
 
+# Subdirectories of data/raw/ that are NOT congressional records and must not
+# be folded into mentions.jsonl or the congressional title index.
+# data/raw/executive_orders/ holds Federal Register executive orders, which
+# have their own pipeline (scripts/reprocess_executive.py ->
+# data/processed/executive_mentions.jsonl).
+EXCLUDED_RAW_DIRS = frozenset({"executive_orders"})
+
+
+def discover_raw_files(raw_dir: Optional[Path] = None) -> list[Path]:
+    """List congressional raw JSONL files, excluding non-congressional sources."""
+    root = Path(raw_dir) if raw_dir is not None else config.RAW_DIR
+    if not root.exists():
+        return []
+    return sorted(
+        p
+        for p in root.glob("*/*.jsonl")
+        if p.parent.name not in EXCLUDED_RAW_DIRS
+    )
+
 
 def load_mentions(path: Optional[Path] = None) -> list[dict]:
     """Load all mentions from mentions.jsonl."""
@@ -44,28 +63,44 @@ def append_mentions(mentions: list, path: Optional[Path] = None):
             f.write(json.dumps(data) + "\n")
 
 
+def load_touched_months(metadata_path: Optional[Path] = None) -> list[str]:
+    """Months that received new records during the most recent run.
+
+    `pipeline.ingest` computes months_touched from the dates of the new
+    records; `pipeline.run` passes it through to `pipeline.export`, which
+    persists it to metadata.json as `last_run_months_touched`. That file is
+    the only durable record of the last run's footprint, so the CLI reads it
+    back rather than recomputing.
+    """
+    path = metadata_path or (config.AGGREGATED_DIR / "metadata.json")
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError) as e:
+        logger.error(f"Could not read {path}: {e}")
+        return []
+    months = data.get("last_run_months_touched") or []
+    return [m for m in months if isinstance(m, str) and m]
+
+
 def load_title_index() -> dict[str, str]:
-    """Build record_id → title mapping from raw data files."""
+    """Build record_id → title mapping from congressional raw data files."""
     index = {}
-    if not config.RAW_DIR.exists():
-        return index
-    for congress_dir in config.RAW_DIR.iterdir():
-        if not congress_dir.is_dir():
-            continue
-        for jsonl_file in congress_dir.glob("*.jsonl"):
-            with open(jsonl_file) as f:
-                for line in f:
-                    line = line.strip()
-                    if not line:
-                        continue
-                    try:
-                        r = json.loads(line)
-                        rid = r.get("id", "")
-                        title = r.get("title", "")
-                        if rid and title:
-                            index[rid] = title
-                    except json.JSONDecodeError:
-                        continue
+    for jsonl_file in discover_raw_files():
+        with open(jsonl_file) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    r = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                rid = r.get("id", "")
+                title = r.get("title", "")
+                if rid and title:
+                    index[rid] = title
     return index
 
 
@@ -196,6 +231,15 @@ def main(month: Optional[str], all_months: bool, touched: bool):
     if all_months:
         results = agg.aggregate_all()
         print(f"Aggregated {len(results)} months")
+    elif touched:
+        months = load_touched_months()
+        if not months:
+            # A run that ingested nothing touches no months. Not an error —
+            # the scheduled workflow calls this unconditionally.
+            print("No months touched by the last run — nothing to aggregate")
+            return
+        results = agg.aggregate_touched(months)
+        print(f"Aggregated {len(results)} touched months: {', '.join(months)}")
     elif month:
         all_mentions = load_mentions()
         result = agg.aggregate_month(month, all_mentions)
