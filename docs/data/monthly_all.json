@@ -110147,17 +110147,27 @@
     ]
   },
   "2026-08": {
-    "total_records": 16,
+    "total_records": 17,
     "countries": [
       {
         "iso3": "RUS",
         "iso2": "ru",
         "name": "Russia",
-        "count": 3,
+        "count": 4,
         "sample_titles": [
           "A resolution celebrating the 35th anniversary of the independence of Ukraine from the former Soviet Union.",
           "To impose sanctions and other measures with respect to the Russian Federation.",
           "To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 2,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
+          "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026"
         ]
       },
       {
@@ -110215,15 +110225,6 @@
         "count": 1,
         "sample_titles": [
           "A bill to expedite the provision of humanitarian assistance, including life-saving medical care, to the people of North Korea, and for other purposes."
-        ]
-      },
-      {
-        "iso3": "IRN",
-        "iso2": "ir",
-        "name": "Iran",
-        "count": 1,
-        "sample_titles": [
-          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress."
         ]
       },
       {
