@@ -10580,19 +10580,19 @@
   },
   {
     "month": "2026-08",
-    "country_iso3": "RUS",
-    "country_iso2": "ru",
-    "country_name": "Russia",
+    "country_iso3": "AFG",
+    "country_iso2": "af",
+    "country_name": "Afghanistan",
     "mention_count": 4,
-    "total_records_scanned": 17,
-    "runner_up_iso3": "IRN",
-    "runner_up_iso2": "ir",
-    "runner_up_name": "Iran",
-    "runner_up_count": 2,
+    "total_records_scanned": 21,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 4,
     "sample_titles": [
-      "A resolution celebrating the 35th anniversary of the independence of Ukraine from the former Soviet Union.",
-      "To impose sanctions and other measures with respect to the Russian Federation.",
-      "To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion."
+      "A bill to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
+      "A bill to provide for records preservation processes for certain at-risk Afghan allies.",
+      "Commemorating the fifth anniversary of the evacuation of Afghanistan, the Gulf war era, and honoring Gulf war era veterans."
     ]
   }
 ]

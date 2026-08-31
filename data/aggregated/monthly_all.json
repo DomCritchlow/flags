@@ -110147,8 +110147,19 @@
     ]
   },
   "2026-08": {
-    "total_records": 17,
+    "total_records": 21,
     "countries": [
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 4,
+        "sample_titles": [
+          "A bill to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
+          "A bill to provide for records preservation processes for certain at-risk Afghan allies.",
+          "Commemorating the fifth anniversary of the evacuation of Afghanistan, the Gulf war era, and honoring Gulf war era veterans."
+        ]
+      },
       {
         "iso3": "RUS",
         "iso2": "ru",
@@ -110168,16 +110179,6 @@
         "sample_titles": [
           "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
           "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026"
-        ]
-      },
-      {
-        "iso3": "AFG",
-        "iso2": "af",
-        "name": "Afghanistan",
-        "count": 2,
-        "sample_titles": [
-          "A bill to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
-          "A bill to provide for records preservation processes for certain at-risk Afghan allies."
         ]
       },
       {
@@ -110360,6 +110361,24 @@
         "count": 1,
         "sample_titles": [
           "Keith Heffern, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Gabonese Republic."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the significance of \"Chicano/Chicana Heritage Month\" in August as an important time to celebrate the significant contributions of Mexican Americans to the history of the United States."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "To prohibit Chinese seafood products in congressional dining facilities, and for other purposes."
         ]
       }
     ]
