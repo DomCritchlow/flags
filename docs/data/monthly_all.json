@@ -110384,7 +110384,7 @@
     ]
   },
   "2026-09": {
-    "total_records": 2,
+    "total_records": 3,
     "countries": [
       {
         "iso3": "ISR",
@@ -110402,6 +110402,15 @@
         "count": 1,
         "sample_titles": [
           "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\"."
+        ]
+      },
+      {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 1,
+        "sample_titles": [
+          "El Salvador TPS Act of 2026"
         ]
       }
     ]
