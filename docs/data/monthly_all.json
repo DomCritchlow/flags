@@ -110384,7 +110384,7 @@
     ]
   },
   "2026-09": {
-    "total_records": 3,
+    "total_records": 6,
     "countries": [
       {
         "iso3": "ISR",
@@ -110411,6 +110411,33 @@
         "count": 1,
         "sample_titles": [
           "El Salvador TPS Act of 2026"
+        ]
+      },
+      {
+        "iso3": "ESP",
+        "iso2": "es",
+        "name": "Spain",
+        "count": 1,
+        "sample_titles": [
+          "SBA Spanish Resource Report Act"
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act"
+        ]
+      },
+      {
+        "iso3": "PAN",
+        "iso2": "pa",
+        "name": "Panama",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the 30th anniversary of the Missouri-Panama State Partnership Program and celebrating the enduring partnership between the State of Missouri and the Republic of Panama."
         ]
       }
     ]
