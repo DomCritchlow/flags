@@ -110384,24 +110384,58 @@
     ]
   },
   "2026-09": {
-    "total_records": 6,
+    "total_records": 23,
     "countries": [
-      {
-        "iso3": "ISR",
-        "iso2": "il",
-        "name": "Israel",
-        "count": 1,
-        "sample_titles": [
-          "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules."
-        ]
-      },
       {
         "iso3": "SAU",
         "iso2": "sa",
         "name": "Saudi Arabia",
-        "count": 1,
+        "count": 4,
         "sample_titles": [
-          "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\"."
+          "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\".",
+          "Disapproving the proposed civilian nuclear cooperation agreement between the United States and Saudi Arabia submitted to the Congress on September 14, 2026.",
+          "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Saudi Arabia of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 3,
+        "sample_titles": [
+          "To amend the Countering Russian Influence in Europe and Eurasia Act of 2017 to require the President to submit to the Congress a national strategy for combating the financing of terrorism and related forms of illicit finance, and for other purposes.",
+          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes.",
+          "A resolution acknowledging that it is in the national interest of the United States to support democratic actors in the Russian Federation, commending the work of Russian civil society and independent media to expose and respond to the crimes of the government of Vladimir Putin and pursue accountability for such crimes."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 2,
+        "sample_titles": [
+          "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
+          "A resolution requesting information on Israel's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 2,
+        "sample_titles": [
+          "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+          "To provide payments to United States taxpayers and dependents to compensate for the costs of the Iran war, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 2,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+          "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China."
         ]
       },
       {
@@ -110438,6 +110472,168 @@
         "count": 1,
         "sample_titles": [
           "Recognizing the 30th anniversary of the Missouri-Panama State Partnership Program and celebrating the enduring partnership between the State of Missouri and the Republic of Panama."
+        ]
+      },
+      {
+        "iso3": "YEM",
+        "iso2": "ye",
+        "name": "Yemen",
+        "count": 1,
+        "sample_titles": [
+          "To impose targeted sanctions on the Houthi terrorists and their supporters, and to support the internationally recognized Government of Yemen in their fight against Houthi terrorists."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 1,
+        "sample_titles": [
+          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "To increase the water supply available to the Colorado River Basin, expedite the construction of water, energy, and infrastructure in the Basin, provide Federal financial assistance for water augmentation projects, advance water augmentation for satisfaction of the Mexican Water Treaty, and authorize the development of additional Federal water infrastructure."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "To honor and recognize Mr. Ahmad Shah Massoud, the former military leader of Afghanistan's Northern Alliance who was tragically assassinated by Al-Qaeda and the Taliban 25 years ago on September 9, 2001."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the recognition of Nigerian Heritage Month and celebrating the heritage, culture, and contributions of Nigerians and Nigerian Americans in the United States."
+        ]
+      },
+      {
+        "iso3": "OMN",
+        "iso2": "om",
+        "name": "Oman",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Sultanate of Oman that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "HTI",
+        "iso2": "ht",
+        "name": "Haiti",
+        "count": 1,
+        "sample_titles": [
+          "Austin Holmes, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Haiti."
+        ]
+      },
+      {
+        "iso3": "BRB",
+        "iso2": "bb",
+        "name": "Barbados",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "KNA",
+        "iso2": "kn",
+        "name": "Saint Kitts and Nevis",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "LCA",
+        "iso2": "lc",
+        "name": "Saint Lucia",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "ATG",
+        "iso2": "ag",
+        "name": "Antigua and Barbuda",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "DMA",
+        "iso2": "dm",
+        "name": "Dominica",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "GRD",
+        "iso2": "gd",
+        "name": "Grenada",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "VCT",
+        "iso2": "vc",
+        "name": "Saint Vincent and the Grenadines",
+        "count": 1,
+        "sample_titles": [
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
+        ]
+      },
+      {
+        "iso3": "DJI",
+        "iso2": "dj",
+        "name": "Djibouti",
+        "count": 1,
+        "sample_titles": [
+          "Junaid Munir, of Michigan, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Djibouti."
+        ]
+      },
+      {
+        "iso3": "SOM",
+        "iso2": "so",
+        "name": "Somalia",
+        "count": 1,
+        "sample_titles": [
+          "Devin Kennington, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federal Republic of Somalia."
+        ]
+      },
+      {
+        "iso3": "SUR",
+        "iso2": "sr",
+        "name": "Suriname",
+        "count": 1,
+        "sample_titles": [
+          "Paul Watzlavick, of Texas, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Suriname."
+        ]
+      },
+      {
+        "iso3": "HRV",
+        "iso2": "hr",
+        "name": "Croatia",
+        "count": 1,
+        "sample_titles": [
+          "The Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, with Protocol, done at Washington on December 7, 2022, and the Protocol between the Government of the United States of America and the Government of the Republic of Croatia Amending the Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, done at Dubrovnik on April 28, 2026."
         ]
       }
     ]

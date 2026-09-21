@@ -10597,17 +10597,19 @@
   },
   {
     "month": "2026-09",
-    "country_iso3": "ISR",
-    "country_iso2": "il",
-    "country_name": "Israel",
-    "mention_count": 1,
-    "total_records_scanned": 6,
-    "runner_up_iso3": "SAU",
-    "runner_up_iso2": "sa",
-    "runner_up_name": "Saudi Arabia",
-    "runner_up_count": 1,
+    "country_iso3": "SAU",
+    "country_iso2": "sa",
+    "country_name": "Saudi Arabia",
+    "mention_count": 4,
+    "total_records_scanned": 23,
+    "runner_up_iso3": "RUS",
+    "runner_up_iso2": "ru",
+    "runner_up_name": "Russia",
+    "runner_up_count": 3,
     "sample_titles": [
-      "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules."
+      "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\".",
+      "Disapproving the proposed civilian nuclear cooperation agreement between the United States and Saudi Arabia submitted to the Congress on September 14, 2026.",
+      "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Saudi Arabia of certain defense articles and services."
     ]
   }
 ]
