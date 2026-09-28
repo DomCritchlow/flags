@@ -110384,17 +110384,50 @@
     ]
   },
   "2026-09": {
-    "total_records": 23,
+    "total_records": 49,
     "countries": [
       {
         "iso3": "SAU",
         "iso2": "sa",
         "name": "Saudi Arabia",
-        "count": 4,
+        "count": 5,
         "sample_titles": [
           "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\".",
           "Disapproving the proposed civilian nuclear cooperation agreement between the United States and Saudi Arabia submitted to the Congress on September 14, 2026.",
           "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Saudi Arabia of certain defense articles and services."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 4,
+        "sample_titles": [
+          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes.",
+          "A bill to designate Ukraine under section 244 of the Immigration and Nationality Act to provide certain nationals of Ukraine with continued eligibility for temporary protected status, and for other purposes.",
+          "A bill to provide for adjustment of status for eligible nationals of Ukraine, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "TWN",
+        "iso2": "tw",
+        "name": "Taiwan",
+        "count": 4,
+        "sample_titles": [
+          "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+          "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+          "Marking the eighth anniversary of the unjust imprisonment of Dr. Gulshan Abbas by the Government of the People's Republic of China, condemning the use of transnational repression to retaliate against the exercise of free speech in the United States, and calling for her immediate and unconditional release."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 3,
+        "sample_titles": [
+          "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act",
+          "A resolution remembering, on the 105th anniversary of the Chinese Communist Party, the countless lives the Chinese Communist Party has destroyed and the people currently living in fear of its tyrannical ambitions.",
+          "A bill to prohibit Chinese seafood products in congressional dining facilities, and for other purposes."
         ]
       },
       {
@@ -110419,6 +110452,16 @@
         ]
       },
       {
+        "iso3": "SLV",
+        "iso2": "sv",
+        "name": "El Salvador",
+        "count": 2,
+        "sample_titles": [
+          "El Salvador TPS Act of 2026",
+          "A resolution requesting information on the Republic of El Salvador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
         "iso3": "IRN",
         "iso2": "ir",
         "name": "Iran",
@@ -110429,22 +110472,33 @@
         ]
       },
       {
-        "iso3": "TWN",
-        "iso2": "tw",
-        "name": "Taiwan",
+        "iso3": "KNA",
+        "iso2": "kn",
+        "name": "Saint Kitts and Nevis",
         "count": 2,
         "sample_titles": [
-          "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
-          "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China."
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines.",
+          "A resolution requesting information on the Federation of Saint Kitts and Nevis's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
         ]
       },
       {
-        "iso3": "SLV",
-        "iso2": "sv",
-        "name": "El Salvador",
-        "count": 1,
+        "iso3": "DMA",
+        "iso2": "dm",
+        "name": "Dominica",
+        "count": 2,
         "sample_titles": [
-          "El Salvador TPS Act of 2026"
+          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines.",
+          "A resolution requesting information on the Commonwealth of Dominica's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "CAN",
+        "iso2": "ca",
+        "name": "Canada",
+        "count": 2,
+        "sample_titles": [
+          "To amend the Water Resources Development Act of 1992 to authorize assistance for the project for water and wastewater infrastructure, Ottawa County, Michigan.",
+          "A resolution expressing the sense of the Senate that the additional tariffs imposed on Canadian goods under section 338 of the Tariff Act of 1930 and the rhetoric surrounding the bilateral relationship between Canada and the United States harm United States consumers and businesses and the tariffs should be rescinded."
         ]
       },
       {
@@ -110454,15 +110508,6 @@
         "count": 1,
         "sample_titles": [
           "SBA Spanish Resource Report Act"
-        ]
-      },
-      {
-        "iso3": "CHN",
-        "iso2": "cn",
-        "name": "China",
-        "count": 1,
-        "sample_titles": [
-          "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act"
         ]
       },
       {
@@ -110481,15 +110526,6 @@
         "count": 1,
         "sample_titles": [
           "To impose targeted sanctions on the Houthi terrorists and their supporters, and to support the internationally recognized Government of Yemen in their fight against Houthi terrorists."
-        ]
-      },
-      {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
-        "count": 1,
-        "sample_titles": [
-          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes."
         ]
       },
       {
@@ -110547,15 +110583,6 @@
         ]
       },
       {
-        "iso3": "KNA",
-        "iso2": "kn",
-        "name": "Saint Kitts and Nevis",
-        "count": 1,
-        "sample_titles": [
-          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
-        ]
-      },
-      {
         "iso3": "LCA",
         "iso2": "lc",
         "name": "Saint Lucia",
@@ -110568,15 +110595,6 @@
         "iso3": "ATG",
         "iso2": "ag",
         "name": "Antigua and Barbuda",
-        "count": 1,
-        "sample_titles": [
-          "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
-        ]
-      },
-      {
-        "iso3": "DMA",
-        "iso2": "dm",
-        "name": "Dominica",
         "count": 1,
         "sample_titles": [
           "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines."
@@ -110634,6 +110652,123 @@
         "count": 1,
         "sample_titles": [
           "The Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, with Protocol, done at Washington on December 7, 2022, and the Protocol between the Government of the United States of America and the Government of the Republic of Croatia Amending the Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, done at Dubrovnik on April 28, 2026."
+        ]
+      },
+      {
+        "iso3": "GIN",
+        "iso2": "gn",
+        "name": "Guinea",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Guinea-Bissau's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "BDI",
+        "iso2": "bi",
+        "name": "Burundi",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Burundi's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "CAF",
+        "iso2": "cf",
+        "name": "Central African Republic",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Central African Republic's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "MDA",
+        "iso2": "md",
+        "name": "Moldova",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Moldova's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PRY",
+        "iso2": "py",
+        "name": "Paraguay",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Paraguay's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "SLE",
+        "iso2": "sl",
+        "name": "Sierra Leone",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Sierra Leone's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "A bill to impose sanctions with respect to foreign persons that have facilitated Israeli settlement construction in the E1 area of the West Bank."
+        ]
+      },
+      {
+        "iso3": "COD",
+        "iso2": "cd",
+        "name": "Democratic Republic of the Congo",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Democratic Republic of the Congo's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PLW",
+        "iso2": "pw",
+        "name": "Palau",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Palau's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "UGA",
+        "iso2": "ug",
+        "name": "Uganda",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Uganda's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "LBR",
+        "iso2": "lr",
+        "name": "Liberia",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Liberia's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "BLZ",
+        "iso2": "bz",
+        "name": "Belize",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on Belize's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "ECU",
+        "iso2": "ec",
+        "name": "Ecuador",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Ecuador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
         ]
       }
     ]
