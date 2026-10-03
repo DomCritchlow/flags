@@ -110384,7 +110384,7 @@
     ]
   },
   "2026-09": {
-    "total_records": 49,
+    "total_records": 61,
     "countries": [
       {
         "iso3": "SAU",
@@ -110398,21 +110398,10 @@
         ]
       },
       {
-        "iso3": "UKR",
-        "iso2": "ua",
-        "name": "Ukraine",
-        "count": 4,
-        "sample_titles": [
-          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes.",
-          "A bill to designate Ukraine under section 244 of the Immigration and Nationality Act to provide certain nationals of Ukraine with continued eligibility for temporary protected status, and for other purposes.",
-          "A bill to provide for adjustment of status for eligible nationals of Ukraine, and for other purposes."
-        ]
-      },
-      {
         "iso3": "TWN",
         "iso2": "tw",
         "name": "Taiwan",
-        "count": 4,
+        "count": 5,
         "sample_titles": [
           "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
           "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
@@ -110423,11 +110412,22 @@
         "iso3": "CHN",
         "iso2": "cn",
         "name": "China",
-        "count": 3,
+        "count": 4,
         "sample_titles": [
           "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act",
           "A resolution remembering, on the 105th anniversary of the Chinese Communist Party, the countless lives the Chinese Communist Party has destroyed and the people currently living in fear of its tyrannical ambitions.",
           "A bill to prohibit Chinese seafood products in congressional dining facilities, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 4,
+        "sample_titles": [
+          "To authorize amounts for the purpose of investigating, documenting, verifying, and preventing the Russian Federation's ongoing and systemic unlawful transfer, deportation, indoctrination, and militarization of Ukrainian children, and for other purposes.",
+          "A bill to designate Ukraine under section 244 of the Immigration and Nationality Act to provide certain nationals of Ukraine with continued eligibility for temporary protected status, and for other purposes.",
+          "A bill to provide for adjustment of status for eligible nationals of Ukraine, and for other purposes."
         ]
       },
       {
@@ -110489,6 +110489,26 @@
         "sample_titles": [
           "Kimberly Greenwood, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Barbados, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Federation of Saint Kitts and Nevis, Saint Lucia, Antigua and Barbuda, the Commonwealth of Dominica, Grenada, and Saint Vincent and the Grenadines.",
           "A resolution requesting information on the Commonwealth of Dominica's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 2,
+        "sample_titles": [
+          "A bill to impose sanctions with respect to foreign persons that have facilitated Israeli settlement construction in the E1 area of the West Bank.",
+          "A bill to prohibit United States foreign assistance to the Palestinian Authority and other Palestinian governing entities in the West Bank and Gaza unless certain conditions are met, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "ECU",
+        "iso2": "ec",
+        "name": "Ecuador",
+        "count": 2,
+        "sample_titles": [
+          "A resolution requesting information on the Republic of Ecuador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961.",
+          "A bill to increase the rate of duty on shrimp originating from Ecuador, and for other purposes."
         ]
       },
       {
@@ -110709,15 +110729,6 @@
         ]
       },
       {
-        "iso3": "PSE",
-        "iso2": "ps",
-        "name": "Palestine",
-        "count": 1,
-        "sample_titles": [
-          "A bill to impose sanctions with respect to foreign persons that have facilitated Israeli settlement construction in the E1 area of the West Bank."
-        ]
-      },
-      {
         "iso3": "COD",
         "iso2": "cd",
         "name": "Democratic Republic of the Congo",
@@ -110763,12 +110774,134 @@
         ]
       },
       {
-        "iso3": "ECU",
-        "iso2": "ec",
-        "name": "Ecuador",
+        "iso3": "BGD",
+        "iso2": "bd",
+        "name": "Bangladesh",
         "count": 1,
         "sample_titles": [
-          "A resolution requesting information on the Republic of Ecuador's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+          "Congratulating the People's Republic of Bangladesh on assuming the Presidency of the 81st session of the United Nations General Assembly."
+        ]
+      },
+      {
+        "iso3": "VEN",
+        "iso2": "ve",
+        "name": "Venezuela",
+        "count": 1,
+        "sample_titles": [
+          "A resolution requesting information on Venezuela's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "A resolution recognizing the month of October 2026 as Filipino American History Month and celebrating the history and culture of Filipino Americans and their immense contributions to the United States."
+        ]
+      },
+      {
+        "iso3": "XKX",
+        "iso2": "xk",
+        "name": "Kosovo",
+        "count": 1,
+        "sample_titles": [
+          "A resolution expressing the sense of the Senate that it values the active participation of the Republic of Kosovo as the state partner of the Iowa National Guard over the past 15 years."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 1,
+        "sample_titles": [
+          "A bill to make additional Federal public land available for selection under the Alaska Native Vietnam era veterans land allotment program, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "SRB",
+        "iso2": "rs",
+        "name": "Serbia",
+        "count": 1,
+        "sample_titles": [
+          "A bill to authorize certain actions with respect to Serbia."
+        ]
+      },
+      {
+        "iso3": "CMR",
+        "iso2": "cm",
+        "name": "Cameroon",
+        "count": 1,
+        "sample_titles": [
+          "Christian Ehrhardt, of New York, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Cameroon."
+        ]
+      },
+      {
+        "iso3": "TKM",
+        "iso2": "tm",
+        "name": "Turkmenistan",
+        "count": 1,
+        "sample_titles": [
+          "William Makaneole, of Hawaii, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to Turkmenistan."
+        ]
+      },
+      {
+        "iso3": "KWT",
+        "iso2": "kw",
+        "name": "Kuwait",
+        "count": 1,
+        "sample_titles": [
+          "Dino LaVerghetta, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the State of Kuwait."
+        ]
+      }
+    ]
+  },
+  "2026-10": {
+    "total_records": 5,
+    "countries": [
+      {
+        "iso3": "PSE",
+        "iso2": "ps",
+        "name": "Palestine",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "PHL",
+        "iso2": "ph",
+        "name": "Philippines",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the month of October 2026 as Filipino American History Month and celebrating the history and culture of Filipino Americans and their immense contributions to the United States."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "Providing for consideration of the bill (H.R. 9899) to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "To prohibit Chinese AI models from being used on government-issued devices or software systems, to prohibit the procurement of any such models, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "ITA",
+        "iso2": "it",
+        "name": "Italy",
+        "count": 1,
+        "sample_titles": [
+          "Urging the people of the United States to observe the month of October 2026 as Italian and Italian American Heritage Month."
         ]
       }
     ]

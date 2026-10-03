@@ -10601,15 +10601,30 @@
     "country_iso2": "sa",
     "country_name": "Saudi Arabia",
     "mention_count": 5,
-    "total_records_scanned": 49,
-    "runner_up_iso3": "UKR",
-    "runner_up_iso2": "ua",
-    "runner_up_name": "Ukraine",
-    "runner_up_count": 4,
+    "total_records_scanned": 61,
+    "runner_up_iso3": "TWN",
+    "runner_up_iso2": "tw",
+    "runner_up_name": "Taiwan",
+    "runner_up_count": 5,
     "sample_titles": [
       "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\".",
       "Disapproving the proposed civilian nuclear cooperation agreement between the United States and Saudi Arabia submitted to the Congress on September 14, 2026.",
       "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Saudi Arabia of certain defense articles and services."
+    ]
+  },
+  {
+    "month": "2026-10",
+    "country_iso3": "PSE",
+    "country_iso2": "ps",
+    "country_name": "Palestine",
+    "mention_count": 1,
+    "total_records_scanned": 5,
+    "runner_up_iso3": "PHL",
+    "runner_up_iso2": "ph",
+    "runner_up_name": "Philippines",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes."
     ]
   }
 ]

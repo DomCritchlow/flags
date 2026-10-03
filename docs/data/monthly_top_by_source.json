@@ -9298,14 +9298,14 @@
   },
   "2026-09": {
     "bill": {
-      "iso3": "SAU",
-      "iso2": "sa",
-      "name": "Saudi Arabia",
-      "count": 4,
+      "iso3": "TWN",
+      "iso2": "tw",
+      "name": "Taiwan",
+      "count": 5,
       "sample_titles": [
-        "To name the community-based outpatient clinic of the Department of Veterans Affairs in Medina County, Ohio, as the \"Leland John Codding VA Clinic\".",
-        "Disapproving the proposed civilian nuclear cooperation agreement between the United States and Saudi Arabia submitted to the Congress on September 14, 2026.",
-        "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Saudi Arabia of certain defense articles and services."
+        "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+        "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+        "Marking the eighth anniversary of the unjust imprisonment of Dr. Gulshan Abbas by the Government of the People's Republic of China, condemning the use of transnational repression to retaliate against the exercise of free speech in the United States, and calling for her immediate and unconditional release."
       ]
     },
     "nomination": {
@@ -9324,6 +9324,17 @@
       "count": 1,
       "sample_titles": [
         "The Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, with Protocol, done at Washington on December 7, 2022, and the Protocol between the Government of the United States of America and the Government of the Republic of Croatia Amending the Convention between the Government of the United States of America and the Government of the Republic of Croatia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with Respect to Taxes on Income, done at Dubrovnik on April 28, 2026."
+      ]
+    }
+  },
+  "2026-10": {
+    "bill": {
+      "iso3": "PSE",
+      "iso2": "ps",
+      "name": "Palestine",
+      "count": 1,
+      "sample_titles": [
+        "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes."
       ]
     }
   }
