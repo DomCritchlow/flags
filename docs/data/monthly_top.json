@@ -10614,17 +10614,19 @@
   },
   {
     "month": "2026-10",
-    "country_iso3": "PSE",
-    "country_iso2": "ps",
-    "country_name": "Palestine",
-    "mention_count": 1,
-    "total_records_scanned": 5,
-    "runner_up_iso3": "PHL",
-    "runner_up_iso2": "ph",
-    "runner_up_name": "Philippines",
-    "runner_up_count": 1,
+    "country_iso3": "UKR",
+    "country_iso2": "ua",
+    "country_name": "Ukraine",
+    "mention_count": 3,
+    "total_records_scanned": 13,
+    "runner_up_iso3": "PSE",
+    "runner_up_iso2": "ps",
+    "runner_up_name": "Palestine",
+    "runner_up_count": 2,
     "sample_titles": [
-      "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes."
+      "LESSONS from Ukraine Act",
+      "To designate Ukraine under section 244 of the Immigration and Nationality Act to provide certain nationals of Ukraine with continued eligibility for temporary protected status, and for other purposes.",
+      "To evaluate and invest in Ukrainian defense technologies."
     ]
   }
 ]

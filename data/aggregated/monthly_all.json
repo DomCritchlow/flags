@@ -110857,15 +110857,27 @@
     ]
   },
   "2026-10": {
-    "total_records": 5,
+    "total_records": 13,
     "countries": [
+      {
+        "iso3": "UKR",
+        "iso2": "ua",
+        "name": "Ukraine",
+        "count": 3,
+        "sample_titles": [
+          "LESSONS from Ukraine Act",
+          "To designate Ukraine under section 244 of the Immigration and Nationality Act to provide certain nationals of Ukraine with continued eligibility for temporary protected status, and for other purposes.",
+          "To evaluate and invest in Ukrainian defense technologies."
+        ]
+      },
       {
         "iso3": "PSE",
         "iso2": "ps",
         "name": "Palestine",
-        "count": 1,
+        "count": 2,
         "sample_titles": [
-          "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes."
+          "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes.",
+          "Recognizing the third anniversary of the October 7, 2023, terrorist attacks on Israel, honoring the victims and the hostages, and calling for the complete disarmament of Hamas for a durable end to the war in Gaza."
         ]
       },
       {
@@ -110902,6 +110914,51 @@
         "count": 1,
         "sample_titles": [
           "Urging the people of the United States to observe the month of October 2026 as Italian and Italian American Heritage Month."
+        ]
+      },
+      {
+        "iso3": "ARM",
+        "iso2": "am",
+        "name": "Armenia",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the importance of biodiversity conservation, welcoming the Republic of Armenia as host of the Seventeenth Meeting of the Conference of the Parties to the Convention on Biological Diversity, and supporting the protection of Armenia's sovereign territory and natural heritage."
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "iso2": "mx",
+        "name": "Mexico",
+        "count": 1,
+        "sample_titles": [
+          "Nicholas Douglas Quets United States-Mexico Rapid Response for Victims of Crime Act"
+        ]
+      },
+      {
+        "iso3": "DEU",
+        "iso2": "de",
+        "name": "Germany",
+        "count": 1,
+        "sample_titles": [
+          "Reaffirming German-American friendship and supporting continued cooperation between the United States and Germany."
+        ]
+      },
+      {
+        "iso3": "ISR",
+        "iso2": "il",
+        "name": "Israel",
+        "count": 1,
+        "sample_titles": [
+          "Recognizing the third anniversary of the October 7, 2023, terrorist attacks on Israel, honoring the victims and the hostages, and calling for the complete disarmament of Hamas for a durable end to the war in Gaza."
+        ]
+      },
+      {
+        "iso3": "YEM",
+        "iso2": "ye",
+        "name": "Yemen",
+        "count": 1,
+        "sample_titles": [
+          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities against the Houthis in Yemen that have not been authorized by Congress."
         ]
       }
     ]
