@@ -110857,7 +110857,7 @@
     ]
   },
   "2026-10": {
-    "total_records": 13,
+    "total_records": 20,
     "countries": [
       {
         "iso3": "UKR",
@@ -110878,6 +110878,26 @@
         "sample_titles": [
           "To provide for the imposition of sanctions with respect to settlements in the West Bank and Gaza, and for other purposes.",
           "Recognizing the third anniversary of the October 7, 2023, terrorist attacks on Israel, honoring the victims and the hostages, and calling for the complete disarmament of Hamas for a durable end to the war in Gaza."
+        ]
+      },
+      {
+        "iso3": "ARM",
+        "iso2": "am",
+        "name": "Armenia",
+        "count": 2,
+        "sample_titles": [
+          "Recognizing the importance of biodiversity conservation, welcoming the Republic of Armenia as host of the Seventeenth Meeting of the Conference of the Parties to the Convention on Biological Diversity, and supporting the protection of Armenia's sovereign territory and natural heritage.",
+          "Armenian American Cultural Heritage Act"
+        ]
+      },
+      {
+        "iso3": "SYR",
+        "iso2": "sy",
+        "name": "Syria",
+        "count": 2,
+        "sample_titles": [
+          "Protection of Syrian Religious and Ethnic Minorities Act",
+          "To amend the Iran Threat Reduction and Syria Human Rights Act of 2012 to make certain improvements relating to the coordination of efforts to promote internet freedom and access to information in Iran, and for other purposes."
         ]
       },
       {
@@ -110917,15 +110937,6 @@
         ]
       },
       {
-        "iso3": "ARM",
-        "iso2": "am",
-        "name": "Armenia",
-        "count": 1,
-        "sample_titles": [
-          "Recognizing the importance of biodiversity conservation, welcoming the Republic of Armenia as host of the Seventeenth Meeting of the Conference of the Parties to the Convention on Biological Diversity, and supporting the protection of Armenia's sovereign territory and natural heritage."
-        ]
-      },
-      {
         "iso3": "MEX",
         "iso2": "mx",
         "name": "Mexico",
@@ -110959,6 +110970,51 @@
         "count": 1,
         "sample_titles": [
           "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities against the Houthis in Yemen that have not been authorized by Congress."
+        ]
+      },
+      {
+        "iso3": "SDN",
+        "iso2": "sd",
+        "name": "Sudan",
+        "count": 1,
+        "sample_titles": [
+          "Sudan IMPACT Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 1,
+        "sample_titles": [
+          "To impose sanctions with respect to oil and gas extraction and refinement by the Russian Federation, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 1,
+        "sample_titles": [
+          "To amend the Iran Threat Reduction and Syria Human Rights Act of 2012 to make certain improvements relating to the coordination of efforts to promote internet freedom and access to information in Iran, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "IND",
+        "iso2": "in",
+        "name": "India",
+        "count": 1,
+        "sample_titles": [
+          "To establish a United States-India Interparliamentary Group."
+        ]
+      },
+      {
+        "iso3": "SAU",
+        "iso2": "sa",
+        "name": "Saudi Arabia",
+        "count": 1,
+        "sample_titles": [
+          "A joint resolution providing for congressional disapproval of the agreement for civilian nuclear cooperation between the United States and the Kingdom of Saudi Arabia pursuant to section 123 of the Atomic Energy Act of 1954."
         ]
       }
     ]
