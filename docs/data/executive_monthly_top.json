@@ -1943,5 +1943,20 @@
     "sample_titles": [
       "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy"
     ]
+  },
+  {
+    "month": "2026-10",
+    "country_iso3": "RUS",
+    "country_iso2": "ru",
+    "country_name": "Russia",
+    "mention_count": 1,
+    "total_records_scanned": 1,
+    "runner_up_iso3": "IRN",
+    "runner_up_iso2": "ir",
+    "runner_up_name": "Iran",
+    "runner_up_count": 1,
+    "sample_titles": [
+      "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026"
+    ]
   }
 ]

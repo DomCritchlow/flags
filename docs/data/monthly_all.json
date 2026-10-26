@@ -110857,7 +110857,7 @@
     ]
   },
   "2026-10": {
-    "total_records": 20,
+    "total_records": 22,
     "countries": [
       {
         "iso3": "UKR",
@@ -110881,6 +110881,16 @@
         ]
       },
       {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 2,
+        "sample_titles": [
+          "To prohibit Chinese AI models from being used on government-issued devices or software systems, to prohibit the procurement of any such models, and for other purposes.",
+          "Stop Beijing’s Bots Act"
+        ]
+      },
+      {
         "iso3": "ARM",
         "iso2": "am",
         "name": "Armenia",
@@ -110888,6 +110898,16 @@
         "sample_titles": [
           "Recognizing the importance of biodiversity conservation, welcoming the Republic of Armenia as host of the Seventeenth Meeting of the Conference of the Parties to the Convention on Biological Diversity, and supporting the protection of Armenia's sovereign territory and natural heritage.",
           "Armenian American Cultural Heritage Act"
+        ]
+      },
+      {
+        "iso3": "YEM",
+        "iso2": "ye",
+        "name": "Yemen",
+        "count": 2,
+        "sample_titles": [
+          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities against the Houthis in Yemen that have not been authorized by Congress.",
+          "Yemen TPS Act"
         ]
       },
       {
@@ -110916,15 +110936,6 @@
         "count": 1,
         "sample_titles": [
           "Providing for consideration of the bill (H.R. 9899) to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes."
-        ]
-      },
-      {
-        "iso3": "CHN",
-        "iso2": "cn",
-        "name": "China",
-        "count": 1,
-        "sample_titles": [
-          "To prohibit Chinese AI models from being used on government-issued devices or software systems, to prohibit the procurement of any such models, and for other purposes."
         ]
       },
       {
@@ -110961,15 +110972,6 @@
         "count": 1,
         "sample_titles": [
           "Recognizing the third anniversary of the October 7, 2023, terrorist attacks on Israel, honoring the victims and the hostages, and calling for the complete disarmament of Hamas for a durable end to the war in Gaza."
-        ]
-      },
-      {
-        "iso3": "YEM",
-        "iso2": "ye",
-        "name": "Yemen",
-        "count": 1,
-        "sample_titles": [
-          "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities against the Houthis in Yemen that have not been authorized by Congress."
         ]
       },
       {
