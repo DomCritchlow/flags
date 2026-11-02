@@ -110857,7 +110857,7 @@
     ]
   },
   "2026-10": {
-    "total_records": 22,
+    "total_records": 24,
     "countries": [
       {
         "iso3": "UKR",
@@ -111017,6 +111017,24 @@
         "count": 1,
         "sample_titles": [
           "A joint resolution providing for congressional disapproval of the agreement for civilian nuclear cooperation between the United States and the Kingdom of Saudi Arabia pursuant to section 123 of the Atomic Energy Act of 1954."
+        ]
+      },
+      {
+        "iso3": "GRC",
+        "iso2": "gr",
+        "name": "Greece",
+        "count": 1,
+        "sample_titles": [
+          "Expressing support for the designation of October 28 as \"Oxi Day\" to commemorate the anniversary of Greek Prime Minister Ioannis Metaxas answer of \"Oxi!\" or \"No!\" to surrender to the Axis forces, inflicting a fatal wound that helped save democracy for the world."
+        ]
+      },
+      {
+        "iso3": "NGA",
+        "iso2": "ng",
+        "name": "Nigeria",
+        "count": 1,
+        "sample_titles": [
+          "To prohibit compensated lobbying on behalf of the Nigerian government for the duration of its designation as a country of particular concern for religious freedom; and for other purposes."
         ]
       }
     ]
