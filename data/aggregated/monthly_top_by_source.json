@@ -9339,5 +9339,26 @@
         "To evaluate and invest in Ukrainian defense technologies."
       ]
     }
+  },
+  "2026-11": {
+    "bill": {
+      "iso3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "count": 2,
+      "sample_titles": [
+        "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "New PACT for Iran Veterans Act"
+      ]
+    },
+    "nomination": {
+      "iso3": "XKX",
+      "iso2": "xk",
+      "name": "Kosovo",
+      "count": 1,
+      "sample_titles": [
+        "Mikhail Bogachek, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Kosovo."
+      ]
+    }
   }
 }

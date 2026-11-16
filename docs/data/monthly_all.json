@@ -111038,5 +111038,173 @@
         ]
       }
     ]
+  },
+  "2026-11": {
+    "total_records": 7,
+    "countries": [
+      {
+        "iso3": "IRN",
+        "iso2": "ir",
+        "name": "Iran",
+        "count": 2,
+        "sample_titles": [
+          "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+          "New PACT for Iran Veterans Act"
+        ]
+      },
+      {
+        "iso3": "LBN",
+        "iso2": "lb",
+        "name": "Lebanon",
+        "count": 1,
+        "sample_titles": [
+          "Lebanon TPS Act"
+        ]
+      },
+      {
+        "iso3": "SYC",
+        "iso2": "sc",
+        "name": "Seychelles",
+        "count": 1,
+        "sample_titles": [
+          "A bill to designate the community-based outpatient clinic of the Department of Veterans Affairs in Victoria, Texas, as the \"Master Sergeant Roy P. Benavidez VA Clinic\"."
+        ]
+      },
+      {
+        "iso3": "AFG",
+        "iso2": "af",
+        "name": "Afghanistan",
+        "count": 1,
+        "sample_titles": [
+          "Condemning the Taliban's systematic erasure of women and girls from public life in Afghanistan, and calling for United States leadership in response."
+        ]
+      },
+      {
+        "iso3": "XKX",
+        "iso2": "xk",
+        "name": "Kosovo",
+        "count": 1,
+        "sample_titles": [
+          "Mikhail Bogachek, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Kosovo."
+        ]
+      },
+      {
+        "iso3": "COD",
+        "iso2": "cd",
+        "name": "Democratic Republic of the Congo",
+        "count": 1,
+        "sample_titles": [
+          "John Burns, of South Carolina, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Democratic Republic of the Congo."
+        ]
+      },
+      {
+        "iso3": "GTM",
+        "iso2": "gt",
+        "name": "Guatemala",
+        "count": 1,
+        "sample_titles": [
+          "Pedro Cabrera, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Guatemala."
+        ]
+      },
+      {
+        "iso3": "PNG",
+        "iso2": "pg",
+        "name": "Papua New Guinea",
+        "count": 1,
+        "sample_titles": [
+          "William Stephens, of Virginia, a Career Member of the Senior Executive Service, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Independent State of Papua New Guinea, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Solomon Islands and Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Vanuatu."
+        ]
+      },
+      {
+        "iso3": "SLB",
+        "iso2": "sb",
+        "name": "Solomon Islands",
+        "count": 1,
+        "sample_titles": [
+          "William Stephens, of Virginia, a Career Member of the Senior Executive Service, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Independent State of Papua New Guinea, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Solomon Islands and Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Vanuatu."
+        ]
+      },
+      {
+        "iso3": "VUT",
+        "iso2": "vu",
+        "name": "Vanuatu",
+        "count": 1,
+        "sample_titles": [
+          "William Stephens, of Virginia, a Career Member of the Senior Executive Service, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Independent State of Papua New Guinea, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Solomon Islands and Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Vanuatu."
+        ]
+      },
+      {
+        "iso3": "OMN",
+        "iso2": "om",
+        "name": "Oman",
+        "count": 1,
+        "sample_titles": [
+          "Matthew Millhollin, of Tennessee, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Sultanate of Oman."
+        ]
+      },
+      {
+        "iso3": "PAK",
+        "iso2": "pk",
+        "name": "Pakistan",
+        "count": 1,
+        "sample_titles": [
+          "Natalie Baker, of Texas, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Islamic Republic of Pakistan."
+        ]
+      },
+      {
+        "iso3": "ARE",
+        "iso2": "ae",
+        "name": "United Arab Emirates",
+        "count": 1,
+        "sample_titles": [
+          "Jeffrey Colyer, of Kansas, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the United Arab Emirates."
+        ]
+      },
+      {
+        "iso3": "SEN",
+        "iso2": "sn",
+        "name": "Senegal",
+        "count": 1,
+        "sample_titles": [
+          "Cynthia Kierscht, of Minnesota, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Senegal, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Guinea-Bissau."
+        ]
+      },
+      {
+        "iso3": "GIN",
+        "iso2": "gn",
+        "name": "Guinea",
+        "count": 1,
+        "sample_titles": [
+          "Cynthia Kierscht, of Minnesota, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Senegal, and to serve concurrently and without additional compensation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Guinea-Bissau."
+        ]
+      },
+      {
+        "iso3": "BDI",
+        "iso2": "bi",
+        "name": "Burundi",
+        "count": 1,
+        "sample_titles": [
+          "Benita Gunn, of Maryland, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Burundi."
+        ]
+      },
+      {
+        "iso3": "MKD",
+        "iso2": "mk",
+        "name": "North Macedonia",
+        "count": 1,
+        "sample_titles": [
+          "Christy McCormick, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of North Macedonia."
+        ]
+      },
+      {
+        "iso3": "MLI",
+        "iso2": "ml",
+        "name": "Mali",
+        "count": 1,
+        "sample_titles": [
+          "Ian McCary, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Mali."
+        ]
+      }
+    ]
   }
 }
