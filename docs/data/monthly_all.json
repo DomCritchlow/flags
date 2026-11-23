@@ -111040,7 +111040,7 @@
     ]
   },
   "2026-11": {
-    "total_records": 7,
+    "total_records": 15,
     "countries": [
       {
         "iso3": "IRN",
@@ -111050,6 +111050,46 @@
         "sample_titles": [
           "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
           "New PACT for Iran Veterans Act"
+        ]
+      },
+      {
+        "iso3": "RUS",
+        "iso2": "ru",
+        "name": "Russia",
+        "count": 2,
+        "sample_titles": [
+          "WATCH Russia Act",
+          "A resolution requesting information on the Russian Federation's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961."
+        ]
+      },
+      {
+        "iso3": "KHM",
+        "iso2": "kh",
+        "name": "Cambodia",
+        "count": 2,
+        "sample_titles": [
+          "To authorize assistance to support activities relating to the clearance of landmines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities who supported and defended the Armed Forces during the conflict in Southeast Asia, including Hmong, Cham, Cambodian, Iu-Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes.",
+          "A bill to authorize assistance to support activities relating to the clearance of land mines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities that supported and defended the United States Armed Forces during the conflict in Southeast Asia in the 1960s and 1970s, including Hmong, Cham, Cambodian, Iu Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "LAO",
+        "iso2": "la",
+        "name": "Laos",
+        "count": 2,
+        "sample_titles": [
+          "To authorize assistance to support activities relating to the clearance of landmines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities who supported and defended the Armed Forces during the conflict in Southeast Asia, including Hmong, Cham, Cambodian, Iu-Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes.",
+          "A bill to authorize assistance to support activities relating to the clearance of land mines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities that supported and defended the United States Armed Forces during the conflict in Southeast Asia in the 1960s and 1970s, including Hmong, Cham, Cambodian, Iu Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes."
+        ]
+      },
+      {
+        "iso3": "VNM",
+        "iso2": "vn",
+        "name": "Vietnam",
+        "count": 2,
+        "sample_titles": [
+          "To authorize assistance to support activities relating to the clearance of landmines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities who supported and defended the Armed Forces during the conflict in Southeast Asia, including Hmong, Cham, Cambodian, Iu-Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes.",
+          "A bill to authorize assistance to support activities relating to the clearance of land mines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities that supported and defended the United States Armed Forces during the conflict in Southeast Asia in the 1960s and 1970s, including Hmong, Cham, Cambodian, Iu Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes."
         ]
       },
       {
@@ -111203,6 +111243,42 @@
         "count": 1,
         "sample_titles": [
           "Ian McCary, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Mali."
+        ]
+      },
+      {
+        "iso3": "CHN",
+        "iso2": "cn",
+        "name": "China",
+        "count": 1,
+        "sample_titles": [
+          "Ending China’s Special Treatment Act of 2026"
+        ]
+      },
+      {
+        "iso3": "ETH",
+        "iso2": "et",
+        "name": "Ethiopia",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the establishment of a U.S.-Ethiopia Agricultural and Critical Minerals Trade Partnership."
+        ]
+      },
+      {
+        "iso3": "ERI",
+        "iso2": "er",
+        "name": "Eritrea",
+        "count": 1,
+        "sample_titles": [
+          "To provide for the establishment of a U.S.-Eritrea Agricultural and Critical Minerals Trade Partnership."
+        ]
+      },
+      {
+        "iso3": "BOL",
+        "iso2": "bo",
+        "name": "Bolivia",
+        "count": 1,
+        "sample_titles": [
+          "Kara Frederick, of California, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Plurinational State of Bolivia."
         ]
       }
     ]
